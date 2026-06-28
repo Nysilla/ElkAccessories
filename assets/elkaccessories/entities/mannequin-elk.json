@@ -1,0 +1,125 @@
+{
+  "code": "armorstand-elk",
+  "class": "EntityArmorStand",
+  "variantGroups":[
+    {
+      "code":"pose",
+      "states":[
+        "attack",
+        "bugle",
+        "charge",
+        "idle",
+        "run",
+        "sit",
+        "sleep"
+      ]
+    }
+  ],
+  "tags": [
+    "inanimate"
+  ],
+  "hitboxSize": {
+    "x": 0.7,
+    "y": 2
+  },
+  "eyeHeight": 1.8,
+  "knockbackResistance": 1,
+  "attributes": {
+    "skinBaseTextureKey": "seraph",
+    "useSlotPrefix": true
+  },
+  "behaviorConfigs": {
+    "rideableaccessories": {
+      "wearableSlots": [
+        {"code": "head", "forCategoryCodes": ["bridle"], "attachmentPointCode": "HeadAP"},
+        {"code": "face", "forCategoryCodes": ["face"], "attachmentPointCode": "FaceAP"},
+        {"code": "neck", "forCategoryCodes": ["lantern",   "collar"], "attachmentPointCode": "NeckAP"},
+        {"code": "middleback", "forCategoryCodes": ["saddle"], "attachmentPointCode": "MidAP"},
+        {"code": "middlebackunder", "forCategoryCodes": ["blanket"], "attachmentPointCode": "MidUnderAP"},
+        {"code": "lowerback", "forCategoryCodes": ["bedroll", "pillion"], "attachmentPointCode": "RearAP"},
+        {"code": "lowerbackside", "forCategoryCodes": ["sidebags"], "attachmentPointCode": "RearSideAP"},
+        {"code": "frontrightside", "forCategoryCodes": ["utilities",   "pot",   "weaponfalx",   "weapon1m",   "bowshort",   "bowlong"], "attachmentPointCode": "RFrontAP"},
+        {"code": "frontleftside", "forCategoryCodes": ["utilities",   "pot",   "weaponfalx",   "weapon1m",   "bowshort",   "bowlong"], "attachmentPointCode": "LFrontAP"},
+        {"code": "gearleft", "forCategoryCodes": ["gear"], "attachmentPointCode": "TempGear1AP"},
+        {"code": "gearback", "forCategoryCodes": ["gear"], "attachmentPointCode": "TempGear2AP"},
+        {"code": "gearright", "forCategoryCodes": ["gear"], "attachmentPointCode": "TempGear3AP"},
+        {"code": "hat","forCategoryCodes": [ "hat" ],"attachmentPointCode": "HatAP"},
+        {"code": "rearleftsock","forCategoryCodes": [ "sock" ],"attachmentPointCode": "RLSockAP"},
+        {"code": "rearrightsock","forCategoryCodes": [ "sock" ],"attachmentPointCode": "RRSockAP"},
+        {"code": "frontleftsock","forCategoryCodes": [ "sock" ],"attachmentPointCode": "FLSockAP"},
+        {"code": "frontrightsock","forCategoryCodes": [ "sock" ],"attachmentPointCode": "FRSockAP"},
+        {"code": "rightsaddlepin","forCategoryCodes": [ "saddlepin" ],"attachmentPointCode": "RSaddlePinAP"},
+        {"code": "leftsaddlepin", "forCategoryCodes": [ "saddlepin" ], "attachmentPointCode": "LSaddlePinAP"},
+        {"code": "tail","forCategoryCodes": [ "tail" ],"attachmentPointCode": "TailAP"}
+      ]
+    },
+    "selectionboxes": {
+      "selectionBoxes": [
+        "HeadAP",
+        "FaceAP",
+        "NeckAP",
+        "MidAP",
+        "MidUnderAP",
+        "RearAP",
+        "RearSideAP",
+        "RFrontAP",
+        "LFrontAP",
+        "TempGear1AP",
+        "TempGear2AP",
+        "TempGear3AP",
+        "HatAP",
+        "RLSockAP",
+        "RRSockAP",
+        "FLSockAP",
+        "FRSockAP",
+        "RSaddlePinAP",
+        "LSaddlePinAP",
+        "TailAP"
+      ]
+    }
+  },
+  "client": {
+    "renderer": "Shape",
+    "shape": {
+      "base": "elkaccessories:entity/nonliving/armorstand-elk-{pose}"
+    },
+    "texture":{
+    "base": "elkaccessories:entity/nonliving/elk-adult"
+    },
+    "behaviors": [
+      {
+        "code": "repulseagents"
+      },
+      {
+        "code": "controlledphysics",
+        "stepHeight": 1.1251
+      },
+      {
+        "code": "selectionboxes"
+      },
+      {
+        "code": "rideableaccessories"
+      }
+    ]
+  },
+  "server": {
+    "behaviors": [
+      {
+        "code": "repulseagents"
+      },
+      {
+        "code": "controlledphysics",
+        "stepHeight": 1.1251
+      },
+      {
+        "code": "selectionboxes"
+      },
+      {
+        "code": "rideableaccessories"
+      }
+    ]
+  },
+  "sounds": {
+    "hurt": "player/slap"
+  }
+}

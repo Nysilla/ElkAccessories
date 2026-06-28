@@ -1,0 +1,168 @@
+{
+  "enabled": true,
+  "code": "hoovedwearables",
+  "variantgroups": [
+    {
+      "code": "category",
+      "states": [
+        "hooves"
+      ]
+    },
+    {
+      "code": "type",
+      "states": [
+        "sock",
+        "boot"
+      ]
+    },
+    {
+      "code": "color",
+      "states": [
+        "color-black",
+        "color-blackstriped",
+        "color-blackwhite",
+        "color-blue",
+        "color-bluestriped",
+        "color-bluewhite",
+        "color-brown",
+        "color-brownstriped",
+        "color-brownwhite",
+        "color-gray",
+        "color-graystriped",
+        "color-graywhite",
+        "color-green",
+        "color-greenstriped",
+        "color-greenwhite",
+        "color-mordant",
+        "color-mordantstriped",
+        "color-orange",
+        "color-orangestriped",
+        "color-orangewhite",
+        "color-pink",
+        "color-pinkstriped",
+        "color-pinkwhite",
+        "color-plain",
+        "color-plainstriped",
+        "color-purple",
+        "color-purplestriped",
+        "color-purplewhite",
+        "color-red",
+        "color-redstriped",
+        "color-redwhite",
+        "color-white",
+        "color-whitestriped",
+        "color-yellow",
+        "color-yellowstriped",
+        "color-yellowwhite",
+        "change",
+        "dragon",
+        "flowing",
+        "frogpond",
+        "huntress",
+        "maple",
+        "olive",
+        "oriole",
+        "power",
+        "rainbow",
+        "risingsun",
+        "shifting",
+        "stars",
+        "stripe",
+        "unrestricted",
+        "vineyard",
+        "whole",
+        "blanket-alchemist",
+        "blanket-azure-embroidered",
+        "blanket-blackguard",
+        "blanket-chateau",
+        "blanket-commoner",
+        "blanket-deepnoble",
+        "blanket-earthtone",
+        "blanket-fancygreen",
+        "blanket-forlorn",
+        "blanket-herder",
+        "blanket-hide",
+        "blanket-king",
+        "blanket-lackey",
+        "blanket-merchant",
+        "blanket-messenger",
+        "blanket-plaidblue",
+        "blanket-plaincloth",
+        "blanket-prince",
+        "blanket-squire",
+        "blanket-survivor",
+        "blanket-wool"
+      ]
+    }
+  ],
+  "shapeByType": {
+    "*": {"base": "item/wearable/hooved/inventory/{type}-inventory"}
+  },
+  "behaviors": [
+    {
+      "name": "GroundStorable",
+      "properties": {
+        "layout": "Quadrants",
+        "collisionBox": {
+          "x1": 0,
+          "y1": 0,
+          "z1": 0,
+          "x2": 1,
+          "y2": 0.125,
+          "z2": 1
+        }
+      }
+    }
+  ],
+    "attributes": {
+    "attachableToEntity": {
+      "texturePrefixCode": "elkaccessories:{type}-{color}",
+      "categoryCode": "sock",
+      "attachedShapeBySlotCodeByType": {
+        "*": {"rearleftsock": {"base": "item/wearable/hooved/hooves/{type}-rearl"},
+              "rearrightsock": {"base": "item/wearable/hooved/hooves/{type}-rearr"},
+              "frontleftsock": {"base": "item/wearable/hooved/hooves/{type}-frontl"},
+              "frontrightsock": {"base": "item/wearable/hooved/hooves/{type}-frontr"}}
+      }
+    },
+    "handbook": {
+        "groupBy": ["hooves-*"]
+      },
+    "shelvable": true,
+		"groundStorageTransform": {
+		  "translation": { "x": 0.5, "y": 0, "z": 0.5 }
+			},
+		"onshelfTransform": {
+		  "translation": { "x": 0.5, "y": 0, "z": 0.5 }
+			}
+  },
+  "texturesByType": {
+    "*-blanket-*": {"pattern": {"base": "item/sock/blankets/{color}"}},
+    "*striped": {"pattern": {"base": "item/sock/colors/striped/{color}"}},
+    "*-color-white": {"pattern": {"base": "item/sock/colors/{color}"}},
+    "*-*white": {"pattern": {"base": "item/sock/colors/white/{color}"}},
+    "*-color-*": {"pattern": {"base": "item/sock/colors/{color}"}},
+    "*": {"pattern": {"base": "item/sock/flags/{color}"}}
+  },
+  "texture": { 
+    "base": "item/sock/flags/rainbow"
+  },
+  "creativeinventory": {"general": ["*"],"items": ["*"],"clothing": ["*"],"elkaccessories": ["*"]},
+  "maxStackSize": 4,
+  "guiTransformByType": {
+    "*": {
+      "translation": { "x": -1, "y": 9, "z": 0 },
+      "rotation": { "x": -54, "y": -180, "z": -180 },
+      "origin": { "x": 0, "y": 0, "z": 0 },
+      "scale": 3.87
+    }
+  },
+  	"tpHandTransformByType": {
+      "*": {
+      	"translation": { "x": -0.05, "y": -0.05, "z": 0 },
+        "rotation": { "x": -10, "y": 70, "z": 0 },
+        "origin": { "x": 0, "y": 0, "z": 0 },
+        "scale": 1
+    }
+	}
+}

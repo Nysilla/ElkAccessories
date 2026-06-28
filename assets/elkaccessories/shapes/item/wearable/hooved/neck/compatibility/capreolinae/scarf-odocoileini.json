@@ -1,0 +1,82 @@
+{
+	"editor": {
+		"backDropShape": "",
+		"collapsedPaths": "",
+		"allAngles": true,
+		"entityTextureMode": false
+	},
+	"textureWidth": 32,
+	"textureHeight": 32,
+	"textureSizes": {
+		"blanket": [16,8]
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "origin",
+			"stepParentName": "Neck",
+			"from": [ 0.72, 3.6, 0.1 ],
+			"to": [ 0.72, 3.6, 0.1 ],
+			"rotationOrigin": [ 2.608, 4.752, 1.7 ],
+			"rotationZ": -30.0,
+			"faces": {
+				"north": { "texture": "#blanket", "uv": [ 0.0, 0.5, 0.5, 1.0 ], "autoUv": false, "enabled": false },
+				"east": { "texture": "#blanket", "uv": [ 0.5, 0.5, 1.0, 1.0 ], "autoUv": false, "enabled": false },
+				"south": { "texture": "#blanket", "uv": [ 0.5, 0.5, 1.0, 1.0 ], "autoUv": false, "enabled": false },
+				"west": { "texture": "#blanket", "uv": [ 1.0, 0.5, 1.5, 1.0 ], "autoUv": false, "enabled": false },
+				"up": { "texture": "#blanket", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false, "enabled": false },
+				"down": { "texture": "#blanket", "uv": [ 0.5, 0.0, 1.0, 0.5 ], "autoUv": false, "enabled": false }
+			},
+			"children": [
+				{
+					"name": "base",
+					"from": [ -0.3, -1.32, -0.6 ],
+					"to": [ 6.0, 0.28, 3.7 ],
+					"rotationOrigin": [ -0.3414, -1.3156, -0.66 ],
+					"rotationZ": 30.0,
+					"faces": {
+						"north": { "texture": "#blanket", "uv": [ 8.0, 2.0, 15.5, 4.0 ], "autoUv": false },
+						"east": { "texture": "#blanket", "uv": [ 8.0, 2.0, 14.0, 4.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"south": { "texture": "#blanket", "uv": [ 8.0, 2.0, 15.5, 4.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"west": { "texture": "#blanket", "uv": [ 8.0, 2.0, 14.0, 4.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"up": { "texture": "#blanket", "uv": [ 0.0, 0.0, 7.5, 6.0 ], "rotation": 180, "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"down": { "texture": "#blanket", "uv": [ 0.0, 0.0, 7.5, 6.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
+					},
+					"children": [
+						{
+							"name": "knot",
+							"from": [ 0.8, -0.08, 3.9 ],
+							"to": [ 2.48, 1.68, 4.7 ],
+							"rotationOrigin": [ 1.6, 0.72, 4.34 ],
+							"faces": {
+								"north": { "texture": "#blanket", "uv": [ 13.0, 0.0, 15.0, 2.0 ], "autoUv": false },
+								"east": { "texture": "#blanket", "uv": [ 8.0, 1.5, 10.0, 2.5 ], "rotation": 90, "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+								"south": { "texture": "#blanket", "uv": [ 13.0, 0.0, 15.0, 2.0 ], "rotation": 270, "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+								"west": { "texture": "#blanket", "uv": [ 8.0, 0.0, 10.0, 1.0 ], "rotation": 90, "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+								"up": { "texture": "#blanket", "uv": [ 8.0, 0.0, 9.0, 2.0 ], "rotation": 270, "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+								"down": { "texture": "#blanket", "uv": [ 8.0, 0.0, 9.0, 2.0 ], "rotation": 90, "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
+							},
+							"children": [
+								{
+									"name": "string",
+									"from": [ -0.88, -4.48, 0.24 ],
+									"to": [ 0.72, 1.12, 0.64 ],
+									"rotationOrigin": [ -0.08, 0.32, 0.64 ],
+									"rotationZ": -55.0,
+									"faces": {
+										"north": { "texture": "#blanket", "uv": [ 8.0, 0.0, 15.0, 2.0 ], "rotation": 90, "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [0,0,1,1] },
+										"east": { "texture": "#blanket", "uv": [ 8.0, 1.5, 15.0, 2.0 ], "rotation": 90, "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+										"south": { "texture": "#blanket", "uv": [ 8.0, 0.0, 15.0, 2.0 ], "rotation": 270, "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [0,1,1,0] },
+										"west": { "texture": "#blanket", "uv": [ 8.0, 0.0, 15.0, 0.5 ], "rotation": 90, "autoUv": false, "windMode": [-1,-1,-1,-1] },
+										"up": { "texture": "#blanket", "uv": [ 8.0, 0.0, 8.5, 2.0 ], "rotation": 270, "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [0,0,1,1] },
+										"down": { "texture": "#blanket", "uv": [ 8.0, 0.0, 8.5, 2.0 ], "rotation": 90, "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [0,1,1,0] }
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]}

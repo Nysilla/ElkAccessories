@@ -1,0 +1,11 @@
+{
+    "type": "content",
+    "modid": "elkaccessories",
+    "name": "Elk Accessories",
+    "authors": [
+        "Nysilla"
+    ],
+    "description": "Bling out your elk",
+    "version": "1.2.6",
+    "dependencies": {}
+}

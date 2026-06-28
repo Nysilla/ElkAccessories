@@ -1,0 +1,80 @@
+{
+  "enabled": true,
+  "code": "crown",
+  "variantgroups": [
+    {
+      "code": "material",
+      "states": [
+        "bismuth",
+        "bismuthbronze",
+        "blackbronze",
+        "brass",
+        "chromium",
+        "copper",
+        "cupronickel",
+        "electrum",
+        "gold",
+        "iron",
+        "lead",
+        "meteoriciron",
+        "molybdochalkos",
+        "nickel",
+        "platinum",
+        "silver",
+        "stainlesssteel",
+        "steel",
+        "tin",
+        "tinbronze",
+        "titanium",
+        "uranium",
+        "zinc"
+      ]
+    }
+  ],
+  "shape": {
+    "base": "item/wearable/hooved/hat/crown-elk"
+  },
+    "attributes": {
+    "attachableToEntity": {
+      "texturePrefixCode": "elkaccessories:crown-{type}",
+      "categoryCode": "hat",
+      "attachedShapeBySlotCodeByType": {
+        "*": {"hat": {"base": "item/wearable/hooved/hat/crown-elk"}}
+      }
+    },
+    "handbook": {
+        "groupBy": ["crown-*"]
+      }
+  },
+  "texturesByType": { 
+    "*-cupronickel": {"metal": {"base": "game:block/metal/ingot/{material}"},
+          "gem1": {"base": "game:block/stone/gem/ruby"},
+          "gem2": {"base": "game:block/stone/gem/sapphire"}
+        },
+    "*-meteoriciron": {"metal": {"base": "game:block/metal/ingot/{material}"},
+          "gem1": {"base": "game:block/stone/gem/ruby"},
+          "gem2": {"base": "game:block/stone/gem/sapphire"}
+        },
+    "*": {"metal": {"base": "game:block/metal/plate/{material}"},
+          "gem1": {"base": "game:block/stone/gem/ruby"},
+          "gem2": {"base": "game:block/stone/gem/sapphire"}
+        }
+  },
+  "maxStackSize": 1,
+  "guiTransformByType": {
+    "*": {
+      "translation": { "x": 7, "y": 9, "z": 0 },
+      "rotation": { "x": -37, "y": -44, "z": -180 },
+      "origin": { "x": 0.2, "y": 0.1, "z": 0 },
+      "scale": 3.24
+    }
+  },
+  	"tpHandTransformByType": {
+      "*": {
+      "translation": { "x": -0.4, "y": -0.3, "z": -0.1 },
+      "rotation": { "x": 0, "y": -180, "z": -17 },
+      "origin": { "x": 0, "y": 0, "z": 0 },
+      "scale": 0.71
+    }
+	}
+}

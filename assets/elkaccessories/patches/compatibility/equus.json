@@ -1,0 +1,424 @@
+[
+  {
+    "dependsOn": [ { "modid": "equus" } ],
+    "file": "equus:shapes/entity/land/ferus/adult",
+    "op": "addmerge",
+    "path": "/elements/0/children/0/children/0/children/2/children/0/children/1/children",
+    "value": [
+      {
+        "name": "HatStorage",
+        "from": [ 3.5, 4.0, -0.5 ],
+				"to": [ 8.9, 6.0, 4.1 ],
+				"uv": [ 0.0, 0.0 ],
+				"rotationOrigin": [ 2.0, 4.0, 2.3 ],
+        "rotationZ": 6.0,
+        "faces": {
+        },
+        "attachmentpoints": [
+          {
+            "code": "HatAP",
+            "posX": "0.0",
+            "posY": "0.0",
+            "posZ": "0.0",
+            "rotationX": "0.0",
+            "rotationY": "0.0",
+            "rotationZ": "0.0"
+          }
+        ]
+      }
+    ]
+  },
+
+
+  {
+    "dependsOn": [ { "modid": "equus" } ],
+    "file": "equus:shapes/entity/land/ferus/adult",
+    "op": "addmerge",
+    "path": "/elements/0/children/0/children/0/children",
+    "value": [
+      {
+        "name": "RightSaddlePinStorage",
+									"from": [ 2.7, 7.8, -1.3 ],
+									"to": [ 4.7, 9.8, 0.7 ],
+									"uv": [ 2.5, 0.0 ],
+									"rotationOrigin": [ 2.7, 7.8, 3.7 ],
+									"faces": {
+									},
+									"attachmentpoints": [
+										{
+											"code": "RSaddlePinAP",
+											"posX": "0.0","posY": "0.0","posZ": "0.0",
+											"rotationX": "0.0","rotationY": "0.0","rotationZ": "0.0"
+										}
+        ]
+      }
+    ]
+  },
+  {
+    "dependsOn": [ { "modid": "equus" } ],
+    "file": "equus:shapes/entity/land/ferus/adult",
+    "op": "addmerge",
+    "path": "/elements/0/children/0/children/0/children",
+    "value": [
+      {
+        "name": "LeftSaddlePinStorage",
+									"from": [ 2.7, 7.8, 8.3 ],
+									"to": [ 4.7, 9.8, 10.3 ],
+									"uv": [ 2.5, 0.0 ],
+									"rotationOrigin": [ 3.7, 8.8, 10.3 ],
+									"faces": {
+									},
+									"attachmentpoints": [
+										{
+											"code": "LSaddlePinAP",
+											"posX": "0.0","posY": "0.0","posZ": "0.0",
+											"rotationX": "0.0","rotationY": "0.0","rotationZ": "0.0"
+										}
+        ]
+      }
+    ]
+  },
+  {
+    "dependsOn": [ { "modid": "equus" } ],
+    "file": "equus:shapes/entity/land/ferus/adult",
+    "op": "addmerge",
+    "path": "/elements/0/children/1/children/0/children/0/children/0/children",
+    "value": [
+      {
+        "name": "RearLeftSockStorage",
+        "from": [ -0.1, 0.0, -0.1 ],
+				"to": [ 2.6, 4.0, 2.5 ],
+        "rotationOrigin": [ -0.1, 0.0, -0.1 ],
+        "faces": {},
+        "attachmentpoints": [
+          {
+            "code": "RLSockAP",
+            "posX": "0.0",
+            "posY": "0.0",
+            "posZ": "0.0",
+            "rotationX": "0.0",
+            "rotationY": "0.0",
+            "rotationZ": "0.0"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dependsOn": [ { "modid": "equus" } ],
+    "file": "equus:shapes/entity/land/ferus/adult",
+    "op": "addmerge",
+    "path": "/elements/0/children/2/children/0/children/0/children/0/children",
+    "value": [
+      {
+        "name": "RearRightSockStorage",
+        "from": [ -0.1, 0.0, -0.1 ],
+				"to": [ 2.6, 4.0, 2.5 ],
+        "rotationOrigin": [ -0.1, 0.0, -0.1 ],
+        "faces": {},
+        "attachmentpoints": [
+          {
+            "code": "RRSockAP",
+            "posX": "0.0",
+            "posY": "0.0",
+            "posZ": "0.0",
+            "rotationX": "0.0",
+            "rotationY": "0.0",
+            "rotationZ": "0.0"
+          }
+        ]
+      } 
+    ]
+  },
+  {
+    "dependsOn": [ { "modid": "equus" } ],
+    "file": "equus:shapes/entity/land/ferus/adult",
+    "op": "addmerge",
+    "path": "/elements/0/children/3/children/0/children/0/children/0/children",
+    "value": [
+      {
+        "name": "FrontLeftSockStorage",
+        "from": [ -0.02, -0.08, -0.1 ],
+				"to": [ 2.58, 3.92, 1.9 ],
+        "rotationOrigin": [ -0.1, 0.0, -0.1 ],
+        "faces": {},
+        "attachmentpoints": [
+          {
+            "code": "FLSockAP",
+            "posX": "0.0",
+            "posY": "0.0",
+            "posZ": "0.0",
+            "rotationX": "0.0",
+            "rotationY": "0.0",
+            "rotationZ": "0.0"
+          }
+        ]
+			}
+    ]
+  },
+  {
+    "dependsOn": [ { "modid": "equus" } ],
+    "file": "equus:shapes/entity/land/ferus/adult",
+    "op": "addmerge",
+    "path": "/elements/0/children/4/children/0/children/0/children/0/children",
+    "value": [
+      {
+        "name": "FrontRightSockStorage",
+        "from": [ -0.02, -0.08, -0.1 ],
+				"to": [ 2.58, 3.92, 1.9 ],
+        "rotationOrigin": [ -0.1, -0.1, -0.1 ],
+        "faces": {},
+        "attachmentpoints": [
+          {
+            "code": "FRSockAP",
+            "posX": "0.0",
+            "posY": "0.0",
+            "posZ": "0.0",
+            "rotationX": "0.0",
+            "rotationY": "0.0",
+            "rotationZ": "0.0"
+          }
+        ]
+			}
+    ]
+  },
+  {
+    "dependsOn": [ { "modid": "equus" } ],
+    "file": "equus:shapes/entity/land/ferus/adult",
+    "op": "addmerge",
+    "path": "/elements/0/children/0/children/0/children/1/children",
+    "value": [
+      {
+      "name": "TailStorage",
+      "from": [ 8.2, 8.3, 2.7 ],
+      "to": [ 9.2, 10.3, 7.2 ],
+      "uv": [ 0.0, 0.0 ],
+      "rotationOrigin": [ 8.2, 8.3, 2.7 ],
+      "faces": {},
+      "attachmentpoints": [
+        {
+          "code": "TailAP",
+          "posX": "0.0","posY": "0.0","posZ": "0.0",
+          "rotationX": "0.0","rotationY": "0.0","rotationZ": "0.0"
+        }
+      ]
+    }
+    ]
+  },
+  {
+    "dependsOn": [ { "modid": "equus" } ],
+    "side": "Server",
+    "file": "equus:entities/tamedwildhorse",
+    "op": "addmerge",
+    "path": "/behaviorConfigs/rideableaccessories/wearableSlots",
+    "value": [
+      {
+        "code": "hat-{type}",
+        "forCategoryCodes": [ "hat" ],
+        "attachmentPointCode": "HatAP"
+      },
+      {
+        "code": "rightsaddlepin-{type}",
+        "forCategoryCodes": [ "saddlepin" ],
+        "attachmentPointCode": "RSaddlePinAP"
+      },
+      {
+        "code": "leftsaddlepin-{type}",
+        "forCategoryCodes": [ "saddlepin" ],
+        "attachmentPointCode": "LSaddlePinAP"
+      },
+      {
+        "code": "rearleftsock-{type}",
+        "forCategoryCodes": [ "sock" ],
+        "attachmentPointCode": "RLSockAP"
+      },
+      {
+        "code": "rearrightsock-{type}",
+        "forCategoryCodes": [ "sock" ],
+        "attachmentPointCode": "RRSockAP"
+      },
+      {
+        "code": "frontleftsock-{type}",
+        "forCategoryCodes": [ "sock" ],
+        "attachmentPointCode": "FLSockAP"
+      },
+      {
+        "code": "frontrightsock-{type}",
+        "forCategoryCodes": [ "sock" ],
+        "attachmentPointCode": "FRSockAP"
+      },
+      {
+        "code": "tail-{type}",
+        "forCategoryCodes": [ "tail" ],
+        "attachmentPointCode": "TailAP"
+      }
+    ]
+  },
+
+  
+  {
+    "dependsOn": [ { "modid": "equus" } ],
+    "side": "Server",
+    "file": "equus:entities/tamedwildhorse",
+    "op": "addmerge",
+    "path": "/behaviorConfigs/selectionboxes/selectionBoxes",
+    "value": [ "HatAP", "RSaddlePinAP", "LSaddlePinAP", "RLSockAP", "RRSockAP", "FLSockAP", "FRSockAP", "TailAP" ]
+  },
+  {
+    "dependsOn": [ { "modid": "equus" } ],
+    "side": "Server",
+    "file": "equus:entities/tamedwildhorse",
+    "op": "addmerge",
+    "path": "/behaviorConfigs/rideableaccessories/wearableSlots/4/forCategoryCodes",
+    "value": [ "collar" ]
+  },
+
+
+
+
+  
+  {
+    "dependsOn": [ { "modid": "equus" } ],
+    "side": "Server",
+    "file": "elkaccessories:itemtypes/wearable/outdated/beanie",
+    "op": "addmerge",
+    "path": "/attributes/attachableToEntity/attachedShapeBySlotCodeByType/*",
+    "value": {"hat-ferus": {"base": "item/wearable/hooved/hat/compatibility/equus/beanie-ferus"}}
+  },
+  {
+    "dependsOn": [ { "modid": "equus" } ],
+    "side": "Server",
+    "file": "elkaccessories:itemtypes/wearable/outdated/bowtie",
+    "op": "addmerge",
+    "path": "/attributes/attachableToEntity/attachedShapeBySlotCodeByType/*",
+    "value": {"neck-ferus": {"base": "item/wearable/hooved/neck/compatibility/equus/bowtie-ferus"}}
+  },
+  {
+    "dependsOn": [ { "modid": "equus" } ],
+    "side": "Server",
+    "file": "elkaccessories:itemtypes/wearable/outdated/crown",
+    "op": "addmerge",
+    "path": "/attributes/attachableToEntity/attachedShapeBySlotCodeByType/*",
+    "value": {"hat-ferus": {"base": "item/wearable/hooved/hat/compatibility/equus/crown-ferus"}}
+  },
+  {
+    "dependsOn": [ { "modid": "equus" } ],
+    "side": "Server",
+    "file": "elkaccessories:itemtypes/wearable/outdated/fedora",
+    "op": "addmerge",
+    "path": "/attributes/attachableToEntity/attachedShapeBySlotCodeByType/*",
+    "value": {"hat-ferus": {"base": "item/wearable/hooved/hat/compatibility/equus/fedora-ferus"}}
+  },
+  {
+    "dependsOn": [ { "modid": "equus" } ],
+    "side": "Server",
+    "file": "elkaccessories:itemtypes/wearable/outdated/hunterhat",
+    "op": "addmerge",
+    "path": "/attributes/attachableToEntity/attachedShapeBySlotCodeByType/*",
+    "value": {"hat-ferus": {"base": "item/wearable/hooved/hat/compatibility/equus/hunterhat-ferus"}}
+  },
+  {
+    "dependsOn": [ { "modid": "equus" } ],
+    "side": "Server",
+    "file": "elkaccessories:itemtypes/wearable/outdated/propellerhat",
+    "op": "addmerge",
+    "path": "/attributes/attachableToEntity/attachedShapeBySlotCodeByType/*",
+    "value": {"hat-ferus": {"base": "item/wearable/hooved/hat/compatibility/equus/propellerhat-ferus"}}
+  },
+  {
+    "dependsOn": [ { "modid": "equus" } ],
+    "side": "Server",
+    "file": "elkaccessories:itemtypes/wearable/outdated/propellerhatsmol",
+    "op": "addmerge",
+    "path": "/attributes/attachableToEntity/attachedShapeBySlotCodeByType/*",
+    "value": {"hat-ferus": {"base": "item/wearable/hooved/hat/compatibility/equus/propellerhatsmol-ferus"}}
+  },
+  {
+    "dependsOn": [ { "modid": "equus" } ],
+    "side": "Server",
+    "file": "elkaccessories:itemtypes/wearable/outdated/scarf",
+    "op": "addmerge",
+    "path": "/attributes/attachableToEntity/attachedShapeBySlotCodeByType/*",
+    "value": {"neck-ferus": {"base": "item/wearable/hooved/neck/compatibility/equus/scarf-ferus"}}
+  },
+  {
+    "dependsOn": [ { "modid": "equus" } ],
+    "side": "Server",
+    "file": "elkaccessories:itemtypes/wearable/outdated/tophat",
+    "op": "addmerge",
+    "path": "/attributes/attachableToEntity/attachedShapeBySlotCodeByType/*",
+    "value": {"hat-ferus": {"base": "item/wearable/hooved/hat/compatibility/equus/tophat-ferus"}}
+  },
+  {
+    "dependsOn": [ { "modid": "equus" } ],
+    "side": "Server",
+    "file": "elkaccessories:itemtypes/wearable/outdated/socks",
+    "op": "addmerge",
+    "path": "/attributes/attachableToEntity/attachedShapeBySlotCodeByType/*",
+    "value": {"rearleftsock-ferus": {"base": "item/wearable/hooved/hooves/compatibility/equus/{type}-rearl"},
+              "rearrightsock-ferus": {"base": "item/wearable/hooved/hooves/compatibility/equus/{type}-rearr"},
+              "frontleftsock-ferus": {"base": "item/wearable/hooved/hooves/compatibility/equus/{type}-frontl"},
+              "frontrightsock-ferus": {"base": "item/wearable/hooved/hooves/compatibility/equus/{type}-frontr"}}
+  },
+
+  
+  {
+    "dependsOn": [ { "modid": "equus" } ],
+    "side": "Server",
+    "file": "elkaccessories:itemtypes/wearable/antlerheadband",
+    "op": "addmerge",
+    "path": "/attributes/attachableToEntity/attachedShapeBySlotCodeByType/*",
+    "value": {"hat-ferus": {"base": "item/wearable/hooved/hat/compatibility/equus/headband/{type}/headband-antler{size}"}}
+  },
+  {
+    "dependsOn": [ { "modid": "equus" } ],
+    "side": "Server",
+    "file": "elkaccessories:itemtypes/wearable/socks",
+    "op": "addmerge",
+    "path": "/attributes/attachableToEntity/attachedShapeBySlotCodeByType/*",
+    "value": {"rearleftsock-ferus": {"base": "item/wearable/hooved/hooves/compatibility/equus/{type}-rearl"},
+              "rearrightsock-ferus": {"base": "item/wearable/hooved/hooves/compatibility/equus/{type}-rearr"},
+              "frontleftsock-ferus": {"base": "item/wearable/hooved/hooves/compatibility/equus/{type}-frontl"},
+              "frontrightsock-ferus": {"base": "item/wearable/hooved/hooves/compatibility/equus/{type}-frontr"}}
+  },
+  {
+    "dependsOn": [ { "modid": "equus" } ],
+    "side": "Server",
+    "file": "elkaccessories:itemtypes/wearable/hat",
+    "op": "addmerge",
+    "path": "/attributes/attachableToEntity/attachedShapeBySlotCodeByType/*-witchhat-*",
+    "value": {"hat-ferus": {"base": "item/wearable/hooved/hat/compatibility/equus/{type}-{color}-ferus"}}
+  },
+  {
+    "dependsOn": [ { "modid": "equus" } ],
+    "side": "Server",
+    "file": "elkaccessories:itemtypes/wearable/hat",
+    "op": "addmerge",
+    "path": "/attributes/attachableToEntity/attachedShapeBySlotCodeByType/*",
+    "value": {"hat-ferus": {"base": "item/wearable/hooved/hat/compatibility/equus/{type}-ferus"}}
+  },
+  {
+    "dependsOn": [ { "modid": "equus" } ],
+    "side": "Server",
+    "file": "elkaccessories:itemtypes/wearable/collar",
+    "op": "addmerge",
+    "path": "/attributes/attachableToEntity/attachedShapeBySlotCodeByType/*",
+    "value": {"neck-ferus": {"base": "item/wearable/hooved/neck/compatibility/equus/{type}-ferus"}}
+  },
+  {
+    "dependsOn": [ { "modid": "equus" } ],
+    "side": "Server",
+    "file": "elkaccessories:itemtypes/wearable/tail",
+    "op": "addmerge",
+    "path": "/attributes/attachableToEntity/attachedShapeBySlotCodeByType/*",
+    "value": {"tail-ferus": {"base": "item/wearable/hooved/tail/compatibility/equus/{type}-ferus"}}
+  },
+  {
+    "dependsOn": [ { "modid": "equus" } ],
+    "side": "Server",
+    "file": "elkaccessories:itemtypes/wearable/collar",
+    "op": "addmerge",
+    "path": "/texturesByType/*-scarf-*",
+    "value": {"blanket-ferus": {"base": "item/scarf/blanket/equus/{color}"}}
+  }
+]

@@ -1,0 +1,73 @@
+[
+  {
+    "ingredientPattern": "CTC",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:cloth-*",
+        "name": "color",
+        "allowedVariants": [
+          "black",
+          "blue",
+          "brown",
+          "gray",
+          "green",
+          "mordant",
+          "orange",
+          "pink",
+          "plain",
+          "purple",
+          "red",
+          "white",
+          "yellow"
+        ]
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine"
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-neck-bowtie-{color}"
+    }
+  },
+
+  {
+    "ingredientPattern": "TCT,_C_",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:cloth-*",
+        "name": "color",
+        "allowedVariants": [
+          "black",
+          "blue",
+          "brown",
+          "gray",
+          "green",
+          "mordant",
+          "orange",
+          "pink",
+          "plain",
+          "purple",
+          "red",
+          "white",
+          "yellow"
+        ]
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine"
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-neck-tie-{color}"
+    }
+  }
+]

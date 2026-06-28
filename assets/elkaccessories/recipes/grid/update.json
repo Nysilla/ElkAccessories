@@ -1,0 +1,469 @@
+[
+  {
+    "ingredientPattern": "U",
+    "ingredients": {
+      "U": {
+        "type": "item",
+        "code": "elkaccessories:hunterhat-*",
+        "name": "type",
+        "allowedVariants": [
+          "alchemist",
+          "azure-embroidered",
+          "blackguard",
+          "chateau",
+          "commoner",
+          "deepnoble",
+          "earthtone",
+          "fancygreen",
+          "forlorn",
+          "herder",
+          "hide",
+          "king",
+          "lackey",
+          "merchant",
+          "messenger",
+          "plaidblue",
+          "plaincloth",
+          "prince",
+          "squire",
+          "survivor",
+          "wool"
+        ]
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-head-hunterhat-{type}"
+    }
+  },
+  {
+    "ingredientPattern": "U",
+    "ingredients": {
+      "U": {
+        "type": "item",
+        "code": "elkaccessories:beanie-*",
+        "name": "type",
+        "allowedVariants": [
+          "alchemist",
+          "azure-embroidered",
+          "blackguard",
+          "chateau",
+          "commoner",
+          "deepnoble",
+          "earthtone",
+          "fancygreen",
+          "forlorn",
+          "herder",
+          "hide",
+          "king",
+          "lackey",
+          "merchant",
+          "messenger",
+          "plaidblue",
+          "plaincloth",
+          "prince",
+          "squire",
+          "survivor",
+          "wool"
+        ]
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-head-beanie-{type}"
+    }
+  },
+  {
+    "ingredientPattern": "U",
+    "ingredients": {
+      "U": {
+        "type": "item",
+        "code": "elkaccessories:scarf-*",
+        "name": "type",
+        "allowedVariants": [
+          "alchemist",
+          "azure-embroidered",
+          "blackguard",
+          "chateau",
+          "commoner",
+          "deepnoble",
+          "earthtone",
+          "fancygreen",
+          "forlorn",
+          "herder",
+          "hide",
+          "king",
+          "lackey",
+          "merchant",
+          "messenger",
+          "plaidblue",
+          "plaincloth",
+          "prince",
+          "squire",
+          "survivor",
+          "wool"
+        ]
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-neck-scarf-{type}"
+    }
+  },
+
+
+  {
+    "ingredientPattern": "U",
+    "ingredients": {
+      "U": {
+        "type": "item",
+        "code": "elkaccessories:crown-*",
+        "name": "type",
+        "allowedVariants": [
+          "bismuth",
+          "bismuthbronze",
+          "blackbronze",
+          "brass",
+          "chromium",
+          "copper",
+          "cupronickel",
+          "electrum",
+          "gold",
+          "iron",
+          "lead",
+          "meteoriciron",
+          "molybdochalkos",
+          "nickel",
+          "platinum",
+          "silver",
+          "stainlesssteel",
+          "steel",
+          "tin",
+          "tinbronze",
+          "titanium",
+          "uranium",
+          "zinc"
+        ]
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-head-crown-{type}"
+    }
+  },
+
+  {
+    "ingredientPattern": "U",
+    "ingredients": {
+      "U": {
+        "type": "item",
+        "code": "elkaccessories:propellerhat-*",
+        "name": "type",
+        "allowedVariants": [
+          "classic",
+          "monochrome"
+        ]
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-head-propellerhat-{type}"
+    }
+  },
+  {
+    "ingredientPattern": "U",
+    "ingredients": {
+      "U": {
+        "type": "item",
+        "code": "elkaccessories:propellerhatsmol-*",
+        "name": "type",
+        "allowedVariants": [
+          "classic",
+          "monochrome"
+        ]
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-head-propellerhatsmol-{type}"
+    }
+  },
+
+
+  {
+    "ingredientPattern": "U",
+    "ingredients": {
+      "U": {
+        "type": "item",
+        "code": "elkaccessories:tophat-*",
+        "name": "type",
+        "allowedVariants": [
+          "black",
+          "white",
+          "brown"
+        ]
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-head-tophat-{type}"
+    }
+  },
+  {
+    "ingredientPattern": "U",
+    "ingredients": {
+      "U": {
+        "type": "item",
+        "code": "elkaccessories:fedora-*",
+        "name": "type",
+        "allowedVariants": [
+          "black",
+          "white",
+          "brown"
+        ]
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-head-fedora-{type}"
+    }
+  },
+
+  {
+    "ingredientPattern": "U",
+    "ingredients": {
+      "U": {
+        "type": "item",
+        "code": "elkaccessories:bowtie-*",
+        "name": "type",
+        "allowedVariants": [
+          "black",
+          "blue",
+          "brown",
+          "gray",
+          "purple",
+          "red",
+          "white"
+        ]
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-neck-bowtie-{type}"
+    }
+  },
+
+  {
+    "ingredientPattern": "U",
+    "ingredients": {
+      "U": {
+        "type": "item",
+        "code": "elkaccessories:hooves-sock-*",
+        "name": "type",
+        "allowedVariants": [
+          "color-black",
+          "color-blackstriped",
+          "color-blackwhite",
+          "color-blue",
+          "color-bluestriped",
+          "color-bluewhite",
+          "color-brown",
+          "color-brownstriped",
+          "color-brownwhite",
+          "color-gray",
+          "color-graystriped",
+          "color-graywhite",
+          "color-green",
+          "color-greenstriped",
+          "color-greenwhite",
+          "color-mordant",
+          "color-mordantstriped",
+          "color-orange",
+          "color-orangestriped",
+          "color-orangewhite",
+          "color-pink",
+          "color-pinkstriped",
+          "color-pinkwhite",
+          "color-plain",
+          "color-plainstriped",
+          "color-purple",
+          "color-purplestriped",
+          "color-purplewhite",
+          "color-red",
+          "color-redstriped",
+          "color-redwhite",
+          "color-white",
+          "color-whitestriped",
+          "color-yellow",
+          "color-yellowstriped",
+          "color-yellowwhite",
+          "change",
+          "dragon",
+          "flowing",
+          "frogpond",
+          "huntress",
+          "maple",
+          "olive",
+          "oriole",
+          "power",
+          "rainbow",
+          "risingsun",
+          "shifting",
+          "stars",
+          "stripe",
+          "unrestricted",
+          "vineyard",
+          "whole",
+          "blanket-alchemist",
+          "blanket-azure-embroidered",
+          "blanket-blackguard",
+          "blanket-chateau",
+          "blanket-commoner",
+          "blanket-deepnoble",
+          "blanket-earthtone",
+          "blanket-fancygreen",
+          "blanket-forlorn",
+          "blanket-herder",
+          "blanket-hide",
+          "blanket-king",
+          "blanket-lackey",
+          "blanket-merchant",
+          "blanket-messenger",
+          "blanket-plaidblue",
+          "blanket-plaincloth",
+          "blanket-prince",
+          "blanket-squire",
+          "blanket-survivor",
+          "blanket-wool"
+        ]
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-hooves-sock-{type}"
+    }
+  },
+  {
+    "ingredientPattern": "U",
+    "ingredients": {
+      "U": {
+        "type": "item",
+        "code": "elkaccessories:hooves-boot-*",
+        "name": "type",
+        "allowedVariants": [
+          "color-black",
+          "color-blackstriped",
+          "color-blackwhite",
+          "color-blue",
+          "color-bluestriped",
+          "color-bluewhite",
+          "color-brown",
+          "color-brownstriped",
+          "color-brownwhite",
+          "color-gray",
+          "color-graystriped",
+          "color-graywhite",
+          "color-green",
+          "color-greenstriped",
+          "color-greenwhite",
+          "color-mordant",
+          "color-mordantstriped",
+          "color-orange",
+          "color-orangestriped",
+          "color-orangewhite",
+          "color-pink",
+          "color-pinkstriped",
+          "color-pinkwhite",
+          "color-plain",
+          "color-plainstriped",
+          "color-purple",
+          "color-purplestriped",
+          "color-purplewhite",
+          "color-red",
+          "color-redstriped",
+          "color-redwhite",
+          "color-white",
+          "color-whitestriped",
+          "color-yellow",
+          "color-yellowstriped",
+          "color-yellowwhite",
+          "change",
+          "dragon",
+          "flowing",
+          "frogpond",
+          "huntress",
+          "maple",
+          "olive",
+          "oriole",
+          "power",
+          "rainbow",
+          "risingsun",
+          "shifting",
+          "stars",
+          "stripe",
+          "unrestricted",
+          "vineyard",
+          "whole",
+          "blanket-alchemist",
+          "blanket-azure-embroidered",
+          "blanket-blackguard",
+          "blanket-chateau",
+          "blanket-commoner",
+          "blanket-deepnoble",
+          "blanket-earthtone",
+          "blanket-fancygreen",
+          "blanket-forlorn",
+          "blanket-herder",
+          "blanket-hide",
+          "blanket-king",
+          "blanket-lackey",
+          "blanket-merchant",
+          "blanket-messenger",
+          "blanket-plaidblue",
+          "blanket-plaincloth",
+          "blanket-prince",
+          "blanket-squire",
+          "blanket-survivor",
+          "blanket-wool"
+        ]
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-hooves-boot-{type}"
+    }
+  }
+]

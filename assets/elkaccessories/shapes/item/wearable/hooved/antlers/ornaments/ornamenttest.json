@@ -1,0 +1,68 @@
+{
+	"editor": {
+		"collapsedPaths": "Root/ORIGIN/BLanketMidTop,Root/Feet Guide,Root/Origin/Rear/Midsection/Chest/RightFrontStorage,Root/hideme,Root/ORIGINLinenSackFront,Root/Origin/Rear/Midsection/Chest/LeftFrontStorage,Root/ORIGINBasketRear,Root/Elk/Rear/Midsection/Chest/Neck/Neck2/Head/R Ear,Root/Origin/Rear/Midsection/Chest/Neck/Neck2/Head/Jaw,Root/Elk/Rear/R Haunch/R LegUp/R LegLow/R Hind Pastern/R Hind Hoof,Root/Elk,Root/Origin/Rear/Midsection/Chest/Neck/Neck2/Head/L Ear,Root/ORIGINSaddleBagsRightF,Root/Origin/Rear/Midsection/Chest/Neck/Neck2/Head/Horn attachment/R antler Hub,Root/BlanketHUMPN,Root/Elk/Rear/L Haunch/L LegUp/L LegLow/L Hind Pastern,Root/Origin/Rear/L Haunch/L LegUp/L LegLow/L Hind Pastern/L Hind Hoof,Root/ORIGINrearBags,Root/BlanketFBACK,Root/ORIGINStrapsRear,Root/ORIGINbasketSideN,Root/Elk/Rear/R Haunch/R LegUp/R LegLow/R Hind Pastern,Root/Origin/Rear/Midsection/Chest/Neck/Neck2/Head/Horn attachment,Root/Elk/Rear/Midsection/Chest/Neck/Neck2/Head/R Eye,Root/Origin/Rear/Midsection/Chest/Neck/Neck2/Head/Horn attachment/L antler base 1,Root/SaddleFrontN,Root/Origin/Rear/Midsection/Chest/R Shoulder,Root/Origin/Rear/R Haunch,Root/Origin/Rear/Midsection/Chest/L Shoulder,Root/Elk/Rear/Midsection/Chest/L Shoulder/L ArmUp/L ArmMid/L ArmLow/L Front Pastern,Root/ORIGINbasketSideS,Root/Elk/Rear/Midsection/Chest/Neck/Neck2/Head/MouthUp,Root/ORIGINbridle,Root/Elk/Rear/Midsection/Chest/Neck/Neck2/Head/Jaw,Root/ORIGINbackpackFrontL,Root/ORIGIN,Root/Origin/Rear/Midsection/Chest/Neck/Neck2/Head/Mouth up,Root/Origin/Rear/Midsection/Chest/Neck/Neck2/Head/R Ear,Root/Origin/Rear/L Haunch,Root/ORIGINLinenSackMiddle,Root/Elk/Rear/Midsection/Chest/Neck/Neck2/Head/L Eye,Root/Origin/Rear/R Haunch/R LegUp/R LegLow/R Hind Pastern/R Hind Hoof,Root/ORIGINframe,Root/ORIGINChestStrap,Root/BlanketFrontN,Root/SaddleBackN,Root/Elk/Rear/L Haunch/L LegUp/L LegLow/L Hind Pastern/L Hind Hoof,Root/SockMain,Root/Horn attachment,Root/Elk/Rear/Midsection/Chest/Neck/Neck2/Head/L Ear,Root/Elk/Rear/L Haunch,Root/Origin/Rear/Midsection/Chest/R Shoulder/R Arm/R Forearm/R Hand/R Fingers/R Front Hoof,Root/Origin/Rear/RearStorage,Root/Origin/Rear/Midsection/Chest/L Shoulder/L Arm/L Forearm/L Hand/L Fingers/L Front Hoof,Root/Origin/Rear/R Thigh/R Calf/R Foot/R Toes/R Hind Hoof,Root/Elk/Rear/RearStorage,Root/Origin/Rear/L Thigh/L Calf/L Foot/L Toes/L Hind Hoof,Root/Elk/Rear/Midsection/Chest/R Shoulder/R ArmUp/R ArmMid/R ArmLow/R Front Pastern",
+		"allAngles": true,
+		"entityTextureMode": true
+	},
+	"textureWidth": 80,
+	"textureHeight": 116,
+	"textureSizes": {
+		"skin": [80,116],
+		"green": [16,16],
+		"plain": [16,16],
+		"birch": [16,16],
+		"tinbronze1": [16,16],
+		"lid": [16,16],
+		"sidesWE": [16,16],
+		"plainoak": [16,16],
+		"leather": [16,16],
+		"straps": [16,16],
+		"linen": [16,16],
+		"top": [16,16],
+		"seraph": [64,64],
+		"blanket": [16,24],
+		"rainbow": [8,8],
+		"pattern": [16,16]
+	},
+	"textures": {
+		"pattern": "C:/Users/allis/AppData/Roaming/VintagestoryData/Mods/ElkAccessories_1.2.2/assets/elkaccessories/textures/item/antlerdanglers/pattern"
+	},
+	"elements": [
+		{
+			"name": "Cube2",
+			"from": [ 0.9, 0.7, 0.5 ],
+			"to": [ 1.1, 2.2, 0.7 ],
+			"uv": [ 0.0, 0.0 ],
+			"rotationOrigin": [ 0.9, 0.7, 0.5 ],
+			"rotationX": -14.0,
+			"rotationZ": 30.0,
+			"faces": {
+				"north": { "texture": "#pattern", "uv": [ 0.0, 0.5, 0.5, 2.0 ] },
+				"east": { "texture": "#pattern", "uv": [ 0.5, 0.5, 1.0, 2.0 ] },
+				"south": { "texture": "#pattern", "uv": [ 1.0, 0.5, 1.5, 2.0 ] },
+				"west": { "texture": "#pattern", "uv": [ 1.5, 0.5, 2.0, 2.0 ] },
+				"up": { "texture": "#pattern", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"down": { "texture": "#pattern", "uv": [ 0.5, 0.0, 1.0, 0.5 ] }
+			},
+			"children": [
+				{
+					"name": "Cube3",
+					"from": [ -0.4, -0.9, -0.4 ],
+					"to": [ 0.6, 0.1, 0.6 ],
+					"uv": [ 0.0, 0.0 ],
+					"rotationOrigin": [ -0.4, -0.9, -0.4 ],
+					"faces": {
+						"north": { "texture": "#pattern", "uv": [ 0.0, 1.0, 1.0, 2.0 ] },
+						"east": { "texture": "#pattern", "uv": [ 1.0, 1.0, 2.0, 2.0 ] },
+						"south": { "texture": "#pattern", "uv": [ 2.0, 1.0, 3.0, 2.0 ] },
+						"west": { "texture": "#pattern", "uv": [ 3.0, 1.0, 4.0, 2.0 ] },
+						"up": { "texture": "#pattern", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+						"down": { "texture": "#pattern", "uv": [ 1.0, 0.0, 2.0, 1.0 ] }
+					}
+				}
+			]
+		}
+	],
+	"animations": [
+	]
+}

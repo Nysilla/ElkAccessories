@@ -1,0 +1,28 @@
+[
+    {
+        "dependsOn": [ { "modid": "aculinaryartillery" } ],
+        "side": "Server",
+        "file": "aculinaryartillery:itemtypes/wearable/chefhead",
+        "op": "replace",
+        "path": "/attributesByType/@.*-(c-hat|c-hat1|c-hat2)",
+        "value": {
+            "attachableToEntity": {
+            "texturePrefixCode": "aculinaryartillery:*-hat*",
+            "categoryCode": "hat"
+            }
+        }
+    },
+    {
+        "dependsOn": [ { "modid": "aculinaryartillery" } ],
+        "side": "Server",
+        "file": "aculinaryartillery:itemtypes/wearable/l33that",
+        "op": "replace",
+        "path": "/attributes",
+        "value": {
+            "attachableToEntity": {
+            "texturePrefixCode": "aculinaryartillery:*-l33that",
+            "categoryCode": "hat"
+            }
+        }
+    }
+]

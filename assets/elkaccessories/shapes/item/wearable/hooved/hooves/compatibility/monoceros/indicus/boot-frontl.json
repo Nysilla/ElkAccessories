@@ -1,0 +1,124 @@
+{
+	"editor": {
+		"backDropShape": "",
+		"collapsedPaths": "Root/ORIGIN/BLanketMidTop,Root/Feet Guide,Root/Origin/Rear/Midsection/Chest/RightFrontStorage,Root/hideme,Root/Elk/Rear/Midsection,Root/ORIGINLinenSackFront,Root/Origin/Rear/Midsection/Chest/LeftFrontStorage,Root/ORIGINBasketRear,Root/FrontSockMain2,Root/Origin/Rear/Midsection/Chest/Neck/Neck2/Head/Jaw,Root/Elk/Rear/R Haunch/R LegUp/R LegLow/R Hind Pastern/R Hind Hoof,Root/Origin/Rear/Midsection/Chest/Neck/Neck2/Head/L Ear,Root/ORIGINSaddleBagsRightF,Root/FrontSockLow3,Root/Origin/Rear/Midsection/Chest/Neck/Neck2/Head/Horn attachment/R antler Hub,Root/BlanketHUMPN,Root/Elk/Rear/L Haunch/L LegUp/L LegLow/L Hind Pastern,Root/Origin/Rear/L Haunch/L LegUp/L LegLow/L Hind Pastern/L Hind Hoof,Root/ORIGINrearBags,Root/BlanketFBACK,Root/ORIGINStrapsRear,Root/ORIGINbasketSideN,Root/Elk/Rear/R Haunch/R LegUp/R LegLow/R Hind Pastern,Root/Origin/Rear/Midsection/Chest/Neck/Neck2/Head/Horn attachment,Root/Origin/Rear/Midsection/Chest/Neck/Neck2/Head/Horn attachment/L antler base 1,Root/SaddleFrontN,Root/Origin/Rear/Midsection/Chest/R Shoulder,Root/Origin/Rear/R Haunch,Root/Origin/Rear/Midsection/Chest/L Shoulder,Root/Elk/Rear/Midsection/Chest/L Shoulder/L ArmUp/L ArmMid/L ArmLow/L Front Pastern,Root/ORIGINbasketSideS,Root/Elk/Rear/Midsection/Chest/Neck/Neck2/Head/MouthUp,Root/ORIGINbridle,Root/ORIGINbackpackFrontL,Root/ORIGIN,Root/Origin/Rear/Midsection/Chest/Neck/Neck2/Head/Mouth up,Root/Origin/Rear/Midsection/Chest/Neck/Neck2/Head/R Ear,Root/Origin/Rear/L Haunch,Root/ORIGINLinenSackMiddle,Root/Origin/Rear/R Haunch/R LegUp/R LegLow/R Hind Pastern/R Hind Hoof,Root/ORIGINframe,Root/ORIGINChestStrap,Root/BlanketFrontN,Root/SaddleBackN,Root/Elk/Rear/L Haunch/L LegUp/L LegLow/L Hind Pastern/L Hind Hoof,Root/Horn attachment,Root/SockMain,Root/Elk/Rear/L Haunch,Root/Origin/Rear/Midsection/Chest/R Shoulder/R Arm/R Forearm/R Hand/R Fingers/R Front Hoof,Root/Origin/Rear/RearStorage,Root/Origin/Rear/Midsection/Chest/L Shoulder/L Arm/L Forearm/L Hand/L Fingers/L Front Hoof,Root/Elk/Rear,Root/Origin/Rear/R Thigh/R Calf/R Foot/R Toes/R Hind Hoof,Root/Elk/Rear/RearStorage,Root/Origin/Rear/L Thigh/L Calf/L Foot/L Toes/L Hind Hoof,Root/Elk/Rear/Midsection/Chest/R Shoulder/R ArmUp/R ArmMid/R ArmLow/R Front Pastern",
+		"allAngles": true,
+		"entityTextureMode": false
+	},
+	"textureWidth": 80,
+	"textureHeight": 116,
+	"textureSizes": {
+		"pattern": [12,8]
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "FrontSockMain",
+			"stepParentName": "L cannon",
+			"from": [ -0.05, -0.1, -0.05 ],
+			"to": [ 2.35, 4.1, 1.75 ],
+			"rotationOrigin": [ -0.05, -0.1, -0.05 ],
+			"faces": {
+				"north": { "texture": "#pattern", "uv": [ 0.0, 0.0, 2.0, 4.0 ] },
+				"east": { "texture": "#pattern", "uv": [ 0.0, 0.0, 1.5, 4.0 ] },
+				"south": { "texture": "#pattern", "uv": [ 0.0, 0.0, 2.0, 4.0 ] },
+				"west": { "texture": "#pattern", "uv": [ 0.0, 0.0, 1.5, 4.0 ] },
+				"up": { "texture": "#pattern", "uv": [ 6.0, 4.0, 8.0, 5.5 ] },
+				"down": { "texture": "#pattern", "uv": [ 0.0, 3.0, 2.0, 4.0 ], "autoUv": false }
+			},
+			"children": [
+				{
+					"name": "Strap1",
+					"from": [ 0.35, 2.9, -0.05 ],
+					"to": [ 2.45, 3.7, 1.85 ],
+					"rotationOrigin": [ 0.3, 2.9, -0.1 ],
+					"faces": {
+						"north": { "texture": "#pattern", "uv": [ 6.5, 0.0, 8.5, 0.5 ] },
+						"east": { "texture": "#pattern", "uv": [ 6.5, 0.0, 8.0, 0.5 ] },
+						"south": { "texture": "#pattern", "uv": [ 6.5, 0.0, 8.5, 0.5 ] },
+						"west": { "texture": "#pattern", "uv": [ 6.5, 0.0, 8.0, 0.5 ] },
+						"up": { "texture": "#pattern", "uv": [ 6.5, 0.0, 8.5, 1.5 ] },
+						"down": { "texture": "#pattern", "uv": [ 6.5, 0.0, 8.5, 1.5 ] }
+					}
+				},
+				{
+					"name": "Strap2",
+					"from": [ 0.35, 0.7, -0.05 ],
+					"to": [ 2.45, 1.5, 1.85 ],
+					"rotationOrigin": [ 0.3, 0.7, -0.1 ],
+					"faces": {
+						"north": { "texture": "#pattern", "uv": [ 6.5, 0.0, 8.5, 0.5 ] },
+						"east": { "texture": "#pattern", "uv": [ 6.5, 0.0, 8.0, 0.5 ] },
+						"south": { "texture": "#pattern", "uv": [ 6.5, 0.0, 8.5, 0.5 ] },
+						"west": { "texture": "#pattern", "uv": [ 6.5, 0.0, 8.0, 0.5 ] },
+						"up": { "texture": "#pattern", "uv": [ 6.5, 0.0, 8.5, 1.5 ] },
+						"down": { "texture": "#pattern", "uv": [ 6.5, 0.0, 8.5, 1.5 ] }
+					}
+				},
+				{
+					"name": "Top1",
+					"from": [ 0.0, 4.2, 0.0 ],
+					"to": [ 1.0, 4.7, 1.8 ],
+					"rotationOrigin": [ 0.0, 4.2, 0.0 ],
+					"faces": {
+						"north": { "texture": "#pattern", "uv": [ 6.0, 4.0, 7.0, 4.5 ] },
+						"east": { "texture": "#pattern", "uv": [ 6.0, 4.0, 7.5, 4.5 ] },
+						"south": { "texture": "#pattern", "uv": [ 6.0, 4.0, 7.0, 4.5 ] },
+						"west": { "texture": "#pattern", "uv": [ 6.0, 4.0, 7.5, 4.5 ] },
+						"up": { "texture": "#pattern", "uv": [ 6.0, 4.0, 7.5, 5.0 ], "rotation": 90 },
+						"down": { "texture": "#pattern", "uv": [ 0.0, 0.0, 1.5, 1.0 ], "rotation": 90, "enabled": false }
+					}
+				}
+			]
+		},
+		{
+			"name": "FrontSockLow",
+			"stepParentName": "L heel",
+			"from": [ -0.1, 0.7, -0.17 ],
+			"to": [ 1.7, 3.2, 0.48 ],
+			"rotationOrigin": [ -0.175, 3.1, -0.175 ],
+			"rotationX": 6.0,
+			"faces": {
+				"north": { "texture": "#pattern", "uv": [ 3.5, 4.5, 5.0, 7.0 ] },
+				"east": { "texture": "#pattern", "uv": [ 3.5, 4.5, 4.0, 7.0 ] },
+				"south": { "texture": "#pattern", "uv": [ 3.5, 4.5, 5.0, 7.0 ] },
+				"west": { "texture": "#pattern", "uv": [ 3.5, 4.5, 4.0, 7.0 ] },
+				"up": { "texture": "#pattern", "uv": [ 3.5, 4.5, 5.0, 5.0 ], "windMode": [-1,-1,-1,-1] },
+				"down": { "texture": "#pattern", "uv": [ 3.5, 6.5, 5.0, 7.0 ] }
+			},
+			"children": [
+				{
+					"name": "Back1",
+					"from": [ 1.4, 0.03, 0.05 ],
+					"to": [ 1.95, 2.53, 1.45 ],
+					"rotationOrigin": [ 1.45, 3.025, 0.1687 ],
+					"rotationX": -6.0,
+					"rotationZ": 3.0,
+					"faces": {
+						"north": { "texture": "#pattern", "uv": [ 0.0, 3.5, 0.5, 6.0 ] },
+						"east": { "texture": "#pattern", "uv": [ 0.0, 3.5, 1.0, 6.0 ] },
+						"south": { "texture": "#pattern", "uv": [ 0.5, 3.5, 1.0, 6.0 ] },
+						"west": { "texture": "#pattern", "uv": [ 0.0, 3.5, 1.0, 6.0 ] },
+						"up": { "texture": "#pattern", "uv": [ 0.0, 3.0, 0.5, 4.0 ], "windMode": [-1,-1,-1,-1] },
+						"down": { "texture": "#pattern", "uv": [ 0.0, 5.0, 0.5, 6.0 ] }
+					}
+				},
+				{
+					"name": "FrontSockLow1",
+					"from": [ 0.0, 0.0, 0.75 ],
+					"to": [ 1.8, 2.5, 1.4 ],
+					"rotationOrigin": [ 0.0, 3.96, 0.7434 ],
+					"rotationX": -12.0,
+					"faces": {
+						"north": { "texture": "#pattern", "uv": [ 3.5, 4.5, 5.0, 7.0 ] },
+						"east": { "texture": "#pattern", "uv": [ 3.5, 4.5, 4.0, 7.0 ] },
+						"south": { "texture": "#pattern", "uv": [ 3.5, 4.5, 5.0, 7.0 ] },
+						"west": { "texture": "#pattern", "uv": [ 3.5, 4.5, 4.0, 7.0 ] },
+						"up": { "texture": "#pattern", "uv": [ 3.5, 4.5, 5.0, 5.0 ], "windMode": [-1,-1,-1,-1] },
+						"down": { "texture": "#pattern", "uv": [ 3.5, 6.5, 5.0, 7.0 ] }
+					}
+				}
+			]
+		}
+	]}

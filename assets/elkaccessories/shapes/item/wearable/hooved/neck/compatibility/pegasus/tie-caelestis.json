@@ -1,0 +1,97 @@
+{
+	"editor": {
+		"backDropShape": "E:/Vintage Story Mod Reff/BREADCRUMBS/pegasus-adult",
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+		"color": [4,4]
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "Origin",
+			"stepParentName": "Neck1",
+			"from": [ -1.1, 8.7, 3.2 ],
+			"to": [ -0.1, 9.7, 4.2 ],
+			"rotationOrigin": [ -0.9, 6.9, 2.0 ],
+			"rotationZ": -22.5,
+			"faces": {
+				"north": { "texture": "#color", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "enabled": false },
+				"east": { "texture": "#color", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "windMode": [-1,-1,-1,-1], "enabled": false },
+				"south": { "texture": "#color", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "windMode": [-1,-1,-1,-1], "enabled": false },
+				"west": { "texture": "#color", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "windMode": [-1,-1,-1,-1], "enabled": false },
+				"up": { "texture": "#color", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "windMode": [-1,-1,-1,-1], "enabled": false },
+				"down": { "texture": "#color", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "windMode": [-1,-1,-1,-1], "enabled": false }
+			},
+			"children": [
+				{
+					"name": "Tie",
+					"from": [ -0.3, 0.0, 0.0 ],
+					"to": [ 0.2, 1.1, 1.0 ],
+					"rotationOrigin": [ -0.3, 0.0, 0.0 ],
+					"faces": {
+						"north": { "texture": "#color", "uv": [ 2.0, 0.0, 2.5, 1.0 ], "rotation": 180 },
+						"east": { "texture": "#color", "uv": [ 2.0, 0.0, 3.0, 1.0 ], "rotation": 180 },
+						"south": { "texture": "#color", "uv": [ 2.5, 0.0, 3.0, 1.0 ], "rotation": 180 },
+						"west": { "texture": "#color", "uv": [ 2.0, 0.0, 3.0, 1.0 ], "rotation": 180 },
+						"up": { "texture": "#color", "uv": [ 2.0, 0.0, 3.0, 0.5 ], "rotation": 90 },
+						"down": { "texture": "#color", "uv": [ 2.0, 0.5, 3.0, 1.0 ], "rotation": 90 }
+					},
+					"children": [
+						{
+							"name": "Tie2",
+							"from": [ -0.4, -0.3, 0.1 ],
+							"to": [ 0.1, 0.4, 0.9 ],
+							"rotationOrigin": [ -0.4, -0.3, 0.1 ],
+							"rotationZ": -45.0,
+							"faces": {
+								"north": { "texture": "#color", "uv": [ 2.0, 0.5, 2.5, 1.0 ] },
+								"east": { "texture": "#color", "uv": [ 2.0, 0.0, 2.5, 0.5 ] },
+								"south": { "texture": "#color", "uv": [ 2.5, 0.5, 3.0, 1.0 ] },
+								"west": { "texture": "#color", "uv": [ 2.5, 0.0, 3.0, 0.5 ] },
+								"up": { "texture": "#color", "uv": [ 2.0, 0.0, 2.5, 0.5 ] },
+								"down": { "texture": "#color", "uv": [ 2.0, 0.5, 2.5, 1.0 ] }
+							},
+							"children": [
+								{
+									"name": "Base",
+									"from": [ -0.1, -2.5, -0.35 ],
+									"to": [ 0.6, 0.0, 1.15 ],
+									"rotationOrigin": [ 0.6, 0.0, -0.3 ],
+									"rotationZ": -10.0,
+									"faces": {
+										"north": { "texture": "#color", "uv": [ 0.0, 0.0, 0.5, 2.5 ] },
+										"east": { "texture": "#color", "uv": [ 0.0, 0.0, 1.5, 2.5 ] },
+										"south": { "texture": "#color", "uv": [ 1.0, 0.0, 1.5, 2.5 ] },
+										"west": { "texture": "#color", "uv": [ 0.0, 0.0, 1.5, 2.5 ] },
+										"up": { "texture": "#color", "uv": [ 0.0, 0.0, 1.5, 0.5 ], "rotation": 90 },
+										"down": { "texture": "#color", "uv": [ 0.0, 2.0, 1.5, 2.5 ], "rotation": 90 }
+									},
+									"children": [
+										{
+											"name": "End",
+											"from": [ 0.1, -0.4, 0.25 ],
+											"to": [ 0.6, 0.0, 1.25 ],
+											"rotationOrigin": [ 0.1, -0.4, 0.2 ],
+											"faces": {
+												"north": { "texture": "#color", "uv": [ 2.0, 1.5, 2.5, 2.0 ] },
+												"east": { "texture": "#color", "uv": [ 2.0, 1.5, 3.0, 2.0 ] },
+												"south": { "texture": "#color", "uv": [ 2.5, 1.5, 3.0, 2.0 ] },
+												"west": { "texture": "#color", "uv": [ 2.0, 1.5, 3.0, 2.0 ] },
+												"up": { "texture": "#color", "uv": [ 2.0, 1.5, 3.0, 2.0 ], "rotation": 90 },
+												"down": { "texture": "#color", "uv": [ 2.0, 1.5, 3.0, 2.0 ], "rotation": 90 }
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]}

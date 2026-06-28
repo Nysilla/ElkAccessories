@@ -1,0 +1,48 @@
+[
+  {
+    "ingredientPattern": "MBA",
+    "ingredients": {
+      "M": {
+        "type": "item",
+        "code": "game:ore-cinnabar"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:ingot-*",
+        "name": "metal",
+        "allowedVariants": [
+          "bismuth",
+          "bismuthbronze",
+          "blackbronze",
+          "brass",
+          "chromium",
+          "copper",
+          "cupronickel",
+          "electrum",
+          "gold",
+          "iron",
+          "lead",
+          "meteoriciron",
+          "molybdochalkos",
+          "nickel",
+          "platinum",
+          "silver",
+          "steel",
+          "tin",
+          "tinbronze",
+          "zinc"
+        ]
+      },
+      "A": {
+        "type": "item",
+        "code": "game:ore-lapislazuli"
+      } 
+    },
+    "width": 3,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-head-crown-{metal}"
+    }
+  }
+]

@@ -1,0 +1,565 @@
+[
+  {
+    "ingredientPattern": "CBA,T_T",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:cloth-blue"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:hoovedwearables-blanket-alchemist"
+      },
+      "A": {
+        "type": "item",
+        "code": "game:cloth-yellow"
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine"
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-head-hunterhat-alchemist"
+    }
+  },
+  {
+    "ingredientPattern": "CBC,T_T",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:cloth-blue"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:hoovedwearables-blanket-azure-embroidered"
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine"
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-head-hunterhat-azure-embroidered"
+    }
+  },
+  {
+    "ingredientPattern": "CBA,T_T",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:cloth-brown"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:hoovedwearables-blanket-blackguard"
+      },
+      "A": {
+        "type": "item",
+        "code": "game:cloth-blue"
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine"
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-head-hunterhat-blackguard"
+    }
+  },
+  {
+    "ingredientPattern": "CBA,T_T",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:cloth-white"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:hoovedwearables-blanket-chateau"
+      },
+      "A": {
+        "type": "item",
+        "code": "game:cloth-gray"
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine"
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-head-hunterhat-chateau"
+    }
+  },
+  {
+    "ingredientPattern": "CBA,T_T",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:cloth-blue"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:hoovedwearables-blanket-commoner"
+      },
+      "A": {
+        "type": "item",
+        "code": "game:cloth-brown"
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine"
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-head-hunterhat-commoner"
+    }
+  },
+  {
+    "ingredientPattern": "CBA,T_T",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:cloth-red"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:hoovedwearables-blanket-deepnoble"
+      },
+      "A": {
+        "type": "item",
+        "code": "game:cloth-white"
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine"
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-head-hunterhat-deepnoble"
+    }
+  },
+  {
+    "ingredientPattern": "CBA,T_T",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:cloth-brown"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:hoovedwearables-blanket-earthtone"
+      },
+      "A": {
+        "type": "item",
+        "code": "game:cloth-blue"
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine"
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-head-hunterhat-earthtone"
+    }
+  },
+  {
+    "ingredientPattern": "CBA,T_T",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:cloth-green"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:hoovedwearables-blanket-fancygreen"
+      },
+      "A": {
+        "type": "item",
+        "code": "game:cloth-yellow"
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine"
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-head-hunterhat-fancygreen"
+    }
+  },
+  {
+    "ingredientPattern": "CBA,T_T",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:cloth-blue"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:hoovedwearables-blanket-forlorn"
+      },
+      "A": {
+        "type": "item",
+        "code": "game:cloth-green"
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine"
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-head-hunterhat-forlorn"
+    }
+  },
+  {
+    "ingredientPattern": "CBA,T_T",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:cloth-red"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:hoovedwearables-blanket-herder"
+      },
+      "A": {
+        "type": "item",
+        "code": "game:cloth-blue"
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine"
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-head-hunterhat-herder"
+    }
+  },
+  {
+    "ingredientPattern": "CBA,T_T",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:hide-raw-medium"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:hoovedwearables-blanket-hide"
+      },
+      "A": {
+        "type": "item",
+        "code": "game:cloth-gray"
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine"
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-head-hunterhat-hide"
+    }
+  },
+  {
+    "ingredientPattern": "CBA,T_T",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:cloth-red"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:hoovedwearables-blanket-king"
+      },
+      "A": {
+        "type": "item",
+        "code": "game:cloth-yellow"
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine"
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-head-hunterhat-king"
+    }
+  },
+  {
+    "ingredientPattern": "CBA,T_T",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:cloth-yellow"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:hoovedwearables-blanket-lackey"
+      },
+      "A": {
+        "type": "item",
+        "code": "game:cloth-plain"
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine"
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-head-hunterhat-lackey"
+    }
+  },
+  {
+    "ingredientPattern": "CBA,T_T",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:cloth-black"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:hoovedwearables-blanket-merchant"
+      },
+      "A": {
+        "type": "item",
+        "code": "game:cloth-white"
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine"
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-head-hunterhat-merchant"
+    }
+  },
+  {
+    "ingredientPattern": "CBA,T_T",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:cloth-red"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:hoovedwearables-blanket-messenger"
+      },
+      "A": {
+        "type": "item",
+        "code": "game:cloth-blue"
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine"
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-head-hunterhat-messenger"
+    }
+  },
+  {
+    "ingredientPattern": "CBA,T_T",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:cloth-blue"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:hoovedwearables-blanket-plaidblue"
+      },
+      "A": {
+        "type": "item",
+        "code": "game:cloth-brown"
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine"
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-head-hunterhat-plaidblue"
+    }
+  },
+  {
+    "ingredientPattern": "CBA,T_T",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:cloth-plain"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:hoovedwearables-blanket-plaincloth"
+      },
+      "A": {
+        "type": "item",
+        "code": "game:cloth-plain"
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine"
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-head-hunterhat-plaincloth"
+    }
+  },
+  {
+    "ingredientPattern": "CBA,T_T",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:cloth-green"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:hoovedwearables-blanket-prince"
+      },
+      "A": {
+        "type": "item",
+        "code": "game:cloth-yellow"
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine"
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-head-hunterhat-prince"
+    }
+  },
+  {
+    "ingredientPattern": "CBA,T_T",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:cloth-blue"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:hoovedwearables-blanket-squire"
+      },
+      "A": {
+        "type": "item",
+        "code": "game:cloth-red"
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine"
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-head-hunterhat-squire"
+    }
+  },
+  {
+    "ingredientPattern": "CBA,T_T",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:cloth-plain"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:hoovedwearables-blanket-survivor"
+      },
+      "A": {
+        "type": "item",
+        "code": "game:cloth-brown"
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine"
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-head-hunterhat-survivor"
+    }
+  },
+  {
+    "ingredientPattern": "CBA,T_T",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:cloth-brown"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:hoovedwearables-blanket-wool"
+      },
+      "A": {
+        "type": "item",
+        "code": "game:cloth-red"
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine"
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-head-hunterhat-wool"
+    }
+  }
+]

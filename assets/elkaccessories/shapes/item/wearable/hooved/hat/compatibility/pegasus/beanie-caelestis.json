@@ -1,0 +1,80 @@
+{
+	"editor": {
+		"backDropShape": "",
+		"collapsedPaths": "",
+		"allAngles": true,
+		"entityTextureMode": false
+	},
+	"textureWidth": 32,
+	"textureHeight": 32,
+	"textureSizes": {
+		"blanket": [16,8]
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "origin",
+			"stepParentName": "Head",
+			"from": [ 2.88, 6.24, 2.88 ],
+			"to": [ 2.88, 6.24, 2.88 ],
+			"rotationOrigin": [ 2.88, 6.24, 2.88 ],
+			"faces": {
+				"north": { "texture": "#blanket", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false, "enabled": false },
+				"east": { "texture": "#blanket", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false, "enabled": false },
+				"south": { "texture": "#blanket", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false, "enabled": false },
+				"west": { "texture": "#blanket", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false, "enabled": false },
+				"up": { "texture": "#blanket", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false, "enabled": false },
+				"down": { "texture": "#blanket", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false, "enabled": false }
+			},
+			"children": [
+				{
+					"name": "Base",
+					"from": [ -3.15, -0.252, -3.528 ],
+					"to": [ 3.78, 1.638, 3.402 ],
+					"rotationOrigin": [ 0.63, -0.252, 0.252 ],
+					"rotationZ": -8.0,
+					"faces": {
+						"north": { "texture": "#blanket", "uv": [ 0.0, 6.5, 5.5, 8.0 ], "autoUv": false },
+						"east": { "texture": "#blanket", "uv": [ 0.0, 6.5, 5.5, 8.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"south": { "texture": "#blanket", "uv": [ 0.0, 6.5, 5.5, 8.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"west": { "texture": "#blanket", "uv": [ 0.0, 6.5, 5.5, 8.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"up": { "texture": "#blanket", "uv": [ 8.5, 0.0, 14.0, 5.5 ], "autoUv": false },
+						"down": { "texture": "#blanket", "uv": [ 0.0, 0.0, 5.5, 5.5 ], "autoUv": false }
+					},
+					"children": [
+						{
+							"name": "top",
+							"from": [ 0.378, 1.764, 0.63 ],
+							"to": [ 6.426, 4.284, 6.3 ],
+							"rotationOrigin": [ 0.378, 1.764, 0.63 ],
+							"faces": {
+								"north": { "texture": "#blanket", "uv": [ 8.5, 1.5, 13.0, 3.5 ], "autoUv": false },
+								"east": { "texture": "#blanket", "uv": [ 8.5, 1.5, 13.0, 3.5 ], "autoUv": false },
+								"south": { "texture": "#blanket", "uv": [ 8.5, 1.5, 13.0, 3.5 ], "autoUv": false },
+								"west": { "texture": "#blanket", "uv": [ 8.5, 1.5, 13.0, 3.5 ], "autoUv": false },
+								"up": { "texture": "#blanket", "uv": [ 8.5, 0.0, 13.0, 4.5 ], "autoUv": false },
+								"down": { "texture": "#blanket", "uv": [ 8.5, 0.0, 13.0, 4.5 ], "autoUv": false }
+							},
+							"children": [
+								{
+									"name": "pompom",
+									"from": [ 2.016, 1.89, 2.016 ],
+									"to": [ 3.906, 3.78, 3.906 ],
+									"rotationOrigin": [ 2.016, 1.89, 2.016 ],
+									"faces": {
+										"north": { "texture": "#blanket", "uv": [ 6.0, 0.5, 7.5, 2.0 ], "autoUv": false },
+										"east": { "texture": "#blanket", "uv": [ 6.5, 0.5, 8.0, 2.0 ], "autoUv": false },
+										"south": { "texture": "#blanket", "uv": [ 6.5, 0.5, 8.0, 2.0 ], "autoUv": false },
+										"west": { "texture": "#blanket", "uv": [ 6.5, 0.5, 8.0, 2.0 ], "autoUv": false },
+										"up": { "texture": "#blanket", "uv": [ 6.5, 0.5, 8.0, 2.0 ], "autoUv": false },
+										"down": { "texture": "#blanket", "uv": [ 6.5, 0.5, 8.0, 2.0 ], "autoUv": false }
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]}

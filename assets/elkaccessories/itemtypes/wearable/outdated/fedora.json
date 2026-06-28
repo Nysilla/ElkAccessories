@@ -1,0 +1,51 @@
+{
+  "code": "fedora",
+  "variantgroups": [
+    {
+      "code": "type",
+      "states": [
+        "black",
+        "brown",
+        "white"
+      ]
+    }
+  ],
+  "shape": {
+    "base": "item/wearable/hooved/hat/fedora-elk"
+  },
+    "attributes": {
+    "attachableToEntity": {
+      "texturePrefixCode": "elkaccessories:fedora-{type}",
+      "categoryCode": "hat",
+      "attachedShapeBySlotCodeByType": {
+        "*": {"hat": {"base": "item/wearable/hooved/hat/fedora-elk"}}
+      }
+    },
+    "handbook": {
+        "groupBy": ["fedora-*"]
+      }
+  },
+  "texturesByType": {
+    "*": {"color": {"base": "item/fedora/{type}"}}
+  },
+  "texture": { 
+    "base": "item/fedora/black"
+  },
+  "maxStackSize": 1,
+  "guiTransformByType": {
+    "*": {
+      "translation": { "x": 7, "y": 9, "z": 0 },
+      "rotation": { "x": -37, "y": -44, "z": -180 },
+      "origin": { "x": 0.2, "y": 0.1, "z": 0 },
+      "scale": 3.24
+    }
+  },
+  	"tpHandTransformByType": {
+      "*": {
+      "translation": { "x": -0.4, "y": -0.3, "z": -0.1 },
+      "rotation": { "x": 0, "y": -180, "z": -17 },
+      "origin": { "x": 0, "y": 0, "z": 0 },
+      "scale": 0.71
+    }
+	}
+}

@@ -1,0 +1,109 @@
+[
+  {
+    "ingredientPattern": "CBA",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:cloth-red"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:cloth-yellow"
+      },
+      "A": {
+        "type": "item",
+        "code": "game:cloth-blue"
+      } 
+    },
+    "width": 3,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-head-propellerhat-classic"
+    }
+  },
+  {
+    "ingredientPattern": "CBA",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:cloth-gray"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:cloth-black"
+      },
+      "A": {
+        "type": "item",
+        "code": "game:cloth-white"
+      } 
+    },
+    "width": 3,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-head-propellerhat-monochrome"
+    }
+  },
+
+  {
+    "ingredientPattern": "S",
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "hoovedwearables-head-propellerhatsmol-classic"
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-head-propellerhat-classic"
+    }
+  },
+  {
+    "ingredientPattern": "S",
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "hoovedwearables-head-propellerhatsmol-monochrome"
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-head-propellerhat-monochrome"
+    }
+  },
+  {
+    "ingredientPattern": "S",
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "hoovedwearables-head-propellerhat-classic"
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-head-propellerhatsmol-classic"
+    }
+  },
+  {
+    "ingredientPattern": "S",
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "hoovedwearables-head-propellerhat-monochrome"
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-head-propellerhatsmol-monochrome"
+    }
+  }
+]

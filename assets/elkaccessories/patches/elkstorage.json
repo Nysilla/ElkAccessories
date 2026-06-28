@@ -1,0 +1,321 @@
+[
+  {
+    "file": "game:shapes/entity/animal/mammal/hooved/deer/elk/female",
+    "op": "replace",
+    "path": "/elements/0/children/0/children/3/children/0/children/0/children/0/children/0/children/6",
+    "value": {
+      "name": "HeadStorage",
+      "from": [ 0.0, 0.0, -0.75 ],
+			"to": [ 4.0, 3.5, 5.25 ],
+			"uv": [ 0.0, 0.0 ],
+			"rotationOrigin": [ 0.0, 0.0, -0.7 ],
+      "faces": {
+      },
+      "attachmentpoints": [
+        {
+          "code": "HeadAP",
+          "posX": "0.0",
+          "posY": "0.0",
+          "posZ": "0.0",
+          "rotationX": "0.0",
+          "rotationY": "0.0",
+          "rotationZ": "0.0"
+        }
+      ]
+    }
+  },
+
+
+  {
+    "file": "game:shapes/entity/animal/mammal/hooved/deer/elk/female",
+    "op": "addmerge",
+    "path": "/elements/0/children/0/children/3/children/0/children/0/children/0/children/0/children",
+    "value": [
+      {
+        "name": "HatStorage",
+        "from": [ 0.0, 4.0, -0.75 ],
+				"to": [ 4.0, 6.0, 5.25 ],
+				"uv": [ 0.0, 0.0 ],
+				"rotationOrigin": [ 2.0, 4.0, 2.3 ],
+        "faces": {
+        },
+        "attachmentpoints": [
+          {
+            "code": "HatAP",
+            "posX": "0.0",
+            "posY": "0.0",
+            "posZ": "0.0",
+            "rotationX": "0.0",
+            "rotationY": "0.0",
+            "rotationZ": "0.0"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file": "game:shapes/entity/animal/mammal/hooved/deer/elk/female",
+    "op": "addmerge",
+    "path": "/elements/0/children/0/children/1/children/0/children/0/children",
+    "value": [
+      {
+        "name": "RearLeftSockStorage",
+        "from": [ -0.1, 0.0, -0.1 ],
+        "to": [ 1.6, 4.0, 1.6 ],
+        "rotationOrigin": [ -0.1, 0.0, -0.1 ],
+        "faces": {
+          "north": { "texture": "#skin", "uv": [ 0.0, 1.5, 1.5, 3.5 ], "enabled": false },
+          "east": { "texture": "#skin", "uv": [ 1.5, 1.5, 3.0, 3.5 ], "enabled": false },
+          "south": { "texture": "#skin", "uv": [ 1.5, 1.5, 3.0, 3.5 ], "enabled": false },
+          "west": { "texture": "#skin", "uv": [ 1.5, 1.5, 3.0, 3.5 ], "enabled": false },
+          "up": { "texture": "#skin", "uv": [ 0.0, 0.0, 1.5, 1.5 ], "enabled": false },
+          "down": { "texture": "#skin", "uv": [ 1.5, 0.0, 3.0, 1.5 ], "enabled": false }
+        },
+        "attachmentpoints": [
+          {
+            "code": "RLSockAP",
+            "posX": "0.0",
+            "posY": "0.0",
+            "posZ": "0.0",
+            "rotationX": "0.0",
+            "rotationY": "0.0",
+            "rotationZ": "0.0"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file": "game:shapes/entity/animal/mammal/hooved/deer/elk/female",
+    "op": "addmerge",
+    "path": "/elements/0/children/0/children/2/children/0/children/0/children",
+    "value": [
+      {
+        "name": "RearRightSockStorage",
+        "from": [ -0.1, 0.0, -0.1 ],
+        "to": [ 1.6, 4.0, 1.6 ],
+        "rotationOrigin": [ -0.1, 0.0, -0.1 ],
+        "faces": {
+          "north": { "texture": "#skin", "uv": [ 0.0, 1.5, 1.5, 3.5 ], "enabled": false },
+          "east": { "texture": "#skin", "uv": [ 1.5, 1.5, 3.0, 3.5 ], "enabled": false },
+          "south": { "texture": "#skin", "uv": [ 1.5, 1.5, 3.0, 3.5 ], "enabled": false },
+          "west": { "texture": "#skin", "uv": [ 1.5, 1.5, 3.0, 3.5 ], "enabled": false },
+          "up": { "texture": "#skin", "uv": [ 0.0, 0.0, 1.5, 1.5 ], "enabled": false },
+          "down": { "texture": "#skin", "uv": [ 1.5, 0.0, 3.0, 1.5 ], "enabled": false }
+        },
+        "attachmentpoints": [
+          {
+            "code": "RRSockAP",
+            "posX": "0.0",
+            "posY": "0.0",
+            "posZ": "0.0",
+            "rotationX": "0.0",
+            "rotationY": "0.0",
+            "rotationZ": "0.0"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file": "game:shapes/entity/animal/mammal/hooved/deer/elk/female",
+    "op": "addmerge",
+    "path": "/elements/0/children/0/children/3/children/0/children/1/children/0/children/0/children/0/children",
+    "value": [
+      {
+        "name": "FrontLeftSockStorage",
+        "from": [ -0.1, 0.0, -0.1 ],
+        "to": [ 1.8, 4.0, 1.4 ],
+        "rotationOrigin": [ -0.1, 0.0, -0.1 ],
+        "faces": {
+          "north": { "texture": "#skin", "uv": [ 0.0, 1.5, 1.5, 5.5 ], "enabled": false },
+          "east": { "texture": "#skin", "uv": [ 1.5, 1.5, 3.0, 5.5 ], "enabled": false },
+          "south": { "texture": "#skin", "uv": [ 1.5, 1.5, 3.0, 5.5 ], "enabled": false },
+          "west": { "texture": "#skin", "uv": [ 1.5, 1.5, 3.0, 5.5 ], "enabled": false },
+          "up": { "texture": "#skin", "uv": [ 0.0, 0.0, 1.5, 1.5 ], "enabled": false },
+          "down": { "texture": "#skin", "uv": [ 1.5, 0.0, 3.0, 1.5 ], "enabled": false }
+        },
+        "attachmentpoints": [
+          {
+            "code": "FLSockAP",
+            "posX": "0.0",
+            "posY": "0.0",
+            "posZ": "0.0",
+            "rotationX": "0.0",
+            "rotationY": "0.0",
+            "rotationZ": "0.0"
+          }
+        ]
+			}
+    ]
+  },
+  {
+    "file": "game:shapes/entity/animal/mammal/hooved/deer/elk/female",
+    "op": "addmerge",
+    "path": "/elements/0/children/0/children/3/children/0/children/2/children/0/children/0/children/0/children",
+    "value": [
+      {
+        "name": "FrontRightSockStorage",
+        "from": [ -0.1, -0.1, -0.1 ],
+        "to": [ 1.8, 3.9, 1.4 ],
+        "rotationOrigin": [ -0.1, -0.1, -0.1 ],
+        "faces": {
+          "north": { "texture": "#skin", "uv": [ 0.0, 1.5, 1.5, 5.5 ], "enabled": false },
+          "east": { "texture": "#skin", "uv": [ 1.5, 1.5, 3.0, 5.5 ], "enabled": false },
+          "south": { "texture": "#skin", "uv": [ 1.5, 1.5, 3.0, 5.5 ], "enabled": false },
+          "west": { "texture": "#skin", "uv": [ 1.5, 1.5, 3.0, 5.5 ], "enabled": false },
+          "up": { "texture": "#skin", "uv": [ 0.0, 0.0, 1.5, 1.5 ], "enabled": false },
+          "down": { "texture": "#skin", "uv": [ 1.5, 0.0, 3.0, 1.5 ], "enabled": false }
+        },
+        "attachmentpoints": [
+          {
+            "code": "FRSockAP",
+            "posX": "0.0",
+            "posY": "0.0",
+            "posZ": "0.0",
+            "rotationX": "0.0",
+            "rotationY": "0.0",
+            "rotationZ": "0.0"
+          }
+        ]
+			}
+    ]
+  },
+  {
+    "file": "game:shapes/entity/animal/mammal/hooved/deer/elk/female",
+    "op": "addmerge",
+    "path": "/elements/0/children/0/children/3/children",
+    "value": [
+      {
+        "name": "RightSaddlePinStorage",
+									"from": [ -1.0, 8.7, -1.5 ],
+									"to": [ 1.0, 10.7, 0.5 ],
+									"uv": [ 2.5, 0.0 ],
+									"rotationOrigin": [ -1.0, 8.7, 3.5 ],
+									"faces": {
+									},
+									"attachmentpoints": [
+										{
+											"code": "RSaddlePinAP",
+											"posX": "0.0","posY": "0.0","posZ": "0.0",
+											"rotationX": "0.0","rotationY": "0.0","rotationZ": "0.0"
+										}
+        ]
+      }
+    ]
+  },
+  {
+    "file": "game:shapes/entity/animal/mammal/hooved/deer/elk/female",
+    "op": "addmerge",
+    "path": "/elements/0/children/0/children/3/children",
+    "value": [
+      {
+        "name": "LeftSaddlePinStorage",
+          "from": [ -1.0, 8.7, 6.8 ],
+          "to": [ 1.0, 10.7, 8.8 ],
+          "uv": [ 2.5, 0.0 ],
+          "rotationOrigin": [ -1.0, 8.7, 11.8 ],
+          "faces": {
+          },
+          "attachmentpoints": [
+            {
+              "code": "LSaddlePinAP",
+              "posX": "0.0","posY": "0.0","posZ": "0.0",
+              "rotationX": "0.0","rotationY": "0.0","rotationZ": "0.0"
+            }
+        ]
+      }
+    ]
+  },
+  {
+    "file": "game:shapes/entity/animal/mammal/hooved/deer/elk/female",
+    "op": "addmerge",
+    "path": "/elements/0/children/0/children",
+    "value": [
+      {
+        "name": "TailStorage",
+        "from": [ 7.8, 10.1, 1.8 ],
+        "to": [ 8.8, 12.1, 6.3 ],
+        "uv": [ 0.0, 0.0 ],
+        "rotationOrigin": [ 7.8, 10.1, 1.8 ],
+        "faces": {
+        },
+        "attachmentpoints": [
+          {
+            "code": "TailAP",
+            "posX": "0.0",
+            "posY": "0.0",
+            "posZ": "0.0",
+            "rotationX": "0.0",
+            "rotationY": "0.0",
+            "rotationZ": "0.0"
+          }
+        ]
+      }
+    ]
+  },
+
+
+  {
+    "side": "Server",
+    "file": "game:entities/animal/mammal/hooved/elk-tamed",
+    "op": "addmerge",
+    "path": "/behaviorConfigs/rideableaccessories/wearableSlots",
+    "value": [
+      {
+        "code": "hat",
+        "forCategoryCodes": [ "hat" ],
+        "attachmentPointCode": "HatAP"
+      },
+      {
+        "code": "rightsaddlepin",
+        "forCategoryCodes": [ "saddlepin" ],
+        "attachmentPointCode": "RSaddlePinAP"
+      },
+      {
+        "code": "leftsaddlepin",
+        "forCategoryCodes": [ "saddlepin" ],
+        "attachmentPointCode": "LSaddlePinAP"
+      },
+      {
+        "code": "rearleftsock",
+        "forCategoryCodes": [ "sock" ],
+        "attachmentPointCode": "RLSockAP"
+      },
+      {
+        "code": "rearrightsock",
+        "forCategoryCodes": [ "sock" ],
+        "attachmentPointCode": "RRSockAP"
+      },
+      {
+        "code": "frontleftsock",
+        "forCategoryCodes": [ "sock" ],
+        "attachmentPointCode": "FLSockAP"
+      },
+      {
+        "code": "frontrightsock",
+        "forCategoryCodes": [ "sock" ],
+        "attachmentPointCode": "FRSockAP"
+      },
+      {
+        "code": "tail",
+        "forCategoryCodes": [ "tail" ],
+        "attachmentPointCode": "TailAP"
+      }
+    ]
+  },
+  {
+    "side": "Server",
+    "file": "game:entities/animal/mammal/hooved/elk-tamed",
+    "op": "addmerge",
+    "path": "/behaviorConfigs/selectionboxes/selectionBoxes",
+    "value": [ "HatAP", "RSaddlePinAP","LSaddlePinAP", "RLSockAP","RRSockAP","FLSockAP","FRSockAP", "TailAP" ]
+  },
+  {
+    "side": "Server",
+    "file": "game:entities/animal/mammal/hooved/elk-tamed",
+    "op": "addmerge",
+    "path": "/behaviorConfigs/rideableaccessories/wearableSlots/2/forCategoryCodes",
+    "value": [ "collar" ]
+  }
+]

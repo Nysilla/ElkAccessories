@@ -1,0 +1,207 @@
+[
+  {
+    "dependsOn": [ { "modid": "bell" } ],
+    "file": "bell:shapes/entity/bellmini",
+    "op": "addmerge",
+    "path": "/elements/0/children/0/children/0/children/1/children/0/children/0/children",
+    "value": [
+      {
+        "name": "Neck Storage",
+        "from": [ -0.1, 0.6, -0.92 ],
+        "to": [ 1.7, 1.6, 0.58 ],
+        "uv": [ 0.0, 0.0 ],
+        "rotationOrigin": [ -0.1, 0.6, -0.9 ],
+        "rotationX": 30.0,
+        "faces": {
+        },
+        "attachmentpoints": [
+          {
+            "code": "NeckAP",
+            "posX": "0.0","posY": "0.0","posZ": "0.0",
+            "rotationX": "0.0","rotationY": "0.0","rotationZ": "0.0"
+          }
+        ]
+																		
+      }
+    ]
+  },
+  {
+    "dependsOn": [ { "modid": "bell" } ],
+    "file": "bell:shapes/entity/bellmini",
+    "op": "addmerge",
+    "path": "/elements/0/children/0/children/0/children/1/children/0/children/2/children/2/children/2/children/2/children/0/children/0/children",
+    "value": [
+      {
+        "name": "Sock Storage",
+        "from": [ 1.2, -0.1, -0.1 ],
+        "to": [ 3.7, 0.6, 0.6 ],
+        "uv": [ 0.0, 0.0 ],
+        "rotationOrigin": [ 1.2, -0.1, -0.1 ],
+        "faces": {
+        },
+        "attachmentpoints": [
+          {
+            "code": "SockAP",
+            "posX": "0.0","posY": "0.0","posZ": "0.0",
+            "rotationX": "0.0","rotationY": "0.0","rotationZ": "0.0"
+          }
+        ]
+      }
+    ]
+  },
+
+
+
+  
+  {
+    "dependsOn": [ { "modid": "bell" } ],
+    "side": "Server",
+    "file": "bell:entities/bellpet",
+    "op": "addmerge",
+    "path": "/behaviorConfigs/rideableaccessories/wearableSlots",
+    "value": [
+      {
+        "code": "sock-bellmini",
+        "forCategoryCodes": [ "sock" ],
+        "attachmentPointCode": "SockAP"
+      },
+      {
+        "code": "neck-bellmini",
+        "forCategoryCodes": [ "collar" ],
+        "attachmentPointCode": "NeckAP"
+      }
+    ]
+  },
+  {
+    "dependsOn": [ { "modid": "bell" } ],
+    "side": "Server",
+    "file": "bell:entities/bellpet",
+    "op": "addmerge",
+    "path": "/behaviorConfigs/selectionboxes/selectionBoxes",
+    "value": [ "SockAP", "NeckAP" ]
+  },
+  
+  
+  {
+    "dependsOn": [ { "modid": "bell" } ],
+    "side": "Server",
+    "file": "elkaccessories:itemtypes/wearable/outdated/beanie",
+    "op": "addmerge",
+    "path": "/attributes/attachableToEntity/attachedShapeBySlotCodeByType/*",
+    "value": {"bellhat": {"base": "item/wearable/hooved/hat/compatibility/bell/beanie-bellmini"}}
+  },
+  {
+    "dependsOn": [ { "modid": "bell" } ],
+    "side": "Server",
+    "file": "elkaccessories:itemtypes/wearable/outdated/bowtie",
+    "op": "addmerge",
+    "path": "/attributes/attachableToEntity/attachedShapeBySlotCodeByType/*",
+    "value": {"neck-bellmini": {"base": "item/wearable/hooved/neck/compatibility/bell/bowtie-bellmini"}}
+  },
+  {
+    "dependsOn": [ { "modid": "bell" } ],
+    "side": "Server",
+    "file": "elkaccessories:itemtypes/wearable/outdated/crown",
+    "op": "addmerge",
+    "path": "/attributes/attachableToEntity/attachedShapeBySlotCodeByType/*",
+    "value": {"bellhat": {"base": "item/wearable/hooved/hat/compatibility/bell/crown-bellmini"}}
+  },
+  {
+    "dependsOn": [ { "modid": "bell" } ],
+    "side": "Server",
+    "file": "elkaccessories:itemtypes/wearable/outdated/fedora",
+    "op": "addmerge",
+    "path": "/attributes/attachableToEntity/attachedShapeBySlotCodeByType/*",
+    "value": {"bellhat": {"base": "item/wearable/hooved/hat/compatibility/bell/fedora-bellmini"}}
+  },
+  {
+    "dependsOn": [ { "modid": "bell" } ],
+    "side": "Server",
+    "file": "elkaccessories:itemtypes/wearable/outdated/hunterhat",
+    "op": "addmerge",
+    "path": "/attributes/attachableToEntity/attachedShapeBySlotCodeByType/*",
+    "value": {"bellhat": {"base": "item/wearable/hooved/hat/compatibility/bell/hunterhat-bellmini"}}
+  },
+  {
+    "dependsOn": [ { "modid": "bell" } ],
+    "side": "Server",
+    "file": "elkaccessories:itemtypes/wearable/outdated/propellerhat",
+    "op": "addmerge",
+    "path": "/attributes/attachableToEntity/attachedShapeBySlotCodeByType/*",
+    "value": {"bellhat": {"base": "item/wearable/hooved/hat/compatibility/bell/propellerhat-bellmini"}}
+  },
+  {
+    "dependsOn": [ { "modid": "bell" } ],
+    "side": "Server",
+    "file": "elkaccessories:itemtypes/wearable/outdated/propellerhatsmol",
+    "op": "addmerge",
+    "path": "/attributes/attachableToEntity/attachedShapeBySlotCodeByType/*",
+    "value": {"bellhat": {"base": "item/wearable/hooved/hat/compatibility/bell/propellerhatsmol-bellmini"}}
+  },
+  {
+    "dependsOn": [ { "modid": "bell" } ],
+    "side": "Server",
+    "file": "elkaccessories:itemtypes/wearable/outdated/scarf",
+    "op": "addmerge",
+    "path": "/attributes/attachableToEntity/attachedShapeBySlotCodeByType/*",
+    "value": {"neck-bellmini": {"base": "item/wearable/hooved/neck/compatibility/bell/scarf-bellmini"}}
+  },
+  {
+    "dependsOn": [ { "modid": "bell" } ],
+    "side": "Server",
+    "file": "elkaccessories:itemtypes/wearable/outdated/tophat",
+    "op": "addmerge",
+    "path": "/attributes/attachableToEntity/attachedShapeBySlotCodeByType/*",
+    "value": {"bellhat": {"base": "item/wearable/hooved/hat/compatibility/bell/tophat-bellmini"}}
+  },
+  {
+    "dependsOn": [ { "modid": "bell" } ],
+    "side": "Server",
+    "file": "elkaccessories:itemtypes/wearable/outdated/socks",
+    "op": "addmerge",
+    "path": "/attributes/attachableToEntity/attachedShapeBySlotCodeByType/*",
+    "value": {"sock-bellmini": {"base": "item/wearable/hooved/hooves/compatibility/bell/{type}-bellmini"}}
+  },
+
+
+  {
+    "dependsOn": [ { "modid": "bell" } ],
+    "side": "Server",
+    "file": "elkaccessories:itemtypes/wearable/antlerheadband",
+    "op": "addmerge",
+    "path": "/attributes/attachableToEntity/attachedShapeBySlotCodeByType/*",
+    "value": {"bellhat": {"base": "item/wearable/hooved/hat/compatibility/bell/headband/{type}/headband-antler{size}"}}
+  },
+  {
+    "dependsOn": [ { "modid": "bell" } ],
+    "side": "Server",
+    "file": "elkaccessories:itemtypes/wearable/socks",
+    "op": "addmerge",
+    "path": "/attributes/attachableToEntity/attachedShapeBySlotCodeByType/*",
+    "value": {"sock-bellmini": {"base": "item/wearable/hooved/hooves/compatibility/bell/{type}-bellmini"}}
+  },
+  {
+    "dependsOn": [ { "modid": "bell" } ],
+    "side": "Server",
+    "file": "elkaccessories:itemtypes/wearable/hat",
+    "op": "addmerge",
+    "path": "/attributes/attachableToEntity/attachedShapeBySlotCodeByType/*-witchhat-*",
+    "value": {"bellhat": {"base": "item/wearable/hooved/hat/compatibility/bell/{type}-{color}-bellmini"}}
+  },
+  {
+    "dependsOn": [ { "modid": "bell" } ],
+    "side": "Server",
+    "file": "elkaccessories:itemtypes/wearable/hat",
+    "op": "addmerge",
+    "path": "/attributes/attachableToEntity/attachedShapeBySlotCodeByType/*",
+    "value": {"bellhat": {"base": "item/wearable/hooved/hat/compatibility/bell/{type}-bellmini"}}
+  },
+  {
+    "dependsOn": [ { "modid": "bell" } ],
+    "side": "Server",
+    "file": "elkaccessories:itemtypes/wearable/collar",
+    "op": "addmerge",
+    "path": "/attributes/attachableToEntity/attachedShapeBySlotCodeByType/*",
+    "value": {"neck-bellmini": {"base": "item/wearable/hooved/neck/compatibility/bell/{type}-bellmini"}}
+  }
+]

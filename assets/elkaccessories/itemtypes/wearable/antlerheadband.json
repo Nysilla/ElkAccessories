@@ -1,0 +1,61 @@
+{
+  "code": "antlerheadband",
+  "variantgroups": [
+    {
+      "code": "type",
+      "states": [
+        "elk"
+      ]
+    },
+    {
+      "code": "size",
+      "states": [
+        "01",
+        "02",
+        "03",
+        "04",
+        "05",
+        "06",
+        "07",
+        "08"
+      ]
+    }
+  ],
+  "shapeByType": {
+    "*": {"base": "item/wearable/hooved/hat/headband/{type}/headband-antler{size}"}
+  },
+    "attributes": {
+    "attachableToEntity": {
+      "texturePrefixCode": "elkaccessories:headband-{type}-{size}",
+      "categoryCode": "hat",
+      "attachedShapeBySlotCodeByType": {
+        "*": {"hat": {"base": "item/wearable/hooved/hat/headband/{type}/headband-antler{size}"}}
+      }
+    },
+    "handbook": {
+        "groupBy": ["antlerheadband-*"]
+      }
+  },
+  "texturesByType": {
+    "*-elk-*": {"headband": {"base": "item/headband/base"},
+          "antler": {"base": "game:entity/animal/mammal/hooved/deer/elk-adult"}}
+  },
+  "creativeinventory": {"general": ["*"],"items": ["*"],"clothing": ["*"],"elkaccessories": ["*"]},
+  "maxStackSize": 1,
+  "guiTransformByType": {
+    "*": {
+      "translation": { "x": 7, "y": 18, "z": 0 },
+		  "rotation": { "x": -10, "y": -57, "z": -180 },
+		  "origin": { "x": 0.2, "y": 0.1, "z": 0 },
+		  "scale": 1.15
+    }
+  },
+  	"tpHandTransformByType": {
+      "*": {
+        "translation": { "x": 0, "y": -0.2, "z": -0.15 },
+		    "rotation": { "x": 0, "y": -180, "z": 66 },
+		    "origin": { "x": 0, "y": 0, "z": 0 },
+        "scale": 0.75
+    }
+	}
+}

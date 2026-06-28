@@ -1,0 +1,62 @@
+[
+  {
+    "dependsOn": [ { "modid": "elkvariants" } ],
+    "side": "Server",
+    "file": "elkvariants:entities/new-elk",
+    "op": "addmerge",
+    "path": "/behaviorConfigs/rideableaccessories/wearableSlots",
+    "value": [
+      {
+        "code": "hat",
+        "forCategoryCodes": [ "hat" ],
+        "attachmentPointCode": "HatAP"
+      },
+      {
+        "code": "rightsaddlepin",
+        "forCategoryCodes": [ "saddlepin" ],
+        "attachmentPointCode": "RSaddlePinAP"
+      },
+      {
+        "code": "leftsaddlepin",
+        "forCategoryCodes": [ "saddlepin" ],
+        "attachmentPointCode": "LSaddlePinAP"
+      },
+      {
+        "code": "rearleftsock",
+        "forCategoryCodes": [ "sock" ],
+        "attachmentPointCode": "RLSockAP"
+      },
+      {
+        "code": "rearrightsock",
+        "forCategoryCodes": [ "sock" ],
+        "attachmentPointCode": "RRSockAP"
+      },
+      {
+        "code": "frontleftsock",
+        "forCategoryCodes": [ "sock" ],
+        "attachmentPointCode": "FLSockAP"
+      },
+      {
+        "code": "frontrightsock",
+        "forCategoryCodes": [ "sock" ],
+        "attachmentPointCode": "FRSockAP"
+      }
+    ]
+  },
+  {
+    "dependsOn": [ { "modid": "elkvariants" } ],
+    "side": "Server",
+    "file": "elkvariants:entities/new-elk",
+    "op": "addmerge",
+    "path": "/behaviorConfigs/selectionboxes/selectionBoxes",
+    "value": [ "HatAP", "RSaddlePinAP", "LSaddlePinAP", "RLSockAP", "RRSockAP", "FLSockAP", "FRSockAP" ]
+  },
+  {
+    "dependsOn": [ { "modid": "elkvariants" } ],
+    "side": "Server",
+    "file": "elkvariants:entities/new-elk",
+    "op": "addmerge",
+    "path": "/behaviorConfigs/rideableaccessories/wearableSlots/2/forCategoryCodes",
+    "value": [ "collar" ]
+  }
+]

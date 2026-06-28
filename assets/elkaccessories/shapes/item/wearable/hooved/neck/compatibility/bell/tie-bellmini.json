@@ -1,0 +1,98 @@
+{
+	"editor": {
+		"backDropShape": "C:/Users/allis/AppData/Roaming/VintagestoryData/Mods/Craft-a-Bell/assets/bell/shapes/entity/bellmini",
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+		"color": [4,4]
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "Origin",
+			"stepParentName": "vertebrae 4",
+			"from": [ 1.28, 0.16, 0.04 ],
+			"to": [ 1.92, 0.8, 0.68 ],
+			"rotationOrigin": [ 1.28, 0.16, 0.08 ],
+			"rotationX": -29.0,
+			"rotationZ": 112.5,
+			"faces": {
+				"north": { "texture": "#color", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false, "enabled": false },
+				"east": { "texture": "#color", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false, "windMode": [-1,-1,-1,-1], "enabled": false },
+				"south": { "texture": "#color", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false, "windMode": [-1,-1,-1,-1], "enabled": false },
+				"west": { "texture": "#color", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false, "windMode": [-1,-1,-1,-1], "enabled": false },
+				"up": { "texture": "#color", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false, "windMode": [-1,-1,-1,-1], "enabled": false },
+				"down": { "texture": "#color", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false, "windMode": [-1,-1,-1,-1], "enabled": false }
+			},
+			"children": [
+				{
+					"name": "Tie",
+					"from": [ -0.192, 0.0, 0.0 ],
+					"to": [ 0.128, 0.704, 0.64 ],
+					"rotationOrigin": [ -0.192, 0.0, 0.0 ],
+					"faces": {
+						"north": { "texture": "#color", "uv": [ 2.0, 0.0, 2.4, 0.8 ], "rotation": 180, "autoUv": false },
+						"east": { "texture": "#color", "uv": [ 2.0, 0.0, 2.8, 0.8 ], "rotation": 180, "autoUv": false },
+						"south": { "texture": "#color", "uv": [ 2.5, 0.0, 2.9, 0.8 ], "rotation": 180, "autoUv": false },
+						"west": { "texture": "#color", "uv": [ 2.0, 0.0, 2.8, 0.8 ], "rotation": 180, "autoUv": false },
+						"up": { "texture": "#color", "uv": [ 2.0, 0.0, 2.8, 0.4 ], "rotation": 90, "autoUv": false },
+						"down": { "texture": "#color", "uv": [ 2.0, 0.5, 2.8, 0.9 ], "rotation": 90, "autoUv": false }
+					},
+					"children": [
+						{
+							"name": "Tie2",
+							"from": [ -0.256, -0.192, 0.064 ],
+							"to": [ 0.064, 0.256, 0.576 ],
+							"rotationOrigin": [ -0.256, -0.192, 0.064 ],
+							"rotationZ": -45.0,
+							"faces": {
+								"north": { "texture": "#color", "uv": [ 2.0, 0.5, 2.4, 0.9 ], "autoUv": false },
+								"east": { "texture": "#color", "uv": [ 2.0, 0.0, 2.4, 0.4 ], "autoUv": false },
+								"south": { "texture": "#color", "uv": [ 2.5, 0.5, 2.9, 0.9 ], "autoUv": false },
+								"west": { "texture": "#color", "uv": [ 2.5, 0.0, 2.9, 0.4 ], "autoUv": false },
+								"up": { "texture": "#color", "uv": [ 2.0, 0.0, 2.4, 0.4 ], "autoUv": false },
+								"down": { "texture": "#color", "uv": [ 2.0, 0.5, 2.4, 0.9 ], "autoUv": false }
+							},
+							"children": [
+								{
+									"name": "Base",
+									"from": [ -0.064, -1.6, -0.224 ],
+									"to": [ 0.384, 0.0, 0.736 ],
+									"rotationOrigin": [ 0.384, 0.0, -0.192 ],
+									"rotationZ": -10.0,
+									"faces": {
+										"north": { "texture": "#color", "uv": [ 0.0, 0.0, 0.4, 2.0 ], "autoUv": false },
+										"east": { "texture": "#color", "uv": [ 0.0, 0.0, 1.2, 2.0 ], "autoUv": false },
+										"south": { "texture": "#color", "uv": [ 1.0, 0.0, 1.4, 2.0 ], "autoUv": false },
+										"west": { "texture": "#color", "uv": [ 0.0, 0.0, 1.2, 2.0 ], "autoUv": false },
+										"up": { "texture": "#color", "uv": [ 0.0, 0.0, 1.2, 0.4 ], "rotation": 90, "autoUv": false },
+										"down": { "texture": "#color", "uv": [ 0.0, 2.0, 1.2, 2.4 ], "rotation": 90, "autoUv": false }
+									},
+									"children": [
+										{
+											"name": "End",
+											"from": [ 0.064, -0.256, 0.16 ],
+											"to": [ 0.384, 0.0, 0.8 ],
+											"rotationOrigin": [ 0.064, -0.256, 0.128 ],
+											"faces": {
+												"north": { "texture": "#color", "uv": [ 2.0, 1.5, 2.5, 2.0 ], "autoUv": false },
+												"east": { "texture": "#color", "uv": [ 2.0, 1.5, 2.5, 2.0 ], "autoUv": false },
+												"south": { "texture": "#color", "uv": [ 2.5, 1.5, 3.0, 2.0 ], "autoUv": false },
+												"west": { "texture": "#color", "uv": [ 2.0, 1.5, 2.5, 2.0 ], "autoUv": false },
+												"up": { "texture": "#color", "uv": [ 2.0, 1.5, 2.5, 2.0 ], "rotation": 90, "autoUv": false },
+												"down": { "texture": "#color", "uv": [ 2.0, 1.5, 2.5, 2.0 ], "rotation": 90, "autoUv": false }
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]}

@@ -1,0 +1,10 @@
+[
+    {
+        "dependsOn": [ { "modid": "elkflowercrown" } ],
+        "side": "Server",
+        "file": "flowercrowns:itemtypes/wearable/flowercrown",
+        "op": "replace",
+        "path": "/attributes/attachableToEntity/categoryCode",
+        "value": "hat"
+    }
+  ]

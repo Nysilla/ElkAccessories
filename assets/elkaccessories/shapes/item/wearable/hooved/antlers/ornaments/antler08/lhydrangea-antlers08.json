@@ -1,0 +1,757 @@
+{
+	"editor": {
+		"backDropShape": "C:/Users/allis/AppData/Roaming/VintagestoryData/Mods/ElkAccessories_1.2.2/assets/elkaccessories/shapes/item/wearable/hooved/antlers/antlerbackdrops/antlers08",
+		"collapsedPaths": "Root/ORIGIN/BLanketMidTop,Root/Origin/flower,Root/Origin10L2,Root/Origin/flower13,Root/Origin/flower14,Root/ORIGINBasketRear,Root/Origin/Rear/Midsection/Chest/Neck/Neck2/Head/Jaw,Root/Elk/Rear/R Haunch/R LegUp/R LegLow/R Hind Pastern/R Hind Hoof,Root/Origin/Rear/Midsection/Chest/Neck/Neck2/Head/L Ear,Root/Origin/Rear/Midsection/Chest/Neck/Neck2/Head/Horn attachment/R antler Hub,Root/BlanketHUMPN,Root/Elk/Rear/L Haunch/L LegUp/L LegLow/L Hind Pastern,Root/origin1,Root/LOrigin3,Root/LOrigin4,Root/Origin/Rear/L Haunch/L LegUp/L LegLow/L Hind Pastern/L Hind Hoof,Root/LOrigin1,Root/LOrigin2,Root/ORIGINrearBags,Root/Cube8/flower3,Root/ORIGINbasketSideN,Root/LOrigin7,Root/LOrigin8,Root/LOrigin5,Root/Origin6/flower8,Root/LOrigin6,Root/Cube10/Flower1,Root/Origin/Rear/Midsection/Chest/R Shoulder,Root/origin/flower,Root/Elk/Rear/Midsection/Chest/Neck/Neck2/Head/Jaw,Root/ORIGINbackpackFrontL,Root/ORIGIN,Root/Origin/Rear/Midsection/Chest/Neck/Neck2/Head/R Ear,Root/Origin/Rear/L Haunch,Root/Elk/Rear/Midsection/Chest/Neck/Neck2/Head/L Eye,Root/LOrigin/Flowerbase1,Root/ORIGINChestStrap,Root/Origin11,Root/SaddleBackN,Root/Elk/Rear/L Haunch/L LegUp/L LegLow/L Hind Pastern/L Hind Hoof,Root/Horn attachment,Root/LOrigin,Root/Elk/Rear/Midsection/Chest/Neck/Neck2/Head/L Ear,Root/Origin9,Root/Elk/Rear/L Haunch,Root/Origin6L/flower7,Root/Origin7,Root/Origin8,Root/Origin6,Root/Origin5/flower5,Root/Origin/Cube2,Root/Cube4,Root/Origin/Rear/Midsection/Chest/R Shoulder/R Arm/R Forearm/R Hand/R Fingers/R Front Hoof,Root/Origin/Rear/RearStorage,Root/Cube7/flower4,Root/Cube8,Root/Origin/Rear/Midsection/Chest/L Shoulder/L Arm/L Forearm/L Hand/L Fingers/L Front Hoof,Root/Cube9,Root/Cube10/Cube15,Root/Cube7,Root/Origin/Rear/R Thigh/R Calf/R Foot/R Toes/R Hind Hoof,Root/Feet Guide,Root/Origin/Rear/Midsection/Chest/RightFrontStorage,Root/hideme,Root/Cube6/flower6,Root/ORIGINLinenSackFront,Root/Origin/Rear/Midsection/Chest/LeftFrontStorage,Root/Elk/Rear/Midsection/Chest/Neck/Neck2/Head/R Ear,Root/Origin11/flower15,Root/ORIGINSaddleBagsRightF,Root/LOrigin/Flowerbase,Root/BlanketFBACK,Root/ORIGINStrapsRear,Root/LOrigin1/Flowerbase2,Root/LOrigin1/Flowerbase4,Root/Elk/Rear/R Haunch/R LegUp/R LegLow/R Hind Pastern,Root/LOrigin1/Flowerbase3,Root/LOrigin1/Flowerbase5,Root/Cube6/flower5,Root/Origin/Rear/Midsection/Chest/Neck/Neck2/Head/Horn attachment,Root/Elk/Rear/Midsection/Chest/Neck/Neck2/Head/R Eye,Root/Origin/Rear/Midsection/Chest/Neck/Neck2/Head/Horn attachment/L antler base 1,Root/SaddleFrontN,Root/Origin/Rear/R Haunch,Root/Origin/Rear/Midsection/Chest/L Shoulder,Root/Origin10/flower14,Root/Elk/Rear/Midsection/Chest/L Shoulder/L ArmUp/L ArmMid/L ArmLow/L Front Pastern,Root/ORIGINbasketSideS,Root/Elk/Rear/Midsection/Chest/Neck/Neck2/Head/MouthUp,Root/ORIGINbridle,Root/Origin/Rear/Midsection/Chest/Neck/Neck2/Head/Mouth up,Root/ORIGINLinenSackMiddle,Root/Origin/Rear/R Haunch/R LegUp/R LegLow/R Hind Pastern/R Hind Hoof,Root/ORIGINframe,Root/BlanketFrontN,Root/Cube15,Root/Cube12,Root/SockMain,Root/Cube9/flower2,Root/origin1/Flower1,Root/Elk/Rear/RearStorage,Root/Origin/Rear/L Thigh/L Calf/L Foot/L Toes/L Hind Hoof,Root/Elk/Rear/Midsection/Chest/R Shoulder/R ArmUp/R ArmMid/R ArmLow/R Front Pastern",
+		"allAngles": true,
+		"entityTextureMode": false
+	},
+	"textureWidth": 8,
+	"textureHeight": 8,
+	"textureSizes": {
+		"pattern": [8,8],
+		"hydrangea": [8,8]
+	},
+	"textures": {
+		"hydrangea": "C:/Users/allis/AppData/Roaming/VintagestoryData/Mods/ElkAccessories_1.2.2/assets/elkaccessories/textures/item/ornaments/hydrangea/hydrangea"
+	},
+	"elements": [
+		{
+			"name": "LOrigin",
+			"stepParentName": "08LTine5A",
+			"from": [ 0.2, -0.4, 0.0 ],
+			"to": [ 1.2, 0.6, 1.0 ],
+			"rotationOrigin": [ 0.2, -0.4, 0.0 ],
+			"faces": {
+				"north": { "texture": "#hydrangea", "uv": [ 0.0, 1.0, 1.0, 2.0 ], "enabled": false },
+				"east": { "texture": "#hydrangea", "uv": [ 1.0, 1.0, 2.0, 2.0 ], "enabled": false },
+				"south": { "texture": "#hydrangea", "uv": [ 2.0, 1.0, 3.0, 2.0 ], "enabled": false },
+				"west": { "texture": "#hydrangea", "uv": [ 3.0, 1.0, 4.0, 2.0 ], "enabled": false },
+				"up": { "texture": "#hydrangea", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "enabled": false },
+				"down": { "texture": "#hydrangea", "uv": [ 1.0, 0.0, 2.0, 1.0 ], "enabled": false }
+			},
+			"children": [
+				{
+					"name": "Flowerbase",
+					"from": [ 0.1, 0.2, -0.8 ],
+					"to": [ 2.1, 2.2, 1.2 ],
+					"rotationOrigin": [ 0.1, 0.2, -0.8 ],
+					"faces": {
+						"north": { "texture": "#hydrangea", "uv": [ 0.5, 0.5, 2.5, 2.5 ], "autoUv": false },
+						"east": { "texture": "#hydrangea", "uv": [ 0.5, 0.5, 2.5, 2.5 ], "autoUv": false },
+						"south": { "texture": "#hydrangea", "uv": [ 0.5, 0.5, 2.5, 2.5 ] },
+						"west": { "texture": "#hydrangea", "uv": [ 0.5, 0.5, 2.5, 2.5 ], "autoUv": false },
+						"up": { "texture": "#hydrangea", "uv": [ 0.5, 0.5, 2.5, 2.5 ], "autoUv": false },
+						"down": { "texture": "#hydrangea", "uv": [ 0.5, 0.5, 2.5, 2.5 ] }
+					},
+					"children": [
+						{
+							"name": "Flowerout",
+							"from": [ -0.1, -0.1, -0.1 ],
+							"to": [ 2.1, 2.1, 2.1 ],
+							"rotationOrigin": [ -0.1, -0.1, -0.1 ],
+							"faces": {
+								"north": { "texture": "#hydrangea", "uv": [ 0.0, 3.5, 2.5, 6.0 ], "autoUv": false },
+								"east": { "texture": "#hydrangea", "uv": [ 0.5, 3.5, 3.0, 6.0 ], "rotation": 90, "autoUv": false },
+								"south": { "texture": "#hydrangea", "uv": [ 0.5, 3.5, 3.0, 6.0 ], "rotation": 180, "autoUv": false },
+								"west": { "texture": "#hydrangea", "uv": [ 0.0, 4.0, 2.5, 6.5 ], "autoUv": false },
+								"up": { "texture": "#hydrangea", "uv": [ 0.5, 4.0, 3.0, 6.5 ], "rotation": 270, "autoUv": false },
+								"down": { "texture": "#hydrangea", "uv": [ 0.0, 4.0, 2.5, 6.5 ], "rotation": 90, "autoUv": false }
+							}
+						}
+					]
+				},
+				{
+					"name": "Flowerbase1",
+					"from": [ -0.9, -0.4, -0.9 ],
+					"to": [ 0.7, 1.2, 0.7 ],
+					"rotationOrigin": [ -0.1, 0.4, -0.1 ],
+					"rotationX": -3.0,
+					"rotationY": -30.0,
+					"rotationZ": -66.0,
+					"faces": {
+						"north": { "texture": "#hydrangea", "uv": [ 4.5, 0.5, 6.1, 2.1 ], "autoUv": false },
+						"east": { "texture": "#hydrangea", "uv": [ 4.0, 1.0, 5.6, 2.6 ], "autoUv": false },
+						"south": { "texture": "#hydrangea", "uv": [ 4.5, 1.0, 6.0, 2.5 ] },
+						"west": { "texture": "#hydrangea", "uv": [ 4.5, 0.5, 6.1, 2.1 ], "autoUv": false },
+						"up": { "texture": "#hydrangea", "uv": [ 4.0, 1.0, 5.6, 2.6 ], "autoUv": false },
+						"down": { "texture": "#hydrangea", "uv": [ 4.5, 1.0, 6.0, 2.5 ] }
+					},
+					"children": [
+						{
+							"name": "Flowerout1",
+							"from": [ -0.08, -0.02, -0.08 ],
+							"to": [ 1.72, 1.78, 1.72 ],
+							"rotationOrigin": [ -0.08, -0.02, -0.08 ],
+							"faces": {
+								"north": { "texture": "#hydrangea", "uv": [ 4.0, 3.5, 6.0, 5.5 ], "autoUv": false },
+								"east": { "texture": "#hydrangea", "uv": [ 4.5, 3.5, 6.5, 5.5 ], "rotation": 90, "autoUv": false },
+								"south": { "texture": "#hydrangea", "uv": [ 4.0, 3.5, 6.0, 5.5 ], "rotation": 180, "autoUv": false },
+								"west": { "texture": "#hydrangea", "uv": [ 3.5, 4.0, 5.5, 6.0 ], "autoUv": false },
+								"up": { "texture": "#hydrangea", "uv": [ 4.0, 4.0, 6.0, 6.0 ], "rotation": 270, "autoUv": false },
+								"down": { "texture": "#hydrangea", "uv": [ 4.0, 4.0, 6.0, 6.0 ], "rotation": 90, "autoUv": false }
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "LOrigin1",
+			"stepParentName": "08LBeam2",
+			"from": [ 0.2, -0.4, 0.0 ],
+			"to": [ 1.2, 0.6, 1.0 ],
+			"rotationOrigin": [ 0.2, -0.4, 0.0 ],
+			"faces": {
+				"north": { "texture": "#hydrangea", "uv": [ 0.0, 1.0, 1.0, 2.0 ], "enabled": false },
+				"east": { "texture": "#hydrangea", "uv": [ 1.0, 1.0, 2.0, 2.0 ], "enabled": false },
+				"south": { "texture": "#hydrangea", "uv": [ 2.0, 1.0, 3.0, 2.0 ], "enabled": false },
+				"west": { "texture": "#hydrangea", "uv": [ 3.0, 1.0, 4.0, 2.0 ], "enabled": false },
+				"up": { "texture": "#hydrangea", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "enabled": false },
+				"down": { "texture": "#hydrangea", "uv": [ 1.0, 0.0, 2.0, 1.0 ], "enabled": false }
+			},
+			"children": [
+				{
+					"name": "Flowerbase2",
+					"from": [ 0.0, 0.1, -0.4 ],
+					"to": [ 1.2, 1.3, 0.8 ],
+					"rotationOrigin": [ 0.06, 0.12, -0.48 ],
+					"faces": {
+						"north": { "texture": "#hydrangea", "uv": [ 0.5, 0.5, 1.7, 1.7 ], "autoUv": false },
+						"east": { "texture": "#hydrangea", "uv": [ 0.5, 0.5, 1.7, 1.7 ], "autoUv": false },
+						"south": { "texture": "#hydrangea", "uv": [ 0.5, 0.5, 1.5, 1.5 ] },
+						"west": { "texture": "#hydrangea", "uv": [ 0.5, 0.5, 1.7, 1.7 ], "autoUv": false },
+						"up": { "texture": "#hydrangea", "uv": [ 0.5, 0.5, 1.7, 1.7 ], "autoUv": false },
+						"down": { "texture": "#hydrangea", "uv": [ 0.5, 0.5, 1.5, 1.5 ] }
+					},
+					"children": [
+						{
+							"name": "Flowerout2",
+							"from": [ -0.1, -0.1, -0.1 ],
+							"to": [ 1.3, 1.3, 1.3 ],
+							"rotationOrigin": [ -0.16, -0.14, -0.16 ],
+							"faces": {
+								"north": { "texture": "#hydrangea", "uv": [ 0.0, 3.5, 1.5, 5.0 ], "autoUv": false },
+								"east": { "texture": "#hydrangea", "uv": [ 0.5, 3.5, 2.0, 5.0 ], "rotation": 90, "autoUv": false },
+								"south": { "texture": "#hydrangea", "uv": [ 0.5, 3.5, 2.0, 5.0 ], "rotation": 180, "autoUv": false },
+								"west": { "texture": "#hydrangea", "uv": [ 0.0, 4.0, 1.5, 5.5 ], "autoUv": false },
+								"up": { "texture": "#hydrangea", "uv": [ 0.5, 4.0, 2.0, 5.5 ], "rotation": 270, "autoUv": false },
+								"down": { "texture": "#hydrangea", "uv": [ 0.0, 4.0, 1.5, 5.5 ], "rotation": 90, "autoUv": false }
+							}
+						}
+					]
+				},
+				{
+					"name": "Flowerbase3",
+					"from": [ -0.9, 0.6, -0.1 ],
+					"to": [ 0.7, 2.2, 1.5 ],
+					"rotationOrigin": [ -0.1, 1.4, 0.7 ],
+					"rotationX": -3.0,
+					"rotationY": -30.0,
+					"rotationZ": -66.0,
+					"faces": {
+						"north": { "texture": "#hydrangea", "uv": [ 4.5, 0.5, 6.1, 2.1 ], "autoUv": false },
+						"east": { "texture": "#hydrangea", "uv": [ 4.0, 1.0, 5.6, 2.6 ], "autoUv": false },
+						"south": { "texture": "#hydrangea", "uv": [ 4.5, 1.0, 6.0, 2.5 ] },
+						"west": { "texture": "#hydrangea", "uv": [ 5.0, 0.0, 6.5, 1.5 ] },
+						"up": { "texture": "#hydrangea", "uv": [ 3.5, 1.0, 5.0, 2.5 ] },
+						"down": { "texture": "#hydrangea", "uv": [ 4.5, 1.0, 6.0, 2.5 ] }
+					},
+					"children": [
+						{
+							"name": "Flowerout3",
+							"from": [ -0.08, -0.02, -0.08 ],
+							"to": [ 1.72, 1.78, 1.72 ],
+							"rotationOrigin": [ -0.08, -0.02, -0.08 ],
+							"faces": {
+								"north": { "texture": "#hydrangea", "uv": [ 4.0, 3.5, 6.0, 5.5 ], "autoUv": false },
+								"east": { "texture": "#hydrangea", "uv": [ 4.5, 3.5, 6.5, 5.5 ], "rotation": 90, "autoUv": false },
+								"south": { "texture": "#hydrangea", "uv": [ 4.0, 3.5, 6.0, 5.5 ], "rotation": 180, "autoUv": false },
+								"west": { "texture": "#hydrangea", "uv": [ 3.5, 4.0, 5.5, 6.0 ], "autoUv": false },
+								"up": { "texture": "#hydrangea", "uv": [ 4.0, 4.0, 6.0, 6.0 ], "rotation": 270, "autoUv": false },
+								"down": { "texture": "#hydrangea", "uv": [ 4.0, 4.0, 6.0, 6.0 ], "rotation": 90, "autoUv": false }
+							}
+						}
+					]
+				},
+				{
+					"name": "Flowerbase4",
+					"from": [ 0.2, 2.1, -0.3 ],
+					"to": [ 1.4, 3.3, 0.9 ],
+					"rotationOrigin": [ 0.26, 2.12, -0.38 ],
+					"rotationY": -25.0,
+					"rotationZ": 53.0,
+					"faces": {
+						"north": { "texture": "#hydrangea", "uv": [ 0.5, 0.5, 1.7, 1.7 ], "autoUv": false },
+						"east": { "texture": "#hydrangea", "uv": [ 0.5, 0.5, 1.7, 1.7 ], "autoUv": false },
+						"south": { "texture": "#hydrangea", "uv": [ 0.5, 0.5, 1.5, 1.5 ] },
+						"west": { "texture": "#hydrangea", "uv": [ 0.5, 0.5, 1.7, 1.7 ], "autoUv": false },
+						"up": { "texture": "#hydrangea", "uv": [ 0.5, 0.5, 1.7, 1.7 ], "autoUv": false },
+						"down": { "texture": "#hydrangea", "uv": [ 0.5, 0.5, 1.5, 1.5 ] }
+					},
+					"children": [
+						{
+							"name": "Flowerout4",
+							"from": [ -0.1, -0.1, -0.1 ],
+							"to": [ 1.3, 1.3, 1.3 ],
+							"rotationOrigin": [ -0.16, -0.14, -0.16 ],
+							"faces": {
+								"north": { "texture": "#hydrangea", "uv": [ 0.0, 3.5, 1.5, 5.0 ], "autoUv": false },
+								"east": { "texture": "#hydrangea", "uv": [ 0.5, 3.5, 2.0, 5.0 ], "rotation": 90, "autoUv": false },
+								"south": { "texture": "#hydrangea", "uv": [ 0.5, 3.5, 2.0, 5.0 ], "rotation": 180, "autoUv": false },
+								"west": { "texture": "#hydrangea", "uv": [ 0.0, 4.0, 1.5, 5.5 ], "autoUv": false },
+								"up": { "texture": "#hydrangea", "uv": [ 0.5, 4.0, 2.0, 5.5 ], "rotation": 270, "autoUv": false },
+								"down": { "texture": "#hydrangea", "uv": [ 0.0, 4.0, 1.5, 5.5 ], "rotation": 90, "autoUv": false }
+							}
+						}
+					]
+				},
+				{
+					"name": "Flowerbase5",
+					"from": [ 0.84, 1.37, -0.61 ],
+					"to": [ 1.64, 2.17, 0.19 ],
+					"rotationOrigin": [ 0.882, 1.384, -0.666 ],
+					"rotationX": -14.0,
+					"rotationY": -50.0,
+					"rotationZ": -11.0,
+					"faces": {
+						"north": { "texture": "#hydrangea", "uv": [ 5.0, 1.0, 5.84, 1.84 ], "autoUv": false },
+						"east": { "texture": "#hydrangea", "uv": [ 4.5, 0.5, 5.34, 1.34 ], "autoUv": false },
+						"south": { "texture": "#hydrangea", "uv": [ 5.0, 1.0, 6.0, 2.0 ], "autoUv": false },
+						"west": { "texture": "#hydrangea", "uv": [ 4.5, 0.5, 5.34, 1.34 ], "autoUv": false },
+						"up": { "texture": "#hydrangea", "uv": [ 4.5, 0.5, 5.34, 1.34 ], "autoUv": false },
+						"down": { "texture": "#hydrangea", "uv": [ 4.5, 1.0, 5.5, 2.0 ], "autoUv": false }
+					},
+					"children": [
+						{
+							"name": "Flowerout5",
+							"from": [ -0.07, -0.07, -0.07 ],
+							"to": [ 0.93, 0.93, 0.93 ],
+							"rotationOrigin": [ -0.112, -0.098, -0.112 ],
+							"faces": {
+								"north": { "texture": "#hydrangea", "uv": [ 3.5, 3.5, 4.55, 4.55 ], "autoUv": false },
+								"east": { "texture": "#hydrangea", "uv": [ 5.0, 5.5, 6.05, 6.55 ], "rotation": 90, "autoUv": false },
+								"south": { "texture": "#hydrangea", "uv": [ 5.5, 4.5, 6.55, 5.55 ], "rotation": 180, "autoUv": false },
+								"west": { "texture": "#hydrangea", "uv": [ 3.5, 5.5, 4.55, 6.55 ], "autoUv": false },
+								"up": { "texture": "#hydrangea", "uv": [ 4.0, 4.0, 5.05, 5.05 ], "rotation": 270, "autoUv": false },
+								"down": { "texture": "#hydrangea", "uv": [ 4.5, 4.5, 5.55, 5.55 ], "rotation": 90, "autoUv": false }
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "LOrigin2",
+			"stepParentName": "08LTine3A",
+			"from": [ 0.12, 1.96, 0.2 ],
+			"to": [ 0.72, 2.56, 0.8 ],
+			"rotationOrigin": [ 0.12, 1.96, 0.2 ],
+			"rotationX": -14.0,
+			"rotationY": -17.0,
+			"faces": {
+				"north": { "texture": "#hydrangea", "uv": [ 0.0, 1.0, 0.5, 1.5 ], "enabled": false },
+				"east": { "texture": "#hydrangea", "uv": [ 1.0, 1.0, 1.5, 1.5 ], "enabled": false },
+				"south": { "texture": "#hydrangea", "uv": [ 2.0, 1.0, 2.5, 1.5 ], "enabled": false },
+				"west": { "texture": "#hydrangea", "uv": [ 3.0, 1.0, 3.5, 1.5 ], "enabled": false },
+				"up": { "texture": "#hydrangea", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"down": { "texture": "#hydrangea", "uv": [ 1.0, 0.0, 1.5, 0.5 ], "enabled": false }
+			},
+			"children": [
+				{
+					"name": "Flowerbase6",
+					"from": [ 0.06, 0.12, -0.48 ],
+					"to": [ 1.26, 1.32, 0.72 ],
+					"rotationOrigin": [ 0.06, 0.12, -0.48 ],
+					"faces": {
+						"north": { "texture": "#hydrangea", "uv": [ 0.5, 0.5, 1.7, 1.7 ], "autoUv": false },
+						"east": { "texture": "#hydrangea", "uv": [ 0.5, 0.5, 1.7, 1.7 ], "autoUv": false },
+						"south": { "texture": "#hydrangea", "uv": [ 0.5, 0.5, 1.7, 1.7 ] },
+						"west": { "texture": "#hydrangea", "uv": [ 0.5, 0.5, 1.7, 1.7 ], "autoUv": false },
+						"up": { "texture": "#hydrangea", "uv": [ 0.5, 0.5, 1.7, 1.7 ], "autoUv": false },
+						"down": { "texture": "#hydrangea", "uv": [ 0.5, 0.5, 1.7, 1.7 ] }
+					},
+					"children": [
+						{
+							"name": "Flowerout6",
+							"from": [ -0.06, -0.06, -0.06 ],
+							"to": [ 1.26, 1.26, 1.26 ],
+							"rotationOrigin": [ -0.06, -0.06, -0.06 ],
+							"faces": {
+								"north": { "texture": "#hydrangea", "uv": [ 0.0, 3.5, 1.5, 5.0 ], "autoUv": false },
+								"east": { "texture": "#hydrangea", "uv": [ 0.5, 3.5, 2.0, 5.0 ], "rotation": 90, "autoUv": false },
+								"south": { "texture": "#hydrangea", "uv": [ 0.5, 3.5, 2.0, 5.0 ], "rotation": 180, "autoUv": false },
+								"west": { "texture": "#hydrangea", "uv": [ 0.0, 4.0, 1.5, 5.5 ], "autoUv": false },
+								"up": { "texture": "#hydrangea", "uv": [ 0.5, 4.0, 2.0, 5.5 ], "rotation": 270, "autoUv": false },
+								"down": { "texture": "#hydrangea", "uv": [ 0.0, 4.0, 1.5, 5.5 ], "rotation": 90, "autoUv": false }
+							}
+						}
+					]
+				},
+				{
+					"name": "Flowerbase7",
+					"from": [ -0.54, -0.24, -0.54 ],
+					"to": [ 0.42, 0.72, 0.42 ],
+					"rotationOrigin": [ -0.06, 0.24, -0.06 ],
+					"rotationX": -3.0,
+					"rotationY": -30.0,
+					"rotationZ": -66.0,
+					"faces": {
+						"north": { "texture": "#hydrangea", "uv": [ 4.5, 0.5, 5.46, 1.46 ], "autoUv": false },
+						"east": { "texture": "#hydrangea", "uv": [ 4.0, 1.0, 4.96, 1.96 ], "autoUv": false },
+						"south": { "texture": "#hydrangea", "uv": [ 4.5, 1.0, 5.4, 1.9 ] },
+						"west": { "texture": "#hydrangea", "uv": [ 5.0, 0.0, 5.96, 0.96 ], "autoUv": false },
+						"up": { "texture": "#hydrangea", "uv": [ 3.5, 1.5, 4.46, 2.46 ], "autoUv": false },
+						"down": { "texture": "#hydrangea", "uv": [ 5.0, 1.5, 5.9, 2.4 ] }
+					},
+					"children": [
+						{
+							"name": "Flowerout7",
+							"from": [ -0.048, -0.012, -0.048 ],
+							"to": [ 1.032, 1.068, 1.032 ],
+							"rotationOrigin": [ -0.048, -0.012, -0.048 ],
+							"faces": {
+								"north": { "texture": "#hydrangea", "uv": [ 4.0, 3.5, 5.2, 4.7 ], "autoUv": false },
+								"east": { "texture": "#hydrangea", "uv": [ 4.5, 3.5, 5.7, 4.7 ], "rotation": 90, "autoUv": false },
+								"south": { "texture": "#hydrangea", "uv": [ 4.0, 3.5, 5.2, 4.7 ], "rotation": 180, "autoUv": false },
+								"west": { "texture": "#hydrangea", "uv": [ 3.5, 4.0, 4.7, 5.2 ], "autoUv": false },
+								"up": { "texture": "#hydrangea", "uv": [ 4.0, 4.0, 5.2, 5.2 ], "rotation": 270, "autoUv": false },
+								"down": { "texture": "#hydrangea", "uv": [ 4.0, 4.0, 5.2, 5.2 ], "rotation": 90, "autoUv": false }
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "LOrigin3",
+			"stepParentName": "08LTine3B",
+			"from": [ 0.2, 1.6, 0.0 ],
+			"to": [ 1.2, 2.6, 1.0 ],
+			"rotationOrigin": [ 0.2, 1.6, 0.0 ],
+			"faces": {
+				"north": { "texture": "#hydrangea", "uv": [ 0.0, 1.0, 1.0, 2.0 ], "enabled": false },
+				"east": { "texture": "#hydrangea", "uv": [ 1.0, 1.0, 2.0, 2.0 ], "enabled": false },
+				"south": { "texture": "#hydrangea", "uv": [ 2.0, 1.0, 3.0, 2.0 ], "enabled": false },
+				"west": { "texture": "#hydrangea", "uv": [ 3.0, 1.0, 4.0, 2.0 ], "enabled": false },
+				"up": { "texture": "#hydrangea", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "enabled": false },
+				"down": { "texture": "#hydrangea", "uv": [ 1.0, 0.0, 2.0, 1.0 ], "enabled": false }
+			},
+			"children": [
+				{
+					"name": "Flowerbase9",
+					"from": [ -0.45, -0.1, -0.45 ],
+					"to": [ 0.35, 0.7, 0.35 ],
+					"rotationOrigin": [ -0.05, 0.3, -0.05 ],
+					"rotationX": -3.0,
+					"rotationY": -30.0,
+					"rotationZ": -66.0,
+					"faces": {
+						"north": { "texture": "#hydrangea", "uv": [ 4.5, 0.5, 5.3, 1.3 ], "autoUv": false },
+						"east": { "texture": "#hydrangea", "uv": [ 4.0, 1.0, 4.8, 1.8 ], "autoUv": false },
+						"south": { "texture": "#hydrangea", "uv": [ 4.5, 1.0, 5.0, 1.5 ] },
+						"west": { "texture": "#hydrangea", "uv": [ 5.0, 0.0, 5.8, 0.8 ], "autoUv": false },
+						"up": { "texture": "#hydrangea", "uv": [ 3.5, 1.5, 4.3, 2.3 ], "autoUv": false },
+						"down": { "texture": "#hydrangea", "uv": [ 5.0, 1.5, 5.5, 2.0 ] }
+					},
+					"children": [
+						{
+							"name": "Flowerout9",
+							"from": [ -0.04, -0.01, -0.04 ],
+							"to": [ 0.86, 0.89, 0.86 ],
+							"rotationOrigin": [ -0.04, -0.01, -0.04 ],
+							"faces": {
+								"north": { "texture": "#hydrangea", "uv": [ 4.0, 3.5, 5.0, 4.5 ], "autoUv": false },
+								"east": { "texture": "#hydrangea", "uv": [ 4.5, 3.5, 5.5, 4.5 ], "rotation": 90, "autoUv": false },
+								"south": { "texture": "#hydrangea", "uv": [ 5.0, 3.5, 6.0, 4.5 ], "rotation": 180, "autoUv": false },
+								"west": { "texture": "#hydrangea", "uv": [ 3.5, 4.0, 4.5, 5.0 ], "autoUv": false },
+								"up": { "texture": "#hydrangea", "uv": [ 4.0, 4.0, 5.0, 5.0 ], "rotation": 270, "autoUv": false },
+								"down": { "texture": "#hydrangea", "uv": [ 4.0, 4.5, 5.0, 5.5 ], "rotation": 90, "autoUv": false }
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "LOrigin4",
+			"stepParentName": "08LTine4A",
+			"from": [ 0.2, 3.6, 0.0 ],
+			"to": [ 1.2, 4.6, 1.0 ],
+			"rotationOrigin": [ 0.2, 3.6, 0.0 ],
+			"faces": {
+				"north": { "texture": "#hydrangea", "uv": [ 0.0, 1.0, 1.0, 2.0 ], "enabled": false },
+				"east": { "texture": "#hydrangea", "uv": [ 1.0, 1.0, 2.0, 2.0 ], "enabled": false },
+				"south": { "texture": "#hydrangea", "uv": [ 2.0, 1.0, 3.0, 2.0 ], "enabled": false },
+				"west": { "texture": "#hydrangea", "uv": [ 3.0, 1.0, 4.0, 2.0 ], "enabled": false },
+				"up": { "texture": "#hydrangea", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "enabled": false },
+				"down": { "texture": "#hydrangea", "uv": [ 1.0, 0.0, 2.0, 1.0 ], "enabled": false }
+			},
+			"children": [
+				{
+					"name": "Flowerbase8",
+					"from": [ 0.06, 0.12, -0.48 ],
+					"to": [ 1.26, 1.32, 0.72 ],
+					"rotationOrigin": [ 0.06, 0.12, -0.48 ],
+					"faces": {
+						"north": { "texture": "#hydrangea", "uv": [ 0.5, 0.5, 1.7, 1.7 ], "autoUv": false },
+						"east": { "texture": "#hydrangea", "uv": [ 0.5, 0.5, 1.7, 1.7 ], "autoUv": false },
+						"south": { "texture": "#hydrangea", "uv": [ 0.5, 0.5, 1.7, 1.7 ] },
+						"west": { "texture": "#hydrangea", "uv": [ 0.5, 0.5, 1.7, 1.7 ], "autoUv": false },
+						"up": { "texture": "#hydrangea", "uv": [ 0.5, 0.5, 1.7, 1.7 ], "autoUv": false },
+						"down": { "texture": "#hydrangea", "uv": [ 0.5, 0.5, 1.7, 1.7 ] }
+					},
+					"children": [
+						{
+							"name": "Flowerout8",
+							"from": [ -0.06, -0.06, -0.06 ],
+							"to": [ 1.26, 1.26, 1.26 ],
+							"rotationOrigin": [ -0.06, -0.06, -0.06 ],
+							"faces": {
+								"north": { "texture": "#hydrangea", "uv": [ 0.0, 3.5, 1.5, 5.0 ], "autoUv": false },
+								"east": { "texture": "#hydrangea", "uv": [ 0.5, 3.5, 2.0, 5.0 ], "rotation": 90, "autoUv": false },
+								"south": { "texture": "#hydrangea", "uv": [ 0.5, 3.5, 2.0, 5.0 ], "rotation": 180, "autoUv": false },
+								"west": { "texture": "#hydrangea", "uv": [ 0.0, 4.0, 1.5, 5.5 ], "autoUv": false },
+								"up": { "texture": "#hydrangea", "uv": [ 0.5, 4.0, 2.0, 5.5 ], "rotation": 270, "autoUv": false },
+								"down": { "texture": "#hydrangea", "uv": [ 0.0, 4.0, 1.5, 5.5 ], "rotation": 90, "autoUv": false }
+							}
+						}
+					]
+				},
+				{
+					"name": "Flowerbase10",
+					"from": [ -0.9, -1.2, -0.6 ],
+					"to": [ 0.7, 0.4, 1.0 ],
+					"rotationOrigin": [ -0.1, -0.4, 0.2 ],
+					"rotationX": -3.0,
+					"rotationY": -66.0,
+					"rotationZ": -122.0,
+					"faces": {
+						"north": { "texture": "#hydrangea", "uv": [ 1.0, 0.5, 2.6, 2.1 ], "autoUv": false },
+						"east": { "texture": "#hydrangea", "uv": [ 0.5, 1.0, 2.1, 2.6 ], "autoUv": false },
+						"south": { "texture": "#hydrangea", "uv": [ 1.0, 1.0, 2.5, 2.5 ] },
+						"west": { "texture": "#hydrangea", "uv": [ 1.5, 0.0, 3.1, 1.6 ], "autoUv": false },
+						"up": { "texture": "#hydrangea", "uv": [ 0.0, 1.5, 1.6, 3.1 ], "autoUv": false },
+						"down": { "texture": "#hydrangea", "uv": [ 1.5, 1.5, 3.0, 3.0 ] }
+					},
+					"children": [
+						{
+							"name": "Flowerout10",
+							"from": [ -0.056, -0.01, -0.056 ],
+							"to": [ 1.704, 1.75, 1.704 ],
+							"rotationOrigin": [ -0.056, -0.014, -0.056 ],
+							"faces": {
+								"north": { "texture": "#hydrangea", "uv": [ 0.5, 3.5, 2.5, 5.5 ], "autoUv": false },
+								"east": { "texture": "#hydrangea", "uv": [ 1.0, 3.5, 3.0, 5.5 ], "rotation": 90, "autoUv": false },
+								"south": { "texture": "#hydrangea", "uv": [ 0.0, 3.5, 2.0, 5.5 ], "rotation": 180, "autoUv": false },
+								"west": { "texture": "#hydrangea", "uv": [ 0.0, 4.0, 2.0, 6.0 ], "autoUv": false },
+								"up": { "texture": "#hydrangea", "uv": [ 0.5, 4.0, 2.4, 5.9 ], "rotation": 270, "autoUv": false },
+								"down": { "texture": "#hydrangea", "uv": [ 1.0, 4.5, 3.0, 6.5 ], "rotation": 90, "autoUv": false }
+							}
+						}
+					]
+				},
+				{
+					"name": "Flowerbase11",
+					"from": [ -0.74, -0.28, -0.08 ],
+					"to": [ 0.46, 0.92, 1.12 ],
+					"rotationOrigin": [ -0.74, -0.28, -0.08 ],
+					"rotationX": -55.0,
+					"rotationY": -19.0,
+					"rotationZ": -14.0,
+					"faces": {
+						"north": { "texture": "#hydrangea", "uv": [ 4.5, 1.5, 5.7, 2.7 ], "autoUv": false },
+						"east": { "texture": "#hydrangea", "uv": [ 4.0, 0.5, 5.2, 1.7 ], "autoUv": false },
+						"south": { "texture": "#hydrangea", "uv": [ 5.0, 1.0, 6.0, 2.0 ] },
+						"west": { "texture": "#hydrangea", "uv": [ 3.5, 0.5, 4.7, 1.7 ], "autoUv": false },
+						"up": { "texture": "#hydrangea", "uv": [ 4.0, 1.5, 5.2, 2.7 ], "autoUv": false },
+						"down": { "texture": "#hydrangea", "uv": [ 4.0, 0.0, 5.0, 1.0 ] }
+					},
+					"children": [
+						{
+							"name": "Flowerout11",
+							"from": [ -0.06, -0.06, -0.06 ],
+							"to": [ 1.26, 1.26, 1.26 ],
+							"rotationOrigin": [ -0.06, -0.06, -0.06 ],
+							"faces": {
+								"north": { "texture": "#hydrangea", "uv": [ 3.5, 4.5, 5.0, 6.0 ], "autoUv": false },
+								"east": { "texture": "#hydrangea", "uv": [ 4.5, 3.5, 6.0, 5.0 ], "rotation": 90, "autoUv": false },
+								"south": { "texture": "#hydrangea", "uv": [ 4.0, 3.5, 5.5, 5.0 ], "rotation": 180, "autoUv": false },
+								"west": { "texture": "#hydrangea", "uv": [ 3.5, 4.0, 5.0, 5.5 ], "autoUv": false },
+								"up": { "texture": "#hydrangea", "uv": [ 4.0, 4.0, 5.5, 5.5 ], "rotation": 270, "autoUv": false },
+								"down": { "texture": "#hydrangea", "uv": [ 3.5, 4.0, 5.0, 5.5 ], "rotation": 90, "autoUv": false }
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "LOrigin5",
+			"stepParentName": "08LBeam3",
+			"from": [ 0.2, 1.6, 0.0 ],
+			"to": [ 1.2, 2.6, 1.0 ],
+			"rotationOrigin": [ 0.2, 1.6, 0.0 ],
+			"rotationY": 6.0,
+			"rotationZ": -17.0,
+			"faces": {
+				"north": { "texture": "#hydrangea", "uv": [ 0.0, 1.0, 1.0, 2.0 ], "enabled": false },
+				"east": { "texture": "#hydrangea", "uv": [ 1.0, 1.0, 2.0, 2.0 ], "enabled": false },
+				"south": { "texture": "#hydrangea", "uv": [ 2.0, 1.0, 3.0, 2.0 ], "enabled": false },
+				"west": { "texture": "#hydrangea", "uv": [ 3.0, 1.0, 4.0, 2.0 ], "enabled": false },
+				"up": { "texture": "#hydrangea", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "enabled": false },
+				"down": { "texture": "#hydrangea", "uv": [ 1.0, 0.0, 2.0, 1.0 ], "enabled": false }
+			},
+			"children": [
+				{
+					"name": "Flowerbase12",
+					"from": [ -1.0, 0.3, -0.5 ],
+					"to": [ 0.6, 1.9, 1.1 ],
+					"rotationOrigin": [ -0.2, 1.1, 0.3 ],
+					"rotationX": -33.0,
+					"rotationY": -50.0,
+					"rotationZ": -66.0,
+					"faces": {
+						"north": { "texture": "#hydrangea", "uv": [ 4.5, 0.5, 6.1, 2.1 ], "autoUv": false },
+						"east": { "texture": "#hydrangea", "uv": [ 4.0, 1.0, 5.6, 2.6 ], "autoUv": false },
+						"south": { "texture": "#hydrangea", "uv": [ 4.5, 1.0, 6.0, 2.5 ] },
+						"west": { "texture": "#hydrangea", "uv": [ 4.5, 0.5, 6.1, 2.1 ], "autoUv": false },
+						"up": { "texture": "#hydrangea", "uv": [ 4.0, 1.0, 5.6, 2.6 ], "autoUv": false },
+						"down": { "texture": "#hydrangea", "uv": [ 4.5, 1.0, 6.0, 2.5 ] }
+					},
+					"children": [
+						{
+							"name": "Flowerout12",
+							"from": [ -0.08, -0.02, -0.08 ],
+							"to": [ 1.72, 1.78, 1.72 ],
+							"rotationOrigin": [ -0.08, -0.02, -0.08 ],
+							"faces": {
+								"north": { "texture": "#hydrangea", "uv": [ 4.0, 3.5, 6.0, 5.5 ], "autoUv": false },
+								"east": { "texture": "#hydrangea", "uv": [ 4.5, 3.5, 6.5, 5.5 ], "rotation": 90, "autoUv": false },
+								"south": { "texture": "#hydrangea", "uv": [ 4.0, 3.5, 6.0, 5.5 ], "rotation": 180, "autoUv": false },
+								"west": { "texture": "#hydrangea", "uv": [ 3.5, 4.0, 5.5, 6.0 ], "autoUv": false },
+								"up": { "texture": "#hydrangea", "uv": [ 4.0, 4.0, 6.0, 6.0 ], "rotation": 270, "autoUv": false },
+								"down": { "texture": "#hydrangea", "uv": [ 4.0, 4.0, 6.0, 6.0 ], "rotation": 90, "autoUv": false }
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "LOrigin6",
+			"stepParentName": "08LTine7A2",
+			"from": [ 0.1, -0.2, 0.0 ],
+			"to": [ 0.6, 0.3, 0.5 ],
+			"rotationOrigin": [ 0.1, -0.2, 0.0 ],
+			"rotationY": -36.0,
+			"rotationZ": 47.0,
+			"faces": {
+				"north": { "texture": "#hydrangea", "uv": [ 0.0, 1.0, 0.5, 1.5 ], "enabled": false },
+				"east": { "texture": "#hydrangea", "uv": [ 1.0, 1.0, 1.5, 1.5 ], "enabled": false },
+				"south": { "texture": "#hydrangea", "uv": [ 2.0, 1.0, 2.5, 1.5 ], "enabled": false },
+				"west": { "texture": "#hydrangea", "uv": [ 3.0, 1.0, 3.5, 1.5 ], "enabled": false },
+				"up": { "texture": "#hydrangea", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"down": { "texture": "#hydrangea", "uv": [ 1.0, 0.0, 1.5, 0.5 ], "enabled": false }
+			},
+			"children": [
+				{
+					"name": "Flowerbase13",
+					"from": [ 0.05, 0.1, -0.4 ],
+					"to": [ 1.05, 1.1, 0.6 ],
+					"rotationOrigin": [ 0.05, 0.1, -0.4 ],
+					"faces": {
+						"north": { "texture": "#hydrangea", "uv": [ 0.5, 0.5, 1.5, 1.5 ], "autoUv": false },
+						"east": { "texture": "#hydrangea", "uv": [ 0.5, 0.5, 1.5, 1.5 ], "autoUv": false },
+						"south": { "texture": "#hydrangea", "uv": [ 0.5, 0.5, 1.5, 1.5 ] },
+						"west": { "texture": "#hydrangea", "uv": [ 0.5, 0.5, 1.5, 1.5 ], "autoUv": false },
+						"up": { "texture": "#hydrangea", "uv": [ 0.5, 0.5, 1.5, 1.5 ], "autoUv": false },
+						"down": { "texture": "#hydrangea", "uv": [ 0.5, 0.5, 1.5, 1.5 ] }
+					},
+					"children": [
+						{
+							"name": "Flowerout13",
+							"from": [ -0.05, -0.05, -0.05 ],
+							"to": [ 1.05, 1.05, 1.05 ],
+							"rotationOrigin": [ -0.05, -0.05, -0.05 ],
+							"faces": {
+								"north": { "texture": "#hydrangea", "uv": [ 0.0, 3.5, 1.25, 4.75 ], "autoUv": false },
+								"east": { "texture": "#hydrangea", "uv": [ 0.5, 3.5, 1.75, 4.75 ], "rotation": 90, "autoUv": false },
+								"south": { "texture": "#hydrangea", "uv": [ 0.5, 3.5, 1.75, 4.75 ], "rotation": 180, "autoUv": false },
+								"west": { "texture": "#hydrangea", "uv": [ 0.0, 4.0, 1.25, 5.25 ], "autoUv": false },
+								"up": { "texture": "#hydrangea", "uv": [ 0.5, 4.0, 1.75, 5.25 ], "rotation": 270, "autoUv": false },
+								"down": { "texture": "#hydrangea", "uv": [ 0.0, 4.0, 1.25, 5.25 ], "rotation": 90, "autoUv": false }
+							}
+						}
+					]
+				},
+				{
+					"name": "Flowerbase14",
+					"from": [ -0.45, -0.2, -0.45 ],
+					"to": [ 0.35, 0.6, 0.35 ],
+					"rotationOrigin": [ -0.05, 0.2, -0.05 ],
+					"rotationX": -3.0,
+					"rotationY": -30.0,
+					"rotationZ": -66.0,
+					"faces": {
+						"north": { "texture": "#hydrangea", "uv": [ 4.5, 0.5, 5.3, 1.3 ], "autoUv": false },
+						"east": { "texture": "#hydrangea", "uv": [ 4.0, 1.0, 4.8, 1.8 ], "autoUv": false },
+						"south": { "texture": "#hydrangea", "uv": [ 4.5, 1.0, 5.25, 1.75 ] },
+						"west": { "texture": "#hydrangea", "uv": [ 5.0, 0.0, 5.8, 0.8 ], "autoUv": false },
+						"up": { "texture": "#hydrangea", "uv": [ 3.5, 1.5, 4.3, 2.3 ], "autoUv": false },
+						"down": { "texture": "#hydrangea", "uv": [ 5.0, 1.5, 5.75, 2.25 ] }
+					},
+					"children": [
+						{
+							"name": "Flowerout14",
+							"from": [ -0.04, -0.01, -0.04 ],
+							"to": [ 0.86, 0.89, 0.86 ],
+							"rotationOrigin": [ -0.04, -0.01, -0.04 ],
+							"faces": {
+								"north": { "texture": "#hydrangea", "uv": [ 4.0, 3.5, 5.0, 4.5 ], "autoUv": false },
+								"east": { "texture": "#hydrangea", "uv": [ 4.5, 3.5, 5.5, 4.5 ], "rotation": 90, "autoUv": false },
+								"south": { "texture": "#hydrangea", "uv": [ 4.0, 3.5, 5.0, 4.5 ], "rotation": 180, "autoUv": false },
+								"west": { "texture": "#hydrangea", "uv": [ 3.5, 4.0, 4.5, 5.0 ], "autoUv": false },
+								"up": { "texture": "#hydrangea", "uv": [ 4.0, 4.0, 5.0, 5.0 ], "rotation": 270, "autoUv": false },
+								"down": { "texture": "#hydrangea", "uv": [ 4.0, 4.0, 5.0, 5.0 ], "rotation": 90, "autoUv": false }
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "LOrigin7",
+			"stepParentName": "08LBeam1",
+			"from": [ 0.2, -0.4, 0.0 ],
+			"to": [ 1.2, 0.6, 1.0 ],
+			"rotationOrigin": [ 0.2, -0.4, 0.0 ],
+			"rotationX": -39.0,
+			"rotationY": -111.0,
+			"rotationZ": -42.0,
+			"faces": {
+				"north": { "texture": "#hydrangea", "uv": [ 0.0, 1.0, 1.0, 2.0 ], "enabled": false },
+				"east": { "texture": "#hydrangea", "uv": [ 1.0, 1.0, 2.0, 2.0 ], "enabled": false },
+				"south": { "texture": "#hydrangea", "uv": [ 2.0, 1.0, 3.0, 2.0 ], "enabled": false },
+				"west": { "texture": "#hydrangea", "uv": [ 3.0, 1.0, 4.0, 2.0 ], "enabled": false },
+				"up": { "texture": "#hydrangea", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "enabled": false },
+				"down": { "texture": "#hydrangea", "uv": [ 1.0, 0.0, 2.0, 1.0 ], "enabled": false }
+			},
+			"children": [
+				{
+					"name": "Flowerbase16",
+					"from": [ -0.5, 0.6, -1.1 ],
+					"to": [ 1.1, 2.2, 0.5 ],
+					"rotationOrigin": [ 0.3, 1.4, -0.3 ],
+					"rotationX": -3.0,
+					"rotationY": -58.0,
+					"rotationZ": -66.0,
+					"faces": {
+						"north": { "texture": "#hydrangea", "uv": [ 4.5, 0.5, 6.0, 2.0 ] },
+						"east": { "texture": "#hydrangea", "uv": [ 4.0, 1.0, 5.5, 2.5 ] },
+						"south": { "texture": "#hydrangea", "uv": [ 4.5, 1.0, 6.0, 2.5 ] },
+						"west": { "texture": "#hydrangea", "uv": [ 5.0, 0.0, 6.5, 1.5 ] },
+						"up": { "texture": "#hydrangea", "uv": [ 3.5, 1.5, 5.0, 3.0 ] },
+						"down": { "texture": "#hydrangea", "uv": [ 5.0, 1.5, 6.5, 3.0 ] }
+					},
+					"children": [
+						{
+							"name": "Flowerout16",
+							"from": [ -0.08, -0.02, -0.08 ],
+							"to": [ 1.72, 1.78, 1.72 ],
+							"rotationOrigin": [ -0.08, -0.02, -0.08 ],
+							"faces": {
+								"north": { "texture": "#hydrangea", "uv": [ 4.0, 3.5, 6.0, 5.5 ], "autoUv": false },
+								"east": { "texture": "#hydrangea", "uv": [ 4.5, 3.5, 6.5, 5.5 ], "rotation": 90, "autoUv": false },
+								"south": { "texture": "#hydrangea", "uv": [ 4.0, 3.5, 6.0, 5.5 ], "rotation": 180, "autoUv": false },
+								"west": { "texture": "#hydrangea", "uv": [ 3.5, 4.0, 5.5, 6.0 ], "autoUv": false },
+								"up": { "texture": "#hydrangea", "uv": [ 4.0, 4.0, 6.0, 6.0 ], "rotation": 270, "autoUv": false },
+								"down": { "texture": "#hydrangea", "uv": [ 4.0, 4.0, 6.0, 6.0 ], "rotation": 90, "autoUv": false }
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "LOrigin8",
+			"stepParentName": "08LTine1B",
+			"from": [ 0.108, -0.216, 0.0 ],
+			"to": [ 0.648, 0.324, 0.54 ],
+			"rotationOrigin": [ 0.108, -0.216, 0.0 ],
+			"rotationY": -36.0,
+			"rotationZ": 25.0,
+			"faces": {
+				"north": { "texture": "#hydrangea", "uv": [ 0.0, 1.0, 0.54, 1.54 ], "enabled": false },
+				"east": { "texture": "#hydrangea", "uv": [ 1.0, 1.0, 1.54, 1.54 ], "enabled": false },
+				"south": { "texture": "#hydrangea", "uv": [ 2.0, 1.0, 2.54, 1.54 ], "enabled": false },
+				"west": { "texture": "#hydrangea", "uv": [ 3.0, 1.0, 3.54, 1.54 ], "enabled": false },
+				"up": { "texture": "#hydrangea", "uv": [ 0.0, 0.0, 0.54, 0.54 ], "enabled": false },
+				"down": { "texture": "#hydrangea", "uv": [ 1.0, 0.0, 1.54, 0.54 ], "enabled": false }
+			},
+			"children": [
+				{
+					"name": "Flowerbase15",
+					"from": [ 0.054, 0.108, -0.432 ],
+					"to": [ 1.134, 1.188, 0.648 ],
+					"rotationOrigin": [ 0.054, 0.108, -0.432 ],
+					"faces": {
+						"north": { "texture": "#hydrangea", "uv": [ 0.5, 0.5, 1.58, 1.58 ], "autoUv": false },
+						"east": { "texture": "#hydrangea", "uv": [ 0.5, 0.5, 1.58, 1.58 ], "autoUv": false },
+						"south": { "texture": "#hydrangea", "uv": [ 0.5, 0.5, 1.58, 1.58 ] },
+						"west": { "texture": "#hydrangea", "uv": [ 0.5, 0.5, 1.58, 1.58 ], "autoUv": false },
+						"up": { "texture": "#hydrangea", "uv": [ 0.5, 0.5, 1.58, 1.58 ], "autoUv": false },
+						"down": { "texture": "#hydrangea", "uv": [ 0.5, 0.5, 1.58, 1.58 ] }
+					},
+					"children": [
+						{
+							"name": "Flowerout15",
+							"from": [ -0.054, -0.054, -0.054 ],
+							"to": [ 1.134, 1.134, 1.134 ],
+							"rotationOrigin": [ -0.054, -0.054, -0.054 ],
+							"faces": {
+								"north": { "texture": "#hydrangea", "uv": [ 0.0, 3.5, 1.35, 4.85 ], "autoUv": false },
+								"east": { "texture": "#hydrangea", "uv": [ 0.5, 3.5, 1.85, 4.85 ], "rotation": 90, "autoUv": false },
+								"south": { "texture": "#hydrangea", "uv": [ 0.5, 3.5, 1.85, 4.85 ], "rotation": 180, "autoUv": false },
+								"west": { "texture": "#hydrangea", "uv": [ 0.0, 4.0, 1.35, 5.35 ], "autoUv": false },
+								"up": { "texture": "#hydrangea", "uv": [ 0.5, 4.0, 1.85, 5.35 ], "rotation": 270, "autoUv": false },
+								"down": { "texture": "#hydrangea", "uv": [ 0.0, 4.0, 1.35, 5.35 ], "rotation": 90, "autoUv": false }
+							}
+						}
+					]
+				},
+				{
+					"name": "Flowerbase17",
+					"from": [ -0.486, -0.216, -0.486 ],
+					"to": [ 0.378, 0.648, 0.378 ],
+					"rotationOrigin": [ -0.054, 0.216, -0.054 ],
+					"rotationX": -3.0,
+					"rotationY": -30.0,
+					"rotationZ": -66.0,
+					"faces": {
+						"north": { "texture": "#hydrangea", "uv": [ 4.5, 0.5, 5.364, 1.364 ], "autoUv": false },
+						"east": { "texture": "#hydrangea", "uv": [ 4.0, 1.0, 4.864, 1.864 ], "autoUv": false },
+						"south": { "texture": "#hydrangea", "uv": [ 4.5, 1.0, 5.31, 1.81 ] },
+						"west": { "texture": "#hydrangea", "uv": [ 5.0, 0.0, 5.864, 0.864 ], "autoUv": false },
+						"up": { "texture": "#hydrangea", "uv": [ 3.5, 1.5, 4.364, 2.364 ], "autoUv": false },
+						"down": { "texture": "#hydrangea", "uv": [ 5.0, 1.5, 5.81, 2.31 ] }
+					},
+					"children": [
+						{
+							"name": "Flowerout17",
+							"from": [ -0.0432, -0.0108, -0.0432 ],
+							"to": [ 0.9288, 0.9612, 0.9288 ],
+							"rotationOrigin": [ -0.0432, -0.0108, -0.0432 ],
+							"faces": {
+								"north": { "texture": "#hydrangea", "uv": [ 4.0, 3.5, 5.08, 4.58 ], "autoUv": false },
+								"east": { "texture": "#hydrangea", "uv": [ 4.5, 3.5, 5.58, 4.58 ], "rotation": 90, "autoUv": false },
+								"south": { "texture": "#hydrangea", "uv": [ 4.0, 3.5, 5.08, 4.58 ], "rotation": 180, "autoUv": false },
+								"west": { "texture": "#hydrangea", "uv": [ 3.5, 4.0, 4.58, 5.08 ], "autoUv": false },
+								"up": { "texture": "#hydrangea", "uv": [ 4.0, 4.0, 5.08, 5.08 ], "rotation": 270, "autoUv": false },
+								"down": { "texture": "#hydrangea", "uv": [ 4.0, 4.0, 5.08, 5.08 ], "rotation": 90, "autoUv": false }
+							}
+						}
+					]
+				}
+			]
+		}
+	]}

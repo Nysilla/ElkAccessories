@@ -1,0 +1,80 @@
+{
+	"editor": {
+		"backDropShape": "",
+		"collapsedPaths": "Root/SaddleBackN,Root/ORIGIN/SaddleBack1,Root/ORIGIN,Root/SaddleFrontN",
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+		"butterfly": [4,4]
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "origin",
+			"stepParentName": "TrimS",
+			"from": [ 0.5, -1.0, -0.5 ],
+			"to": [ 0.5, 1.0, 1.5 ],
+			"rotationOrigin": [ 0.5, 0.0, 0.5 ],
+			"rotationY": 90.0,
+			"faces": {
+				"north": { "texture": "#butterfly", "uv": [ 0.0, 2.0, 0.5, 4.0 ], "enabled": false },
+				"east": { "texture": "#butterfly", "uv": [ 0.5, 2.0, 2.5, 4.0 ], "enabled": false },
+				"south": { "texture": "#butterfly", "uv": [ 2.5, 2.0, 3.0, 4.0 ], "enabled": false },
+				"west": { "texture": "#butterfly", "uv": [ 3.0, 2.0, 5.0, 4.0 ], "enabled": false },
+				"up": { "texture": "#butterfly", "uv": [ 0.0, 0.0, 0.5, 2.0 ], "enabled": false },
+				"down": { "texture": "#butterfly", "uv": [ 0.5, 0.0, 1.0, 2.0 ], "enabled": false }
+			},
+			"children": [
+				{
+					"name": "ButterflyTorso",
+					"from": [ -0.5, 0.5, 0.7 ],
+					"to": [ 0.0, 1.5, 1.2 ],
+					"rotationOrigin": [ -0.5, 1.0, 1.2 ],
+					"faces": {
+						"north": { "texture": "#butterfly", "uv": [ 1.0, 1.0, 1.5, 2.0 ] },
+						"east": { "texture": "#butterfly", "uv": [ 1.0, 1.0, 1.5, 2.0 ], "enabled": false },
+						"south": { "texture": "#butterfly", "uv": [ 1.0, 1.0, 1.5, 2.0 ] },
+						"west": { "texture": "#butterfly", "uv": [ 1.0, 1.0, 1.5, 2.0 ] },
+						"up": { "texture": "#butterfly", "uv": [ 1.0, 1.0, 1.5, 1.5 ], "rotation": 90 },
+						"down": { "texture": "#butterfly", "uv": [ 1.0, 1.0, 1.5, 1.5 ], "rotation": 90 }
+					},
+					"children": [
+						{
+							"name": "ButterflyWingL",
+							"from": [ 0.3, -1.0, -1.0 ],
+							"to": [ 0.3, 2.0, 0.0 ],
+							"rotationOrigin": [ 0.3, 0.5, 0.0 ],
+							"rotationY": 22.5,
+							"faces": {
+								"north": { "texture": "#butterfly", "uv": [ 0.0, 1.0, 1.0, 2.0 ], "autoUv": false, "enabled": false },
+								"east": { "texture": "#butterfly", "uv": [ 0.0, 1.0, 1.0, 2.0 ], "autoUv": false, "enabled": false },
+								"south": { "texture": "#butterfly", "uv": [ 1.0, 1.0, 1.5, 4.0 ], "enabled": false },
+								"west": { "texture": "#butterfly", "uv": [ 0.0, 0.0, 1.0, 3.0 ] },
+								"up": { "texture": "#butterfly", "uv": [ 0.0, 0.0, 0.5, 1.0 ], "enabled": false },
+								"down": { "texture": "#butterfly", "uv": [ 1.0, 0.0, 1.5, 1.0 ], "enabled": false }
+							}
+						},
+						{
+							"name": "ButterflyWingR",
+							"from": [ 0.3, -1.0, 0.5 ],
+							"to": [ 0.3, 2.0, 1.5 ],
+							"rotationOrigin": [ 0.3, 0.5, 0.5 ],
+							"rotationY": -22.5,
+							"faces": {
+								"north": { "texture": "#butterfly", "uv": [ 0.0, 1.0, 0.5, 4.0 ], "enabled": false },
+								"east": { "texture": "#butterfly", "uv": [ 0.0, 0.0, 1.0, 3.0 ] },
+								"south": { "texture": "#butterfly", "uv": [ 1.0, 1.0, 1.5, 4.0 ], "enabled": false },
+								"west": { "texture": "#butterfly", "uv": [ 0.0, 0.0, 1.0, 3.0 ], "enabled": false },
+								"up": { "texture": "#butterfly", "uv": [ 0.0, 0.0, 0.5, 1.0 ], "enabled": false },
+								"down": { "texture": "#butterfly", "uv": [ 1.0, 0.0, 1.5, 1.0 ], "enabled": false }
+							}
+						}
+					]
+				}
+			]
+		}
+	]}

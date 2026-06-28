@@ -1,0 +1,174 @@
+{
+  "enabled": true,
+  "code": "hoovedwearables",
+  "variantgroups": [
+    {
+      "code": "category",
+      "states": [
+        "neck"
+      ]
+    },
+    {
+      "code": "type",
+      "states": [
+        "scarf",
+        "bowtie",
+        "tie"
+      ]
+    },
+
+    {
+      "code": "color",
+      "states": [
+        "alchemist",
+        "azure-embroidered",
+        "blackguard",
+        "chateau",
+        "commoner",
+        "deepnoble",
+        "earthtone",
+        "fancygreen",
+        "forlorn",
+        "herder",
+        "hide",
+        "king",
+        "lackey",
+        "merchant",
+        "messenger",
+        "plaidblue",
+        "plaincloth",
+        "prince",
+        "squire",
+        "survivor",
+        "wool",
+
+        "black",
+        "blue",
+        "brown",
+        "gray",
+        "green",
+        "mordant",
+        "orange",
+        "pink",
+        "plain",
+        "purple",
+        "red",
+        "white",
+        "yellow"
+      ]
+    }
+  ],
+  "allowedVariants": [
+    "*-scarf-alchemist",
+    "*-scarf-azure-embroidered",
+    "*-scarf-blackguard",
+    "*-scarf-chateau",
+    "*-scarf-commoner",
+    "*-scarf-deepnoble",
+    "*-scarf-earthtone",
+    "*-scarf-fancygreen",
+    "*-scarf-forlorn",
+    "*-scarf-herder",
+    "*-scarf-hide",
+    "*-scarf-king",
+    "*-scarf-lackey",
+    "*-scarf-merchant",
+    "*-scarf-messenger",
+    "*-scarf-plaidblue",
+    "*-scarf-plaincloth",
+    "*-scarf-prince",
+    "*-scarf-squire",
+    "*-scarf-survivor",
+    "*-scarf-wool",
+
+    "*-bowtie-black",
+    "*-bowtie-blue",
+    "*-bowtie-brown",
+    "*-bowtie-gray",
+    "*-bowtie-green",
+    "*-bowtie-mordant",
+    "*-bowtie-orange",
+    "*-bowtie-pink",
+    "*-bowtie-plain",
+    "*-bowtie-purple",
+    "*-bowtie-red",
+    "*-bowtie-white",
+    "*-bowtie-yellow",
+
+    "*-tie-black",
+    "*-tie-blue",
+    "*-tie-brown",
+    "*-tie-gray",
+    "*-tie-green",
+    "*-tie-mordant",
+    "*-tie-orange",
+    "*-tie-pink",
+    "*-tie-plain",
+    "*-tie-purple",
+    "*-tie-red",
+    "*-tie-white",
+    "*-tie-yellow"
+  ],
+  "shapeByType": {
+    "*-tie-*": {"base": "item/wearable/hooved/inventory/tie-inventory"},
+    "*": {"base": "item/wearable/hooved/neck/{type}-elk"}
+  },
+    "attributes": {
+    "attachableToEntity": {
+        "texturePrefixCode": "elkaccessories:*-{type}-{color}",
+        "categoryCode": "collar",
+        "attachedShapeBySlotCodeByType": {
+        "*": {"neck": {"base": "item/wearable/hooved/neck/{type}-elk"}}
+          }
+        },
+      "handbook": {
+        "groupBy": ["hoovedwearables-neck-{type}-*"]
+      }
+    },
+  "texturesByType": {
+    "*-scarf-*": {"blanket": {"base": "item/scarf/blanket/{color}"}
+  },
+    "*tie-*": {"color": {"base": "item/{type}/{color}"}
+    }
+  },
+  "creativeinventory": {"general": ["*"],"items": ["*"],"clothing": ["*"],"elkaccessories": ["*"]},
+  "maxStackSize": 1,
+  "guiTransformByType": {
+    "*-bowtie-*": {
+      "rotation": { "x": -37, "y": -44, "z": -180 },
+      "origin": { "x": 0.2, "y": 0.3, "z": 0 },
+      "scale": 4.01
+    },
+    "*-tie-*": {
+      "rotation": { "x": -56, "y": -19, "z": -168 },
+      "origin": { "x": -0.03, "y": -0.1, "z": 0 },
+      "scale": 4.36
+		},
+    "*": {
+      "translation": { "x": 9, "y": 8, "z": 0 },
+      "rotation": { "x": -37, "y": -44, "z": -180 },
+      "origin": { "x": 0.2, "y": 0.1, "z": 0 },
+      "scale": 2.53
+    }
+  },
+  "tpHandTransformByType": {
+    "*-bowtie-*": {
+      "translation": { "x": -0.6, "y": 0.2, "z": -0.15 },
+      "rotation": { "x": 0, "y": -180, "z": -115 },
+      "origin": { "x": 0, "y": 0, "z": 0 },
+      "scale": 0.74
+    },
+    "*-tie-*": {
+      "translation": { "x": 0.15, "y": 0, "z": -0 },
+      "rotation": { "x": 24, "y": -180, "z": 83 },
+      "origin": { "x": 0, "y": 0, "z": 0 },
+      "scaleXyz": { "x": -0.75, "y": 0.75, "z": 0.75 }
+		},
+    "*": {
+      "translation": { "x": 0.3, "y": -0.1, "z": 0.3 },
+      "rotation": { "x": 119, "y": 160, "z": -180 },
+      "origin": { "x": 0, "y": 0, "z": 0 },
+      "scaleXyz": { "x": -0.75, "y": 0.75, "z": 0.75 }
+	  }
+  }
+}

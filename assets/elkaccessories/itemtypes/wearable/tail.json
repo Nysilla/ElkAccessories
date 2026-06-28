@@ -1,0 +1,73 @@
+{
+  "code": "hoovedwearables",
+  "variantgroups": [
+    {
+      "code": "category",
+      "states": [
+        "tail"
+      ]
+    },
+    {
+      "code": "type",
+      "states": [
+        "bow"
+      ]
+    },
+    {
+      "code": "color",
+      "states": [
+        "black",
+        "blue",
+        "brown",
+        "gray",
+        "green",
+        "mordant",
+        "orange",
+        "pink",
+        "plain",
+        "purple",
+        "red",
+        "white",
+        "yellow"
+      ]
+    }
+  ],
+  "shape": {
+    "base": "item/wearable/hooved/tail/{type}-elk"
+  },
+    "attributes": {
+    "attachableToEntity": {
+      "texturePrefixCode": "elkaccessories:{type}-{color}",
+      "categoryCode": "tail",
+      "attachedShapeBySlotCodeByType": {
+        "*": {"tail": {"base": "item/wearable/hooved/tail/{type}-elk"}}
+        }          
+    },
+    "handbook": {
+        "groupBy": ["{type}-*"]
+      }
+  },
+  "texturesByType": {
+    "*": {"color": {"base": "item/{type}/{color}"}}
+  },
+  "texture": { 
+    "base": "item/bow/red"
+  },
+  "creativeinventory": {"general": ["*"],"items": ["*"],"clothing": ["*"],"elkaccessories": ["*"]},
+  "maxStackSize": 1,
+  "guiTransformByType": {
+    "*-bow-*": {
+        "rotation": { "x": -48, "y": 115, "z": -140 },
+        "origin": { "x": 0.15, "y": 0.15, "z": 0 },
+        "scale": 4.01
+	}
+  },
+   "tpHandTransformByType": {
+     "*-bow-*": {
+        "translation": { "x": -0.2, "y": -0.1, "z": 0.05 },
+        "rotation": { "x": -180, "y": -180, "z": -151 },
+        "origin": { "x": 0, "y": 0, "z": 0 },
+        "scale": 0.74
+	 }
+   }
+}

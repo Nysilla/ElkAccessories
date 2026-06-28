@@ -1,0 +1,50 @@
+{
+  "code": "propellerhatsmol",
+  "variantgroups": [
+    {
+      "code": "type",
+      "states": [
+        "classic",
+        "monochrome"
+      ]
+    }
+  ],
+  "shape": {
+    "base": "item/wearable/hooved/hat/propellerhatsmol-elk"
+  },
+    "attributes": {
+    "attachableToEntity": {
+      "texturePrefixCode": "elkaccessories:propellerhat-{type}",
+      "categoryCode": "hat",
+      "attachedShapeBySlotCodeByType": {
+        "*": {"hat": {"base": "item/wearable/hooved/hat/propellerhatsmol-elk"}}
+      }
+    },
+    "handbook": {
+        "groupBy": ["propellerhat-*"]
+      }
+  },
+  "texturesByType": {
+    "*": {"hat": {"base": "item/propellerhat/{type}"}}
+  },
+  "texture": { 
+    "base": "item/propellerhat/classic"
+  },
+  "maxStackSize": 1,
+  "guiTransformByType": {
+    "*": {
+      	"translation": { "x": 7, "y": 15, "z": 0 },
+        "rotation": { "x": -37, "y": -44, "z": -180 },
+        "origin": { "x": 0.2, "y": 0.1, "z": 0 },
+        "scale": 5
+    }
+  },
+  	"tpHandTransformByType": {
+      "*": {
+      "translation": { "x": -0.35, "y": -0.3, "z": -0.1 },
+      "rotation": { "x": 0, "y": -180, "z": -17 },
+      "origin": { "x": 0, "y": 0, "z": 0 },
+      "scale": 1
+    }
+	}
+}

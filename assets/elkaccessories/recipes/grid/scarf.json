@@ -1,0 +1,481 @@
+[
+  {
+    "ingredientPattern": "BC,_A",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:cloth-blue"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:hoovedwearables-blanket-alchemist"
+      },
+      "A": {
+        "type": "item",
+        "code": "game:cloth-yellow"
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-neck-scarf-alchemist"
+    }
+  },
+  {
+    "ingredientPattern": "BC,_C",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:cloth-blue"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:hoovedwearables-blanket-azure-embroidered"
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-neck-scarf-azure-embroidered"
+    }
+  },
+  {
+    "ingredientPattern": "BC,_A",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:cloth-brown"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:hoovedwearables-blanket-blackguard"
+      },
+      "A": {
+        "type": "item",
+        "code": "game:cloth-blue"
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-neck-scarf-blackguard"
+    }
+  },
+  {
+    "ingredientPattern": "BC,_A",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:cloth-white"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:hoovedwearables-blanket-chateau"
+      },
+      "A": {
+        "type": "item",
+        "code": "game:cloth-gray"
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-neck-scarf-chateau"
+    }
+  },
+  {
+    "ingredientPattern": "BC,_A",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:cloth-blue"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:hoovedwearables-blanket-commoner"
+      },
+      "A": {
+        "type": "item",
+        "code": "game:cloth-brown"
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-neck-scarf-commoner"
+    }
+  },
+  {
+    "ingredientPattern": "BC,_A",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:cloth-red"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:hoovedwearables-blanket-deepnoble"
+      },
+      "A": {
+        "type": "item",
+        "code": "game:cloth-white"
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-neck-scarf-deepnoble"
+    }
+  },
+  {
+    "ingredientPattern": "BC,_A",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:cloth-brown"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:hoovedwearables-blanket-earthtone"
+      },
+      "A": {
+        "type": "item",
+        "code": "game:cloth-blue"
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-neck-scarf-earthtone"
+    }
+  },
+  {
+    "ingredientPattern": "BC,_A",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:cloth-green"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:hoovedwearables-blanket-fancygreen"
+      },
+      "A": {
+        "type": "item",
+        "code": "game:cloth-yellow"
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-neck-scarf-fancygreen"
+    }
+  },
+  {
+    "ingredientPattern": "BC,_A",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:cloth-blue"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:hoovedwearables-blanket-forlorn"
+      },
+      "A": {
+        "type": "item",
+        "code": "game:cloth-green"
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-neck-scarf-forlorn"
+    }
+  },
+  {
+    "ingredientPattern": "BC,_A",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:cloth-red"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:hoovedwearables-blanket-herder"
+      },
+      "A": {
+        "type": "item",
+        "code": "game:cloth-blue"
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-neck-scarf-herder"
+    }
+  },
+  {
+    "ingredientPattern": "BC,_A",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:hide-raw-medium"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:hoovedwearables-blanket-hide"
+      },
+      "A": {
+        "type": "item",
+        "code": "game:cloth-gray"
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-neck-scarf-hide"
+    }
+  },
+  {
+    "ingredientPattern": "BC,_A",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:cloth-red"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:hoovedwearables-blanket-king"
+      },
+      "A": {
+        "type": "item",
+        "code": "game:cloth-yellow"
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-neck-scarf-king"
+    }
+  },
+  {
+    "ingredientPattern": "BC,_A",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:cloth-yellow"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:hoovedwearables-blanket-lackey"
+      },
+      "A": {
+        "type": "item",
+        "code": "game:cloth-plain"
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-neck-scarf-lackey"
+    }
+  },
+  {
+    "ingredientPattern": "BC,_A",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:cloth-black"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:hoovedwearables-blanket-merchant"
+      },
+      "A": {
+        "type": "item",
+        "code": "game:cloth-white"
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-neck-scarf-merchant"
+    }
+  },
+  {
+    "ingredientPattern": "BC,_A",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:cloth-red"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:hoovedwearables-blanket-messenger"
+      },
+      "A": {
+        "type": "item",
+        "code": "game:cloth-blue"
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-neck-scarf-messenger"
+    }
+  },
+  {
+    "ingredientPattern": "BC,_A",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:cloth-blue"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:hoovedwearables-blanket-plaidblue"
+      },
+      "A": {
+        "type": "item",
+        "code": "game:cloth-brown"
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-neck-scarf-plaidblue"
+    }
+  },
+  {
+    "ingredientPattern": "BC,_A",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:cloth-plain"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:hoovedwearables-blanket-plaincloth"
+      },
+      "A": {
+        "type": "item",
+        "code": "game:cloth-plain"
+      } 
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-neck-scarf-plaincloth"
+    }
+  },
+  {
+    "ingredientPattern": "BC,_A",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:cloth-green"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:hoovedwearables-blanket-prince"
+      },
+      "A": {
+        "type": "item",
+        "code": "game:cloth-yellow"
+      } 
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-neck-scarf-prince"
+    }
+  },
+  {
+    "ingredientPattern": "BC,_A",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:cloth-blue"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:hoovedwearables-blanket-squire"
+      },
+      "A": {
+        "type": "item",
+        "code": "game:cloth-red"
+      } 
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-neck-scarf-squire"
+    }
+  },
+  {
+    "ingredientPattern": "BC,_A",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:cloth-plain"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:hoovedwearables-blanket-survivor"
+      },
+      "A": {
+        "type": "item",
+        "code": "game:cloth-brown"
+      } 
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-neck-scarf-survivor"
+    }
+  },
+  {
+    "ingredientPattern": "BC,_A",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:cloth-brown"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:hoovedwearables-blanket-wool"
+      },
+      "A": {
+        "type": "item",
+        "code": "game:cloth-red"
+      } 
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-neck-scarf-wool"
+    }
+  }
+]

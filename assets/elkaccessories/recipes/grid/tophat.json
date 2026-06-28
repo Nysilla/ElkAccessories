@@ -1,0 +1,27 @@
+[
+  {
+    "ingredientPattern": "CCC,CTC",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:cloth-*",
+        "name": "color",
+        "allowedVariants": [
+          "black",
+          "brown",
+          "white"
+        ]
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine"
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-head-tophat-{color}"
+    }
+  }
+]

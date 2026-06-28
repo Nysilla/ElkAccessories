@@ -1,0 +1,371 @@
+{
+  "code": "hoovedwearables",
+  "variantgroups": [
+    {
+      "code": "category",
+      "states": [
+        "head"
+      ]
+    },
+    {
+      "code": "type",
+      "onVariant": "category",
+      "states": [
+        "hunterhat",
+        "beanie",
+        "crown",
+        "propellerhat",
+        "propellerhatsmol",
+        "fedora",
+        "tophat",
+        "witchhat",
+        "apple"
+      ]
+    },
+    {
+      "code": "color",
+      "states": [
+        "alchemist",
+        "azure-embroidered",
+        "blackguard",
+        "chateau",
+        "commoner",
+        "deepnoble",
+        "earthtone",
+        "fancygreen",
+        "forlorn",
+        "herder",
+        "hide",
+        "king",
+        "lackey",
+        "merchant",
+        "messenger",
+        "plaidblue",
+        "plaincloth",
+        "prince",
+        "squire",
+        "survivor",
+        "wool",
+
+        "bismuth",
+        "bismuthbronze",
+        "blackbronze",
+        "brass",
+        "chromium",
+        "copper",
+        "cupronickel",
+        "electrum",
+        "gold",
+        "iron",
+        "lead",
+        "meteoriciron",
+        "molybdochalkos",
+        "nickel",
+        "platinum",
+        "silver",
+        "stainlesssteel",
+        "steel",
+        "tin",
+        "tinbronze",
+        "titanium",
+        "uranium",
+        "zinc",
+
+        "classic",
+        "monochrome",
+
+        "black",
+        "white",
+        "brown",
+
+        "butterfly",
+        "stars",
+        "fire",
+        "flower",
+
+        "rotten",
+        "pink",
+        "red",
+        "green",
+        "yellow"
+      ]
+    }
+  ],
+
+  "allowedVariants": [
+    "*-hunterhat-alchemist",
+    "*-hunterhat-azure-embroidered",
+    "*-hunterhat-blackguard",
+    "*-hunterhat-chateau",
+    "*-hunterhat-commoner",
+    "*-hunterhat-deepnoble",
+    "*-hunterhat-earthtone",
+    "*-hunterhat-fancygreen",
+    "*-hunterhat-forlorn",
+    "*-hunterhat-herder",
+    "*-hunterhat-hide",
+    "*-hunterhat-king",
+    "*-hunterhat-lackey",
+    "*-hunterhat-merchant",
+    "*-hunterhat-messenger",
+    "*-hunterhat-plaidblue",
+    "*-hunterhat-plaincloth",
+    "*-hunterhat-prince",
+    "*-hunterhat-squire",
+    "*-hunterhat-survivor",
+    "*-hunterhat-wool",
+
+    "*-beanie-alchemist",
+    "*-beanie-azure-embroidered",
+    "*-beanie-blackguard",
+    "*-beanie-chateau",
+    "*-beanie-commoner",
+    "*-beanie-deepnoble",
+    "*-beanie-earthtone",
+    "*-beanie-fancygreen",
+    "*-beanie-forlorn",
+    "*-beanie-herder",
+    "*-beanie-hide",
+    "*-beanie-king",
+    "*-beanie-lackey",
+    "*-beanie-merchant",
+    "*-beanie-messenger",
+    "*-beanie-plaidblue",
+    "*-beanie-plaincloth",
+    "*-beanie-prince",
+    "*-beanie-squire",
+    "*-beanie-survivor",
+    "*-beanie-wool",
+
+    "*-crown-bismuth",
+    "*-crown-bismuthbronze",
+    "*-crown-blackbronze",
+    "*-crown-brass",
+    "*-crown-chromium",
+    "*-crown-copper",
+    "*-crown-cupronickel",
+    "*-crown-electrum",
+    "*-crown-gold",
+    "*-crown-iron",
+    "*-crown-lead",
+    "*-crown-meteoriciron",
+    "*-crown-molybdochalkos",
+    "*-crown-nickel",
+    "*-crown-platinum",
+    "*-crown-silver",
+    "*-crown-stainlesssteel",
+    "*-crown-steel",
+    "*-crown-tin",
+    "*-crown-tinbronze",
+    "*-crown-titanium",
+    "*-crown-uranium",
+    "*-crown-zinc",
+
+    "*-propellerhat-classic",
+    "*-propellerhat-monochrome",
+    
+    "*-propellerhatsmol-classic",
+    "*-propellerhatsmol-monochrome",
+
+    "*-fedora-black",
+    "*-fedora-brown",
+    "*-fedora-white",
+
+    "*-tophat-black",
+    "*-tophat-brown",
+    "*-tophat-white",
+
+    "*-witchhat-classic",
+    "*-witchhat-butterfly",
+    "*-witchhat-stars",
+    "*-witchhat-fire",
+    "*-witchhat-flower",
+
+    "*-apple-rotten",
+    "*-apple-red",
+    "*-apple-pink",
+    "*-apple-green",
+    "*-apple-yellow"
+  ],
+  "shapeByType": {
+    "*-apple-rotten": {"base": "item/wearable/hooved/inventory/apple-rotten-inventory"},
+    "*-apple-*": {"base": "item/wearable/hooved/inventory/apple-inventory"},
+    "*-witchhat-*": {"base": "item/wearable/hooved/hat/witchhat-{color}-elk"},
+    "*": {"base": "item/wearable/hooved/hat/{type}-elk"}
+  },
+    "attributes": {
+    "attachableToEntity": {
+      "texturePrefixCode": "elkaccessories:*-{type}-{color}",
+      "categoryCode": "hat",
+      "attachedShapeBySlotCodeByType": {
+        "*-apple-rotten": {"hat": {"base": "item/wearable/hooved/hat/apple-rotten-elk"}},
+        "*-witchhat-*": {"hat": {"base": "item/wearable/hooved/hat/{type}-{color}-elk"}},
+        "*": {"hat": {"base": "item/wearable/hooved/hat/{type}-elk"}}
+      }
+    },
+    "handbook": {
+        "groupBy": ["hoovedwearables-head-{type}-*"]
+      }
+  },
+  "texturesByType": {
+    "*-cupronickel": {"metal": {"base": "game:block/metal/ingot/{color}"},
+          "gem1": {"base": "game:block/stone/gem/ruby"},
+          "gem2": {"base": "game:block/stone/gem/sapphire"}
+        },
+    "*-meteoriciron": {"metal": {"base": "game:block/metal/ingot/{color}"},
+          "gem1": {"base": "game:block/stone/gem/ruby"},
+          "gem2": {"base": "game:block/stone/gem/sapphire"}
+        },
+    "*-crown-*": {"metal": {"base": "game:block/metal/plate/{color}"},
+          "gem1": {"base": "game:block/stone/gem/ruby"},
+          "gem2": {"base": "game:block/stone/gem/sapphire"}
+        },
+    "*-propellerhat*": {"hat": {"base": "item/propellerhat/{color}"}
+        },
+    "*-hunterhat-*": {"blanket": {"base": "item/{type}/blanket/{color}"}
+        },
+    "*-beanie-*": {"blanket": {"base": "item/{type}/blanket/{color}"}
+        },
+    "*-fedora-*": {"color": {"base": "item/{type}/{color}"}
+        },
+    "*-tophat-*": {"color": {"base": "item/{type}/{color}"}
+        },
+    "*-apple-green": {"ripe2": {"base": "game:block/plant/fruittree/redapple/fruiting"}},
+    "*-apple-red": {"ripe2": {"base": "game:block/plant/fruittree/redapple/ripe"}},
+    "*-apple-pink": {"ripe2": {"base": "game:block/plant/fruittree/pinkapple/ripe"}},
+    "*-apple-yellow": {"ripe2": {"base": "game:block/plant/fruittree/yellowapple/ripe"}}
+  },
+  "creativeinventory": {"general": ["*"],"items": ["*"],"clothing": ["*"],"elkaccessories": ["*"]},
+  "maxStackSize": 1,
+  "guiTransformByType": {
+    "*-crown-*": {
+      "translation": { "x": 7, "y": 9, "z": 0 },
+      "rotation": { "x": -37, "y": -44, "z": -180 },
+      "origin": { "x": 0.2, "y": 0.1, "z": 0 },
+      "scale": 3.24
+    },
+    "*-fedora-*": {
+      "translation": { "x": 7, "y": 9, "z": 0 },
+      "rotation": { "x": -37, "y": -44, "z": -180 },
+      "origin": { "x": 0.2, "y": 0.1, "z": 0 },
+      "scale": 3.24
+    },
+    "*-hunterhat-*": {
+		"translation": { "x": 7, "y": 5, "z": 0 },
+		"rotation": { "x": -37, "y": -44, "z": -180 },
+		"origin": { "x": 0.2, "y": 0.1, "z": 0 },
+		"scale": 3.24
+	  },
+    "*-propellerhat-*": {
+      "translation": { "x": 7, "y": 9, "z": 0 },
+      "rotation": { "x": -37, "y": -44, "z": -180 },
+      "origin": { "x": 0.2, "y": 0.1, "z": 0 },
+      "scale": 3.24
+    },
+    "*-propellerhatsmol-*": {
+      	"translation": { "x": 7, "y": 15, "z": 0 },
+        "rotation": { "x": -37, "y": -44, "z": -180 },
+        "origin": { "x": 0.2, "y": 0.1, "z": 0 },
+        "scale": 5
+    },
+    "*-tophat-*": {
+      "translation": { "x": 7, "y": 9, "z": 0 },
+      "rotation": { "x": -37, "y": -44, "z": -180 },
+      "origin": { "x": 0.2, "y": 0.1, "z": 0 },
+      "scale": 3.24
+    },
+    "*-beanie-*": {
+      "translation": { "x": 7, "y": 9, "z": 0 },
+      "rotation": { "x": -37, "y": -44, "z": -180 },
+      "origin": { "x": 0.2, "y": 0.1, "z": 0 },
+      "scale": 3.24
+    },
+    "*-witchhat-*": {
+			"rotation": { "x": -38, "y": -52, "z": -180 },
+			"origin": { "x": 0.6, "y": 0.1, "z": -0.1 },
+			"scale": 2.33
+		},
+    "*-apple-*": {
+      "translation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 162,
+        "y": -175,
+        "z": -15
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.19,
+        "z": 0.5
+      },
+      "scale": 3.19
+    }
+  },
+  
+  "tpHandTransformByType": {
+    "*-crown-*": {
+      "translation": { "x": -0.4, "y": -0.3, "z": -0.1 },
+      "rotation": { "x": 0, "y": -180, "z": -17 },
+      "origin": { "x": 0, "y": 0, "z": 0 },
+      "scale": 0.71
+    },
+    "*-fedora-*": {
+      "translation": { "x": -0.4, "y": -0.3, "z": -0.1 },
+      "rotation": { "x": 0, "y": -180, "z": -17 },
+      "origin": { "x": 0, "y": 0, "z": 0 },
+      "scale": 0.71
+    },
+    "*-hunterhat-*": {
+        "translation": { "x": -0.4, "y": -0.3, "z": -0.1 },
+        "rotation": { "x": 0, "y": -180, "z": -17 },
+        "origin": { "x": 0, "y": 0, "z": 0 },
+        "scale": 0.71
+    },
+    "*-propellerhat-*": {
+      "translation": { "x": -0.4, "y": -0.3, "z": -0.1 },
+      "rotation": { "x": 0, "y": -180, "z": -17 },
+      "origin": { "x": 0, "y": 0, "z": 0 },
+      "scale": 0.71
+    },
+    "*-propellerhatsmol-*": {
+      "translation": { "x": -0.35, "y": -0.3, "z": -0.1 },
+      "rotation": { "x": 0, "y": -180, "z": -17 },
+      "origin": { "x": 0, "y": 0, "z": 0 },
+      "scale": 1
+    },
+    "*-tophat-*": {
+      "translation": { "x": -0.4, "y": -0.3, "z": -0.1 },
+      "rotation": { "x": 0, "y": -180, "z": -17 },
+      "origin": { "x": 0, "y": 0, "z": 0 },
+      "scale": 0.71
+    },
+    "*-beanie-*": {
+      "translation": { "x": -0.4, "y": -0.3, "z": -0.1 },
+      "rotation": { "x": 0, "y": -180, "z": -17 },
+      "origin": { "x": 0, "y": 0, "z": 0 },
+      "scale": 0.71
+    },
+    "*-witchhat-*": {
+			"translation": { "x": -0.3, "y": -0.4, "z": 0.1 },
+			"rotation": { "x": -20, "y": -169, "z": 33 },
+			"origin": { "x": 0, "y": 0, "z": 0 },
+			"scale": 0.49
+		},
+    "*-apple-*": {
+      "translation": {
+        "x": -1.3899,
+        "y": -0.96,
+        "z": -0.86
+      },
+      "rotation": {
+        "x": -27,
+        "y": 0,
+        "z": -90
+      },
+      "scale": 0.56
+    }
+	}
+}

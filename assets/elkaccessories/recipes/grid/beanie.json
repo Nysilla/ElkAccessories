@@ -1,0 +1,481 @@
+[
+  {
+    "ingredientPattern": "CBA",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:cloth-blue"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:hoovedwearables-blanket-alchemist"
+      },
+      "A": {
+        "type": "item",
+        "code": "game:cloth-yellow"
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-head-beanie-alchemist"
+    }
+  },
+  {
+    "ingredientPattern": "CBC",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:cloth-blue"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:hoovedwearables-blanket-azure-embroidered"
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-head-beanie-azure-embroidered"
+    }
+  },
+  {
+    "ingredientPattern": "CBA",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:cloth-brown"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:hoovedwearables-blanket-blackguard"
+      },
+      "A": {
+        "type": "item",
+        "code": "game:cloth-blue"
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-head-beanie-blackguard"
+    }
+  },
+  {
+    "ingredientPattern": "CBA",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:cloth-white"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:hoovedwearables-blanket-chateau"
+      },
+      "A": {
+        "type": "item",
+        "code": "game:cloth-gray"
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-head-beanie-chateau"
+    }
+  },
+  {
+    "ingredientPattern": "CBA",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:cloth-blue"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:hoovedwearables-blanket-commoner"
+      },
+      "A": {
+        "type": "item",
+        "code": "game:cloth-brown"
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-head-beanie-commoner"
+    }
+  },
+  {
+    "ingredientPattern": "CBA",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:cloth-red"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:hoovedwearables-blanket-deepnoble"
+      },
+      "A": {
+        "type": "item",
+        "code": "game:cloth-white"
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-head-beanie-deepnoble"
+    }
+  },
+  {
+    "ingredientPattern": "CBA",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:cloth-brown"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:hoovedwearables-blanket-earthtone"
+      },
+      "A": {
+        "type": "item",
+        "code": "game:cloth-blue"
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-head-beanie-earthtone"
+    }
+  },
+  {
+    "ingredientPattern": "CBA",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:cloth-green"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:hoovedwearables-blanket-fancygreen"
+      },
+      "A": {
+        "type": "item",
+        "code": "game:cloth-yellow"
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-head-beanie-fancygreen"
+    }
+  },
+  {
+    "ingredientPattern": "CBA",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:cloth-blue"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:hoovedwearables-blanket-forlorn"
+      },
+      "A": {
+        "type": "item",
+        "code": "game:cloth-green"
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-head-beanie-forlorn"
+    }
+  },
+  {
+    "ingredientPattern": "CBA",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:cloth-red"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:hoovedwearables-blanket-herder"
+      },
+      "A": {
+        "type": "item",
+        "code": "game:cloth-blue"
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-head-beanie-herder"
+    }
+  },
+  {
+    "ingredientPattern": "CBA",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:hide-raw-medium"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:hoovedwearables-blanket-hide"
+      },
+      "A": {
+        "type": "item",
+        "code": "game:cloth-gray"
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-head-beanie-hide"
+    }
+  },
+  {
+    "ingredientPattern": "CBA",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:cloth-red"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:hoovedwearables-blanket-king"
+      },
+      "A": {
+        "type": "item",
+        "code": "game:cloth-yellow"
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-head-beanie-king"
+    }
+  },
+  {
+    "ingredientPattern": "CBA",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:cloth-yellow"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:hoovedwearables-blanket-lackey"
+      },
+      "A": {
+        "type": "item",
+        "code": "game:cloth-plain"
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-head-beanie-lackey"
+    }
+  },
+  {
+    "ingredientPattern": "CBA",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:cloth-black"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:hoovedwearables-blanket-merchant"
+      },
+      "A": {
+        "type": "item",
+        "code": "game:cloth-white"
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-head-beanie-merchant"
+    }
+  },
+  {
+    "ingredientPattern": "CBA",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:cloth-red"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:hoovedwearables-blanket-messenger"
+      },
+      "A": {
+        "type": "item",
+        "code": "game:cloth-blue"
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-head-beanie-messenger"
+    }
+  },
+  {
+    "ingredientPattern": "CBA",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:cloth-blue"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:hoovedwearables-blanket-plaidblue"
+      },
+      "A": {
+        "type": "item",
+        "code": "game:cloth-brown"
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-head-beanie-plaidblue"
+    }
+  },
+  {
+    "ingredientPattern": "CBA",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:cloth-plain"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:hoovedwearables-blanket-plaincloth"
+      },
+      "A": {
+        "type": "item",
+        "code": "game:cloth-plain"
+      } 
+    },
+    "width": 3,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-head-beanie-plaincloth"
+    }
+  },
+  {
+    "ingredientPattern": "CBA",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:cloth-green"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:hoovedwearables-blanket-prince"
+      },
+      "A": {
+        "type": "item",
+        "code": "game:cloth-yellow"
+      } 
+    },
+    "width": 3,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-head-beanie-prince"
+    }
+  },
+  {
+    "ingredientPattern": "CBA",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:cloth-blue"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:hoovedwearables-blanket-squire"
+      },
+      "A": {
+        "type": "item",
+        "code": "game:cloth-red"
+      } 
+    },
+    "width": 3,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-head-beanie-squire"
+    }
+  },
+  {
+    "ingredientPattern": "CBA",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:cloth-plain"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:hoovedwearables-blanket-survivor"
+      },
+      "A": {
+        "type": "item",
+        "code": "game:cloth-brown"
+      } 
+    },
+    "width": 3,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-head-beanie-survivor"
+    }
+  },
+  {
+    "ingredientPattern": "CBA",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:cloth-brown"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:hoovedwearables-blanket-wool"
+      },
+      "A": {
+        "type": "item",
+        "code": "game:cloth-red"
+      } 
+    },
+    "width": 3,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-head-beanie-wool"
+    }
+  }
+]

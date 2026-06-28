@@ -1,0 +1,46 @@
+[
+  {
+    "file": "game:itemtypes/wearable/seraph/emblem-butterflypin",
+    "side": "Server",
+    "op": "addmerge",
+    "path": "/attributes",
+    "value": {
+      "attachableToEntity": {
+          "texturePrefixCode": "elkaccessories:butterfly/{emblem}",
+          "categoryCode": "saddlepin",
+          "attachedShapeBySlotCode": {
+            "rightsaddlepin": {"base": "elkaccessories:item/wearable/hooved/saddle/butterflyr-elk"},
+            "leftsaddlepin": {"base": "elkaccessories:item/wearable/hooved/saddle/butterflyl-elk"},
+
+            "rightsaddlepin-ferus": {"base": "elkaccessories:item/wearable/hooved/saddle/butterflyr-elk"},
+            "leftsaddlepin-ferus": {"base": "elkaccessories:item/wearable/hooved/saddle/butterflyl-elk"},
+
+            "rightsaddlepin-moose": {"base": "elkaccessories:item/wearable/hooved/saddle/compatibility/capreolinae/butterflyr-alceini"},
+            "rightsaddlepin-reindeer": {"base": "elkaccessories:item/wearable/hooved/saddle/butterflyr-elk"},
+            "leftsaddlepin-moose":{"base": "elkaccessories:item/wearable/hooved/saddle/compatibility/capreolinae/butterflyl-alceini"},
+            "leftsaddlepin-reindeer": {"base": "elkaccessories:item/wearable/hooved/saddle/butterflyl-elk"},
+
+            "rightsaddlepin-caledonius": {"base": "elkaccessories:item/wearable/hooved/saddle/butterflyr-elk"},
+            "rightsaddlepin-indicus": {"base": "elkaccessories:item/wearable/hooved/saddle/butterflyr-elk"},
+            "leftsaddlepin-caledonius": {"base": "elkaccessories:item/wearable/hooved/saddle/compatibility/monoceros/butterflyl-indicus"},
+            "leftsaddlepin-indicus": {"base": "elkaccessories:item/wearable/hooved/saddle/compatibility/monoceros/butterflyl-indicus"},
+
+            "rightsaddlepin-caelestis": {"base": "elkaccessories:item/wearable/hooved/saddle/compatibility/pegasus/butterflyr-caelestis"},
+            "leftsaddlepin-caelestis": {"base": "elkaccessories:item/wearable/hooved/saddle/compatibility/pegasus/butterflyl-caelestis"}
+            }
+          },
+          "attachedShapeBySlotCode": {
+            "*": {"base": "elkaccessories:item/wearable/humanoid/seraph/clothing/emblem/butterfly-seraph"}
+          }
+    }
+  },
+  {
+    "file": "game:itemtypes/wearable/seraph/emblem-butterflypin",
+    "side": "Server",
+    "op": "addmerge",
+    "path": "/texturesByType",
+    "value": {
+        "*": {"butterfly": {"base": "elkaccessories:item/butterfly/{emblem}"}}
+    }
+}
+]

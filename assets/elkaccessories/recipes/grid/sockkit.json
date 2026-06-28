@@ -1,0 +1,46 @@
+[
+  {
+    "ingredientPattern": "CKC",
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "game:sewingkit"
+      },
+      "C": {
+        "type": "item",
+        "code": "game:cloth-*"
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "sockkit"
+    }
+  },
+  {
+    "ingredientPattern": "CKL",
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "game:sewingkit"
+      },
+      "C": {
+        "type": "item",
+        "code": "game:cloth-*"
+      },
+      "L": {
+        "type": "item",
+        "code": "game:leather-*"
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "bootkit"
+    }
+  }
+]

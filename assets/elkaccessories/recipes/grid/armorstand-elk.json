@@ -1,0 +1,141 @@
+[
+  {
+    "ingredientPattern": "_HH,HH_,PP_",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "game:plank-*",
+        "name": "color"
+      },
+      "H": {
+        "type": "block",
+        "code": "game:hay-normal-*"
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "item",
+      "code": "armorstand-elk-idle"
+    }
+  },
+  {
+    "ingredientPattern": "S",
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "elkaccessories:armorstand-elk-idle",
+        "name": "color"
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "armorstand-elk-attack"
+    }
+  },
+  {
+    "ingredientPattern": "S",
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "elkaccessories:armorstand-elk-attack",
+        "name": "color"
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "armorstand-elk-bugle"
+    }
+  },
+  {
+    "ingredientPattern": "S",
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "elkaccessories:armorstand-elk-bugle",
+        "name": "color"
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "armorstand-elk-charge"
+    }
+  },
+  {
+    "ingredientPattern": "S",
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "elkaccessories:armorstand-elk-charge",
+        "name": "color"
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "armorstand-elk-run"
+    }
+  },
+  {
+    "ingredientPattern": "S",
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "elkaccessories:armorstand-elk-run",
+        "name": "color"
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "armorstand-elk-sit"
+    }
+  },
+  {
+    "ingredientPattern": "S",
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "elkaccessories:armorstand-elk-sit",
+        "name": "color"
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "armorstand-elk-sleep"
+    }
+  },
+  {
+    "ingredientPattern": "S",
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "elkaccessories:armorstand-elk-sleep",
+        "name": "color"
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "armorstand-elk-idle"
+    }
+  }
+]

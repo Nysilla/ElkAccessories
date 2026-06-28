@@ -1,0 +1,97 @@
+[
+  {
+    "ingredientPattern": "_C_,CCC",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:cloth-purple"
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-head-witchhat-classic"
+    }
+  },
+  {
+    "ingredientPattern": "AC_,CCC",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:cloth-purple"
+      },
+      "A": {
+        "type": "item",
+        "code": "game:clearquartz"
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-head-witchhat-stars"
+    }
+  },
+  {
+    "ingredientPattern": "ACA,TCT",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:cloth-purple"
+      },
+      "T": {
+        "type": "item",
+        "code": "game:cloth-green"
+      },
+      "A": {
+        "type": "item",
+        "code": "game:butterfly-dead-*"
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-head-witchhat-butterfly"
+    }
+  },
+  {
+    "ingredientPattern": "_C_,CTC",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:cloth-purple"
+      },
+      "T": {
+        "type": "item",
+        "code": "game:cloth-red"
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-head-witchhat-fire"
+    }
+  },
+  {
+    "ingredientPattern": "ACA,CCC",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:cloth-purple"
+      },
+      "A": {
+        "type": "block",
+        "code": "game:flower-*"
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-head-witchhat-flower"
+    }
+  }
+]

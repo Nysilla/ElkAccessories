@@ -1,0 +1,10 @@
+[
+  {
+    "file": "purposefulstorage:config/restrictions/clothes/headware",
+    "op": "addmerge", "path": "/CollectibleCodes", "side": "server",
+    "value": [
+      "elkaccessories:hoovedwearables-head-*"
+    ],
+    "dependsOn": [ { "modid": "purposefulstorage" } ]
+  }
+]

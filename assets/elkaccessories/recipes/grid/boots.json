@@ -1,0 +1,619 @@
+[
+  {
+    "ingredientPattern": "_C_,CLC,_C_",
+    "ingredients": {
+      "L": {
+        "type": "item",
+        "code": "game:leather-*"
+      },
+      "C": {
+        "type": "item",
+        "code": "game:cloth-*",
+        "name": "color",
+        "allowedVariants": [
+          "plain",
+          "mordant",
+          "blue",
+          "red",
+          "yellow",
+          "green",
+          "purple",
+          "pink",
+          "orange",
+          "brown",
+          "gray",
+          "black",
+          "white"
+        ]
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-hooves-boot-color-{color}", "quantity": 4
+    }
+  },
+  {
+    "ingredientPattern": "_C_,CKC,_C_",
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "bootkit"
+      },
+      "C": {
+        "type": "item",
+        "code": "game:cloth-*",
+        "name": "color",
+        "allowedVariants": [
+          "plain",
+          "mordant",
+          "blue",
+          "red",
+          "yellow",
+          "green",
+          "purple",
+          "pink",
+          "orange",
+          "brown",
+          "gray",
+          "black",
+          "white"
+        ]
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-hooves-boot-color-{color}striped", "quantity": 4
+    }
+  },
+  {
+    "ingredientPattern": "_C_,BKB,_C_",
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "bootkit"
+      },
+      "C": {
+        "type": "item",
+        "code": "game:cloth-*",
+        "name": "color",
+        "allowedVariants": [
+          "blue",
+          "red",
+          "yellow",
+          "green",
+          "purple",
+          "pink",
+          "orange",
+          "brown",
+          "gray",
+          "black"
+        ]
+      },
+      "B": {
+        "type": "item",
+        "code": "game:cloth-white"
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-hooves-boot-color-{color}white", "quantity": 4
+    }
+  },
+  {
+    "ingredientPattern": "_B_,PKW,_B_",
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "bootkit"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:cloth-blue"
+      },
+      "W": {
+        "type": "item",
+        "code": "game:cloth-white"
+      },
+      "P": {
+        "type": "item",
+        "code": "game:cloth-pink"
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-hooves-boot-change", "quantity": 4
+    }
+  },
+  {
+    "ingredientPattern": "_G_,WKY,_B_",
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "bootkit"
+      },
+      "G": {
+        "type": "item",
+        "code": "game:cloth-green"
+      },
+      "W": {
+        "type": "item",
+        "code": "game:cloth-white"
+      },
+      "Y": {
+        "type": "item",
+        "code": "game:cloth-gray"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:cloth-black"
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-hooves-boot-dragon", "quantity": 4
+    }
+  },
+  {
+    "ingredientPattern": "_A_,BKC,_D_",
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "bootkit"
+      },
+      "A": {
+        "type": "item",
+        "code": "game:cloth-pink"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:cloth-white"
+      },
+      "C": {
+        "type": "item",
+        "code": "game:cloth-black"
+      },
+      "D": {
+        "type": "item",
+        "code": "game:cloth-blue"
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-hooves-boot-flowing", "quantity": 4
+    }
+  },
+  {
+    "ingredientPattern": "_A_,BKC,_C_",
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "bootkit"
+      },
+      "A": {
+        "type": "item",
+        "code": "game:cloth-green"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:cloth-white"
+      },
+      "C": {
+        "type": "item",
+        "code": "game:cloth-blue"
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-hooves-boot-frogpond", "quantity": 4
+    }
+  },
+  {
+    "ingredientPattern": "_A_,BKC,_C_",
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "bootkit"
+      },
+      "A": {
+        "type": "item",
+        "code": "game:cloth-orange"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:cloth-white"
+      },
+      "C": {
+        "type": "item",
+        "code": "game:cloth-pink"
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-hooves-boot-huntress", "quantity": 4
+    }
+  },
+  {
+    "ingredientPattern": "_A_,AKB,_A_",
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "bootkit"
+      },
+      "A": {
+        "type": "item",
+        "code": "game:cloth-red"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:cloth-white"
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-hooves-boot-maple", "quantity": 4
+    }
+  },
+  {
+    "ingredientPattern": "_A_,BKB,_C_",
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "bootkit"
+      },
+      "A": {
+        "type": "item",
+        "code": "game:cloth-green"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:cloth-white"
+      },
+      "C": {
+        "type": "item",
+        "code": "game:cloth-red"
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-hooves-boot-olive", "quantity": 4
+    }
+  },
+  {
+    "ingredientPattern": "_A_,BKB,_C_",
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "bootkit"
+      },
+      "A": {
+        "type": "item",
+        "code": "game:cloth-black"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:cloth-red"
+      },
+      "C": {
+        "type": "item",
+        "code": "game:cloth-yellow"
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-hooves-boot-oriole", "quantity": 4
+    }
+  },
+  {
+    "ingredientPattern": "_A_,AKA,_B_",
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "bootkit"
+      },
+      "A": {
+        "type": "item",
+        "code": "game:cloth-red"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:cloth-yellow"
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-hooves-boot-power", "quantity": 4
+    }
+  },
+  {
+    "ingredientPattern": "_A_,BKC,_D_",
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "bootkit"
+      },
+      "A": {
+        "type": "item",
+        "code": "game:cloth-red"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:cloth-green"
+      },
+      "C": {
+        "type": "item",
+        "code": "game:cloth-blue"
+      },
+      "D": {
+        "type": "item",
+        "code": "game:cloth-purple"
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-hooves-boot-rainbow", "quantity": 4
+    }
+  },
+  {
+    "ingredientPattern": "_A_,BKA,_A_",
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "bootkit"
+      },
+      "A": {
+        "type": "item",
+        "code": "game:cloth-white"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:cloth-red"
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-hooves-boot-risingsun", "quantity": 4
+    }
+  },
+  {
+    "ingredientPattern": "_A_,BKC,_D_",
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "bootkit"
+      },
+      "A": {
+        "type": "item",
+        "code": "game:cloth-pink"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:cloth-gray"
+      },
+      "C": {
+        "type": "item",
+        "code": "game:cloth-blue"
+      },
+      "D": {
+        "type": "item",
+        "code": "game:cloth-yellow"
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-hooves-boot-shifting", "quantity": 4
+    }
+  },
+  {
+    "ingredientPattern": "_A_,BKB,_C_",
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "bootkit"
+      },
+      "A": {
+        "type": "item",
+        "code": "game:cloth-blue"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:cloth-red"
+      },
+      "C": {
+        "type": "item",
+        "code": "game:cloth-white"
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-hooves-boot-stars", "quantity": 4
+    }
+  },
+  {
+    "ingredientPattern": "_A_,BKA,_A_",
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "bootkit"
+      },
+      "A": {
+        "type": "item",
+        "code": "game:cloth-blue"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:cloth-yellow"
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-hooves-boot-stripe", "quantity": 4
+    }
+  },
+  {
+    "ingredientPattern": "_A_,BKC,_D_",
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "bootkit"
+      },
+      "A": {
+        "type": "item",
+        "code": "game:cloth-yellow"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:cloth-white"
+      },
+      "C": {
+        "type": "item",
+        "code": "game:cloth-purple"
+      },
+      "D": {
+        "type": "item",
+        "code": "game:cloth-black"
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-hooves-boot-unrestricted", "quantity": 4
+    }
+  },
+  {
+    "ingredientPattern": "_A_,BKB,_C_",
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "bootkit"
+      },
+      "A": {
+        "type": "item",
+        "code": "game:cloth-blue"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:cloth-white"
+      },
+      "C": {
+        "type": "item",
+        "code": "game:cloth-red"
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-hooves-boot-vineyard", "quantity": 4
+    }
+  },
+  {
+    "ingredientPattern": "_A_,BKC,_D_",
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "bootkit"
+      },
+      "A": {
+        "type": "item",
+        "code": "game:cloth-black"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:cloth-gray"
+      },
+      "C": {
+        "type": "item",
+        "code": "game:cloth-white"
+      },
+      "D": {
+        "type": "item",
+        "code": "game:cloth-purple"
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-hooves-boot-whole", "quantity": 4
+    }
+  },
+  {
+    "ingredientPattern": "KB",
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "bootkit"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:hoovedwearables-blanket-*",
+        "name": "type",
+        "allowedVariants": [
+          "alchemist",
+          "azure-embroidered",
+          "blackguard",
+          "chateau",
+          "commoner",
+          "deepnoble",
+          "earthtone",
+          "fancygreen",
+          "forlorn",
+          "herder",
+          "hide",
+          "king",
+          "lackey",
+          "merchant",
+          "messenger",
+          "plaidblue",
+          "plaincloth",
+          "prince",
+          "squire",
+          "survivor",
+          "wool"
+        ]
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-hooves-boot-blanket-{type}", "quantity": 4
+    }
+  }
+]

@@ -1,0 +1,615 @@
+[
+  {
+    "ingredientPattern": "_C_,C_C,_C_",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:cloth-*",
+        "name": "color",
+        "allowedVariants": [
+          "plain",
+          "mordant",
+          "blue",
+          "red",
+          "yellow",
+          "green",
+          "purple",
+          "pink",
+          "orange",
+          "brown",
+          "gray",
+          "black",
+          "white"
+        ]
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-hooves-sock-color-{color}", "quantity": 4
+    }
+  },
+  {
+    "ingredientPattern": "_C_,CKC,_C_",
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "sockkit"
+      },
+      "C": {
+        "type": "item",
+        "code": "game:cloth-*",
+        "name": "color",
+        "allowedVariants": [
+          "plain",
+          "mordant",
+          "blue",
+          "red",
+          "yellow",
+          "green",
+          "purple",
+          "pink",
+          "orange",
+          "brown",
+          "gray",
+          "black",
+          "white"
+        ]
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-hooves-sock-color-{color}striped", "quantity": 4
+    }
+  },
+  {
+    "ingredientPattern": "_C_,BKB,_C_",
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "sockkit"
+      },
+      "C": {
+        "type": "item",
+        "code": "game:cloth-*",
+        "name": "color",
+        "allowedVariants": [
+          "blue",
+          "red",
+          "yellow",
+          "green",
+          "purple",
+          "pink",
+          "orange",
+          "brown",
+          "gray",
+          "black"
+        ]
+      },
+      "B": {
+        "type": "item",
+        "code": "game:cloth-white"
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-hooves-sock-color-{color}white", "quantity": 4
+    }
+  },
+  {
+    "ingredientPattern": "_B_,PKW,_B_",
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "sockkit"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:cloth-blue"
+      },
+      "W": {
+        "type": "item",
+        "code": "game:cloth-white"
+      },
+      "P": {
+        "type": "item",
+        "code": "game:cloth-pink"
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-hooves-sock-change", "quantity": 4
+    }
+  },
+  {
+    "ingredientPattern": "_G_,WKY,_B_",
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "sockkit"
+      },
+      "G": {
+        "type": "item",
+        "code": "game:cloth-green"
+      },
+      "W": {
+        "type": "item",
+        "code": "game:cloth-white"
+      },
+      "Y": {
+        "type": "item",
+        "code": "game:cloth-gray"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:cloth-black"
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-hooves-sock-dragon", "quantity": 4
+    }
+  },
+  {
+    "ingredientPattern": "_A_,BKC,_D_",
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "sockkit"
+      },
+      "A": {
+        "type": "item",
+        "code": "game:cloth-pink"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:cloth-white"
+      },
+      "C": {
+        "type": "item",
+        "code": "game:cloth-black"
+      },
+      "D": {
+        "type": "item",
+        "code": "game:cloth-blue"
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-hooves-sock-flowing", "quantity": 4
+    }
+  },
+  {
+    "ingredientPattern": "_A_,BKC,_C_",
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "sockkit"
+      },
+      "A": {
+        "type": "item",
+        "code": "game:cloth-green"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:cloth-white"
+      },
+      "C": {
+        "type": "item",
+        "code": "game:cloth-blue"
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-hooves-sock-frogpond", "quantity": 4
+    }
+  },
+  {
+    "ingredientPattern": "_A_,BKC,_C_",
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "sockkit"
+      },
+      "A": {
+        "type": "item",
+        "code": "game:cloth-orange"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:cloth-white"
+      },
+      "C": {
+        "type": "item",
+        "code": "game:cloth-pink"
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-hooves-sock-huntress", "quantity": 4
+    }
+  },
+  {
+    "ingredientPattern": "_A_,AKB,_A_",
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "sockkit"
+      },
+      "A": {
+        "type": "item",
+        "code": "game:cloth-red"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:cloth-white"
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-hooves-sock-maple", "quantity": 4
+    }
+  },
+  {
+    "ingredientPattern": "_A_,BKB,_C_",
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "sockkit"
+      },
+      "A": {
+        "type": "item",
+        "code": "game:cloth-green"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:cloth-white"
+      },
+      "C": {
+        "type": "item",
+        "code": "game:cloth-red"
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-hooves-sock-olive", "quantity": 4
+    }
+  },
+  {
+    "ingredientPattern": "_A_,BKB,_C_",
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "sockkit"
+      },
+      "A": {
+        "type": "item",
+        "code": "game:cloth-black"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:cloth-red"
+      },
+      "C": {
+        "type": "item",
+        "code": "game:cloth-yellow"
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-hooves-sock-oriole", "quantity": 4
+    }
+  },
+  {
+    "ingredientPattern": "_A_,AKA,_B_",
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "sockkit"
+      },
+      "A": {
+        "type": "item",
+        "code": "game:cloth-red"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:cloth-yellow"
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-hooves-sock-power", "quantity": 4
+    }
+  },
+  {
+    "ingredientPattern": "_A_,BKC,_D_",
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "sockkit"
+      },
+      "A": {
+        "type": "item",
+        "code": "game:cloth-red"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:cloth-green"
+      },
+      "C": {
+        "type": "item",
+        "code": "game:cloth-blue"
+      },
+      "D": {
+        "type": "item",
+        "code": "game:cloth-purple"
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-hooves-sock-rainbow", "quantity": 4
+    }
+  },
+  {
+    "ingredientPattern": "_A_,BKA,_A_",
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "sockkit"
+      },
+      "A": {
+        "type": "item",
+        "code": "game:cloth-white"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:cloth-red"
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-hooves-sock-risingsun", "quantity": 4
+    }
+  },
+  {
+    "ingredientPattern": "_A_,BKC,_D_",
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "sockkit"
+      },
+      "A": {
+        "type": "item",
+        "code": "game:cloth-pink"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:cloth-gray"
+      },
+      "C": {
+        "type": "item",
+        "code": "game:cloth-blue"
+      },
+      "D": {
+        "type": "item",
+        "code": "game:cloth-yellow"
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-hooves-sock-shifting", "quantity": 4
+    }
+  },
+  {
+    "ingredientPattern": "_A_,BKB,_C_",
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "sockkit"
+      },
+      "A": {
+        "type": "item",
+        "code": "game:cloth-blue"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:cloth-red"
+      },
+      "C": {
+        "type": "item",
+        "code": "game:cloth-white"
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-hooves-sock-stars", "quantity": 4
+    }
+  },
+  {
+    "ingredientPattern": "_A_,BKA,_A_",
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "sockkit"
+      },
+      "A": {
+        "type": "item",
+        "code": "game:cloth-blue"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:cloth-yellow"
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-hooves-sock-stripe", "quantity": 4
+    }
+  },
+  {
+    "ingredientPattern": "_A_,BKC,_D_",
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "sockkit"
+      },
+      "A": {
+        "type": "item",
+        "code": "game:cloth-yellow"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:cloth-white"
+      },
+      "C": {
+        "type": "item",
+        "code": "game:cloth-purple"
+      },
+      "D": {
+        "type": "item",
+        "code": "game:cloth-black"
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-hooves-sock-unrestricted", "quantity": 4
+    }
+  },
+  {
+    "ingredientPattern": "_A_,BKB,_C_",
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "sockkit"
+      },
+      "A": {
+        "type": "item",
+        "code": "game:cloth-blue"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:cloth-white"
+      },
+      "C": {
+        "type": "item",
+        "code": "game:cloth-red"
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-hooves-sock-vineyard", "quantity": 4
+    }
+  },
+  {
+    "ingredientPattern": "_A_,BKC,_D_",
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "sockkit"
+      },
+      "A": {
+        "type": "item",
+        "code": "game:cloth-black"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:cloth-gray"
+      },
+      "C": {
+        "type": "item",
+        "code": "game:cloth-white"
+      },
+      "D": {
+        "type": "item",
+        "code": "game:cloth-purple"
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-hooves-sock-whole", "quantity": 4
+    }
+  },
+  {
+    "ingredientPattern": "KB",
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "sockkit"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:hoovedwearables-blanket-*",
+        "name": "type",
+        "allowedVariants": [
+          "alchemist",
+          "azure-embroidered",
+          "blackguard",
+          "chateau",
+          "commoner",
+          "deepnoble",
+          "earthtone",
+          "fancygreen",
+          "forlorn",
+          "herder",
+          "hide",
+          "king",
+          "lackey",
+          "merchant",
+          "messenger",
+          "plaidblue",
+          "plaincloth",
+          "prince",
+          "squire",
+          "survivor",
+          "wool"
+        ]
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-hooves-sock-blanket-{type}", "quantity": 4
+    }
+  }
+]

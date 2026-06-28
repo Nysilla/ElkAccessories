@@ -1,0 +1,32 @@
+[
+  {
+    "ingredientPattern": "CAC",
+    "ingredients": {
+      "A": {
+        "type": "item",
+        "code": "game:antler-elk-*",
+        "name": "size",
+        "allowedVariants": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08"
+        ]
+      },
+      "C": {
+        "type": "item",
+        "code": "game:cloth-brown"
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "antlerheadband-elk-{size}"
+    }
+  }
+]

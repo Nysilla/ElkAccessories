@@ -1,0 +1,94 @@
+{
+	"editor": {
+		"backDropShape": "E:/GitHub/Backup/Vintage Story/BREADCRUMBS/indicus-adult-male",
+		"collapsedPaths": "",
+		"allAngles": true,
+		"entityTextureMode": false
+	},
+	"textureWidth": 32,
+	"textureHeight": 32,
+	"textureSizes": {
+		"hat": [16,16]
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "Origin",
+			"stepParentName": "Head",
+			"from": [ 2.2, 3.4, 1.6 ],
+			"to": [ 3.2, 4.4, 2.6 ],
+			"rotationOrigin": [ 2.2, 3.4, 1.6 ],
+			"faces": {
+				"north": { "texture": "#hat", "uv": [ 0.0, 1.0, 1.0, 2.0 ], "enabled": false },
+				"east": { "texture": "#hat", "uv": [ 1.0, 1.0, 2.0, 2.0 ], "windMode": [-1,-1,-1,-1], "enabled": false },
+				"south": { "texture": "#hat", "uv": [ 1.0, 1.0, 2.0, 2.0 ], "windMode": [-1,-1,-1,-1], "enabled": false },
+				"west": { "texture": "#hat", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "windMode": [-1,-1,-1,-1], "enabled": false },
+				"up": { "texture": "#hat", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "windMode": [-1,-1,-1,-1], "enabled": false },
+				"down": { "texture": "#hat", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "windMode": [-1,-1,-1,-1], "enabled": false }
+			},
+			"children": [
+				{
+					"name": "Base",
+					"from": [ 0.0, 1.6, -0.6 ],
+					"to": [ 2.0, 2.6, 1.4 ],
+					"rotationOrigin": [ 1.0, 1.6, 0.4 ],
+					"faces": {
+						"north": { "texture": "#hat", "uv": [ 3.5, 2.5, 5.5, 3.5 ], "rotation": 180 },
+						"east": { "texture": "#hat", "uv": [ 5.5, 3.5, 6.5, 5.5 ], "rotation": 90 },
+						"south": { "texture": "#hat", "uv": [ 3.5, 5.5, 5.5, 6.5 ] },
+						"west": { "texture": "#hat", "uv": [ 2.5, 3.5, 3.5, 5.5 ], "rotation": 270 },
+						"up": { "texture": "#hat", "uv": [ 3.5, 3.5, 5.5, 5.5 ] },
+						"down": { "texture": "#hat", "uv": [ 0.0, 9.5, 2.0, 11.5 ], "windMode": [-1,-1,-1,-1] }
+					},
+					"children": [
+						{
+							"name": "Fan",
+							"from": [ 0.8, 1.4, 0.8 ],
+							"to": [ 1.2, 2.1, 1.2 ],
+							"rotationOrigin": [ 1.0, 1.6, 1.0 ],
+							"rotationY": -39.0,
+							"faces": {
+								"north": { "texture": "#hat", "uv": [ 3.0, 12.5, 3.5, 13.0 ], "rotation": 180 },
+								"east": { "texture": "#hat", "uv": [ 3.5, 13.0, 4.0, 13.5 ], "rotation": 90 },
+								"south": { "texture": "#hat", "uv": [ 3.0, 13.5, 3.5, 14.0 ] },
+								"west": { "texture": "#hat", "uv": [ 2.5, 13.0, 3.0, 13.5 ], "rotation": 270 },
+								"up": { "texture": "#hat", "uv": [ 3.0, 13.0, 3.5, 13.5 ] },
+								"down": { "texture": "#hat", "uv": [ 4.0, 13.0, 4.5, 13.5 ], "windMode": [-1,-1,-1,-1], "enabled": false }
+							},
+							"children": [
+								{
+									"name": "FanBlade",
+									"from": [ -1.0, 0.4, 0.05 ],
+									"to": [ 1.3, 0.6, 0.35 ],
+									"rotationOrigin": [ -1.0, 0.4, 0.15 ],
+									"faces": {
+										"north": { "texture": "#hat", "uv": [ 0.5, 12.5, 1.0, 14.5 ], "rotation": 270 },
+										"east": { "texture": "#hat", "uv": [ 1.0, 12.0, 1.5, 12.5 ], "rotation": 180 },
+										"south": { "texture": "#hat", "uv": [ 1.5, 12.5, 2.0, 14.5 ], "rotation": 90 },
+										"west": { "texture": "#hat", "uv": [ 1.0, 13.5, 1.5, 14.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+										"up": { "texture": "#hat", "uv": [ 1.0, 12.5, 1.5, 14.5 ], "rotation": 90, "windMode": [-1,-1,-1,-1] },
+										"down": { "texture": "#hat", "uv": [ 1.0, 13.5, 1.5, 15.5 ], "rotation": 270 }
+									}
+								}
+							]
+						},
+						{
+							"name": "Top",
+							"from": [ 0.3, 0.5, 0.3 ],
+							"to": [ 1.7, 1.5, 1.7 ],
+							"rotationOrigin": [ 0.3, 0.5, 0.3 ],
+							"faces": {
+								"north": { "texture": "#hat", "uv": [ 12.0, 3.0, 13.0, 4.0 ], "rotation": 180 },
+								"east": { "texture": "#hat", "uv": [ 13.0, 4.0, 14.0, 5.0 ], "rotation": 90 },
+								"south": { "texture": "#hat", "uv": [ 12.0, 5.0, 13.0, 6.0 ] },
+								"west": { "texture": "#hat", "uv": [ 11.0, 4.0, 12.0, 5.0 ], "rotation": 270 },
+								"up": { "texture": "#hat", "uv": [ 12.0, 4.0, 13.0, 5.0 ] },
+								"down": { "texture": "#hat", "uv": [ 14.0, 4.0, 15.0, 5.0 ], "windMode": [-1,-1,-1,-1], "enabled": false }
+							}
+						}
+					]
+				}
+			]
+		}
+	]}

@@ -1,0 +1,34 @@
+[
+  {
+    "dependsOn": [ { "modid": "elkflowercrown" } ],
+        "file": "game:shapes/entity/animal/mammal/hooved/deer/elk/female",
+        "op": "remove",
+        "path": "/elements/0/children/0/children/3/children/0/children/0/children/0/children/0/children/8"
+  },
+  {
+    "dependsOn": [ { "modid": "elkflowercrown" } ],
+      "file": "game:shapes/entity/animal/mammal/hooved/deer/elk/female",
+      "op": "replace",
+      "path": "/elements/0/children/0/children/3/children/0/children/0/children/0/children/0/children/6",
+      "value": {
+        "name": "HeadStorage",
+        "from": [ 0.0, 0.0, -0.75 ],
+        "to": [ 4.0, 3.5, 5.25 ],
+        "uv": [ 0.0, 0.0 ],
+        "rotationOrigin": [ 0.0, 0.0, -0.7 ],
+        "faces": {
+        },
+        "attachmentpoints": [
+          {
+            "code": "HeadAP",
+            "posX": "0.0",
+            "posY": "0.0",
+            "posZ": "0.0",
+            "rotationX": "0.0",
+            "rotationY": "0.0",
+            "rotationZ": "0.0"
+          }
+        ]
+      }
+    }
+]
