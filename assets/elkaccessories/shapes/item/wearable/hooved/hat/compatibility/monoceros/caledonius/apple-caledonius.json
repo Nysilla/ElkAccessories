@@ -16,10 +16,10 @@
 		{
 			"name": "origin",
 			"stepParentName": "Head",
-			"from": [ 2.0, 4.63, 2.18 ],
-			"to": [ 2.0, 4.63, 2.18 ],
-			"rotationOrigin": [ 2.0, 4.63, 2.18 ],
-			"rotationY": -22.5,
+			"from": [ 2.0, 9.73, 2.18 ],
+			"to": [ 2.0, 9.73, 2.18 ],
+			"rotationOrigin": [ 2.0, 9.73, 2.18 ],
+			"rotationY": -45.0,
 			"faces": {
 				"north": { "texture": "#ripe", "uv": [ 0.0, 1.0, 0.5, 1.5 ], "enabled": false },
 				"east": { "texture": "#ripe", "uv": [ 1.0, 1.0, 1.5, 1.5 ], "enabled": false },
