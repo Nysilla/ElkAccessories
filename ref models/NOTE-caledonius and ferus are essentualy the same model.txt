@@ -1,0 +1,5 @@
+NOTE:
+
+caledonius and ferus are essentualy the same model, you can use caledonius item model for the ferus and it should look good
+
+indicus-adult-male is model used, afaik both male and female are close in model or the same so you dont need multiple models, they are both patched into for AP shapes.
