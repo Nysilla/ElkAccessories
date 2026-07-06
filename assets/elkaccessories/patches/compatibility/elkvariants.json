@@ -40,6 +40,11 @@
         "code": "frontrightsock",
         "forCategoryCodes": [ "sock" ],
         "attachmentPointCode": "FRSockAP"
+      },
+      {
+        "code": "tail",
+        "forCategoryCodes": [ "tail" ],
+        "attachmentPointCode": "TailAP"
       }
     ]
   },
@@ -49,7 +54,7 @@
     "file": "elkvariants:entities/new-elk",
     "op": "addmerge",
     "path": "/behaviorConfigs/selectionboxes/selectionBoxes",
-    "value": [ "HatAP", "RSaddlePinAP", "LSaddlePinAP", "RLSockAP", "RRSockAP", "FLSockAP", "FRSockAP" ]
+    "value": [ "HatAP", "RSaddlePinAP", "LSaddlePinAP", "RLSockAP", "RRSockAP", "FLSockAP", "FRSockAP", "TailAP" ]
   },
   {
     "dependsOn": [ { "modid": "elkvariants" } ],
