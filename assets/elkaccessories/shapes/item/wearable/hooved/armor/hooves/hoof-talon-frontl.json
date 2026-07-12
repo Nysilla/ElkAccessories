@@ -1,6 +1,6 @@
 {
 	"editor": {
-		"backDropShape": "E:/GitHub/ElkAccessories/ref models/female-elk",
+		"backDropShape": "",
 		"collapsedPaths": ",Root/FLTalon top,Root/rear,Root/Mid Tallon,Root/FLTalon base,Root/Talon Origin/Left talon,Root/Right tlalon,Root/Helmet Head,Root/RLTalon base,Root/Talon Origin/Back talon,Root/thigh,Root/Left tallon,Root/FLTalon Origin,Root/Neck Front Plate,Root/shoulder,Root/Talon Origin,Root/NeckPlateupper,Root/RRTalon top,Root/RRTalon Origin,Root/Helmet Snout,Root/SaddleFrontN,Root/Talon Origin/Mid talon,Root/RRTalon base,Root/Mid Tallon2,Root/chest,Root/RLTalon top,Root/Left thigh,Root/ORIGIN,Root/RLTalon Origin,Root/Left shoulder,Root/Cube15,Root/FRTalon base,Root/FRTalon Origin,Root/SaddleBackN,Root/thigh2,Root/Right shoulder,Root/Talon top,Root/mid,Root/NeckPlate,Root/Cube2,Root/Cube9,Root/Cube6,Root/NeckPlate4,Root/FRTalon top,Root/right thigh,Root/Talon base",
 		"allAngles": true,
 		"entityTextureMode": false

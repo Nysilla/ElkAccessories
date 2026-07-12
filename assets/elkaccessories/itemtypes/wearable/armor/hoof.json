@@ -58,10 +58,10 @@
       "texturePrefixCode": "elkaccessories:*-{type}-{material}",
       "categoryCode": "sock",
       "attachedShapeBySlotCodeByType": {
-        "*": {"rearleftsock": {"base": "item/wearable/hooved/armor/hooves/{type}-rearl"},
-              "rearrightsock": {"base": "item/wearable/hooved/armor/hooves/{type}-rearr"},
-              "frontleftsock": {"base": "item/wearable/hooved/armor/hooves/{type}-frontl"},
-              "frontrightsock": {"base": "item/wearable/hooved/armor/hooves/{type}-frontr"}}
+        "*": {"rearleftsock": {"base": "item/wearable/hooved/armor/hooves/hoof-{type}-rearl"},
+              "rearrightsock": {"base": "item/wearable/hooved/armor/hooves/hoof-{type}-rearr"},
+              "frontleftsock": {"base": "item/wearable/hooved/armor/hooves/hoof-{type}-frontl"},
+              "frontrightsock": {"base": "item/wearable/hooved/armor/hooves/hoof-{type}-frontr"}}
       }
     },
     "handbook": {
