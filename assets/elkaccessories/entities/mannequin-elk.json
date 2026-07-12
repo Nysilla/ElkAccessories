@@ -38,8 +38,8 @@
         {"code": "middlebackunder", "forCategoryCodes": ["blanket"], "attachmentPointCode": "MidUnderAP"},
         {"code": "lowerback", "forCategoryCodes": ["bedroll", "pillion"], "attachmentPointCode": "RearAP"},
         {"code": "lowerbackside", "forCategoryCodes": ["sidebags"], "attachmentPointCode": "RearSideAP"},
-        {"code": "frontrightside", "forCategoryCodes": ["utilities",   "pot",   "weaponfalx",   "weapon1m",   "bowshort",   "bowlong"], "attachmentPointCode": "RFrontAP"},
-        {"code": "frontleftside", "forCategoryCodes": ["utilities",   "pot",   "weaponfalx",   "weapon1m",   "bowshort",   "bowlong"], "attachmentPointCode": "LFrontAP"},
+        {"code": "frontrightside", "forCategoryCodes": ["utilities",   "pot",   "weaponfalx",   "weapon1m",   "bowshort",   "bowlong", "armor"], "attachmentPointCode": "RFrontAP"},
+        {"code": "frontleftside", "forCategoryCodes": ["utilities",   "pot",   "weaponfalx",   "weapon1m",   "bowshort",   "bowlong", "armor"], "attachmentPointCode": "LFrontAP"},
         {"code": "gearleft", "forCategoryCodes": ["gear"], "attachmentPointCode": "TempGear1AP"},
         {"code": "gearback", "forCategoryCodes": ["gear"], "attachmentPointCode": "TempGear2AP"},
         {"code": "gearright", "forCategoryCodes": ["gear"], "attachmentPointCode": "TempGear3AP"},
@@ -50,7 +50,9 @@
         {"code": "frontrightsock","forCategoryCodes": [ "sock" ],"attachmentPointCode": "FRSockAP"},
         {"code": "rightsaddlepin","forCategoryCodes": [ "saddlepin" ],"attachmentPointCode": "RSaddlePinAP"},
         {"code": "leftsaddlepin", "forCategoryCodes": [ "saddlepin" ], "attachmentPointCode": "LSaddlePinAP"},
-        {"code": "tail","forCategoryCodes": [ "tail" ],"attachmentPointCode": "TailAP"}
+        {"code": "tail","forCategoryCodes": [ "tail" ],"attachmentPointCode": "TailAP"},
+        {"code": "lefthaunch","forCategoryCodes": [ "armor" ],"attachmentPointCode": "LeftHaunchAP"},
+        {"code": "righthaunch","forCategoryCodes": [ "armor" ],"attachmentPointCode": "RightHaunchAP"}
       ]
     },
     "selectionboxes": {
@@ -74,7 +76,9 @@
         "FRSockAP",
         "RSaddlePinAP",
         "LSaddlePinAP",
-        "TailAP"
+        "TailAP",
+        "RightHaunchAP",
+        "LeftHaunchAP"
       ]
     }
   },

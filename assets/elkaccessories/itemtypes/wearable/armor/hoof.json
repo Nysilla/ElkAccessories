@@ -1,0 +1,101 @@
+{
+  "enabled": true,
+  "code": "hoovedwearables",
+  "variantgroups": [
+    {
+      "code": "category",
+      "states": [
+        "hooves"
+      ]
+    },
+    {
+      "code": "type",
+      "states": [
+        "plate",
+        "talon"
+      ]
+    },
+    {
+      "code": "material",
+      "states": [
+        "bismuthbronze",
+        "blackbronze",
+        "brass",
+        "copper",
+        "gold",
+        "iron",
+        "meteoriciron",
+        "nickel",
+        "silver",
+        "steel",
+        "tin",
+        "tinbronze",
+        "zinc"
+      ]
+    }
+  ],
+  "shapeByType": {
+    "*": {"base": "item/wearable/hooved/armor/inventory/hoof-{type}-inventory"}
+  },
+  "behaviors": [
+    {
+      "name": "GroundStorable",
+      "properties": {
+        "layout": "Quadrants",
+        "collisionBox": {
+          "x1": 0,
+          "y1": 0,
+          "z1": 0,
+          "x2": 1,
+          "y2": 0.125,
+          "z2": 1
+        }
+      }
+    }
+  ],
+    "attributes": {
+    "attachableToEntity": {
+      "texturePrefixCode": "elkaccessories:*-{type}-{material}",
+      "categoryCode": "sock",
+      "attachedShapeBySlotCodeByType": {
+        "*": {"rearleftsock": {"base": "item/wearable/hooved/armor/hooves/{type}-rearl"},
+              "rearrightsock": {"base": "item/wearable/hooved/armor/hooves/{type}-rearr"},
+              "frontleftsock": {"base": "item/wearable/hooved/armor/hooves/{type}-frontl"},
+              "frontrightsock": {"base": "item/wearable/hooved/armor/hooves/{type}-frontr"}}
+      }
+    },
+    "handbook": {
+        "groupBy": ["hooves-*"]
+      },
+    "shelvable": true,
+		"groundStorageTransform": {
+		  "translation": { "x": 0.5, "y": 0, "z": 0.5 }
+			},
+		"onshelfTransform": {
+		  "translation": { "x": 0.5, "y": 0, "z": 0.5 }
+			}
+  },
+  "texturesByType": {
+    "*": {"metal": {"base": "game:block/metal/ingot/{material}"}}
+  },
+  "texture": { 
+    "base": "game:block/metal/ingot/iron"
+  },
+  "creativeinventory": {"general": ["*"],"items": ["*"],"clothing": ["*"],"elkaccessories": ["*"]},
+  "maxStackSize": 4,
+  "guiTransformByType": {
+    "*": {
+      "rotation": { "x": -61, "y": 4, "z": -180 },
+      "origin": { "x": 0.09, "y": -0.1, "z": 0 },
+      "scale": 4.37
+    }
+  },
+  	"tpHandTransformByType": {
+      "*": {
+      	"translation": { "x": -0.2, "y": -0.07, "z": -0.1 },
+        "rotation": { "x": -10, "y": 166, "z": 0 },
+        "origin": { "x": 0, "y": 0, "z": 0 },
+        "scale": 1
+    }
+	}
+}

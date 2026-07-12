@@ -5,13 +5,13 @@
     {
       "code": "category",
       "states": [
-        "hooves"
+        "shoulder"
       ]
     },
     {
       "code": "type",
       "states": [
-        "talon"
+        "plate"
       ]
     },
     {
@@ -34,7 +34,7 @@
     }
   ],
   "shapeByType": {
-    "*": {"base": "item/wearable/hooved/inventory/{type}-inventory"}
+    "*": {"base": "item/wearable/hooved/armor/inventory/shoulder-{type}-inventory"}
   },
   "behaviors": [
     {
@@ -54,20 +54,15 @@
   ],
     "attributes": {
     "attachableToEntity": {
-      "texturePrefixCode": "elkaccessories:{type}-{color}",
-      "categoryCode": "sock",
+      "texturePrefixCode": "elkaccessories:*-{type}-{material}",
+      "categoryCode": "armor",
       "attachedShapeBySlotCodeByType": {
-        "*": {"rearleftsock": {"base": "item/wearable/hooved/hooves/{type}-rearl"},
-              "rearrightsock": {"base": "item/wearable/hooved/hooves/{type}-rearr"},
-              "frontleftsock": {"base": "item/wearable/hooved/hooves/{type}-frontl"},
-              "frontrightsock": {"base": "item/wearable/hooved/hooves/{type}-frontr"}}
+        "*": {"frontleftside": {"base": "item/wearable/hooved/armor/shoulder/leftshoulder-{type}"},
+              "frontrightside": {"base": "item/wearable/hooved/armor/shoulder/rightshoulder-{type}"},
+              "lefthaunch": {"base": "item/wearable/hooved/armor/haunch/lefthaunch-{type}"},
+              "righthaunch": {"base": "item/wearable/hooved/armor/haunch/righthaunch-{type}"}}
       }
     },
-    "damageReductionByType": {
-			"*-tinbronze-*": 0.5,
-			"*-iron-*": 0.75,
-			"*": 0.4
-		},
     "handbook": {
         "groupBy": ["hooves-*"]
       },
@@ -89,17 +84,17 @@
   "maxStackSize": 4,
   "guiTransformByType": {
     "*": {
-      "rotation": { "x": -61, "y": 4, "z": -180 },
-      "origin": { "x": 0.09, "y": -0.1, "z": 0 },
-      "scale": 4.37
+      "rotation": { "x": -50, "y": -93, "z": -180 },
+      "origin": { "x": 0.19, "y": -0.1, "z": 0.15 },
+      "scale": 2.8
     }
   },
-  	"tpHandTransformByType": {
-      "*": {
-      	"translation": { "x": -0.2, "y": -0.07, "z": -0.1 },
-        "rotation": { "x": -10, "y": 166, "z": 0 },
-        "origin": { "x": 0, "y": 0, "z": 0 },
-        "scale": 1
-    }
+  "tpHandTransformByType": {		
+    "*": {
+      "translation": { "x": 0, "y": -0.07, "z": 0.1 },
+      "rotation": { "x": -51, "y": 13, "z": -27 },
+      "origin": { "x": 0, "y": 0, "z": 0 },
+      "scale": 0.71
+  }
 	}
 }
