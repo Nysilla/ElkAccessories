@@ -66,16 +66,13 @@
     "shelvable": true,
 		"groundStorageTransform": {
 		  "translation": { "x": 0.5, "y": 0, "z": 0.5 }
-			},
-		"onshelfTransform": {
-		  "translation": { "x": 0.5, "y": 0, "z": 0.5 }
 			}
   },
   "texturesByType": {
-    "*": {"metal": {"base": "game:block/metal/ingot/{material}"}}
+    "*": {"metal": {"base": "item/armor/metal/{material}"}}
   },
   "texture": { 
-    "base": "game:block/metal/ingot/iron"
+    "base": "item/armor/metal/iron"
   },
   "creativeinventory": {"general": ["*"],"items": ["*"],"clothing": ["*"],"elkaccessories": ["*"]},
   "maxStackSize": 1,
@@ -92,6 +89,14 @@
         "rotation": { "x": 10, "y": -48, "z": -20 },
         "origin": { "x": 0, "y": 0, "z": 0 },
         "scale": 0.44
+    }
+	},
+  	"groundTransformByType": {
+      "*": {
+        "translation": { "x": 0, "y": 0, "z": 0 },
+        "rotation": { "x": 0, "y": 0, "z": 0 },
+        "origin": { "x": 0, "y": 0, "z": 0 },
+        "scale": 2.53
     }
 	}
 }

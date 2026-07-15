@@ -1,7 +1,7 @@
 {
 	"editor": {
 		"backDropShape": "",
-		"collapsedPaths": ",Root/Plate Origin/Mid talon,Root/RRPlate base,Root/Mid Tallon2,Root/FLPlate top,Root/chest,Root/RLPlate top,Root/Left thigh,Root/rear,Root/ORIGIN,Root/Mid Tallon,Root/FLPlate base,Root/Plate Origin/Left talon,Root/RLPlate Origin,Root/Right tlalon,Root/Helmet Head,Root/RLPlate base,Root/Left shoulder,Root/Cube15,Root/FRPlate base,Root/FRPlate Origin,Root/Plate Origin/Back talon,Root/SaddleBackN,Root/thigh2,Root/thigh,Root/Left tallon,Root/Right shoulder,Root/Plate top,Root/FLPlate Origin,Root/mid,Root/Neck Front Plate,Root/NeckPlate,Root/shoulder,Root/Cube2,Root/Cube9,Root/Cube6,Root/Plate Origin,Root/NeckPlateupper,Root/NeckPlate4,Root/FRPlate top,Root/right thigh,Root/RRPlate top,Root/Plate base,Root/RRPlate Origin,Root/Helmet Snout,Root/SaddleFrontN",
+		"collapsedPaths": ",Root/Talon Origin/Mid talon,Root/RRTalon base,Root/Mid Tallon2,Root/FLTalon top,Root/chest,Root/RLTalon top,Root/Left thigh,Root/rear,Root/ORIGIN,Root/Mid Tallon,Root/FLTalon base,Root/Talon Origin/Left talon,Root/RLTalon Origin,Root/Right tlalon,Root/Helmet Head,Root/RLTalon base,Root/Left shoulder,Root/Cube15,Root/FRTalon base,Root/FRTalon Origin,Root/Talon Origin/Back talon,Root/SaddleBackN,Root/thigh2,Root/thigh,Root/Left tallon,Root/Right shoulder,Root/Talon top,Root/FLTalon Origin,Root/mid,Root/Neck Front Plate,Root/NeckPlate,Root/shoulder,Root/Cube2,Root/Cube9,Root/Cube6,Root/Talon Origin,Root/NeckPlateupper,Root/NeckPlate4,Root/FRTalon top,Root/right thigh,Root/RRTalon top,Root/Talon base,Root/RRTalon Origin,Root/Helmet Snout,Root/SaddleFrontN",
 		"allAngles": true,
 		"entityTextureMode": false
 	},
@@ -16,31 +16,31 @@
 	},
 	"elements": [
 		{
-			"name": "RLPlate base",
+			"name": "RLTalon base",
 			"stepParentName": "L Hind Pastern",
 			"from": [ -0.1, 0.1, -0.1 ],
 			"to": [ 0.7, 1.8, 1.2 ],
 			"rotationOrigin": [ -0.1, 0.1, -0.1 ],
 			"faces": {
-				"north": { "texture": "#metal", "uv": [ 0.0, 0.0, 0.5, 1.5 ] },
-				"east": { "texture": "#metal", "uv": [ 0.0, 0.0, 1.0, 1.5 ] },
-				"south": { "texture": "#metal", "uv": [ 0.0, 0.0, 0.5, 1.5 ] },
-				"west": { "texture": "#metal", "uv": [ 0.0, 0.0, 1.0, 1.5 ] },
-				"up": { "texture": "#metal", "uv": [ 0.0, 0.0, 0.5, 1.0 ] },
-				"down": { "texture": "#metal", "uv": [ 0.0, 0.0, 0.5, 1.0 ] }
+				"north": { "texture": "#metal", "uv": [ 0.5, 0.0, 1.0, 1.5 ] },
+				"east": { "texture": "#metal", "uv": [ 1.0, 0.0, 2.0, 1.5 ] },
+				"south": { "texture": "#metal", "uv": [ 1.5, 0.0, 2.0, 1.5 ] },
+				"west": { "texture": "#metal", "uv": [ 1.0, 0.0, 2.0, 1.5 ] },
+				"up": { "texture": "#metal", "uv": [ 0.5, 0.0, 1.0, 1.0 ] },
+				"down": { "texture": "#metal", "uv": [ 0.5, 0.0, 1.0, 1.0 ] }
 			},
 			"children": [
 				{
-					"name": "Plate base2",
+					"name": "Talon base2",
 					"from": [ 0.0, 1.2, 0.1 ],
-					"to": [ 0.3, 2.0, 1.1 ],
+					"to": [ 0.3, 2.2, 1.1 ],
 					"rotationOrigin": [ 0.0, 1.2, 0.1 ],
 					"rotationZ": 28.0,
 					"faces": {
-						"north": { "texture": "#metal", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
-						"east": { "texture": "#metal", "uv": [ 0.0, 0.0, 1.0, 0.5 ] },
-						"south": { "texture": "#metal", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
-						"west": { "texture": "#metal", "uv": [ 0.0, 0.0, 1.0, 0.5 ] },
+						"north": { "texture": "#metal", "uv": [ 0.0, 0.0, 1.0, 0.5 ], "rotation": 90 },
+						"east": { "texture": "#metal", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+						"south": { "texture": "#metal", "uv": [ 0.0, 0.0, 1.0, 0.5 ], "rotation": 90 },
+						"west": { "texture": "#metal", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "rotation": 90 },
 						"up": { "texture": "#metal", "uv": [ 0.0, 0.0, 0.5, 1.0 ] },
 						"down": { "texture": "#metal", "uv": [ 0.0, 0.0, 0.5, 1.0 ] }
 					}
@@ -76,16 +76,16 @@
 			]
 		},
 		{
-			"name": "RLPlate top",
+			"name": "RLTalon top",
 			"stepParentName": "L LegLow",
 			"from": [ -0.2, -0.1, 0.1 ],
 			"to": [ 0.8, 3.9, 1.7 ],
 			"rotationOrigin": [ -0.2, -0.1, 0.1 ],
 			"faces": {
-				"north": { "texture": "#metal", "uv": [ 0.0, 0.0, 1.0, 4.0 ] },
-				"east": { "texture": "#metal", "uv": [ 0.0, 0.0, 1.5, 4.0 ] },
-				"south": { "texture": "#metal", "uv": [ 0.0, 0.0, 1.0, 4.0 ] },
-				"west": { "texture": "#metal", "uv": [ 0.0, 0.0, 1.5, 4.0 ] },
+				"north": { "texture": "#metal", "uv": [ 4.0, 11.0, 5.0, 15.0 ], "rotation": 180 },
+				"east": { "texture": "#metal", "uv": [ 11.0, 7.5, 12.5, 11.5 ] },
+				"south": { "texture": "#metal", "uv": [ 1.0, 11.0, 2.0, 15.0 ], "rotation": 180 },
+				"west": { "texture": "#metal", "uv": [ 14.0, 11.0, 15.5, 15.0 ], "rotation": 180 },
 				"up": { "texture": "#metal", "uv": [ 0.0, 0.0, 1.0, 1.5 ] },
 				"down": { "texture": "#metal", "uv": [ 0.0, 0.0, 1.0, 1.5 ] }
 			},
@@ -105,16 +105,16 @@
 					}
 				},
 				{
-					"name": "Plate top2",
+					"name": "Talon top2",
 					"from": [ 0.0, 3.9, 0.15 ],
 					"to": [ 0.3, 4.6, 1.35 ],
 					"rotationOrigin": [ 0.0, 3.9, 0.1 ],
 					"rotationZ": 8.0,
 					"faces": {
 						"north": { "texture": "#metal", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
-						"east": { "texture": "#metal", "uv": [ 0.0, 0.0, 1.0, 0.5 ] },
+						"east": { "texture": "#metal", "uv": [ 10.5, 14.5, 11.5, 15.0 ] },
 						"south": { "texture": "#metal", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
-						"west": { "texture": "#metal", "uv": [ 0.0, 0.0, 1.0, 0.5 ] },
+						"west": { "texture": "#metal", "uv": [ 8.5, 14.5, 9.5, 15.0 ] },
 						"up": { "texture": "#metal", "uv": [ 0.0, 0.0, 0.5, 1.0 ] },
 						"down": { "texture": "#metal", "uv": [ 0.0, 0.0, 0.5, 1.0 ] }
 					}

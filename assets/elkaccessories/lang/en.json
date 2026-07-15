@@ -273,6 +273,13 @@
   "item-hooves-boot-blanket-survivor": "<font color='orange'>[Legacy]</font> Survivor boot pattern",
   "item-hooves-boot-blanket-wool": "<font color='orange'>[Legacy]</font> Wool boot pattern",
 
+  "itemdesc-hoovedwearables-head-*":"Suitable for: elk\nAccessory slot: Hat",
+  "itemdesc-hoovedwearables-neck-*":"Suitable for: elk\nAccessory slot: Neck",
+  "itemdesc-hoovedwearables-hooves-*":"Suitable for: elk\nAccessory slot: Sock",
+  "itemdesc-hoovedwearables-shoulder-*":"Suitable for: elk\nAccessory slots: Shoulder, Haunch",
+  "itemdesc-hoovedwearables-body-*":"Suitable for: elk\nAccessory slot: Blanket",
+  "itemdesc-hoovedwearables-tail-*":"Suitable for: elk\nAccessory slot: Tail",
+
   "item-hoovedwearables-head-hunterhat-alchemist": "Hunter hat (Alchemist)",
   "item-hoovedwearables-head-hunterhat-azure-embroidered": "Hunter hat (Azure embroidered)",
   "item-hoovedwearables-head-hunterhat-blackguard": "Hunter hat (Blackguard)",
@@ -698,6 +705,8 @@
   "game:creature-tameddeer-*-selectionbox-FLSockAP": "Front left sock slot",
   "game:creature-tameddeer-*-selectionbox-FRSockAP": "Front right sock slot",
   "game:creature-tameddeer-*-selectionbox-TailAP": "Tail slot",
+  "game:creature-tameddeer-*-selectionbox-RightHaunchAP": "Rear right storage",
+  "game:creature-tameddeer-*-selectionbox-LeftHaunchAP": "Rear left storage",
 
   "creature-elkaccessories:armorstand-elk-*-selectionbox-HatAP": "Hat slot",
   "creature-elkaccessories:armorstand-elk-*-selectionbox-HeadAP": "Head mount spot",

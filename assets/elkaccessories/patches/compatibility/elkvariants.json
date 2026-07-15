@@ -45,6 +45,16 @@
         "code": "tail",
         "forCategoryCodes": [ "tail" ],
         "attachmentPointCode": "TailAP"
+      },
+      {
+        "code": "lefthaunch",
+        "forCategoryCodes": [ "armor" ],
+        "attachmentPointCode": "LeftHaunchAP"
+      },
+      {
+        "code": "righthaunch",
+        "forCategoryCodes": [ "armor" ],
+        "attachmentPointCode": "RightHaunchAP"
       }
     ]
   },
@@ -54,7 +64,7 @@
     "file": "elkvariants:entities/new-elk",
     "op": "addmerge",
     "path": "/behaviorConfigs/selectionboxes/selectionBoxes",
-    "value": [ "HatAP", "RSaddlePinAP", "LSaddlePinAP", "RLSockAP", "RRSockAP", "FLSockAP", "FRSockAP", "TailAP" ]
+    "value": [ "HatAP", "RSaddlePinAP", "LSaddlePinAP", "RLSockAP", "RRSockAP", "FLSockAP", "FRSockAP", "TailAP", "RightHaunchAP", "LeftHaunchAP" ]
   },
   {
     "dependsOn": [ { "modid": "elkvariants" } ],
@@ -63,5 +73,21 @@
     "op": "addmerge",
     "path": "/behaviorConfigs/rideableaccessories/wearableSlots/2/forCategoryCodes",
     "value": [ "collar" ]
+  },
+  {
+    "dependsOn": [ { "modid": "elkvariants" } ],
+    "side": "Server",
+    "file": "elkvariants:entities/new-elk",
+    "op": "addmerge",
+    "path": "/behaviorConfigs/rideableaccessories/wearableSlots/7/forCategoryCodes",
+    "value": [ "armor" ]
+  },
+  {
+    "dependsOn": [ { "modid": "elkvariants" } ],
+    "side": "Server",
+    "file": "elkvariants:entities/new-elk",
+    "op": "addmerge",
+    "path": "/behaviorConfigs/rideableaccessories/wearableSlots/8/forCategoryCodes",
+    "value": [ "armor" ]
   }
 ]

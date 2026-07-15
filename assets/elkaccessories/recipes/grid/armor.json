@@ -1,0 +1,248 @@
+[
+  {
+    "ingredientPattern": "PPP,PLP,__P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-*",
+        "name": "metal",
+        "allowedVariants": [
+          "bismuthbronze",
+          "blackbronze",
+          "brass",
+          "copper",
+          "gold",
+          "iron",
+          "meteoriciron",
+          "nickel",
+          "silver",
+          "steel",
+          "tin",
+          "tinbronze",
+          "zinc"
+        ]
+      },
+      "L": {
+        "type": "item",
+        "code": "game:leather-normal-plain"
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-body-plate-{metal}"
+    }
+  },
+  {
+    "ingredientPattern": "_PP,P_P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-*",
+        "name": "metal",
+        "allowedVariants": [
+          "bismuthbronze",
+          "blackbronze",
+          "brass",
+          "copper",
+          "gold",
+          "iron",
+          "meteoriciron",
+          "nickel",
+          "silver",
+          "steel",
+          "tin",
+          "tinbronze",
+          "zinc"
+        ]
+      },
+      "L": {
+        "type": "item",
+        "code": "game:leather-normal-plain"
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-head-plate-{metal}"
+    }
+  },
+  {
+    "ingredientPattern": "PPP,_L_,_P_",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-*",
+        "name": "metal",
+        "allowedVariants": [
+          "bismuthbronze",
+          "blackbronze",
+          "brass",
+          "copper",
+          "gold",
+          "iron",
+          "meteoriciron",
+          "nickel",
+          "silver",
+          "steel",
+          "tin",
+          "tinbronze",
+          "zinc"
+        ]
+      },
+      "L": {
+        "type": "item",
+        "code": "game:leather-normal-plain"
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-neck-plate-{metal}"
+    }
+  },
+  {
+    "ingredientPattern": "PP_,PPI",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-*",
+        "name": "metal",
+        "allowedVariants": [
+          "bismuthbronze",
+          "blackbronze",
+          "brass",
+          "copper",
+          "gold",
+          "iron",
+          "meteoriciron",
+          "nickel",
+          "silver",
+          "steel",
+          "tin",
+          "tinbronze",
+          "zinc"
+        ]
+      },
+      "I": {
+        "type": "item",
+        "code": "game:ingot-*",
+        "name": "metal",
+        "allowedVariants": [
+          "bismuthbronze",
+          "blackbronze",
+          "brass",
+          "copper",
+          "gold",
+          "iron",
+          "meteoriciron",
+          "nickel",
+          "silver",
+          "steel",
+          "tin",
+          "tinbronze",
+          "zinc"
+        ]
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-shoulder-plate-{metal}"
+    }
+  },
+  {
+    "ingredientPattern": "PL,PL",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-*",
+        "name": "metal",
+        "allowedVariants": [
+          "bismuthbronze",
+          "blackbronze",
+          "brass",
+          "copper",
+          "gold",
+          "iron",
+          "meteoriciron",
+          "nickel",
+          "silver",
+          "steel",
+          "tin",
+          "tinbronze",
+          "zinc"
+        ]
+      },
+      "L": {
+        "type": "item",
+        "code": "game:leather-normal-plain"
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-hooves-plate-{metal}"
+    }
+  },
+  {
+    "ingredientPattern": "_PL,IPL",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-*",
+        "name": "metal",
+        "allowedVariants": [
+          "bismuthbronze",
+          "blackbronze",
+          "brass",
+          "copper",
+          "gold",
+          "iron",
+          "meteoriciron",
+          "nickel",
+          "silver",
+          "steel",
+          "tin",
+          "tinbronze",
+          "zinc"
+        ]
+      },
+      "I": {
+        "type": "item",
+        "code": "game:ingot-*",
+        "name": "metal",
+        "allowedVariants": [
+          "bismuthbronze",
+          "blackbronze",
+          "brass",
+          "copper",
+          "gold",
+          "iron",
+          "meteoriciron",
+          "nickel",
+          "silver",
+          "steel",
+          "tin",
+          "tinbronze",
+          "zinc"
+        ]
+      },
+      "L": {
+        "type": "item",
+        "code": "game:leather-normal-plain"
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-hooves-talon-{metal}"
+    }
+  }
+]

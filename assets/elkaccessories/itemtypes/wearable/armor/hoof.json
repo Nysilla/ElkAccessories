@@ -69,17 +69,19 @@
       },
     "shelvable": true,
 		"groundStorageTransform": {
-		  "translation": { "x": 0.5, "y": 0, "z": 0.5 }
+		  "translation": { "x": 0.4, "y": 0, "z": 0.4 },
+			"origin": { "x": 0, "y": 0, "z": 0 },
+			"scale": 1.2
 			},
 		"onshelfTransform": {
-		  "translation": { "x": 0.5, "y": 0, "z": 0.5 }
+		  "translation": { "x": 0.4, "y": -0, "z": 0.45 }
 			}
   },
   "texturesByType": {
-    "*": {"metal": {"base": "game:block/metal/ingot/{material}"}}
+    "*": {"metal": {"base": "item/armor/metal/{material}"}}
   },
   "texture": { 
-    "base": "game:block/metal/ingot/iron"
+    "base": "item/armor/metal/iron"
   },
   "creativeinventory": {"general": ["*"],"items": ["*"],"clothing": ["*"],"elkaccessories": ["*"]},
   "maxStackSize": 4,
@@ -96,6 +98,14 @@
         "rotation": { "x": -10, "y": 166, "z": 0 },
         "origin": { "x": 0, "y": 0, "z": 0 },
         "scale": 1
+    }
+	},
+  	"groundTransformByType": {
+      "*": {
+        "translation": { "x": 0, "y": 0, "z": 0 },
+        "rotation": { "x": 0, "y": 0, "z": 0 },
+        "origin": { "x": 0, "y": 0, "z": 0 },
+        "scale": 6
     }
 	}
 }
