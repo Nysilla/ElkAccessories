@@ -1,6 +1,6 @@
 {
 	"editor": {
-		"collapsedPaths": ",Root/Origin/Head Origin/Cube5,Root/Origin/Head Origin/Cube2,Root/Origin/Body Origin/Chest/Neck1/Neck2/Neck3,Root/Origin/Head Origin/Cube7,Root/R scapula,Root/Origin/Body Origin/Belly/Chest/Neck1/Neck3/Head Origin,Root/R Pelvis,Root/Origin/Body Origin/Belly/Chest/Neck1/mane,Root/L Pelvis,Root/Origin/Body Origin/Belly/Chest/Neck1/Head Origin/Ear R,Root/Origin/Cube2,Root/Origin/Body Origin/Belly/Cube3,Root/Origin/Body Origin/Chest/Neck1/Neck2,Root/Origin/Body Origin/Belly/Chest/Neck1/Head Origin/Ear L,Root/L scapula,Root/Origin/Head Origin",
+		"collapsedPaths": ",Root/Origin/Head Origin/Cube5,Root/Origin/Head Origin/Cube2,Root/Origin/Body Origin/Chest/Neck1/Neck2/Neck3,Root/Origin/Head Origin/Cube7,Root/R scapula,Root/Origin/Body Origin/Belly/Chest/Neck1/mane,Root/Origin/Body Origin/Belly/Chest/Neck1/Head Origin/Ear R,Root/Origin/Body Origin/Chest/Neck1/Neck2,Root/Origin/Body Origin/Belly/Chest/Neck1/Head Origin/Ear L,Root/Origin/Body Origin/Belly/Chest/Neck1/Neck3/Head Origin,Root/R Pelvis,Root/L Pelvis,Root/Origin/Cube2,Root/Origin/Body Origin/Belly/Cube3,Root/L scapula,Root/Origin/Head Origin",
 		"allAngles": true,
 		"entityTextureMode": true
 	},
@@ -1503,6 +1503,7 @@
 			"from": [ 1.6, 1.7, 4.29 ],
 			"to": [ 2.7, 2.8, 5.39 ],
 			"uv": [ 999.0, 999.0 ],
+			"renderInEditor": false,
 			"rotationOrigin": [ 1.6, 1.7, 4.29 ],
 			"faces": {
 				"north": { "texture": "#null", "uv": [ 0.0, 1.0, 1.0, 2.0 ], "enabled": false },

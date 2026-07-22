@@ -548,12 +548,6 @@
         "uv": [ 0.0, 0.0 ],
         "rotationOrigin": [ 8.2, 8.3, 2.7 ],
         "faces": {
-          "north": { "texture": "#null", "uv": [ 0.0, 0.0, 1.0, 2.0 ], "enabled": false },
-          "east": { "texture": "#null", "uv": [ 0.0, 0.0, 4.5, 2.0 ], "enabled": false },
-          "south": { "texture": "#null", "uv": [ 0.0, 0.0, 1.0, 2.0 ], "enabled": false },
-          "west": { "texture": "#null", "uv": [ 0.0, 0.0, 4.5, 2.0 ], "enabled": false },
-          "up": { "texture": "#null", "uv": [ 0.0, 0.0, 1.0, 4.5 ], "enabled": false },
-          "down": { "texture": "#null", "uv": [ 0.0, 0.0, 1.0, 4.5 ], "enabled": false }
         },
         "attachmentpoints": [
           {
@@ -611,6 +605,243 @@
       }
     ]
   },
+
+  {
+    "dependsOn": [ { "modid": "monoceros" } ],
+    "file": "monoceros:shapes/entity/land/caledonius/adult",
+    "op": "addmerge",
+    "path": "/elements/0/children/0/children/0/children/2/children",
+    "value": [
+      {
+        "name": "LeftFrontStorage",
+        "from": [ 5.6075, 1.5119, 9.2 ],
+        "to": [ 12.6075, 6.5119, 10.2 ],
+        "rotationOrigin": [ 5.6123, 1.5122, 9.2 ],
+        "rotationZ": 92.0,
+        "faces": {},
+        "attachmentpoints": [
+          {
+            "code": "LFrontAP",
+            "posX": "0.0","posY": "0.0","posZ": "0.0",
+            "rotationX": "0.0","rotationY": "0.0","rotationZ": "0.0"
+          }
+        ]
+      },
+      {
+        "name": "RightFrontStorage",
+        "from": [ 5.6075, 1.5119, -0.5 ],
+        "to": [ 12.6075, 6.5119, 0.5 ],
+        "rotationOrigin": [ 5.6123, 1.5122, -0.5 ],
+        "rotationZ": 92.0,
+        "faces": {},
+        "attachmentpoints": [
+          {
+            "code": "RFrontAP",
+            "posX": "0.0","posY": "0.0","posZ": "0.0",
+            "rotationX": "0.0","rotationY": "0.0","rotationZ": "0.0"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dependsOn": [ { "modid": "monoceros" } ],
+    "file": "monoceros:shapes/entity/land/caledonius/adult",
+    "op": "addmerge",
+    "path": "/elements/0/children/0/children/0/children/1/children",
+    "value": [
+      {
+        "name": "LeftHaunchStorage",
+        "from": [ 5.8053, 0.8726, 9.2 ],
+        "to": [ 12.8053, 5.8726, 10.2 ],
+        "rotationOrigin": [ 5.8053, 0.8726, 9.2 ],
+        "rotationZ": 74.0,
+        "faces": {},
+        "attachmentpoints": [
+          {
+            "code": "LeftHaunchAP",
+            "posX": "0.0","posY": "0.0","posZ": "0.0",
+            "rotationX": "0.0","rotationY": "0.0","rotationZ": "0.0"
+          }
+        ]
+      },
+      {
+        "name": "RightHaunchStorage",
+        "from": [ 5.8053, 0.8726, -0.4 ],
+        "to": [ 12.8053, 5.8726, 0.6 ],
+        "rotationOrigin": [ 5.8053, 0.8726, -0.4 ],
+        "rotationZ": 74.0,
+        "faces": {},
+        "attachmentpoints": [
+          {
+            "code": "RightHaunchAP",
+            "posX": "0.0","posY": "0.0","posZ": "0.0",
+            "rotationX": "0.0","rotationY": "0.0","rotationZ": "0.0"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dependsOn": [ { "modid": "monoceros" } ],
+    "file": "monoceros:shapes/entity/land/indicus/adult-female",
+    "op": "addmerge",
+    "path": "/elements/0/children/0/children/0/children/1/children",
+    "value": [
+      {
+        "name": "LeftFrontStorage",
+        "from": [ 4.25, 1.13, 8.4 ],
+        "to": [ 11.25, 5.63, 9.4 ],
+        "uv": [ 80.0, 44.0 ],
+        "rotationOrigin": [ 4.2468, 1.1264, 8.4 ],
+        "rotationZ": 84.5,
+        "faces": {},
+        "attachmentpoints": [
+          {
+            "code": "LFrontAP",
+            "posX": "0.0","posY": "0.0","posZ": "0.0",
+            "rotationX": "0.0","rotationY": "0.0","rotationZ": "0.0"
+          }
+        ]
+      },
+      {
+        "name": "RightFrontStorage",
+        "from": [ 4.25, 1.13, -0.5 ],
+        "to": [ 11.25, 5.63, 0.5 ],
+        "uv": [ 80.0, 44.0 ],
+        "rotationOrigin": [ 4.2468, 1.1264, -0.5 ],
+        "rotationZ": 84.5,
+        "faces": {},
+        "attachmentpoints": [
+          {
+            "code": "RFrontAP",
+            "posX": "0.0","posY": "0.0","posZ": "0.0",
+            "rotationX": "0.0","rotationY": "0.0","rotationZ": "0.0"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dependsOn": [ { "modid": "monoceros" } ],
+    "file": "monoceros:shapes/entity/land/indicus/adult-female",
+    "op": "addmerge",
+    "path": "/elements/0/children/0/children/0/children/0/children",
+    "value": [
+      {
+        "name": "LeftHaunchStorage",
+        "from": [ 5.8053, 0.8726, 8.5 ],
+        "to": [ 12.8053, 5.8726, 9.5 ],
+        "uv": [ 80.0, 44.0 ],
+        "rotationOrigin": [ 5.8053, 0.8726, 8.5 ],
+        "rotationZ": 74.0,
+        "faces": {},
+        "attachmentpoints": [
+          {
+            "code": "LeftHaunchAP",
+            "posX": "0.0","posY": "0.0","posZ": "0.0",
+            "rotationX": "0.0","rotationY": "0.0","rotationZ": "0.0"
+          }
+        ]
+      },
+      {
+        "name": "RightHaunchStorage",
+        "from": [ 5.8053, 0.8726, -0.6 ],
+        "to": [ 12.8053, 5.8726, 0.4 ],
+        "uv": [ 80.0, 44.0 ],
+        "rotationOrigin": [ 5.8053, 0.8726, -0.6 ],
+        "rotationZ": 74.0,
+        "faces": {},
+        "attachmentpoints": [
+          {
+            "code": "RightHaunchAP",
+            "posX": "0.0","posY": "0.0","posZ": "0.0",
+            "rotationX": "0.0","rotationY": "0.0","rotationZ": "0.0"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dependsOn": [ { "modid": "monoceros" } ],
+    "file": "monoceros:shapes/entity/land/indicus/adult-male",
+    "op": "addmerge",
+    "path": "/elements/0/children/0/children/0/children/1/children",
+    "value": [
+      {
+        "name": "LeftFrontStorage",
+        "from": [ 4.25, 1.13, 8.4 ],
+        "to": [ 11.25, 5.63, 9.4 ],
+        "uv": [ 80.0, 44.0 ],
+        "rotationOrigin": [ 4.2468, 1.1264, 8.4 ],
+        "rotationZ": 84.5,
+        "faces": {},
+        "attachmentpoints": [
+          {
+            "code": "LFrontAP",
+            "posX": "0.0","posY": "0.0","posZ": "0.0",
+            "rotationX": "0.0","rotationY": "0.0","rotationZ": "0.0"
+          }
+        ]
+      },
+      {
+        "name": "RightFrontStorage",
+        "from": [ 4.25, 1.13, -0.5 ],
+        "to": [ 11.25, 5.63, 0.5 ],
+        "uv": [ 80.0, 44.0 ],
+        "rotationOrigin": [ 4.2468, 1.1264, -0.5 ],
+        "rotationZ": 84.5,
+        "faces": {},
+        "attachmentpoints": [
+          {
+            "code": "RFrontAP",
+            "posX": "0.0","posY": "0.0","posZ": "0.0",
+            "rotationX": "0.0","rotationY": "0.0","rotationZ": "0.0"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dependsOn": [ { "modid": "monoceros" } ],
+    "file": "monoceros:shapes/entity/land/indicus/adult-male",
+    "op": "addmerge",
+    "path": "/elements/0/children/0/children/0/children/0/children",
+    "value": [
+      {
+        "name": "LeftHaunchStorage",
+        "from": [ 5.8053, 0.8726, 8.5 ],
+        "to": [ 12.8053, 5.8726, 9.5 ],
+        "uv": [ 80.0, 44.0 ],
+        "rotationOrigin": [ 5.8053, 0.8726, 8.5 ],
+        "rotationZ": 74.0,
+        "faces": {},
+        "attachmentpoints": [
+          {
+            "code": "LeftHaunchAP",
+            "posX": "0.0","posY": "0.0","posZ": "0.0",
+            "rotationX": "0.0","rotationY": "0.0","rotationZ": "0.0"
+          }
+        ]
+      },
+      {
+        "name": "RightHaunchStorage",
+        "from": [ 5.8053, 0.8726, -0.6 ],
+        "to": [ 12.8053, 5.8726, 0.4 ],
+        "uv": [ 80.0, 44.0 ],
+        "rotationOrigin": [ 5.8053, 0.8726, -0.6 ],
+        "rotationZ": 74.0,
+        "faces": {},
+        "attachmentpoints": [
+          {
+            "code": "RightHaunchAP",
+            "posX": "0.0","posY": "0.0","posZ": "0.0",
+            "rotationX": "0.0","rotationY": "0.0","rotationZ": "0.0"
+          }
+        ]
+      }
+    ]
+  },
   
   {
     "dependsOn": [ { "modid": "monoceros" } ],
@@ -658,6 +889,26 @@
         "code": "tail-{type}",
         "forCategoryCodes": [ "tail" ],
         "attachmentPointCode": "TailAP"
+      },
+      {
+        "code": "lefthaunch-{type}",
+        "forCategoryCodes": [ "armor" ],
+        "attachmentPointCode": "LeftHaunchAP"
+      },
+      {
+        "code": "righthaunch-{type}",
+        "forCategoryCodes": [ "armor" ],
+        "attachmentPointCode": "RightHaunchAP"
+      },
+      {
+        "code": "LeftFrontStorage-{type}",
+        "forCategoryCodes": [ "armor" ],
+        "attachmentPointCode": "LFrontAP"
+      },
+      {
+        "code": "RightFrontStorage-{type}",
+        "forCategoryCodes": [ "armor" ],
+        "attachmentPointCode": "RFrontAP"
       }
     ]
   },
@@ -667,7 +918,7 @@
     "file": "monoceros:entities/tamedmonoceros",
     "op": "addmerge",
     "path": "/behaviorConfigs/selectionboxes/selectionBoxes",
-    "value": [ "collar","HatAP","RSaddlePinAP","LSaddlePinAP","RLSockAP","RRSockAP","FLSockAP","FRSockAP", "TailAP" ]
+    "value": [ "collar","HatAP","RSaddlePinAP","LSaddlePinAP","RLSockAP","RRSockAP","FLSockAP","FRSockAP", "TailAP", "RightHaunchAP", "LeftHaunchAP", "RFrontAP", "LFrontAP" ]
   },
   {
     "dependsOn": [ { "modid": "monoceros" } ],
@@ -836,6 +1087,64 @@
     "value": {"tail-indicus": {"base": "item/wearable/hooved/tail/compatibility/monoceros/{type}-indicus"},
               "tail-caledonius": {"base": "item/wearable/hooved/tail/compatibility/monoceros/{type}-caledonius"}}
   },
+  {
+    "dependsOn": [ { "modid": "monoceros" } ],
+    "side": "Server",
+    "file": "elkaccessories:itemtypes/wearable/armor/body",
+    "op": "addmerge",
+    "path": "/attributes/attachableToEntity/attachedShapeBySlotCodeByType/*",
+    "value": {"middlebackunder-indicus": {"base": "item/wearable/hooved/armor/body/compatibility/monoceros/body-{type}-indicus"},
+              "middlebackunder-caledonius": {"base": "item/wearable/hooved/armor/body/compatibility/monoceros/body-{type}-caledonius"}}
+  },
+  {
+    "dependsOn": [ { "modid": "monoceros" } ],
+    "side": "Server",
+    "file": "elkaccessories:itemtypes/wearable/armor/head",
+    "op": "addmerge",
+    "path": "/attributes/attachableToEntity/attachedShapeBySlotCodeByType/*",
+    "value": {"hat-indicus": {"base": "item/wearable/hooved/armor/head/compatibility/monoceros/head-{type}-indicus"},
+              "hat-caledonius": {"base": "item/wearable/hooved/armor/head/compatibility/monoceros/head-{type}-caledonius"}}
+  },
+  {
+    "dependsOn": [ { "modid": "monoceros" } ],
+    "side": "Server",
+    "file": "elkaccessories:itemtypes/wearable/armor/neck",
+    "op": "addmerge",
+    "path": "/attributes/attachableToEntity/attachedShapeBySlotCodeByType/*",
+    "value": {"neck-indicus": {"base": "item/wearable/hooved/armor/neck/compatibility/monoceros/neck-{type}-indicus"},
+              "neck-caledonius": {"base": "item/wearable/hooved/armor/neck/compatibility/monoceros/neck-{type}-caledonius"}}
+  },
+  {
+    "dependsOn": [ { "modid": "monoceros" } ],
+    "side": "Server",
+    "file": "elkaccessories:itemtypes/wearable/armor/hoof",
+    "op": "addmerge",
+    "path": "/attributes/attachableToEntity/attachedShapeBySlotCodeByType/*",
+    "value": {"rearleftsock-indicus": {"base": "item/wearable/hooved/armor/hooves/compatibility/monoceros/hoof-{type}-indicus-rearl"},
+              "rearrightsock-indicus": {"base": "item/wearable/hooved/armor/hooves/compatibility/monoceros/hoof-{type}-indicus-rearr"},
+              "frontleftsock-indicus": {"base": "item/wearable/hooved/armor/hooves/compatibility/monoceros/hoof-{type}-indicus-frontl"},
+              "frontrightsock-indicus": {"base": "item/wearable/hooved/armor/hooves/compatibility/monoceros/hoof-{type}-indicus-frontr"},
+              "rearleftsock-caledonius": {"base": "item/wearable/hooved/armor/hooves/compatibility/monoceros/hoof-{type}-caledonius-rearl"},
+              "rearrightsock-caledonius": {"base": "item/wearable/hooved/armor/hooves/compatibility/monoceros/hoof-{type}-caledonius-rearr"},
+              "frontleftsock-caledonius": {"base": "item/wearable/hooved/armor/hooves/compatibility/monoceros/hoof-{type}-caledonius-frontl"},
+              "frontrightsock-caledonius": {"base": "item/wearable/hooved/armor/hooves/compatibility/monoceros/hoof-{type}-caledonius-frontr"}}
+  },
+  {
+    "dependsOn": [ { "modid": "monoceros" } ],
+    "side": "Server",
+    "file": "elkaccessories:itemtypes/wearable/armor/shoulder",
+    "op": "addmerge",
+    "path": "/attributes/attachableToEntity/attachedShapeBySlotCodeByType/*",
+    "value": {"frontleftside-indicus": {"base": "item/wearable/hooved/armor/shoulder/compatibility/monoceros/leftshoulder-{type}-indicus"},
+              "frontrightside-indicus": {"base": "item/wearable/hooved/armor/shoulder/compatibility/monoceros/rightshoulder-{type}-indicus"},
+              "lefthaunch-indicus": {"base": "item/wearable/hooved/armor/haunch/compatibility/monoceros/lefthaunch-{type}-indicus"},
+              "righthaunch-indicus": {"base": "item/wearable/hooved/armor/haunch/compatibility/monoceros/righthaunch-{type}-indicus"},
+              "frontleftside-caledonius": {"base": "item/wearable/hooved/armor/shoulder/compatibility/monoceros/leftshoulder-{type}-caledonius"},
+              "frontrightside-caledonius": {"base": "item/wearable/hooved/armor/shoulder/compatibility/monoceros/rightshoulder-{type}-caledonius"},
+              "lefthaunch-caledonius": {"base": "item/wearable/hooved/armor/haunch/compatibility/monoceros/lefthaunch-{type}-caledonius"},
+              "righthaunch-caledonius": {"base": "item/wearable/hooved/armor/haunch/compatibility/monoceros/righthaunch-{type}-caledonius"}}
+  },
+
   {
     "dependsOn": [ { "modid": "monoceros" } ],
     "side": "Server",

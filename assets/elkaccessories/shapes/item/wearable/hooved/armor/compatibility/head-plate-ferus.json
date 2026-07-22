@@ -1,0 +1,270 @@
+{
+	"editor": {
+		"backDropShape": "E:/GitHub/ElkAccessories/ref models/Equus-ferus-adult",
+		"collapsedPaths": ",Root/Talon Origin/Mid talon,Root/RRTalon base,Root/Mid Tallon2,Root/FLTalon top,Root/chest,Root/RLTalon top,Root/Left thigh,Root/rear,Root/ORIGIN,Root/Mid Tallon,Root/FLTalon base,Root/Talon Origin/Left talon,Root/RLTalon Origin,Root/Right tlalon,Root/RLTalon base,Root/Left shoulder,Root/Cube15,Root/FRTalon base,Root/FRTalon Origin,Root/Talon Origin/Back talon,Root/SaddleBackN,Root/thigh2,Root/thigh,Root/Left tallon,Root/Right shoulder,Root/Talon top,Root/FLTalon Origin,Root/mid,Root/Neck Front Plate,Root/NeckPlate,Root/shoulder,Root/Cube2,Root/Cube9,Root/Cube6,Root/Talon Origin,Root/NeckPlateupper,Root/NeckPlate4,Root/FRTalon top,Root/right thigh,Root/RRTalon top,Root/Talon base,Root/RRTalon Origin,Root/Helmet Snout,Root/SaddleFrontN",
+		"allAngles": true,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+		"metal": [16,16],
+		"leather": [16,16]
+	},
+	"textures": {
+		"metal": "E:/GitHub/ElkAccessories/assets/elkaccessories/textures/item/armor/metal/metal"
+	},
+	"elements": [
+		{
+			"name": "Helmet Head",
+			"stepParentName": "Head",
+			"from": [ 0.9, 5.3, -0.35 ],
+			"to": [ 5.5, 6.6, 4.75 ],
+			"rotationOrigin": [ 0.9, 5.3, -0.3 ],
+			"faces": {
+				"north": { "texture": "#metal", "uv": [ 9.5, 11.0, 14.0, 12.0 ], "windMode": [-1,-1,-1,-1] },
+				"east": { "texture": "#metal", "uv": [ 0.0, 2.0, 5.0, 3.0 ], "windMode": [-1,-1,-1,-1] },
+				"south": { "texture": "#metal", "uv": [ 5.0, 6.0, 9.5, 7.0 ], "windMode": [-1,-1,-1,-1] },
+				"west": { "texture": "#metal", "uv": [ 7.0, 13.0, 12.0, 14.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1] },
+				"up": { "texture": "#metal", "uv": [ 2.5, 2.5, 7.0, 7.5 ], "windMode": [-1,-1,-1,-1] },
+				"down": { "texture": "#metal", "uv": [ 2.0, 1.0, 6.5, 6.0 ], "windMode": [-1,-1,-1,-1] }
+			},
+			"children": [
+				{
+					"name": "Helmet PlateR",
+					"from": [ 1.0, -2.6, 0.0 ],
+					"to": [ 3.5, 0.4, 0.3 ],
+					"rotationOrigin": [ 1.0, 0.4, 0.0 ],
+					"rotationX": 6.0,
+					"rotationZ": 11.0,
+					"faces": {
+						"north": { "texture": "#metal", "uv": [ 13.5, 5.0, 16.0, 8.0 ] },
+						"east": { "texture": "#metal", "uv": [ 2.5, 12.0, 3.0, 15.0 ] },
+						"south": { "texture": "#metal", "uv": [ 13.5, 5.0, 16.0, 8.0 ] },
+						"west": { "texture": "#metal", "uv": [ 10.0, 3.0, 10.5, 6.0 ] },
+						"up": { "texture": "#metal", "uv": [ 13.5, 7.0, 16.0, 7.5 ] },
+						"down": { "texture": "#metal", "uv": [ 11.0, 7.5, 13.5, 8.0 ] }
+					},
+					"children": [
+						{
+							"name": "Helmet PlateR2",
+							"from": [ 2.5, -0.6, 0.0 ],
+							"to": [ 3.5, 2.4, 0.7 ],
+							"rotationOrigin": [ 3.5, 2.4, 0.0 ],
+							"rotationX": -3.0,
+							"rotationZ": -14.0,
+							"faces": {
+								"north": { "texture": "#metal", "uv": [ 1.0, 0.5, 2.0, 3.5 ] },
+								"east": { "texture": "#metal", "uv": [ 0.5, 0.5, 1.0, 3.5 ] },
+								"south": { "texture": "#metal", "uv": [ 1.0, 2.0, 2.0, 5.0 ] },
+								"west": { "texture": "#metal", "uv": [ 1.5, 2.0, 2.0, 5.0 ] },
+								"up": { "texture": "#metal", "uv": [ 1.0, 1.5, 2.0, 2.0 ] },
+								"down": { "texture": "#metal", "uv": [ 2.0, 1.0, 3.0, 1.5 ] }
+							}
+						}
+					]
+				},
+				{
+					"name": "Helmet Top",
+					"from": [ 0.5, 1.2, 0.5 ],
+					"to": [ 4.0, 1.7, 4.6 ],
+					"rotationOrigin": [ 0.5, 1.2, 0.5 ],
+					"faces": {
+						"north": { "texture": "#metal", "uv": [ 1.0, 1.0, 4.5, 1.5 ] },
+						"east": { "texture": "#metal", "uv": [ 2.0, 1.5, 6.0, 2.0 ] },
+						"south": { "texture": "#metal", "uv": [ 1.5, 3.0, 5.0, 3.5 ] },
+						"west": { "texture": "#metal", "uv": [ 1.5, 1.5, 5.5, 2.0 ] },
+						"up": { "texture": "#metal", "uv": [ 1.5, 2.0, 5.0, 6.0 ] },
+						"down": { "texture": "#metal", "uv": [ 1.5, 1.0, 5.0, 5.0 ] }
+					}
+				},
+				{
+					"name": "Helmet Head2",
+					"from": [ 4.4, 0.8, 0.2 ],
+					"to": [ 5.0, 1.3, 4.9 ],
+					"rotationOrigin": [ 4.4, 0.8, 0.2 ],
+					"rotationZ": 28.0,
+					"faces": {
+						"north": { "texture": "#metal", "uv": [ 5.0, 14.5, 5.5, 15.0 ] },
+						"east": { "texture": "#metal", "uv": [ 0.5, 14.5, 5.0, 15.0 ] },
+						"south": { "texture": "#metal", "uv": [ 1.0, 14.5, 1.5, 15.0 ] },
+						"west": { "texture": "#metal", "uv": [ 1.5, 14.5, 6.0, 15.0 ] },
+						"up": { "texture": "#metal", "uv": [ 0.0, 2.5, 0.5, 7.0 ] },
+						"down": { "texture": "#metal", "uv": [ 0.0, 6.0, 0.5, 10.5 ] }
+					}
+				},
+				{
+					"name": "Helmet PlateL3",
+					"from": [ 1.57, -2.53, 5.11 ],
+					"to": [ 4.07, 0.47, 5.41 ],
+					"shade": false,
+					"rotationOrigin": [ 1.5724, -2.5287, 5.4078 ],
+					"rotationX": -6.0,
+					"rotationZ": 11.0,
+					"faces": {
+						"north": { "texture": "#metal", "uv": [ 2.5, 12.0, 0.0, 15.0 ], "autoUv": false, "snapUv": false },
+						"east": { "texture": "#metal", "uv": [ 0.5, 3.0, 0.0, 6.0 ], "autoUv": false, "snapUv": false },
+						"south": { "texture": "#metal", "uv": [ 16.0, 12.0, 13.5, 15.0 ], "autoUv": false, "snapUv": false },
+						"west": { "texture": "#metal", "uv": [ 0.5, 9.0, 0.0, 12.0 ], "autoUv": false, "snapUv": false },
+						"up": { "texture": "#metal", "uv": [ 0.0, 0.5, 2.5, 0.0 ], "autoUv": false, "snapUv": false },
+						"down": { "texture": "#metal", "uv": [ 1.5, 15.0, 4.0, 14.5 ], "rotation": 180, "autoUv": false, "snapUv": false }
+					},
+					"children": [
+						{
+							"name": "Helmet PlateL4",
+							"from": [ 2.5, -0.6, -0.4 ],
+							"to": [ 3.5, 2.4, 0.3 ],
+							"shade": false,
+							"rotationOrigin": [ 3.5, 2.4, 0.3 ],
+							"rotationX": 3.0,
+							"rotationZ": -14.0,
+							"faces": {
+								"north": { "texture": "#metal", "uv": [ 3.0, 12.0, 2.0, 15.0 ], "autoUv": false, "snapUv": false },
+								"east": { "texture": "#metal", "uv": [ 3.0, 12.0, 2.5, 15.0 ], "autoUv": false, "snapUv": false },
+								"south": { "texture": "#metal", "uv": [ 2.5, 12.0, 1.5, 15.0 ], "autoUv": false, "snapUv": false },
+								"west": { "texture": "#metal", "uv": [ 3.0, 12.0, 2.5, 15.0 ], "autoUv": false, "snapUv": false },
+								"up": { "texture": "#metal", "uv": [ 1.0, 1.5, 2.0, 1.0 ], "autoUv": false, "snapUv": false },
+								"down": { "texture": "#metal", "uv": [ 2.5, 2.5, 3.5, 2.0 ], "rotation": 180, "autoUv": false, "snapUv": false }
+							}
+						}
+					]
+				},
+				{
+					"name": "Cube2",
+					"from": [ -0.8, 0.1, 0.2 ],
+					"to": [ 0.0, 1.6, 4.9 ],
+					"rotationOrigin": [ -0.8, 0.1, 0.2 ],
+					"rotationZ": -42.0,
+					"faces": {
+						"north": { "texture": "#metal", "uv": [ 14.5, 15.5, 16.0, 16.0 ], "rotation": 90 },
+						"east": { "texture": "#metal", "uv": [ 0.5, 13.5, 5.0, 15.0 ] },
+						"south": { "texture": "#metal", "uv": [ 14.5, 15.5, 16.0, 16.0 ], "rotation": 90 },
+						"west": { "texture": "#metal", "uv": [ 0.5, 13.5, 5.0, 15.0 ] },
+						"up": { "texture": "#metal", "uv": [ 1.0, 1.0, 1.5, 5.5 ] },
+						"down": { "texture": "#metal", "uv": [ 0.0, 0.5, 0.5, 5.0 ] }
+					}
+				}
+			]
+		},
+		{
+			"name": "Helmet Snout",
+			"stepParentName": "Bridge",
+			"from": [ 0.0, 1.0, 0.2 ],
+			"to": [ 5.0, 1.5, 2.3 ],
+			"rotationOrigin": [ 0.0, 1.0, 0.2 ],
+			"rotationZ": 6.0,
+			"faces": {
+				"north": { "texture": "#metal", "uv": [ 1.5, 10.0, 2.0, 15.0 ], "rotation": 270 },
+				"east": { "texture": "#metal", "uv": [ 2.0, 0.5, 4.0, 1.0 ] },
+				"south": { "texture": "#metal", "uv": [ 2.5, 10.0, 3.0, 15.0 ], "rotation": 90 },
+				"west": { "texture": "#metal", "uv": [ 0.5, 14.5, 2.5, 15.0 ] },
+				"up": { "texture": "#metal", "uv": [ 0.5, 10.0, 2.5, 15.0 ], "rotation": 90 },
+				"down": { "texture": "#metal", "uv": [ 0.5, 10.0, 2.5, 15.0 ], "rotation": 90 }
+			},
+			"children": [
+				{
+					"name": "Helmet Snout4",
+					"from": [ 2.97, -0.44, 1.55 ],
+					"to": [ 4.97, -0.04, 2.65 ],
+					"rotationOrigin": [ 2.9666, -0.4368, 2.65 ],
+					"rotationX": 25.0,
+					"rotationY": -11.0,
+					"rotationZ": 8.0,
+					"faces": {
+						"north": { "texture": "#metal", "uv": [ 2.0, 0.0, 0.0, 0.5 ], "autoUv": false, "snapUv": false },
+						"east": { "texture": "#metal", "uv": [ 1.0, 0.0, 0.0, 0.5 ], "autoUv": false, "snapUv": false },
+						"south": { "texture": "#metal", "uv": [ 2.0, 0.0, 0.0, 0.5 ], "rotation": 180, "autoUv": false, "snapUv": false },
+						"west": { "texture": "#metal", "uv": [ 1.0, 0.0, 0.0, 0.5 ], "autoUv": false, "snapUv": false },
+						"up": { "texture": "#metal", "uv": [ 0.0, 1.0, 2.0, 0.0 ], "autoUv": false, "snapUv": false },
+						"down": { "texture": "#metal", "uv": [ 0.0, 1.0, 2.0, 0.0 ], "rotation": 180, "autoUv": false, "snapUv": false }
+					},
+					"children": [
+						{
+							"name": "Helmet Snout5",
+							"from": [ -0.4, 0.0, 0.3 ],
+							"to": [ 0.2, 0.3, 0.9 ],
+							"rotationOrigin": [ 0.2, 0.0, 0.9 ],
+							"rotationX": 11.0,
+							"rotationY": -3.0,
+							"rotationZ": -14.0,
+							"faces": {
+								"north": { "texture": "#metal", "uv": [ 0.5, 0.0, 0.0, 0.5 ], "autoUv": false, "snapUv": false },
+								"east": { "texture": "#metal", "uv": [ 0.5, 0.0, 0.0, 0.5 ], "autoUv": false, "snapUv": false },
+								"south": { "texture": "#metal", "uv": [ 0.5, 0.0, 0.0, 0.5 ], "autoUv": false, "snapUv": false },
+								"west": { "texture": "#metal", "uv": [ 0.5, 0.0, 0.0, 0.5 ], "autoUv": false, "snapUv": false },
+								"up": { "texture": "#metal", "uv": [ 0.0, 0.5, 0.5, 0.0 ], "autoUv": false, "snapUv": false },
+								"down": { "texture": "#metal", "uv": [ 0.0, 0.5, 0.5, 0.0 ], "rotation": 180, "autoUv": false, "snapUv": false }
+							}
+						}
+					]
+				},
+				{
+					"name": "Helmet Snout2",
+					"from": [ 3.0, -0.5, -0.5 ],
+					"to": [ 5.0, -0.1, 0.6 ],
+					"rotationOrigin": [ 3.0, -0.5, -0.5 ],
+					"rotationX": -25.0,
+					"rotationY": 11.0,
+					"rotationZ": 8.0,
+					"faces": {
+						"north": { "texture": "#metal", "uv": [ 0.0, 0.0, 2.0, 0.5 ], "rotation": 180 },
+						"east": { "texture": "#metal", "uv": [ 0.0, 0.0, 1.0, 0.5 ] },
+						"south": { "texture": "#metal", "uv": [ 0.0, 0.0, 2.0, 0.5 ] },
+						"west": { "texture": "#metal", "uv": [ 0.0, 0.0, 1.0, 0.5 ] },
+						"up": { "texture": "#metal", "uv": [ 0.0, 0.0, 2.0, 1.0 ] },
+						"down": { "texture": "#metal", "uv": [ 0.0, 0.0, 2.0, 1.0 ] }
+					},
+					"children": [
+						{
+							"name": "Helmet Snout3",
+							"from": [ -0.4, 0.0, 0.2 ],
+							"to": [ 0.2, 0.3, 0.8 ],
+							"rotationOrigin": [ 0.2, 0.0, 0.2 ],
+							"rotationX": -11.0,
+							"rotationY": 3.0,
+							"rotationZ": -14.0,
+							"faces": {
+								"north": { "texture": "#metal", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+								"east": { "texture": "#metal", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+								"south": { "texture": "#metal", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+								"west": { "texture": "#metal", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+								"up": { "texture": "#metal", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+								"down": { "texture": "#metal", "uv": [ 0.0, 0.0, 0.5, 0.5 ] }
+							}
+						}
+					]
+				},
+				{
+					"name": "Decor",
+					"from": [ 3.0, 0.4, 0.4 ],
+					"to": [ 4.5, 0.6, 1.8 ],
+					"rotationOrigin": [ 3.0, 0.4, 0.4 ],
+					"faces": {
+						"north": { "texture": "#metal", "uv": [ 12.5, 8.0, 14.0, 8.5 ] },
+						"east": { "texture": "#metal", "uv": [ 13.0, 8.0, 14.0, 8.5 ] },
+						"south": { "texture": "#metal", "uv": [ 12.5, 8.5, 14.0, 9.0 ] },
+						"west": { "texture": "#metal", "uv": [ 12.5, 8.5, 13.5, 9.0 ] },
+						"up": { "texture": "#metal", "uv": [ 12.5, 8.0, 14.0, 9.0 ] },
+						"down": { "texture": "#metal", "uv": [ 12.5, 8.0, 14.0, 9.0 ] }
+					},
+					"children": [
+						{
+							"name": "Decor2",
+							"from": [ 0.2, 0.1, 0.35 ],
+							"to": [ 1.3, 0.3, 1.45 ],
+							"rotationOrigin": [ 1.0, 0.1, 0.8 ],
+							"rotationY": -45.0,
+							"faces": {
+								"north": { "texture": "#metal", "uv": [ 0.0, 14.5, 1.0, 15.0 ] },
+								"east": { "texture": "#metal", "uv": [ 0.0, 14.5, 1.0, 15.0 ] },
+								"south": { "texture": "#metal", "uv": [ 0.0, 14.5, 1.0, 15.0 ] },
+								"west": { "texture": "#metal", "uv": [ 0.0, 14.5, 1.0, 15.0 ] },
+								"up": { "texture": "#metal", "uv": [ 0.0, 14.5, 1.0, 15.5 ] },
+								"down": { "texture": "#metal", "uv": [ 0.0, 14.5, 1.0, 15.5 ] }
+							}
+						}
+					]
+				}
+			]
+		}
+	]}

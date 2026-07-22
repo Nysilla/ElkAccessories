@@ -1,6 +1,6 @@
 {
 	"editor": {
-		"collapsedPaths": "Root/Body/Right Shoulder,Root/Body/Left Shoulder,Root/ORIGIN,Root/Body/rear",
+		"collapsedPaths": "Root/Body/Right Shoulder,Root/Body/Left Shoulder,Root/Origin/Rear/Midsection/Chest/R Shoulder,Root/Origin/Rear/Midsection/Chest/L Shoulder,Root/ORIGIN,Root/Origin/Rear/Midsection/Chest/Neck,Root/Origin/Rear/L Haunch/L LegUp,Root/Body/rear,Root/Origin/Rear/R Haunch/R LegUp",
 		"allAngles": true,
 		"entityTextureMode": true
 	},
@@ -220,6 +220,28 @@
 											]
 										}
 									]
+								},
+								{
+									"name": "LeftHaunchStorage",
+									"from": [ 0.2, 0.8, 1.7 ],
+									"to": [ 4.2, 6.3, 2.7 ],
+									"uv": [ 999.0, 999.0 ],
+									"rotationOrigin": [ 0.2, 0.8, 1.7 ],
+									"faces": {
+										"north": { "texture": "#null", "uv": [ 0.0, 1.0, 7.0, 6.0 ], "enabled": false },
+										"east": { "texture": "#null", "uv": [ 7.0, 1.0, 8.0, 6.0 ], "enabled": false },
+										"south": { "texture": "#null", "uv": [ 8.0, 1.0, 15.0, 6.0 ], "enabled": false },
+										"west": { "texture": "#null", "uv": [ 15.0, 1.0, 16.0, 6.0 ], "enabled": false },
+										"up": { "texture": "#null", "uv": [ 0.0, 0.0, 7.0, 1.0 ], "enabled": false },
+										"down": { "texture": "#null", "uv": [ 7.0, 0.0, 14.0, 1.0 ], "enabled": false }
+									},
+									"attachmentpoints": [
+										{
+											"code": "LeftHaunchAP",
+											"posX": "0.0","posY": "0.0","posZ": "0.0",
+											"rotationX": "0.0","rotationY": "0.0","rotationZ": "0.0"
+										}
+									]
 								}
 							]
 						},
@@ -401,6 +423,21 @@
 											]
 										}
 									]
+								},
+								{
+									"name": "RightHaunchStorage",
+									"from": [ 0.2, 0.8, -0.5 ],
+									"to": [ 4.2, 6.3, 0.5 ],
+									"uv": [ 999.0, 999.0 ],
+									"rotationOrigin": [ 0.2, 0.8, -0.5 ],
+									"faces": {
+										"north": { "texture": "#null", "uv": [ 0.0, 1.0, 7.0, 6.0 ], "enabled": false },
+										"east": { "texture": "#null", "uv": [ 7.0, 1.0, 8.0, 6.0 ], "enabled": false },
+										"south": { "texture": "#null", "uv": [ 8.0, 1.0, 15.0, 6.0 ], "enabled": false },
+										"west": { "texture": "#null", "uv": [ 15.0, 1.0, 16.0, 6.0 ], "enabled": false },
+										"up": { "texture": "#null", "uv": [ 0.0, 0.0, 7.0, 1.0 ], "enabled": false },
+										"down": { "texture": "#null", "uv": [ 7.0, 0.0, 14.0, 1.0 ], "enabled": false }
+									}
 								}
 							]
 						},
@@ -1569,10 +1606,10 @@
 						},
 						{
 							"name": "RearSideStorage",
-							"from": [ 0.0, 2.0, -3.0 ],
-							"to": [ 6.0, 9.0, 9.5 ],
+							"from": [ 0.0, 5.0, -1.0 ],
+							"to": [ 4.0, 9.0, 7.5 ],
 							"uv": [ 0.0, 0.0 ],
-							"rotationOrigin": [ 0.0, 2.0, -3.0 ],
+							"rotationOrigin": [ 0.0, 5.0, -1.0 ],
 							"faces": {
 								"north": { "texture": "#null", "uv": [ 0.0, 12.5, 6.0, 19.5 ], "enabled": false },
 								"east": { "texture": "#null", "uv": [ 6.0, 12.5, 18.5, 19.5 ], "enabled": false },
@@ -1667,6 +1704,7 @@
 			"from": [ 1.0, 7.0, 3.0 ],
 			"to": [ 2.0, 8.0, 4.0 ],
 			"uv": [ 999.0, 999.0 ],
+			"renderInEditor": false,
 			"rotationOrigin": [ 1.0, 7.0, 3.0 ],
 			"faces": {
 				"north": { "texture": "#null", "uv": [ 0.0, 1.0, 1.0, 2.0 ], "enabled": false },
@@ -1962,6 +2000,7 @@
 			"from": [ -0.2, 5.4, -0.6 ],
 			"to": [ 1.9, 8.5, 0.0 ],
 			"uv": [ 1.0, 1.0 ],
+			"renderInEditor": false,
 			"rotationOrigin": [ -0.2, 5.4007, -0.6 ],
 			"rotationZ": -1.0,
 			"faces": {
@@ -2061,6 +2100,7 @@
 			"from": [ 2.6, 6.3, -0.5 ],
 			"to": [ 6.6, 9.6, 7.0 ],
 			"uv": [ 0.0, 1.0 ],
+			"renderInEditor": false,
 			"rotationOrigin": [ 2.6, 6.3007, -0.25 ],
 			"rotationZ": -1.0,
 			"faces": {

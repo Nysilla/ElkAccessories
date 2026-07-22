@@ -236,6 +236,45 @@
     ]
   },
   
+
+  {
+    "dependsOn": [ { "modid": "pegasus" } ],
+    "file": "pegasus:shapes/entity/caelestis/adult",
+    "op": "addmerge",
+    "path": "/elements/0/children/0/children/0/children/1/children",
+    "value": [
+      {
+        "name": "LeftHaunchStorage",
+        "from": [ 5.8053, 0.8726, 9.2 ],
+        "to": [ 12.8053, 5.8726, 10.2 ],
+        "rotationOrigin": [ 5.8053, 0.8726, 9.2 ],
+        "rotationZ": 74.0,
+        "faces": {},
+        "attachmentpoints": [
+          {
+            "code": "LeftHaunchAP",
+            "posX": "0.0","posY": "0.0","posZ": "0.0",
+            "rotationX": "0.0","rotationY": "0.0","rotationZ": "0.0"
+          }
+        ]
+      },
+      {
+        "name": "RightHaunchStorage",
+        "from": [ 5.8053, 0.8726, -0.4 ],
+        "to": [ 12.8053, 5.8726, 0.6 ],
+        "rotationOrigin": [ 5.8053, 0.8726, -0.4 ],
+        "rotationZ": 74.0,
+        "faces": {},
+        "attachmentpoints": [
+          {
+            "code": "RightHaunchAP",
+            "posX": "0.0","posY": "0.0","posZ": "0.0",
+            "rotationX": "0.0","rotationY": "0.0","rotationZ": "0.0"
+          }
+        ]
+      }
+    ]
+  },
   
   {
     "dependsOn": [ { "modid": "pegasus" } ],
@@ -283,6 +322,16 @@
         "code": "tail-{type}",
         "forCategoryCodes": [ "tail" ],
         "attachmentPointCode": "TailAP"
+      },
+      {
+        "code": "lefthaunch-{type}",
+        "forCategoryCodes": [ "armor" ],
+        "attachmentPointCode": "LeftHaunchAP"
+      },
+      {
+        "code": "righthaunch-{type}",
+        "forCategoryCodes": [ "armor" ],
+        "attachmentPointCode": "RightHaunchAP"
       }
     ]
   },
@@ -294,7 +343,7 @@
     "file": "pegasus:entities/pegasus",
     "op": "addmerge",
     "path": "/behaviorConfigs/selectionboxes/selectionBoxes",
-    "value": [ "HatAP", "RSaddlePinAP", "LSaddlePinAP", "RLSockAP", "RRSockAP", "FLSockAP", "FRSockAP", "TailAP" ]
+    "value": [ "HatAP", "RSaddlePinAP", "LSaddlePinAP", "RLSockAP", "RRSockAP", "FLSockAP", "FRSockAP", "TailAP", "RightHaunchAP", "LeftHaunchAP" ]
   },
   {
     "dependsOn": [ { "modid": "pegasus" } ],
@@ -441,5 +490,49 @@
     "op": "addmerge",
     "path": "/attributes/attachableToEntity/attachedShapeBySlotCodeByType/*",
     "value": {"tail-caelestis": {"base": "item/wearable/hooved/tail/compatibility/pegasus/{type}-caelestis"}}
+  },
+  {
+    "dependsOn": [ { "modid": "pegasus" } ],
+    "side": "Server",
+    "file": "elkaccessories:itemtypes/wearable/armor/body",
+    "op": "addmerge",
+    "path": "/attributes/attachableToEntity/attachedShapeBySlotCodeByType/*",
+    "value": {"middlebackunder-caelestis": {"base": "item/wearable/hooved/armor/body/compatibility/pegasus/body-{type}-caelestis"}}
+  },
+  {
+    "dependsOn": [ { "modid": "pegasus" } ],
+    "side": "Server",
+    "file": "elkaccessories:itemtypes/wearable/armor/head",
+    "op": "addmerge",
+    "path": "/attributes/attachableToEntity/attachedShapeBySlotCodeByType/*",
+    "value": {"hat-caelestis": {"base": "item/wearable/hooved/armor/head/compatibility/pegasus/head-{type}-caelestis"}}
+  },
+  {
+    "dependsOn": [ { "modid": "pegasus" } ],
+    "side": "Server",
+    "file": "elkaccessories:itemtypes/wearable/armor/neck",
+    "op": "addmerge",
+    "path": "/attributes/attachableToEntity/attachedShapeBySlotCodeByType/*",
+    "value": {"neck-caelestis": {"base": "item/wearable/hooved/armor/neck/compatibility/pegasus/neck-{type}-caelestis"}}
+  },
+  {
+    "dependsOn": [ { "modid": "pegasus" } ],
+    "side": "Server",
+    "file": "elkaccessories:itemtypes/wearable/armor/hoof",
+    "op": "addmerge",
+    "path": "/attributes/attachableToEntity/attachedShapeBySlotCodeByType/*",
+    "value": {"rearleftsock-caelestis": {"base": "item/wearable/hooved/armor/hooves/compatibility/pegasus/hoof-{type}-caelestis-rearl"},
+              "rearrightsock-caelestis": {"base": "item/wearable/hooved/armor/hooves/compatibility/pegasus/hoof-{type}-caelestis-rearr"},
+              "frontleftsock-caelestis": {"base": "item/wearable/hooved/armor/hooves/compatibility/pegasus/hoof-{type}-caelestis-frontl"},
+              "frontrightsock-caelestis": {"base": "item/wearable/hooved/armor/hooves/compatibility/pegasus/hoof-{type}-caelestis-frontr"}}
+  },
+  {
+    "dependsOn": [ { "modid": "pegasus" } ],
+    "side": "Server",
+    "file": "elkaccessories:itemtypes/wearable/armor/shoulder",
+    "op": "addmerge",
+    "path": "/attributes/attachableToEntity/attachedShapeBySlotCodeByType/*",
+    "value": {"lefthaunch-caelestis": {"base": "item/wearable/hooved/armor/haunch/compatibility/pegasus/lefthaunch-{type}-caelestis"},
+              "righthaunch-caelestis": {"base": "item/wearable/hooved/armor/haunch/compatibility/pegasus/righthaunch-{type}-caelestis"}}
   }
 ]

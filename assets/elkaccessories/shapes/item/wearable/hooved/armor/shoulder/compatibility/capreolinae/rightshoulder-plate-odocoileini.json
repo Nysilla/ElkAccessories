@@ -1,0 +1,105 @@
+{
+	"editor": {
+		"collapsedPaths": ",Root/FLTalon top,Root/rear,Root/Mid Tallon,Root/FLTalon base,Root/Talon Origin/Left talon,Root/Right tlalon,Root/Helmet Head,Root/FRTalon base2,Root/RLTalon base,Root/Talon Origin/Back talon,Root/thigh,Root/Left tallon,Root/FLTalon Origin,Root/FLTalon top2,Root/Neck Front Plate,Root/FRTalon Origin2,Root/shoulder,Root/Talon Origin,Root/RRTalon top,Root/RRTalon Origin,Root/SaddleFrontN,Root/Helmet Snout,Root/Talon Origin/Mid talon,Root/RRTalon base,Root/Mid Tallon2,Root/chest,Root/FRTalon top2,Root/RLTalon top,Root/Left thigh,Root/ORIGIN,Root/RLTalon Origin,Root/FLTalon Origin2,Root/Cube15,Root/FRTalon base,Root/FRTalon Origin,Root/SaddleBackN,Root/thigh2,Root/Talon top,Root/mid,Root/NeckPlate,Root/Cube2,Root/Cube9,Root/Cube6,Root/NeckPlate4,Root/right thigh,Root/FRTalon top,Root/Talon base,Root/FLTalon base2",
+		"allAngles": true,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+		"metal": [16,16],
+		"leather": [16,16]
+	},
+	"textures": {
+		"leather": "game:block/leather/plain"
+	},
+	"elements": [
+		{
+			"name": "Right shoulder",
+			"stepParentName": "R Shoulder",
+			"from": [ -0.07, 4.47, -0.14 ],
+			"to": [ 3.53, 6.57, 1.54 ],
+			"rotationOrigin": [ -0.07, 5.87, 0.56 ],
+			"rotationX": 11.0,
+			"faces": {
+				"north": { "texture": "#metal", "uv": [ 0.0, 2.0, 3.5, 4.0 ] },
+				"east": { "texture": "#metal", "uv": [ 0.0, 0.0, 1.5, 2.0 ], "rotation": 180 },
+				"south": { "texture": "#metal", "uv": [ 5.0, 4.5, 8.5, 6.5 ] },
+				"west": { "texture": "#metal", "uv": [ 2.5, 0.0, 4.0, 2.0 ] },
+				"up": { "texture": "#metal", "uv": [ 7.0, 6.0, 10.5, 7.5 ] },
+				"down": { "texture": "#metal", "uv": [ 0.0, 2.0, 3.5, 0.6 ], "autoUv": false, "snapUv": false }
+			},
+			"children": [
+				{
+					"name": "Cube2",
+					"from": [ 0.0, -2.24, 0.28 ],
+					"to": [ 3.29, 0.28, 1.61 ],
+					"rotationOrigin": [ 2.24, -0.63, 0.28 ],
+					"rotationX": -8.0,
+					"rotationZ": -6.0,
+					"faces": {
+						"north": { "texture": "#metal", "uv": [ 0.0, 4.0, 3.0, 6.5 ] },
+						"east": { "texture": "#metal", "uv": [ 0.0, 0.0, 1.0, 2.5 ], "rotation": 180 },
+						"south": { "texture": "#metal", "uv": [ 6.0, 0.0, 9.0, 2.5 ] },
+						"west": { "texture": "#metal", "uv": [ 2.0, 0.5, 3.0, 3.0 ] },
+						"up": { "texture": "#metal", "uv": [ 0.0, 1.5, 3.15, 0.45 ], "autoUv": false, "snapUv": false, "enabled": false },
+						"down": { "texture": "#metal", "uv": [ 0.0, 1.5, 3.0, 2.5 ] }
+					},
+					"children": [
+						{
+							"name": "Cube12",
+							"from": [ 0.14, -0.98, 0.0 ],
+							"to": [ 2.59, 0.42, 1.12 ],
+							"rotationOrigin": [ 0.14, 0.42, 0.0 ],
+							"rotationX": -8.0,
+							"rotationZ": -8.0,
+							"faces": {
+								"north": { "texture": "#metal", "uv": [ 0.0, 4.5, 2.0, 5.5 ] },
+								"east": { "texture": "#metal", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "rotation": 180 },
+								"south": { "texture": "#metal", "uv": [ 3.5, 0.0, 5.5, 1.0 ] },
+								"west": { "texture": "#metal", "uv": [ 2.0, 1.0, 3.0, 2.0 ] },
+								"up": { "texture": "#metal", "uv": [ 0.0, 1.5, 2.0, 2.5 ], "enabled": false },
+								"down": { "texture": "#metal", "uv": [ 0.0, 1.5, 2.0, 2.5 ] }
+							},
+							"children": [
+								{
+									"name": "Cube6",
+									"from": [ 0.56, -1.12, -0.07 ],
+									"to": [ 1.96, 0.28, 0.91 ],
+									"rotationOrigin": [ 0.56, -1.12, -0.07 ],
+									"rotationX": 6.0,
+									"rotationZ": 17.0,
+									"faces": {
+										"north": { "texture": "#metal", "uv": [ 0.0, 11.5, 1.0, 12.5 ] },
+										"east": { "texture": "#metal", "uv": [ 1.5, 14.5, 2.0, 15.5 ] },
+										"south": { "texture": "#metal", "uv": [ 0.0, 13.5, 1.0, 14.5 ] },
+										"west": { "texture": "#metal", "uv": [ 2.0, 13.5, 2.5, 14.5 ] },
+										"up": { "texture": "#metal", "uv": [ 0.0, 1.0, 1.4, 0.3 ], "autoUv": false, "snapUv": false, "enabled": false },
+										"down": { "texture": "#metal", "uv": [ 0.0, 14.0, 1.0, 14.5 ] }
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Cube19",
+					"from": [ 0.385, 1.897, 0.168 ],
+					"to": [ 3.185, 2.387, 0.868 ],
+					"rotationOrigin": [ 0.3825, 1.8977, 0.1672 ],
+					"rotationX": 22.0,
+					"faces": {
+						"north": { "texture": "#metal", "uv": [ 0.0, 14.5, 2.5, 15.0 ] },
+						"east": { "texture": "#metal", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "rotation": 180 },
+						"south": { "texture": "#metal", "uv": [ 0.5, 14.5, 3.0, 15.0 ] },
+						"west": { "texture": "#metal", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"up": { "texture": "#metal", "uv": [ 0.5, 15.0, 3.0, 15.5 ] },
+						"down": { "texture": "#metal", "uv": [ 0.5, 0.0, 3.0, 0.5 ] }
+					}
+				}
+			]
+		}
+	],
+	"animations": [
+	]
+}

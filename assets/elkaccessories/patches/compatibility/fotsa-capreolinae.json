@@ -28,6 +28,28 @@
   {
     "dependsOn": [ { "modid": "capreolinae" } ],
     "file": "capreolinae:shapes/entity/animal/mammal/hooved/odocoileini/rangifertarandus/adult",
+    "op": "replace",
+    "path": "/elements/0/children/0/children/5",
+    "value": {
+							"name": "RearSideStorage",
+							"from": [ 0.0, 5.0, -1.0 ],
+							"to": [ 4.0, 9.0, 7.5 ],
+							"uv": [ 0.0, 0.0 ],
+							"rotationOrigin": [ 0.0, 5.0, -1.0 ],
+							"faces": {
+							},
+							"attachmentpoints": [
+								{
+									"code": "RearSideAP",
+									"posX": "0.0","posY": "0.0","posZ": "0.0",
+									"rotationX": "0.0","rotationY": "0.0","rotationZ": "0.0"
+								}
+							]
+						}
+  },
+  {
+    "dependsOn": [ { "modid": "capreolinae" } ],
+    "file": "capreolinae:shapes/entity/animal/mammal/hooved/odocoileini/rangifertarandus/adult",
     "op": "addmerge",
     "path": "/elements/0/children/0/children/3/children/0/children/0/children/0/children/0/children",
     "value": [
@@ -203,12 +225,6 @@
 				"to": [ 1.3, 3.9, 1.4 ],
         "rotationOrigin": [ -0.1, 0.0, -0.1 ],
         "faces": {
-          "north": { "texture": "#skin", "uv": [ 0.0, 1.5, 1.5, 3.5 ], "enabled": false },
-          "east": { "texture": "#skin", "uv": [ 1.5, 1.5, 3.0, 3.5 ], "windMode": [-1,-1,-1,-1], "enabled": false },
-          "south": { "texture": "#skin", "uv": [ 1.5, 1.5, 3.0, 3.5 ], "windMode": [-1,-1,-1,-1], "enabled": false },
-          "west": { "texture": "#skin", "uv": [ 1.5, 1.5, 3.0, 3.5 ], "windMode": [-1,-1,-1,-1], "enabled": false },
-          "up": { "texture": "#skin", "uv": [ 0.0, 0.0, 1.5, 1.5 ], "windMode": [-1,-1,-1,-1], "enabled": false },
-          "down": { "texture": "#skin", "uv": [ 1.5, 0.0, 3.0, 1.5 ], "windMode": [-1,-1,-1,-1], "enabled": false }
         },
         "attachmentpoints": [
           {
@@ -236,12 +252,6 @@
 				"to": [ 1.32, 3.8548, 1.32 ],
         "rotationOrigin": [ -0.1, 0.0, -0.1 ],
         "faces": {
-          "north": { "texture": "#skin", "uv": [ 0.0, 1.5, 1.5, 3.5 ], "enabled": false },
-          "east": { "texture": "#skin", "uv": [ 1.5, 1.5, 3.0, 3.5 ], "windMode": [-1,-1,-1,-1], "enabled": false },
-          "south": { "texture": "#skin", "uv": [ 1.5, 1.5, 3.0, 3.5 ], "windMode": [-1,-1,-1,-1], "enabled": false },
-          "west": { "texture": "#skin", "uv": [ 1.5, 1.5, 3.0, 3.5 ], "windMode": [-1,-1,-1,-1], "enabled": false },
-          "up": { "texture": "#skin", "uv": [ 0.0, 0.0, 1.5, 1.5 ], "windMode": [-1,-1,-1,-1], "enabled": false },
-          "down": { "texture": "#skin", "uv": [ 1.5, 0.0, 3.0, 1.5 ], "windMode": [-1,-1,-1,-1], "enabled": false }
         },
         "attachmentpoints": [
           {
@@ -269,12 +279,6 @@
 				"to": [ 1.15, 4.0312, 1.26 ],
         "rotationOrigin": [ -0.0764, 1.0312, -0.0411 ],
         "faces": {
-          "north": { "texture": "#skin", "uv": [ 0.0, 1.5, 1.5, 5.5 ], "enabled": false },
-          "east": { "texture": "#skin", "uv": [ 1.5, 1.5, 3.0, 5.5 ], "windMode": [-1,-1,-1,-1], "enabled": false },
-          "south": { "texture": "#skin", "uv": [ 1.5, 1.5, 3.0, 5.5 ], "windMode": [-1,-1,-1,-1], "enabled": false },
-          "west": { "texture": "#skin", "uv": [ 1.5, 1.5, 3.0, 5.5 ], "windMode": [-1,-1,-1,-1], "enabled": false },
-          "up": { "texture": "#skin", "uv": [ 0.0, 0.0, 1.5, 1.5 ], "windMode": [-1,-1,-1,-1], "enabled": false },
-          "down": { "texture": "#skin", "uv": [ 1.5, 0.0, 3.0, 1.5 ], "windMode": [-1,-1,-1,-1], "enabled": false }
         },
         "attachmentpoints": [
           {
@@ -302,12 +306,6 @@
 				"to": [ 1.15, 4.0176, 1.2516 ],
         "rotationOrigin": [ -0.0624, 1.0176, -0.0495 ],
         "faces": {
-          "north": { "texture": "#skin", "uv": [ 0.0, 1.5, 1.5, 5.5 ], "enabled": false },
-          "east": { "texture": "#skin", "uv": [ 1.5, 1.5, 3.0, 5.5 ], "windMode": [-1,-1,-1,-1], "enabled": false },
-          "south": { "texture": "#skin", "uv": [ 1.5, 1.5, 3.0, 5.5 ], "windMode": [-1,-1,-1,-1], "enabled": false },
-          "west": { "texture": "#skin", "uv": [ 1.5, 1.5, 3.0, 5.5 ], "windMode": [-1,-1,-1,-1], "enabled": false },
-          "up": { "texture": "#skin", "uv": [ 0.0, 0.0, 1.5, 1.5 ], "windMode": [-1,-1,-1,-1], "enabled": false },
-          "down": { "texture": "#skin", "uv": [ 1.5, 0.0, 3.0, 1.5 ], "windMode": [-1,-1,-1,-1], "enabled": false }
         },
         "attachmentpoints": [
           {
@@ -335,12 +333,6 @@
 				"to": [ 2.1, 4.0, 2.1 ],
         "rotationOrigin": [ -0.1, 0.0, -0.1 ],
         "faces": {
-          "north": { "texture": "#skin", "uv": [ 0.0, 1.5, 1.5, 3.5 ], "enabled": false },
-          "east": { "texture": "#skin", "uv": [ 1.5, 1.5, 3.0, 3.5 ], "windMode": [-1,-1,-1,-1], "enabled": false },
-          "south": { "texture": "#skin", "uv": [ 1.5, 1.5, 3.0, 3.5 ], "windMode": [-1,-1,-1,-1], "enabled": false },
-          "west": { "texture": "#skin", "uv": [ 1.5, 1.5, 3.0, 3.5 ], "windMode": [-1,-1,-1,-1], "enabled": false },
-          "up": { "texture": "#skin", "uv": [ 0.0, 0.0, 1.5, 1.5 ], "windMode": [-1,-1,-1,-1], "enabled": false },
-          "down": { "texture": "#skin", "uv": [ 1.5, 0.0, 3.0, 1.5 ], "windMode": [-1,-1,-1,-1], "enabled": false }
         },
         "attachmentpoints": [
           {
@@ -368,12 +360,6 @@
 				"to": [ 2.09, 3.9742, 2.08 ],
         "rotationOrigin": [ -0.1, 0.0, -0.1 ],
         "faces": {
-          "north": { "texture": "#skin", "uv": [ 0.0, 1.5, 1.5, 3.5 ], "enabled": false },
-          "east": { "texture": "#skin", "uv": [ 1.5, 1.5, 3.0, 3.5 ], "windMode": [-1,-1,-1,-1], "enabled": false },
-          "south": { "texture": "#skin", "uv": [ 1.5, 1.5, 3.0, 3.5 ], "windMode": [-1,-1,-1,-1], "enabled": false },
-          "west": { "texture": "#skin", "uv": [ 1.5, 1.5, 3.0, 3.5 ], "windMode": [-1,-1,-1,-1], "enabled": false },
-          "up": { "texture": "#skin", "uv": [ 0.0, 0.0, 1.5, 1.5 ], "windMode": [-1,-1,-1,-1], "enabled": false },
-          "down": { "texture": "#skin", "uv": [ 1.5, 0.0, 3.0, 1.5 ], "windMode": [-1,-1,-1,-1], "enabled": false }
         },
         "attachmentpoints": [
           {
@@ -401,12 +387,6 @@
 				"to": [ 2.01, 4.8107, 2.05 ],
         "rotationOrigin": [ -0.1, 0.0, -0.1 ],
         "faces": {
-          "north": { "texture": "#skin", "uv": [ 0.0, 1.5, 1.5, 5.5 ], "enabled": false },
-          "east": { "texture": "#skin", "uv": [ 1.5, 1.5, 3.0, 5.5 ], "windMode": [-1,-1,-1,-1], "enabled": false },
-          "south": { "texture": "#skin", "uv": [ 1.5, 1.5, 3.0, 5.5 ], "windMode": [-1,-1,-1,-1], "enabled": false },
-          "west": { "texture": "#skin", "uv": [ 1.5, 1.5, 3.0, 5.5 ], "windMode": [-1,-1,-1,-1], "enabled": false },
-          "up": { "texture": "#skin", "uv": [ 0.0, 0.0, 1.5, 1.5 ], "windMode": [-1,-1,-1,-1], "enabled": false },
-          "down": { "texture": "#skin", "uv": [ 1.5, 0.0, 3.0, 1.5 ], "windMode": [-1,-1,-1,-1], "enabled": false }
         },
         "attachmentpoints": [
           {
@@ -434,12 +414,6 @@
 				"to": [ 1.94, 4.8134, 2.05 ],
         "rotationOrigin": [ -0.1, -0.1, -0.1 ],
         "faces": {
-          "north": { "texture": "#skin", "uv": [ 0.0, 1.5, 1.5, 5.5 ], "enabled": false },
-          "east": { "texture": "#skin", "uv": [ 1.5, 1.5, 3.0, 5.5 ], "windMode": [-1,-1,-1,-1], "enabled": false },
-          "south": { "texture": "#skin", "uv": [ 1.5, 1.5, 3.0, 5.5 ], "windMode": [-1,-1,-1,-1], "enabled": false },
-          "west": { "texture": "#skin", "uv": [ 1.5, 1.5, 3.0, 5.5 ], "windMode": [-1,-1,-1,-1], "enabled": false },
-          "up": { "texture": "#skin", "uv": [ 0.0, 0.0, 1.5, 1.5 ], "windMode": [-1,-1,-1,-1], "enabled": false },
-          "down": { "texture": "#skin", "uv": [ 1.5, 0.0, 3.0, 1.5 ], "windMode": [-1,-1,-1,-1], "enabled": false }
         },
         "attachmentpoints": [
           {
@@ -468,12 +442,6 @@
         "uv": [ 0.0, 0.0 ],
         "rotationOrigin": [ 5.6, 7.0, 1.3 ],
         "faces": {
-          "north": { "texture": "#null", "uv": [ 0.0, 4.5, 1.0, 6.5 ], "enabled": false },
-          "east": { "texture": "#null", "uv": [ 1.0, 4.5, 5.5, 6.5 ], "enabled": false },
-          "south": { "texture": "#null", "uv": [ 5.5, 4.5, 6.5, 6.5 ], "enabled": false },
-          "west": { "texture": "#null", "uv": [ 6.5, 4.5, 11.0, 6.5 ], "enabled": false },
-          "up": { "texture": "#null", "uv": [ 0.0, 0.0, 1.0, 4.5 ], "enabled": false },
-          "down": { "texture": "#null", "uv": [ 1.0, 0.0, 2.0, 4.5 ], "enabled": false }
         },
         "attachmentpoints": [
           {
@@ -498,16 +466,110 @@
         "uv": [ 0.0, 0.0 ],
         "rotationOrigin": [ 9.8, 10.1, 1.8 ],
         "faces": {
-          "north": { "texture": "#null", "uv": [ 0.0, 4.5, 1.0, 6.5 ], "enabled": false },
-          "east": { "texture": "#null", "uv": [ 1.0, 4.5, 5.5, 6.5 ], "enabled": false },
-          "south": { "texture": "#null", "uv": [ 5.5, 4.5, 6.5, 6.5 ], "enabled": false },
-          "west": { "texture": "#null", "uv": [ 6.5, 4.5, 11.0, 6.5 ], "enabled": false },
-          "up": { "texture": "#null", "uv": [ 0.0, 0.0, 1.0, 4.5 ], "enabled": false },
-          "down": { "texture": "#null", "uv": [ 1.0, 0.0, 2.0, 4.5 ], "enabled": false }
         },
         "attachmentpoints": [
           {
             "code": "TailAP",
+            "posX": "0.0","posY": "0.0","posZ": "0.0",
+            "rotationX": "0.0","rotationY": "0.0","rotationZ": "0.0"
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "dependsOn": [ { "modid": "capreolinae" } ],
+    "file": "capreolinae:shapes/entity/animal/mammal/hooved/odocoileini/rangifertarandus/adult",
+    "op": "addmerge",
+    "path": "/elements/0/children/0/children/2/children",
+    "value": [
+      {
+        "name": "RightHaunchStorage",
+        "from": [ 0.2, 0.8, -0.5 ],
+        "to": [ 4.2, 6.3, 0.5 ],
+        "uv": [ 999.0, 999.0 ],
+        "rotationOrigin": [ 0.2, 0.8, -0.5 ],
+        "faces": {
+        },
+        "attachmentpoints": [
+          {
+            "code": "RightHaunchAP",
+            "posX": "0.0","posY": "0.0","posZ": "0.0",
+            "rotationX": "0.0","rotationY": "0.0","rotationZ": "0.0"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dependsOn": [ { "modid": "capreolinae" } ],
+    "file": "capreolinae:shapes/entity/animal/mammal/hooved/odocoileini/rangifertarandus/adult",
+    "op": "addmerge",
+    "path": "/elements/0/children/0/children/0/children",
+    "value": [
+      {
+        "name": "LeftHaunchStorage",
+        "from": [ 0.2, 0.8, 1.7 ],
+        "to": [ 4.2, 6.3, 2.7 ],
+        "uv": [ 999.0, 999.0 ],
+        "rotationOrigin": [ 0.2, 0.8, 1.7 ],
+        "faces": {
+        },
+        "attachmentpoints": [
+          {
+            "code": "LeftHaunchAP",
+            "posX": "0.0","posY": "0.0","posZ": "0.0",
+            "rotationX": "0.0","rotationY": "0.0","rotationZ": "0.0"
+          }
+        ]
+      }      
+    ]
+  },
+  {
+    "dependsOn": [ { "modid": "capreolinae" } ],
+    "file": "capreolinae:shapes/entity/animal/mammal/hooved/alceini/alcesalces/adult",
+    "op": "addmerge",
+    "path": "/elements/0/children/0/children/2/children",
+    "value": [
+      {
+        "name": "RightHaunchStorage",
+        "from": [ 0.4, 0.8, -0.6 ],
+        "to": [ 5.9, 8.8, 0.4 ],
+        "uv": [ 999.0, 999.0 ],
+        "rotationOrigin": [ 0.4, 0.8, -0.6 ],
+        "rotationX": 0.0,
+        "rotationY": 0.0,
+        "rotationZ": 0.0,
+        "faces": {
+        },
+        "attachmentpoints": [
+          {
+            "code": "RightHaunchAP",
+            "posX": "0.0","posY": "0.0","posZ": "0.0",
+            "rotationX": "0.0","rotationY": "0.0","rotationZ": "0.0"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dependsOn": [ { "modid": "capreolinae" } ],
+    "file": "capreolinae:shapes/entity/animal/mammal/hooved/alceini/alcesalces/adult",
+    "op": "addmerge",
+    "path": "/elements/0/children/0/children/0/children",
+    "value": [
+      {
+        "name": "LeftHaunchStorage",
+        "from": [ 0.4, 0.8, 2.6 ],
+        "to": [ 4.9, 8.8, 3.6 ],
+        "uv": [ 999.0, 999.0 ],
+        "rotationOrigin": [ 0.4, 0.8, 2.6 ],
+        "faces": {
+        },
+        "attachmentpoints": [
+          {
+            "code": "LeftHaunchAP",
             "posX": "0.0","posY": "0.0","posZ": "0.0",
             "rotationX": "0.0","rotationY": "0.0","rotationZ": "0.0"
           }
@@ -563,6 +625,16 @@
         "code": "tail-moose",
         "forCategoryCodes": [ "tail" ],
         "attachmentPointCode": "TailAP"
+      },
+      {
+        "code": "lefthaunch-moose",
+        "forCategoryCodes": [ "armor" ],
+        "attachmentPointCode": "LeftHaunchAP"
+      },
+      {
+        "code": "righthaunch-moose",
+        "forCategoryCodes": [ "armor" ],
+        "attachmentPointCode": "RightHaunchAP"
       }
     ]
   },
@@ -572,7 +644,7 @@
     "file": "capreolinae:entities/animal/mammal/hooved/alceini-tamed",
     "op": "addmerge",
     "path": "/behaviorConfigs/selectionboxes/selectionBoxes",
-    "value": [ "HatAP", "RSaddlePinAP", "LSaddlePinAP", "RLSockAP", "RRSockAP", "FLSockAP", "FRSockAP", "TailAP" ]
+    "value": [ "HatAP", "RSaddlePinAP", "LSaddlePinAP", "RLSockAP", "RRSockAP", "FLSockAP", "FRSockAP", "TailAP", "RightHaunchAP", "LeftHaunchAP" ]
   },
   {
     "dependsOn": [ { "modid": "capreolinae" } ],
@@ -631,6 +703,16 @@
         "code": "tail-reindeer",
         "forCategoryCodes": [ "tail" ],
         "attachmentPointCode": "TailAP"
+      },
+      {
+        "code": "lefthaunch-reindeer",
+        "forCategoryCodes": [ "armor" ],
+        "attachmentPointCode": "LeftHaunchAP"
+      },
+      {
+        "code": "righthaunch-reindeer",
+        "forCategoryCodes": [ "armor" ],
+        "attachmentPointCode": "RightHaunchAP"
       }
     ]
   },
@@ -640,7 +722,7 @@
     "file": "capreolinae:entities/animal/mammal/hooved/odocoileini-tamed",
     "op": "addmerge",
     "path": "/behaviorConfigs/selectionboxes/selectionBoxes",
-    "value": [ "HatAP", "RSaddlePinAP", "LSaddlePinAP", "RLSockAP", "RRSockAP", "FLSockAP", "FRSockAP", "TailAP" ]
+    "value": [ "HatAP", "RSaddlePinAP", "LSaddlePinAP", "RLSockAP", "RRSockAP", "FLSockAP", "FRSockAP", "TailAP", "RightHaunchAP", "LeftHaunchAP" ]
   },
   {
     "dependsOn": [ { "modid": "capreolinae" } ],
@@ -809,6 +891,63 @@
     "path": "/attributes/attachableToEntity/attachedShapeBySlotCodeByType/*",
     "value": {"tail-reindeer": {"base": "item/wearable/hooved/tail/compatibility/capreolinae/{type}-odocoileini"},
               "tail-moose": {"base": "item/wearable/hooved/tail/compatibility/capreolinae/{type}-alceini"}}
+  },
+  {
+    "dependsOn": [ { "modid": "capreolinae" } ],
+    "side": "Server",
+    "file": "elkaccessories:itemtypes/wearable/armor/body",
+    "op": "addmerge",
+    "path": "/attributes/attachableToEntity/attachedShapeBySlotCodeByType/*",
+    "value": {"middlebackunder-reindeer": {"base": "item/wearable/hooved/armor/body/compatibility/capreolinae/body-{type}-odocoileini"},
+              "middlebackunder-moose": {"base": "item/wearable/hooved/armor/body/compatibility/capreolinae/body-{type}-alceini"}}
+  },
+  {
+    "dependsOn": [ { "modid": "capreolinae" } ],
+    "side": "Server",
+    "file": "elkaccessories:itemtypes/wearable/armor/head",
+    "op": "addmerge",
+    "path": "/attributes/attachableToEntity/attachedShapeBySlotCodeByType/*",
+    "value": {"hat-reindeer": {"base": "item/wearable/hooved/armor/head/compatibility/capreolinae/head-{type}-odocoileini"},
+              "hat-moose": {"base": "item/wearable/hooved/armor/head/compatibility/capreolinae/head-{type}-alceini"}}
+  },
+  {
+    "dependsOn": [ { "modid": "capreolinae" } ],
+    "side": "Server",
+    "file": "elkaccessories:itemtypes/wearable/armor/neck",
+    "op": "addmerge",
+    "path": "/attributes/attachableToEntity/attachedShapeBySlotCodeByType/*",
+    "value": {"neck-reindeer": {"base": "item/wearable/hooved/armor/neck/compatibility/capreolinae/neck-{type}-odocoileini"},
+              "neck-moose": {"base": "item/wearable/hooved/armor/neck/compatibility/capreolinae/neck-{type}-alceini"}}
+  },
+  {
+    "dependsOn": [ { "modid": "capreolinae" } ],
+    "side": "Server",
+    "file": "elkaccessories:itemtypes/wearable/armor/hoof",
+    "op": "addmerge",
+    "path": "/attributes/attachableToEntity/attachedShapeBySlotCodeByType/*",
+    "value": {"rearleftsock-reindeer": {"base": "item/wearable/hooved/armor/hooves/compatibility/capreolinae/hoof-{type}-reindeer-rearl"},
+              "rearrightsock-reindeer": {"base": "item/wearable/hooved/armor/hooves/compatibility/capreolinae/hoof-{type}-reindeer-rearr"},
+              "frontleftsock-reindeer": {"base": "item/wearable/hooved/armor/hooves/compatibility/capreolinae/hoof-{type}-reindeer-frontl"},
+              "frontrightsock-reindeer": {"base": "item/wearable/hooved/armor/hooves/compatibility/capreolinae/hoof-{type}-reindeer-frontr"},
+              "rearleftsock-moose": {"base": "item/wearable/hooved/armor/hooves/compatibility/capreolinae/hoof-{type}-moose-rearl"},
+              "rearrightsock-moose": {"base": "item/wearable/hooved/armor/hooves/compatibility/capreolinae/hoof-{type}-moose-rearr"},
+              "frontleftsock-moose": {"base": "item/wearable/hooved/armor/hooves/compatibility/capreolinae/hoof-{type}-moose-frontl"},
+              "frontrightsock-moose": {"base": "item/wearable/hooved/armor/hooves/compatibility/capreolinae/hoof-{type}-moose-frontr"}}
+  },
+  {
+    "dependsOn": [ { "modid": "capreolinae" } ],
+    "side": "Server",
+    "file": "elkaccessories:itemtypes/wearable/armor/shoulder",
+    "op": "addmerge",
+    "path": "/attributes/attachableToEntity/attachedShapeBySlotCodeByType/*",
+    "value": {"frontleftside-reindeer": {"base": "item/wearable/hooved/armor/shoulder/compatibility/capreolinae/leftshoulder-{type}-odocoileini"},
+              "frontrightside-reindeer": {"base": "item/wearable/hooved/armor/shoulder/compatibility/capreolinae/rightshoulder-{type}-odocoileini"},
+              "lefthaunch-reindeer": {"base": "item/wearable/hooved/armor/haunch/compatibility/capreolinae/lefthaunch-{type}-odocoileini"},
+              "righthaunch-reindeer": {"base": "item/wearable/hooved/armor/haunch/compatibility/capreolinae/righthaunch-{type}-odocoileini"},
+              "frontleftside-moose": {"base": "item/wearable/hooved/armor/shoulder/compatibility/capreolinae/leftshoulder-{type}-alceini"},
+              "frontrightside-moose": {"base": "item/wearable/hooved/armor/shoulder/compatibility/capreolinae/rightshoulder-{type}-alceini"},
+              "lefthaunch-moose": {"base": "item/wearable/hooved/armor/haunch/compatibility/capreolinae/lefthaunch-{type}-alceini"},
+              "righthaunch-moose": {"base": "item/wearable/hooved/armor/haunch/compatibility/capreolinae/righthaunch-{type}-alceini"}}
   },
   {
     "dependsOn": [ { "modid": "capreolinae" } ],

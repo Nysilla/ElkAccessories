@@ -205,6 +205,84 @@
     }
     ]
   },
+
+  {
+    "dependsOn": [ { "modid": "equus" } ],
+    "file": "equus:shapes/entity/land/ferus/adult",
+    "op": "addmerge",
+    "path": "/elements/0/children/0/children/0/children/2/children",
+    "value": [
+      {
+        "name": "LeftFrontStorage",
+        "from": [ 5.6075, 1.5119, 9.2 ],
+        "to": [ 12.6075, 6.5119, 10.2 ],
+        "rotationOrigin": [ 5.6123, 1.5122, 9.2 ],
+        "rotationZ": 92.0,
+        "faces": {},
+        "attachmentpoints": [
+          {
+            "code": "LFrontAP",
+            "posX": "0.0","posY": "0.0","posZ": "0.0",
+            "rotationX": "0.0","rotationY": "0.0","rotationZ": "0.0"
+          }
+        ]
+      },
+      {
+        "name": "RightFrontStorage",
+        "from": [ 5.6075, 1.5119, -0.5 ],
+        "to": [ 12.6075, 6.5119, 0.5 ],
+        "rotationOrigin": [ 5.6123, 1.5122, -0.5 ],
+        "rotationZ": 92.0,
+        "faces": {},
+        "attachmentpoints": [
+          {
+            "code": "RFrontAP",
+            "posX": "0.0","posY": "0.0","posZ": "0.0",
+            "rotationX": "0.0","rotationY": "0.0","rotationZ": "0.0"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dependsOn": [ { "modid": "equus" } ],
+    "file": "equus:shapes/entity/land/ferus/adult",
+    "op": "addmerge",
+    "path": "/elements/0/children/0/children/0/children/1/children",
+    "value": [
+      {
+        "name": "LeftHaunchStorage",
+        "from": [ 5.8053, 0.8726, 9.2 ],
+        "to": [ 12.8053, 5.8726, 10.2 ],
+        "rotationOrigin": [ 5.8053, 0.8726, 9.2 ],
+        "rotationZ": 74.0,
+        "faces": {},
+        "attachmentpoints": [
+          {
+            "code": "LeftHaunchAP",
+            "posX": "0.0","posY": "0.0","posZ": "0.0",
+            "rotationX": "0.0","rotationY": "0.0","rotationZ": "0.0"
+          }
+        ]
+      },
+      {
+        "name": "RightHaunchStorage",
+        "from": [ 5.8053, 0.8726, -0.4 ],
+        "to": [ 12.8053, 5.8726, 0.6 ],
+        "rotationOrigin": [ 5.8053, 0.8726, -0.4 ],
+        "rotationZ": 74.0,
+        "faces": {},
+        "attachmentpoints": [
+          {
+            "code": "RightHaunchAP",
+            "posX": "0.0","posY": "0.0","posZ": "0.0",
+            "rotationX": "0.0","rotationY": "0.0","rotationZ": "0.0"
+          }
+        ]
+      }
+    ]
+  },
+  
   {
     "dependsOn": [ { "modid": "equus" } ],
     "side": "Server",
@@ -251,6 +329,26 @@
         "code": "tail-{type}",
         "forCategoryCodes": [ "tail" ],
         "attachmentPointCode": "TailAP"
+      },
+      {
+        "code": "lefthaunch-{type}",
+        "forCategoryCodes": [ "armor" ],
+        "attachmentPointCode": "LeftHaunchAP"
+      },
+      {
+        "code": "righthaunch-{type}",
+        "forCategoryCodes": [ "armor" ],
+        "attachmentPointCode": "RightHaunchAP"
+      },
+      {
+        "code": "LeftFrontStorage-{type}",
+        "forCategoryCodes": [ "armor" ],
+        "attachmentPointCode": "LFrontAP"
+      },
+      {
+        "code": "RightFrontStorage-{type}",
+        "forCategoryCodes": [ "armor" ],
+        "attachmentPointCode": "RFrontAP"
       }
     ]
   },
@@ -262,7 +360,7 @@
     "file": "equus:entities/tamedwildhorse",
     "op": "addmerge",
     "path": "/behaviorConfigs/selectionboxes/selectionBoxes",
-    "value": [ "HatAP", "RSaddlePinAP", "LSaddlePinAP", "RLSockAP", "RRSockAP", "FLSockAP", "FRSockAP", "TailAP" ]
+    "value": [ "HatAP", "RSaddlePinAP", "LSaddlePinAP", "RLSockAP", "RRSockAP", "FLSockAP", "FRSockAP", "TailAP", "RightHaunchAP", "LeftHaunchAP", "RFrontAP", "LFrontAP" ]
   },
   {
     "dependsOn": [ { "modid": "equus" } ],
@@ -272,9 +370,6 @@
     "path": "/behaviorConfigs/rideableaccessories/wearableSlots/4/forCategoryCodes",
     "value": [ "collar" ]
   },
-
-
-
 
   
   {
@@ -413,6 +508,53 @@
     "path": "/attributes/attachableToEntity/attachedShapeBySlotCodeByType/*",
     "value": {"tail-ferus": {"base": "item/wearable/hooved/tail/compatibility/equus/{type}-ferus"}}
   },
+  {
+    "dependsOn": [ { "modid": "equus" } ],
+    "side": "Server",
+    "file": "elkaccessories:itemtypes/wearable/armor/body",
+    "op": "addmerge",
+    "path": "/attributes/attachableToEntity/attachedShapeBySlotCodeByType/*",
+    "value": {"middlebackunder-ferus": {"base": "item/wearable/hooved/armor/body/compatibility/equus/body-{type}-ferus"}}
+  },
+  {
+    "dependsOn": [ { "modid": "equus" } ],
+    "side": "Server",
+    "file": "elkaccessories:itemtypes/wearable/armor/head",
+    "op": "addmerge",
+    "path": "/attributes/attachableToEntity/attachedShapeBySlotCodeByType/*",
+    "value": {"hat-ferus": {"base": "item/wearable/hooved/armor/head/compatibility/equus/head-{type}-ferus"}}
+  },
+  {
+    "dependsOn": [ { "modid": "equus" } ],
+    "side": "Server",
+    "file": "elkaccessories:itemtypes/wearable/armor/neck",
+    "op": "addmerge",
+    "path": "/attributes/attachableToEntity/attachedShapeBySlotCodeByType/*",
+    "value": {"neck-ferus": {"base": "item/wearable/hooved/armor/neck/compatibility/equus/neck-{type}-ferus"}}
+  },
+  {
+    "dependsOn": [ { "modid": "equus" } ],
+    "side": "Server",
+    "file": "elkaccessories:itemtypes/wearable/armor/hoof",
+    "op": "addmerge",
+    "path": "/attributes/attachableToEntity/attachedShapeBySlotCodeByType/*",
+    "value": {"rearleftsock-ferus": {"base": "item/wearable/hooved/armor/hooves/compatibility/equus/hoof-{type}-ferus-rearl"},
+              "rearrightsock-ferus": {"base": "item/wearable/hooved/armor/hooves/compatibility/equus/hoof-{type}-ferus-rearr"},
+              "frontleftsock-ferus": {"base": "item/wearable/hooved/armor/hooves/compatibility/equus/hoof-{type}-ferus-frontl"},
+              "frontrightsock-ferus": {"base": "item/wearable/hooved/armor/hooves/compatibility/equus/hoof-{type}-ferus-frontr"}}
+  },
+  {
+    "dependsOn": [ { "modid": "equus" } ],
+    "side": "Server",
+    "file": "elkaccessories:itemtypes/wearable/armor/shoulder",
+    "op": "addmerge",
+    "path": "/attributes/attachableToEntity/attachedShapeBySlotCodeByType/*",
+    "value": {"frontleftside-ferus": {"base": "item/wearable/hooved/armor/shoulder/compatibility/equus/leftshoulder-{type}-ferus"},
+              "frontrightside-ferus": {"base": "item/wearable/hooved/armor/shoulder/compatibility/equus/rightshoulder-{type}-ferus"},
+              "lefthaunch-ferus": {"base": "item/wearable/hooved/armor/haunch/compatibility/equus/lefthaunch-{type}-ferus"},
+              "righthaunch-ferus": {"base": "item/wearable/hooved/armor/haunch/compatibility/equus/righthaunch-{type}-ferus"}}
+  },
+
   {
     "dependsOn": [ { "modid": "equus" } ],
     "side": "Server",

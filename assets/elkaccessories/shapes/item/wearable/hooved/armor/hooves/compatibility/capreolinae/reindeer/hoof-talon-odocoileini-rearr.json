@@ -1,0 +1,339 @@
+{
+	"editor": {
+		"collapsedPaths": ",Root/FLTalon top,Root/rear,Root/Mid Tallon,Root/FLTalon base,Root/Talon Origin/Left talon,Root/Right tlalon,Root/Helmet Head,Root/FRTalon base2,Root/RLTalon base,Root/Talon Origin/Back talon,Root/thigh,Root/Left tallon,Root/FLTalon Origin,Root/FLTalon top2,Root/Neck Front Plate,Root/FRTalon Origin2,Root/shoulder,Root/Talon Origin,Root/RRTalon top,Root/RRTalon Origin,Root/SaddleFrontN,Root/Helmet Snout,Root/Talon Origin/Mid talon,Root/RRTalon base,Root/Mid Tallon2,Root/chest,Root/FRTalon top2,Root/RLTalon top,Root/Left thigh,Root/ORIGIN,Root/RLTalon Origin,Root/FLTalon Origin2,Root/Cube15,Root/FRTalon base,Root/FRTalon Origin,Root/SaddleBackN,Root/thigh2,Root/Talon top,Root/mid,Root/NeckPlate,Root/Cube2,Root/Cube9,Root/Cube6,Root/NeckPlate4,Root/right thigh,Root/FRTalon top,Root/Talon base,Root/FLTalon base2",
+		"allAngles": true,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+		"metal": [16,16],
+		"leather": [16,16]
+	},
+	"textures": {
+		"leather": "game:block/leather/plain"
+	},
+	"elements": [
+		{
+			"name": "RRTalon base",
+			"stepParentName": "R Hind Pastern",
+			"from": [ -0.1, 0.1, -0.1 ],
+			"to": [ 0.7, 2.6, 1.6 ],
+			"rotationOrigin": [ -0.1, 0.1, -0.1 ],
+			"faces": {
+				"north": { "texture": "#metal", "uv": [ 0.5, 0.0, 1.0, 2.5 ] },
+				"east": { "texture": "#metal", "uv": [ 0.5, 0.0, 2.0, 2.5 ] },
+				"south": { "texture": "#metal", "uv": [ 0.5, 0.0, 1.0, 2.5 ] },
+				"west": { "texture": "#metal", "uv": [ 0.5, 0.0, 2.0, 2.5 ] },
+				"up": { "texture": "#metal", "uv": [ 0.5, 0.0, 1.0, 1.5 ] },
+				"down": { "texture": "#metal", "uv": [ 0.5, 0.0, 1.0, 1.5 ] }
+			},
+			"children": [
+				{
+					"name": "Talon base5",
+					"from": [ 0.0, 2.0, 0.2 ],
+					"to": [ 0.3, 3.0, 1.4 ],
+					"rotationOrigin": [ 0.0, 2.0, 0.2 ],
+					"rotationZ": 28.0,
+					"faces": {
+						"north": { "texture": "#metal", "uv": [ 0.0, 0.0, 1.0, 0.5 ], "rotation": 90 },
+						"east": { "texture": "#metal", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "rotation": 90 },
+						"south": { "texture": "#metal", "uv": [ 0.0, 0.0, 1.0, 0.5 ], "rotation": 90 },
+						"west": { "texture": "#metal", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "rotation": 90 },
+						"up": { "texture": "#metal", "uv": [ 0.0, 0.0, 0.5, 1.0 ] },
+						"down": { "texture": "#metal", "uv": [ 0.5, 0.0, 1.0, 1.0 ] }
+					}
+				},
+				{
+					"name": "Strap13",
+					"from": [ 0.5, 1.2, 0.05 ],
+					"to": [ 1.8, 1.6, 1.65 ],
+					"rotationOrigin": [ 0.5, 1.2, 0.1 ],
+					"faces": {
+						"north": { "texture": "#leather", "uv": [ 0.0, 0.0, 1.0, 0.5 ] },
+						"east": { "texture": "#leather", "uv": [ 0.0, 0.0, 1.5, 0.5 ] },
+						"south": { "texture": "#leather", "uv": [ 0.0, 0.0, 1.0, 0.5 ] },
+						"west": { "texture": "#leather", "uv": [ 0.0, 0.0, 1.5, 0.5 ] },
+						"up": { "texture": "#leather", "uv": [ 0.0, 0.0, 1.0, 1.5 ] },
+						"down": { "texture": "#leather", "uv": [ 0.0, 0.0, 1.0, 1.5 ] }
+					}
+				},
+				{
+					"name": "Strap14",
+					"from": [ 0.5, 0.3, 0.05 ],
+					"to": [ 1.8, 0.7, 1.65 ],
+					"rotationOrigin": [ 0.5, 0.3, 0.1 ],
+					"faces": {
+						"north": { "texture": "#leather", "uv": [ 0.0, 0.0, 1.0, 0.5 ] },
+						"east": { "texture": "#leather", "uv": [ 0.0, 0.0, 1.5, 0.5 ] },
+						"south": { "texture": "#leather", "uv": [ 0.0, 0.0, 1.0, 0.5 ] },
+						"west": { "texture": "#leather", "uv": [ 0.0, 0.0, 1.5, 0.5 ] },
+						"up": { "texture": "#leather", "uv": [ 0.0, 0.0, 1.0, 1.5 ] },
+						"down": { "texture": "#leather", "uv": [ 0.0, 0.0, 1.0, 1.5 ] }
+					}
+				}
+			]
+		},
+		{
+			"name": "RRTalon Origin",
+			"stepParentName": "R Hind Hoof1",
+			"from": [ -0.4, 0.2, 0.2 ],
+			"to": [ 0.6, 1.2, 1.2 ],
+			"rotationOrigin": [ -0.5, 0.1, 0.2 ],
+			"rotationZ": 20.0,
+			"faces": {
+				"north": { "texture": "#metal", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "enabled": false },
+				"east": { "texture": "#metal", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "enabled": false },
+				"south": { "texture": "#metal", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "enabled": false },
+				"west": { "texture": "#metal", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "enabled": false },
+				"up": { "texture": "#metal", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "enabled": false },
+				"down": { "texture": "#metal", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "enabled": false }
+			},
+			"children": [
+				{
+					"name": "Top4",
+					"from": [ 0.7, 0.3, -0.05 ],
+					"to": [ 1.4, 0.8, 1.05 ],
+					"rotationOrigin": [ 0.7, 0.3, -0.1 ],
+					"rotationZ": -22.5,
+					"faces": {
+						"north": { "texture": "#metal", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"east": { "texture": "#metal", "uv": [ 0.0, 0.0, 0.5, 1.0 ], "rotation": 90 },
+						"south": { "texture": "#metal", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"west": { "texture": "#metal", "uv": [ 0.0, 0.0, 0.5, 1.0 ], "rotation": 90 },
+						"up": { "texture": "#metal", "uv": [ 0.0, 0.0, 0.5, 1.0 ] },
+						"down": { "texture": "#metal", "uv": [ 0.0, 0.0, 0.5, 1.0 ] }
+					}
+				},
+				{
+					"name": "Right talon10",
+					"from": [ 0.0, 0.2, -0.2 ],
+					"to": [ 1.0, 0.6, 0.4 ],
+					"rotationOrigin": [ 1.0, 0.2, 0.1 ],
+					"rotationX": -11.0,
+					"rotationY": -17.0,
+					"rotationZ": 5.0,
+					"faces": {
+						"north": { "texture": "#metal", "uv": [ 0.0, 1.0, 1.0, 1.5 ], "rotation": 180 },
+						"east": { "texture": "#metal", "uv": [ 0.0, 1.0, 0.5, 1.5 ] },
+						"south": { "texture": "#metal", "uv": [ 0.0, 1.0, 1.0, 1.5 ] },
+						"west": { "texture": "#metal", "uv": [ 0.0, 1.0, 0.5, 1.5 ] },
+						"up": { "texture": "#metal", "uv": [ 0.0, 1.0, 1.0, 1.5 ] },
+						"down": { "texture": "#metal", "uv": [ 0.0, 1.0, 1.0, 1.5 ], "rotation": 180 }
+					},
+					"children": [
+						{
+							"name": "Right talon11",
+							"from": [ -0.6, 0.2, 0.0 ],
+							"to": [ 0.1, 0.5, 0.5 ],
+							"rotationOrigin": [ -0.1, 0.2, 0.0 ],
+							"rotationZ": -55.0,
+							"faces": {
+								"north": { "texture": "#metal", "uv": [ 0.0, 0.5, 0.5, 1.0 ] },
+								"east": { "texture": "#metal", "uv": [ 0.0, 0.5, 0.5, 1.0 ] },
+								"south": { "texture": "#metal", "uv": [ 0.0, 0.5, 0.5, 1.0 ] },
+								"west": { "texture": "#metal", "uv": [ 0.0, 0.5, 0.5, 1.0 ] },
+								"up": { "texture": "#metal", "uv": [ 0.0, 0.5, 0.5, 1.0 ] },
+								"down": { "texture": "#metal", "uv": [ 0.0, 0.5, 0.5, 1.0 ] }
+							},
+							"children": [
+								{
+									"name": "Right talon12",
+									"from": [ -0.3, 0.0, 0.1 ],
+									"to": [ 0.2, 0.3, 0.5 ],
+									"rotationOrigin": [ 0.2, 0.0, 0.1 ],
+									"rotationZ": 22.0,
+									"faces": {
+										"north": { "texture": "#metal", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+										"east": { "texture": "#metal", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+										"south": { "texture": "#metal", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+										"west": { "texture": "#metal", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+										"up": { "texture": "#metal", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+										"down": { "texture": "#metal", "uv": [ 0.0, 0.0, 0.5, 0.5 ] }
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Left talon10",
+					"from": [ 0.0, 0.2, 0.6 ],
+					"to": [ 1.0, 0.6, 1.2 ],
+					"rotationOrigin": [ 1.0, 0.2, 0.9 ],
+					"rotationX": 11.0,
+					"rotationY": 17.0,
+					"rotationZ": 5.0,
+					"faces": {
+						"north": { "texture": "#metal", "uv": [ 0.0, 1.0, 1.0, 1.5 ], "rotation": 180 },
+						"east": { "texture": "#metal", "uv": [ 0.0, 1.0, 0.5, 1.5 ] },
+						"south": { "texture": "#metal", "uv": [ 0.0, 1.0, 1.0, 1.5 ] },
+						"west": { "texture": "#metal", "uv": [ 0.0, 1.0, 0.5, 1.5 ] },
+						"up": { "texture": "#metal", "uv": [ 0.0, 1.0, 1.0, 1.5 ] },
+						"down": { "texture": "#metal", "uv": [ 0.0, 1.0, 1.0, 1.5 ], "rotation": 180 }
+					},
+					"children": [
+						{
+							"name": "Left talon11",
+							"from": [ -0.6, 0.2, 0.1 ],
+							"to": [ 0.1, 0.5, 0.6 ],
+							"rotationOrigin": [ -0.1, 0.2, 0.1 ],
+							"rotationZ": -55.0,
+							"faces": {
+								"north": { "texture": "#metal", "uv": [ 0.0, 0.5, 0.5, 1.0 ] },
+								"east": { "texture": "#metal", "uv": [ 0.0, 0.5, 0.5, 1.0 ] },
+								"south": { "texture": "#metal", "uv": [ 0.0, 0.5, 0.5, 1.0 ] },
+								"west": { "texture": "#metal", "uv": [ 0.0, 0.5, 0.5, 1.0 ] },
+								"up": { "texture": "#metal", "uv": [ 0.0, 0.5, 0.5, 1.0 ] },
+								"down": { "texture": "#metal", "uv": [ 0.0, 0.5, 0.5, 1.0 ] }
+							},
+							"children": [
+								{
+									"name": "Left talon12",
+									"from": [ -0.3, 0.0, 0.1 ],
+									"to": [ 0.2, 0.3, 0.5 ],
+									"rotationOrigin": [ 0.2, 0.0, 0.1 ],
+									"rotationZ": 22.0,
+									"faces": {
+										"north": { "texture": "#metal", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+										"east": { "texture": "#metal", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+										"south": { "texture": "#metal", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+										"west": { "texture": "#metal", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+										"up": { "texture": "#metal", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+										"down": { "texture": "#metal", "uv": [ 0.0, 0.0, 0.5, 0.5 ] }
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Mid talon10",
+					"from": [ -0.1, 0.3, 0.15 ],
+					"to": [ 0.9, 0.7, 0.85 ],
+					"rotationOrigin": [ 0.9, 0.3, 0.4 ],
+					"rotationZ": 5.0,
+					"faces": {
+						"north": { "texture": "#metal", "uv": [ 0.0, 1.0, 1.0, 1.5 ], "rotation": 180 },
+						"east": { "texture": "#metal", "uv": [ 0.0, 1.0, 0.5, 1.5 ] },
+						"south": { "texture": "#metal", "uv": [ 0.0, 1.0, 1.0, 1.5 ] },
+						"west": { "texture": "#metal", "uv": [ 0.0, 1.0, 0.5, 1.5 ] },
+						"up": { "texture": "#metal", "uv": [ 0.0, 1.0, 1.0, 1.5 ] },
+						"down": { "texture": "#metal", "uv": [ 0.0, 1.0, 1.0, 1.5 ] }
+					},
+					"children": [
+						{
+							"name": "Mid talon11",
+							"from": [ -0.6, 0.2, 0.1 ],
+							"to": [ 0.1, 0.5, 0.6 ],
+							"rotationOrigin": [ -0.1, 0.2, 0.1 ],
+							"rotationZ": -55.0,
+							"faces": {
+								"north": { "texture": "#metal", "uv": [ 0.0, 0.5, 0.5, 1.0 ] },
+								"east": { "texture": "#metal", "uv": [ 0.0, 0.5, 0.5, 1.0 ] },
+								"south": { "texture": "#metal", "uv": [ 0.0, 0.5, 0.5, 1.0 ] },
+								"west": { "texture": "#metal", "uv": [ 0.0, 0.5, 0.5, 1.0 ] },
+								"up": { "texture": "#metal", "uv": [ 0.0, 0.5, 0.5, 1.0 ] },
+								"down": { "texture": "#metal", "uv": [ 0.0, 0.5, 0.5, 1.0 ] }
+							},
+							"children": [
+								{
+									"name": "Mid talon12",
+									"from": [ -0.3, 0.0, 0.1 ],
+									"to": [ 0.2, 0.3, 0.5 ],
+									"rotationOrigin": [ 0.2, 0.0, 0.1 ],
+									"rotationZ": 22.0,
+									"faces": {
+										"north": { "texture": "#metal", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+										"east": { "texture": "#metal", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+										"south": { "texture": "#metal", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+										"west": { "texture": "#metal", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+										"up": { "texture": "#metal", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+										"down": { "texture": "#metal", "uv": [ 0.0, 0.0, 0.5, 0.5 ] }
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Cube24",
+					"from": [ 0.8, -0.2, -0.3 ],
+					"to": [ 2.3, 0.5, 1.3 ],
+					"rotationOrigin": [ 0.8, -0.2, -0.3 ],
+					"rotationZ": -28.0,
+					"faces": {
+						"north": { "texture": "#metal", "uv": [ 0.0, 0.0, 1.5, 0.5 ] },
+						"east": { "texture": "#metal", "uv": [ 0.0, 0.0, 1.5, 0.5 ] },
+						"south": { "texture": "#metal", "uv": [ 0.0, 0.0, 1.5, 0.5 ] },
+						"west": { "texture": "#metal", "uv": [ 0.0, 0.0, 1.5, 0.5 ] },
+						"up": { "texture": "#metal", "uv": [ 0.0, 0.0, 1.5, 1.5 ] },
+						"down": { "texture": "#metal", "uv": [ 0.0, 0.0, 1.5, 1.5 ] }
+					}
+				}
+			]
+		},
+		{
+			"name": "RRTalon top",
+			"stepParentName": "R LegLow",
+			"from": [ -0.1, 1.0, -0.08 ],
+			"to": [ 0.9, 4.0, 1.2 ],
+			"rotationOrigin": [ -0.1, 1.0, -0.1 ],
+			"faces": {
+				"north": { "texture": "#metal", "uv": [ 1.5, 12.0, 2.5, 15.0 ], "rotation": 180 },
+				"east": { "texture": "#metal", "uv": [ 1.0, 12.0, 2.0, 15.0 ], "rotation": 180 },
+				"south": { "texture": "#metal", "uv": [ 1.0, 12.0, 2.0, 15.0 ], "rotation": 180 },
+				"west": { "texture": "#metal", "uv": [ 4.0, 12.0, 5.0, 15.0 ], "rotation": 180 },
+				"up": { "texture": "#metal", "uv": [ 1.0, 14.5, 2.0, 15.5 ] },
+				"down": { "texture": "#metal", "uv": [ 0.5, 0.0, 1.5, 1.0 ] }
+			},
+			"children": [
+				{
+					"name": "Strap15",
+					"from": [ 0.05, 0.7, 0.05 ],
+					"to": [ 1.45, 1.3, 1.45 ],
+					"rotationOrigin": [ 0.0, 0.7, 0.1 ],
+					"faces": {
+						"north": { "texture": "#leather", "uv": [ 0.0, 0.0, 1.0, 0.5 ] },
+						"east": { "texture": "#leather", "uv": [ 0.0, 0.0, 1.0, 0.5 ] },
+						"south": { "texture": "#leather", "uv": [ 0.0, 0.0, 1.0, 0.5 ] },
+						"west": { "texture": "#leather", "uv": [ 0.0, 0.0, 1.0, 0.5 ] },
+						"up": { "texture": "#leather", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+						"down": { "texture": "#leather", "uv": [ 0.0, 0.0, 1.0, 1.0 ] }
+					}
+				},
+				{
+					"name": "Talon top5",
+					"from": [ 0.0, 2.8, 0.2 ],
+					"to": [ 0.3, 3.3, 1.1 ],
+					"rotationOrigin": [ 0.0, 2.8, 0.2 ],
+					"rotationZ": 8.0,
+					"faces": {
+						"north": { "texture": "#metal", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"east": { "texture": "#metal", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "rotation": 90 },
+						"south": { "texture": "#metal", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"west": { "texture": "#metal", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "rotation": 90 },
+						"up": { "texture": "#metal", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"down": { "texture": "#metal", "uv": [ 0.0, 0.0, 0.5, 0.5 ] }
+					}
+				},
+				{
+					"name": "Strap16",
+					"from": [ 0.05, 1.9, 0.05 ],
+					"to": [ 1.45, 2.5, 1.45 ],
+					"rotationOrigin": [ 0.0, 1.9, 0.1 ],
+					"faces": {
+						"north": { "texture": "#leather", "uv": [ 0.0, 0.0, 1.0, 0.5 ] },
+						"east": { "texture": "#leather", "uv": [ 0.0, 0.0, 1.0, 0.5 ] },
+						"south": { "texture": "#leather", "uv": [ 0.0, 0.0, 1.0, 0.5 ] },
+						"west": { "texture": "#leather", "uv": [ 0.0, 0.0, 1.0, 0.5 ] },
+						"up": { "texture": "#leather", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+						"down": { "texture": "#leather", "uv": [ 0.0, 0.0, 1.0, 1.0 ] }
+					}
+				}
+			]
+		}
+	],
+	"animations": [
+	]
+}

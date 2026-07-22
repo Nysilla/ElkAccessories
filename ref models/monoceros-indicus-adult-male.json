@@ -1,6 +1,6 @@
 {
 	"editor": {
-		"collapsedPaths": ",Root/Origin/Body Origin/Chest/Neck1/Neck2/Neck3,Root/Origin/Body Origin/Chest/Neck1/Neck2,Root/Origin/Head Origin/Cube5,Root/Origin/Head Origin/Cube2,Root/Origin/Head Origin/Cube7,Root/R scapula,Root/R Pelvis,Root/L Pelvis,Root/Origin/Cube2,Root/L scapula,Root/Origin/Head Origin",
+		"collapsedPaths": ",Root/Origin/Body Origin/Chest/Neck1/Neck2/Neck3,Root/Origin/L Pelvis,Root/Origin/Body Origin/Chest/Neck1/Neck2,Root/Origin/R scapula,Root/Origin/R scapula/R humerus,Root/Origin/Head Origin/Cube5,Root/Origin/Head Origin/Cube2,Root/Origin/Head Origin/Cube7,Root/R scapula,Root/Origin/L scapula,Root/R Pelvis,Root/L Pelvis,Root/Origin/Cube2,Root/Origin/R Pelvis,Root/L scapula,Root/Origin/Head Origin",
 		"allAngles": true,
 		"entityTextureMode": true
 	},
@@ -172,6 +172,52 @@
 															]
 														}
 													]
+												}
+											]
+										},
+										{
+											"name": "LeftHaunchStorage",
+											"from": [ 5.8053, 0.8726, 8.5 ],
+											"to": [ 12.8053, 5.8726, 9.5 ],
+											"uv": [ 80.0, 44.0 ],
+											"rotationOrigin": [ 5.8053, 0.8726, 8.5 ],
+											"rotationZ": 74.0,
+											"faces": {
+												"north": { "texture": "#skin", "uv": [ 80.0, 51.0, 85.0, 58.0 ], "rotation": 90 },
+												"east": { "texture": "#skin", "uv": [ 85.0, 51.0, 86.0, 56.0 ] },
+												"south": { "texture": "#skin", "uv": [ 86.0, 51.0, 91.0, 58.0 ], "rotation": 270 },
+												"west": { "texture": "#skin", "uv": [ 91.0, 51.0, 92.0, 56.0 ], "rotation": 180 },
+												"up": { "texture": "#skin", "uv": [ 80.0, 44.0, 81.0, 51.0 ], "rotation": 270 },
+												"down": { "texture": "#skin", "uv": [ 81.0, 44.0, 82.0, 51.0 ], "rotation": 90 }
+											},
+											"attachmentpoints": [
+												{
+													"code": "LeftHaunchAP",
+													"posX": "0.0","posY": "0.0","posZ": "0.0",
+													"rotationX": "0.0","rotationY": "0.0","rotationZ": "0.0"
+												}
+											]
+										},
+										{
+											"name": "RightHaunchStorage",
+											"from": [ 5.8053, 0.8726, -0.6 ],
+											"to": [ 12.8053, 5.8726, 0.4 ],
+											"uv": [ 80.0, 44.0 ],
+											"rotationOrigin": [ 5.8053, 0.8726, -0.6 ],
+											"rotationZ": 74.0,
+											"faces": {
+												"north": { "texture": "#skin", "uv": [ 80.0, 51.0, 85.0, 58.0 ], "rotation": 90 },
+												"east": { "texture": "#skin", "uv": [ 85.0, 51.0, 86.0, 56.0 ] },
+												"south": { "texture": "#skin", "uv": [ 86.0, 51.0, 91.0, 58.0 ], "rotation": 270 },
+												"west": { "texture": "#skin", "uv": [ 91.0, 51.0, 92.0, 56.0 ], "rotation": 180 },
+												"up": { "texture": "#skin", "uv": [ 80.0, 44.0, 81.0, 51.0 ], "rotation": 270 },
+												"down": { "texture": "#skin", "uv": [ 81.0, 44.0, 82.0, 51.0 ], "rotation": 90 }
+											},
+											"attachmentpoints": [
+												{
+													"code": "RightHaunchAP",
+													"posX": "0.0","posY": "0.0","posZ": "0.0",
+													"rotationX": "0.0","rotationY": "0.0","rotationZ": "0.0"
 												}
 											]
 										}
@@ -671,6 +717,52 @@
 														"up": { "texture": "#skin", "uv": [ 80.0, 78.0, 81.0, 81.0 ], "rotation": 270 },
 														"down": { "texture": "#skin", "uv": [ 95.5, 78.0, 96.5, 81.0 ], "rotation": 90 }
 													}
+												}
+											]
+										},
+										{
+											"name": "LeftFrontStorage",
+											"from": [ 4.25, 1.13, 8.4 ],
+											"to": [ 11.25, 5.63, 9.4 ],
+											"uv": [ 80.0, 44.0 ],
+											"rotationOrigin": [ 4.2468, 1.1264, 8.4 ],
+											"rotationZ": 84.5,
+											"faces": {
+												"north": { "texture": "#skin", "uv": [ 80.0, 51.0, 84.5, 58.0 ], "rotation": 90 },
+												"east": { "texture": "#skin", "uv": [ 84.5, 51.0, 85.5, 55.5 ] },
+												"south": { "texture": "#skin", "uv": [ 85.5, 51.0, 90.0, 58.0 ], "rotation": 270 },
+												"west": { "texture": "#skin", "uv": [ 90.0, 51.0, 91.0, 55.5 ], "rotation": 180 },
+												"up": { "texture": "#skin", "uv": [ 80.0, 44.0, 81.0, 51.0 ], "rotation": 270 },
+												"down": { "texture": "#skin", "uv": [ 81.0, 44.0, 82.0, 51.0 ], "rotation": 90 }
+											},
+											"attachmentpoints": [
+												{
+													"code": "LFrontAP",
+													"posX": "0.0","posY": "0.0","posZ": "0.0",
+													"rotationX": "0.0","rotationY": "0.0","rotationZ": "0.0"
+												}
+											]
+										},
+										{
+											"name": "RightFrontStorage",
+											"from": [ 4.25, 1.13, -0.5 ],
+											"to": [ 11.25, 5.63, 0.5 ],
+											"uv": [ 80.0, 44.0 ],
+											"rotationOrigin": [ 4.2468, 1.1264, -0.5 ],
+											"rotationZ": 84.5,
+											"faces": {
+												"north": { "texture": "#skin", "uv": [ 80.0, 51.0, 84.5, 58.0 ], "rotation": 90 },
+												"east": { "texture": "#skin", "uv": [ 84.5, 51.0, 85.5, 55.5 ] },
+												"south": { "texture": "#skin", "uv": [ 85.5, 51.0, 90.0, 58.0 ], "rotation": 270 },
+												"west": { "texture": "#skin", "uv": [ 90.0, 51.0, 91.0, 55.5 ], "rotation": 180 },
+												"up": { "texture": "#skin", "uv": [ 80.0, 44.0, 81.0, 51.0 ], "rotation": 270 },
+												"down": { "texture": "#skin", "uv": [ 81.0, 44.0, 82.0, 51.0 ], "rotation": 90 }
+											},
+											"attachmentpoints": [
+												{
+													"code": "RFrontAP",
+													"posX": "0.0","posY": "0.0","posZ": "0.0",
+													"rotationX": "0.0","rotationY": "0.0","rotationZ": "0.0"
 												}
 											]
 										}
