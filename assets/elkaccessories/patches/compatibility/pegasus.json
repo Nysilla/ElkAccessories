@@ -332,6 +332,11 @@
         "code": "righthaunch-{type}",
         "forCategoryCodes": [ "armor" ],
         "attachmentPointCode": "RightHaunchAP"
+      },
+      {
+        "code": "middlebackunder-{type}",
+        "forCategoryCodes": [ "blanketarmor" ],
+        "attachmentPointCode": "MidUnderAP"
       }
     ]
   },
@@ -343,7 +348,7 @@
     "file": "pegasus:entities/pegasus",
     "op": "addmerge",
     "path": "/behaviorConfigs/selectionboxes/selectionBoxes",
-    "value": [ "HatAP", "RSaddlePinAP", "LSaddlePinAP", "RLSockAP", "RRSockAP", "FLSockAP", "FRSockAP", "TailAP", "RightHaunchAP", "LeftHaunchAP" ]
+    "value": [ "HatAP", "RSaddlePinAP", "LSaddlePinAP", "RLSockAP", "RRSockAP", "FLSockAP", "FRSockAP", "TailAP", "RightHaunchAP", "LeftHaunchAP", "MidUnderAP" ]
   },
   {
     "dependsOn": [ { "modid": "pegasus" } ],

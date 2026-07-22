@@ -901,12 +901,12 @@
         "attachmentPointCode": "RightHaunchAP"
       },
       {
-        "code": "LeftFrontStorage-{type}",
+        "code": "frontleftside-{type}",
         "forCategoryCodes": [ "armor" ],
         "attachmentPointCode": "LFrontAP"
       },
       {
-        "code": "RightFrontStorage-{type}",
+        "code": "frontrightside-{type}",
         "forCategoryCodes": [ "armor" ],
         "attachmentPointCode": "RFrontAP"
       }
@@ -927,6 +927,14 @@
     "op": "addmerge",
     "path": "/behaviorConfigs/rideableaccessories/wearableSlots/4/forCategoryCodes",
     "value": [ "collar" ]
+  },
+  {
+    "dependsOn": [ { "modid": "monoceros" } ],
+    "side": "Server",
+    "file": "monoceros:entities/tamedmonoceros",
+    "op": "addmerge",
+    "path": "/behaviorConfigs/rideableaccessories/wearableSlots/2/forCategoryCodes",
+    "value": [ "blanketarmor" ]
   },
 
   {
@@ -1042,14 +1050,14 @@
     "file": "elkaccessories:itemtypes/wearable/socks",
     "op": "addmerge",
     "path": "/attributes/attachableToEntity/attachedShapeBySlotCodeByType/*",
-    "value": {"rearleftsock-indicus": {"base": "item/wearable/hooved/hooves/compatibility/monoceros/indicus/{type}-rearl"},
-              "rearrightsock-indicus": {"base": "item/wearable/hooved/hooves/compatibility/monoceros/indicus/{type}-rearr"},
-              "frontleftsock-indicus": {"base": "item/wearable/hooved/hooves/compatibility/monoceros/indicus/{type}-frontl"},
-              "frontrightsock-indicus": {"base": "item/wearable/hooved/hooves/compatibility/monoceros/indicus/{type}-frontr"},
-              "rearleftsock-caledonius": {"base": "item/wearable/hooved/hooves/compatibility/monoceros/caledonius/{type}-rearl"},
-              "rearrightsock-caledonius": {"base": "item/wearable/hooved/hooves/compatibility/monoceros/caledonius/{type}-rearr"},
-              "frontleftsock-caledonius": {"base": "item/wearable/hooved/hooves/compatibility/monoceros/caledonius/{type}-frontl"},
-              "frontrightsock-caledonius": {"base": "item/wearable/hooved/hooves/compatibility/monoceros/caledonius/{type}-frontr"}} 
+    "value": {"rearleftsock-indicus": {"base": "item/wearable/hooved/hooves/compatibility/monoceros/indicus/hoof-{type}-rearl"},
+              "rearrightsock-indicus": {"base": "item/wearable/hooved/hooves/compatibility/monoceros/indicus/hoof-{type}-rearr"},
+              "frontleftsock-indicus": {"base": "item/wearable/hooved/hooves/compatibility/monoceros/indicus/hoof-{type}-frontl"},
+              "frontrightsock-indicus": {"base": "item/wearable/hooved/hooves/compatibility/monoceros/indicus/hoof-{type}-frontr"},
+              "rearleftsock-caledonius": {"base": "item/wearable/hooved/hooves/compatibility/monoceros/caledonius/hoof-{type}-rearl"},
+              "rearrightsock-caledonius": {"base": "item/wearable/hooved/hooves/compatibility/monoceros/caledonius/hoof-{type}-rearr"},
+              "frontleftsock-caledonius": {"base": "item/wearable/hooved/hooves/compatibility/monoceros/caledonius/hoof-{type}-frontl"},
+              "frontrightsock-caledonius": {"base": "item/wearable/hooved/hooves/compatibility/monoceros/caledonius/hoof-{type}-frontr"}} 
   },
   {
     "dependsOn": [ { "modid": "monoceros" } ],
@@ -1120,14 +1128,14 @@
     "file": "elkaccessories:itemtypes/wearable/armor/hoof",
     "op": "addmerge",
     "path": "/attributes/attachableToEntity/attachedShapeBySlotCodeByType/*",
-    "value": {"rearleftsock-indicus": {"base": "item/wearable/hooved/armor/hooves/compatibility/monoceros/hoof-{type}-indicus-rearl"},
-              "rearrightsock-indicus": {"base": "item/wearable/hooved/armor/hooves/compatibility/monoceros/hoof-{type}-indicus-rearr"},
-              "frontleftsock-indicus": {"base": "item/wearable/hooved/armor/hooves/compatibility/monoceros/hoof-{type}-indicus-frontl"},
-              "frontrightsock-indicus": {"base": "item/wearable/hooved/armor/hooves/compatibility/monoceros/hoof-{type}-indicus-frontr"},
-              "rearleftsock-caledonius": {"base": "item/wearable/hooved/armor/hooves/compatibility/monoceros/hoof-{type}-caledonius-rearl"},
-              "rearrightsock-caledonius": {"base": "item/wearable/hooved/armor/hooves/compatibility/monoceros/hoof-{type}-caledonius-rearr"},
-              "frontleftsock-caledonius": {"base": "item/wearable/hooved/armor/hooves/compatibility/monoceros/hoof-{type}-caledonius-frontl"},
-              "frontrightsock-caledonius": {"base": "item/wearable/hooved/armor/hooves/compatibility/monoceros/hoof-{type}-caledonius-frontr"}}
+    "value": {"rearleftsock-indicus": {"base": "item/wearable/hooved/armor/hooves/compatibility/monoceros/indicus/hoof-{type}-indicus-rearl"},
+              "rearrightsock-indicus": {"base": "item/wearable/hooved/armor/hooves/compatibility/monoceros/indicus/hoof-{type}-indicus-rearr"},
+              "frontleftsock-indicus": {"base": "item/wearable/hooved/armor/hooves/compatibility/monoceros/indicus/hoof-{type}-indicus-frontl"},
+              "frontrightsock-indicus": {"base": "item/wearable/hooved/armor/hooves/compatibility/monoceros/indicus/hoof-{type}-indicus-frontr"},
+              "rearleftsock-caledonius": {"base": "item/wearable/hooved/armor/hooves/compatibility/monoceros/caledonius/hoof-{type}-caledonius-rearl"},
+              "rearrightsock-caledonius": {"base": "item/wearable/hooved/armor/hooves/compatibility/monoceros/caledonius/hoof-{type}-caledonius-rearr"},
+              "frontleftsock-caledonius": {"base": "item/wearable/hooved/armor/hooves/compatibility/monoceros/caledonius/hoof-{type}-caledonius-frontl"},
+              "frontrightsock-caledonius": {"base": "item/wearable/hooved/armor/hooves/compatibility/monoceros/caledonius/hoof-{type}-caledonius-frontr"}}
   },
   {
     "dependsOn": [ { "modid": "monoceros" } ],

@@ -45,6 +45,202 @@
       ]
     }
   },
+  {
+    "file": "game:shapes/entity/animal/mammal/hooved/deer/elk/female",
+    "op": "replace",
+    "path": "/elements/0/children/0/children/3/children/0/children/4",
+    "value": {
+      "name": "RightFrontStorage",
+      "from": [ 2.0, 3.0, -1.0 ],
+      "to": [ 7.0, 11.0, 0.0 ],
+      "uv": [ 999.0, 999.0 ],
+      "rotationOrigin": [ 2.0, 3.0, -1.0 ],
+      "faces": {
+        "north": { "texture": "#skin", "uv": [ 0.0, 0.0, 7.0, 8.0 ], "enabled": false },
+        "east": { "texture": "#skin", "uv": [ 0.0, 0.0, 1.0, 8.0 ], "enabled": false },
+        "south": { "texture": "#skin", "uv": [ 0.0, 0.0, 7.0, 8.0 ], "enabled": false },
+        "west": { "texture": "#skin", "uv": [ 0.0, 0.0, 1.0, 8.0 ], "enabled": false },
+        "up": { "texture": "#skin", "uv": [ 0.0, 0.0, 7.0, 1.0 ], "enabled": false },
+        "down": { "texture": "#skin", "uv": [ 0.0, 0.0, 7.0, 1.0 ], "enabled": false }
+      },
+      "children": [
+        {
+          "name": "smallbowR",
+          "from": [ 2.0, 5.0, 0.4 ],
+          "to": [ 6.0, 6.0, 1.4 ],
+          "uv": [ 0.0, 0.0 ],
+          "rotationOrigin": [ 2.0, 5.0, 0.4 ],
+          "rotationX": -90.0,
+          "rotationY": 42.0,
+          "rotationZ": -4.0,
+          "faces": {
+            "north": { "texture": "#null", "uv": [ 0.0, 1.0, 4.0, 2.0 ], "enabled": false },
+            "east": { "texture": "#null", "uv": [ 4.0, 1.0, 5.0, 2.0 ], "enabled": false },
+            "south": { "texture": "#null", "uv": [ 5.0, 1.0, 9.0, 2.0 ], "enabled": false },
+            "west": { "texture": "#null", "uv": [ 9.0, 1.0, 10.0, 2.0 ], "enabled": false },
+            "up": { "texture": "#null", "uv": [ 0.0, 0.0, 4.0, 1.0 ], "enabled": false },
+            "down": { "texture": "#null", "uv": [ 4.0, 0.0, 8.0, 1.0 ], "enabled": false }
+          }
+        },
+        {
+          "name": "PotParentR",
+          "from": [ 0.0, -0.5, -2.7 ],
+          "to": [ 5.0, 9.5, 2.3 ],
+          "uv": [ 12.0, 61.0 ],
+          "rotationOrigin": [ 5.0, 9.5, 2.3 ],
+          "rotationX": 13.0,
+          "rotationY": -11.0,
+          "faces": {
+            "north": { "texture": "#null", "uv": [ 12.0, 66.0, 17.0, 76.0 ], "enabled": false },
+            "east": { "texture": "#null", "uv": [ 17.0, 66.0, 22.0, 76.0 ], "enabled": false },
+            "south": { "texture": "#null", "uv": [ 22.0, 66.0, 27.0, 76.0 ], "enabled": false },
+            "west": { "texture": "#null", "uv": [ 27.0, 66.0, 32.0, 76.0 ], "enabled": false },
+            "up": { "texture": "#null", "uv": [ 12.0, 61.0, 17.0, 66.0 ], "enabled": false },
+            "down": { "texture": "#null", "uv": [ 17.0, 61.0, 22.0, 66.0 ], "enabled": false }
+          },
+          "children": [
+            {
+              "name": "CrockParentR",
+              "from": [ -7.0, 0.0, -4.5 ],
+              "to": [ 1.0, 5.0, 3.5 ],
+              "uv": [ 0.0, 0.0 ],
+              "rotationOrigin": [ -7.0, 0.0, -4.5 ],
+              "faces": {
+                "north": { "texture": "#null", "uv": [ 0.0, 8.0, 8.0, 13.0 ], "enabled": false },
+                "east": { "texture": "#null", "uv": [ 8.0, 8.0, 16.0, 13.0 ], "enabled": false },
+                "south": { "texture": "#null", "uv": [ 16.0, 8.0, 24.0, 13.0 ], "enabled": false },
+                "west": { "texture": "#null", "uv": [ 24.0, 8.0, 32.0, 13.0 ], "enabled": false },
+                "up": { "texture": "#null", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "enabled": false },
+                "down": { "texture": "#null", "uv": [ 8.0, 0.0, 16.0, 8.0 ], "enabled": false }
+              },
+              "children": [
+                {
+                  "name": "dummycrockR",
+                  "from": [ 5.5, 0.0, 5.5 ],
+                  "to": [ 9.5, 4.5, 9.5 ],
+                  "uv": [ 10.0, 57.0 ],
+                  "rotationOrigin": [ 5.5, 0.0, 5.5 ],
+                  "faces": {
+                    "north": { "texture": "#null", "uv": [ 10.0, 61.0, 14.0, 65.5 ], "enabled": false },
+                    "east": { "texture": "#null", "uv": [ 14.0, 61.0, 18.0, 65.5 ], "enabled": false },
+                    "south": { "texture": "#null", "uv": [ 18.0, 61.0, 22.0, 65.5 ], "enabled": false },
+                    "west": { "texture": "#null", "uv": [ 22.0, 61.0, 26.0, 65.5 ], "enabled": false },
+                    "up": { "texture": "#null", "uv": [ 10.0, 57.0, 14.0, 61.0 ], "enabled": false },
+                    "down": { "texture": "#null", "uv": [ 14.0, 57.0, 18.0, 61.0 ], "enabled": false }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "attachmentpoints": [
+        {
+          "code": "RFrontAP",
+          "posX": "0.0","posY": "0.0","posZ": "0.0",
+          "rotationX": "0.0","rotationY": "0.0","rotationZ": "0.0"
+        }
+      ]
+    }
+  },
+  {
+    "file": "game:shapes/entity/animal/mammal/hooved/deer/elk/female",
+    "op": "replace",
+    "path": "/elements/0/children/0/children/3/children/0/children/5",
+    "value": {
+      "name": "LeftFrontStorage",
+      "from": [ 2.0, 3.0, 8.0 ],
+      "to": [ 7.0, 11.0, 9.0 ],
+      "uv": [ 999.0, 999.0 ],
+      "rotationOrigin": [ 2.0, 3.0, 8.0 ],
+      "faces": {
+        "north": { "texture": "#skin", "uv": [ 0.0, 0.0, 7.0, 8.0 ], "enabled": false },
+        "east": { "texture": "#skin", "uv": [ 0.0, 0.0, 1.0, 8.0 ], "enabled": false },
+        "south": { "texture": "#skin", "uv": [ 0.0, 0.0, 7.0, 8.0 ], "enabled": false },
+        "west": { "texture": "#skin", "uv": [ 0.0, 0.0, 1.0, 8.0 ], "enabled": false },
+        "up": { "texture": "#skin", "uv": [ 0.0, 0.0, 7.0, 1.0 ], "enabled": false },
+        "down": { "texture": "#skin", "uv": [ 0.0, 0.0, 7.0, 1.0 ], "enabled": false }
+      },
+      "children": [
+        {
+          "name": "smallbowL",
+          "from": [ 2.0, 5.0, 1.7 ],
+          "to": [ 6.0, 6.0, 2.7 ],
+          "uv": [ 0.0, 0.0 ],
+          "rotationOrigin": [ 2.0, 5.0, 1.7 ],
+          "rotationX": -90.0,
+          "rotationY": 42.0,
+          "rotationZ": 4.0,
+          "faces": {
+            "north": { "texture": "#null", "uv": [ 0.0, 1.0, 4.0, 2.0 ], "enabled": false },
+            "east": { "texture": "#null", "uv": [ 4.0, 1.0, 5.0, 2.0 ], "enabled": false },
+            "south": { "texture": "#null", "uv": [ 5.0, 1.0, 9.0, 2.0 ], "enabled": false },
+            "west": { "texture": "#null", "uv": [ 9.0, 1.0, 10.0, 2.0 ], "enabled": false },
+            "up": { "texture": "#null", "uv": [ 0.0, 0.0, 4.0, 1.0 ], "enabled": false },
+            "down": { "texture": "#null", "uv": [ 4.0, 0.0, 8.0, 1.0 ], "enabled": false }
+          }
+        },
+        {
+          "name": "PotParentL",
+          "from": [ 0.0, -0.5, -1.2 ],
+          "to": [ 5.0, 9.5, 3.8 ],
+          "uv": [ 0.0, 0.0 ],
+          "rotationOrigin": [ 5.0, 9.5, -1.2 ],
+          "rotationX": -13.0,
+          "rotationY": 11.0,
+          "faces": {
+            "north": { "texture": "#null", "uv": [ 0.0, 5.0, 5.0, 15.0 ], "enabled": false },
+            "east": { "texture": "#null", "uv": [ 5.0, 5.0, 10.0, 15.0 ], "enabled": false },
+            "south": { "texture": "#null", "uv": [ 10.0, 5.0, 15.0, 15.0 ], "enabled": false },
+            "west": { "texture": "#null", "uv": [ 15.0, 5.0, 20.0, 15.0 ], "enabled": false },
+            "up": { "texture": "#null", "uv": [ 0.0, 0.0, 5.0, 5.0 ], "enabled": false },
+            "down": { "texture": "#null", "uv": [ 5.0, 0.0, 10.0, 5.0 ], "enabled": false }
+          },
+          "children": [
+            {
+              "name": "CrockParentL",
+              "from": [ -7.5, -0.5, -6.3 ],
+              "to": [ 0.5, 4.5, 1.7 ],
+              "uv": [ 0.0, 0.0 ],
+              "rotationOrigin": [ -7.5, -0.5, -6.3 ],
+              "faces": {
+                "north": { "texture": "#null", "uv": [ 0.0, 8.0, 8.0, 13.0 ], "enabled": false },
+                "east": { "texture": "#null", "uv": [ 8.0, 8.0, 16.0, 13.0 ], "enabled": false },
+                "south": { "texture": "#null", "uv": [ 16.0, 8.0, 24.0, 13.0 ], "enabled": false },
+                "west": { "texture": "#null", "uv": [ 24.0, 8.0, 32.0, 13.0 ], "enabled": false },
+                "up": { "texture": "#null", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "enabled": false },
+                "down": { "texture": "#null", "uv": [ 8.0, 0.0, 16.0, 8.0 ], "enabled": false }
+              },
+              "children": [
+                {
+                  "name": "dummycrockL",
+                  "from": [ 4.0, 0.0, 6.0 ],
+                  "to": [ 8.0, 4.5, 10.0 ],
+                  "uv": [ 6.0, 57.5 ],
+                  "rotationOrigin": [ 6.0, 0.0, 8.0 ],
+                  "faces": {
+                    "north": { "texture": "#null", "uv": [ 6.0, 61.5, 10.0, 66.0 ], "enabled": false },
+                    "east": { "texture": "#null", "uv": [ 10.0, 61.5, 14.0, 66.0 ], "enabled": false },
+                    "south": { "texture": "#null", "uv": [ 14.0, 61.5, 18.0, 66.0 ], "enabled": false },
+                    "west": { "texture": "#null", "uv": [ 18.0, 61.5, 22.0, 66.0 ], "enabled": false },
+                    "up": { "texture": "#null", "uv": [ 6.0, 57.5, 10.0, 61.5 ], "enabled": false },
+                    "down": { "texture": "#null", "uv": [ 10.0, 57.5, 14.0, 61.5 ], "enabled": false }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "attachmentpoints": [
+        {
+          "code": "LFrontAP",
+          "posX": "0.0","posY": "0.0","posZ": "0.0",
+          "rotationX": "0.0","rotationY": "0.0","rotationZ": "0.0"
+        }
+      ]
+    }
+  },
 
 
   {
@@ -300,6 +496,52 @@
       }
     ]
   },
+  {
+    "file": "game:shapes/entity/animal/mammal/hooved/deer/elk/female",
+    "op": "addmerge",
+    "path": "/elements/0/children/0/children/3/children/0/children/2/children",
+    "value": [
+      {
+        "name": "RightShoulderStorage",
+        "from": [ -0.3, 2.0, -0.3 ],
+        "to": [ 3.7, 8.5, 0.7 ],
+        "uv": [ 0.0, 0.0 ],
+        "rotationOrigin": [ -0.3, 2.0, -0.3 ],
+        "faces": {
+        },
+        "attachmentpoints": [
+          {
+            "code": "RightShoulderAP",
+            "posX": "0.0","posY": "0.0","posZ": "0.0",
+            "rotationX": "0.0","rotationY": "0.0","rotationZ": "0.0"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file": "game:shapes/entity/animal/mammal/hooved/deer/elk/female",
+    "op": "addmerge",
+    "path": "/elements/0/children/0/children/3/children/0/children/1/children",
+    "value": [
+      {
+        "name": "LeftShoulderStorage",
+        "from": [ -0.3, 2.0, 1.3 ],
+        "to": [ 3.7, 8.5, 2.3 ],
+        "uv": [ 0.0, 0.0 ],
+        "rotationOrigin": [ -0.3, 2.0, 1.3 ],
+        "faces": {
+        },
+        "attachmentpoints": [
+          {
+            "code": "LeftShoulderAP",
+            "posX": "0.0","posY": "0.0","posZ": "0.0",
+            "rotationX": "0.0","rotationY": "0.0","rotationZ": "0.0"
+          }
+        ]
+      }
+    ]
+  },
 
 
   {
@@ -357,6 +599,16 @@
         "code": "righthaunch",
         "forCategoryCodes": [ "armor" ],
         "attachmentPointCode": "RightHaunchAP"
+      },
+      {
+        "code": "leftshoulder",
+        "forCategoryCodes": [ "armor" ],
+        "attachmentPointCode": "LeftShoulderAP"
+      },
+      {
+        "code": "rightshoulder",
+        "forCategoryCodes": [ "armor" ],
+        "attachmentPointCode": "RightShoulderAP"
       }
     ]
   },
@@ -365,7 +617,7 @@
     "file": "game:entities/animal/mammal/hooved/elk-tamed",
     "op": "addmerge",
     "path": "/behaviorConfigs/selectionboxes/selectionBoxes",
-    "value": [ "HatAP", "RSaddlePinAP","LSaddlePinAP", "RLSockAP","RRSockAP","FLSockAP","FRSockAP", "TailAP", "RightHaunchAP", "LeftHaunchAP" ]
+    "value": [ "HatAP", "RSaddlePinAP","LSaddlePinAP", "RLSockAP","RRSockAP","FLSockAP","FRSockAP", "TailAP", "RightHaunchAP", "LeftHaunchAP", "LeftShoulderAP", "RightShoulderAP" ]
   },
   {
     "side": "Server",
@@ -378,14 +630,7 @@
     "side": "Server",
     "file": "game:entities/animal/mammal/hooved/elk-tamed",
     "op": "addmerge",
-    "path": "/behaviorConfigs/rideableaccessories/wearableSlots/7/forCategoryCodes",
-    "value": [ "armor" ]
-  },
-  {
-    "side": "Server",
-    "file": "game:entities/animal/mammal/hooved/elk-tamed",
-    "op": "addmerge",
-    "path": "/behaviorConfigs/rideableaccessories/wearableSlots/8/forCategoryCodes",
-    "value": [ "armor" ]
+    "path": "/behaviorConfigs/rideableaccessories/wearableSlots/4/forCategoryCodes",
+    "value": [ "blanketarmor" ]
   }
 ]

@@ -64,18 +64,18 @@
 							"children": [
 								{
 									"name": "Cube6",
-									"from": [ 0.8, -1.9, -0.1 ],
-									"to": [ 4.3, 0.4, 1.9 ],
-									"rotationOrigin": [ 0.8, -1.9, -0.1 ],
+									"from": [ 0.8, -1.6, -0.1 ],
+									"to": [ 4.8, 0.4, 1.9 ],
+									"rotationOrigin": [ 0.8, -1.6, -0.1 ],
 									"rotationX": 6.0,
 									"rotationZ": 17.0,
 									"faces": {
-										"north": { "texture": "#metal", "uv": [ 0.0, 12.5, 3.5, 14.5 ] },
+										"north": { "texture": "#metal", "uv": [ 4.5, 13.0, 2.5, 15.0 ], "autoUv": false, "snapUv": false },
 										"east": { "texture": "#metal", "uv": [ 0.0, 0.0, 2.0, 2.0 ], "rotation": 180 },
-										"south": { "texture": "#metal", "uv": [ 0.0, 12.0, 3.5, 14.0 ] },
-										"west": { "texture": "#metal", "uv": [ 1.5, 12.5, 3.5, 14.5 ] },
+										"south": { "texture": "#metal", "uv": [ 2.0, 0.0, 0.0, 2.0 ], "autoUv": false, "snapUv": false },
+										"west": { "texture": "#metal", "uv": [ 1.5, 13.0, 0.5, 15.0 ], "autoUv": false, "snapUv": false },
 										"up": { "texture": "#metal", "uv": [ 0.0, 1.0, 2.0, 0.0 ], "autoUv": false, "snapUv": false, "enabled": false },
-										"down": { "texture": "#metal", "uv": [ 0.0, 10.5, 3.5, 12.5 ] }
+										"down": { "texture": "#metal", "uv": [ 12.0, 7.5, 16.0, 9.5 ] }
 									}
 								}
 							]

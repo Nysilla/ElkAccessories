@@ -341,12 +341,12 @@
         "attachmentPointCode": "RightHaunchAP"
       },
       {
-        "code": "LeftFrontStorage-{type}",
+        "code": "frontleftside-{type}",
         "forCategoryCodes": [ "armor" ],
         "attachmentPointCode": "LFrontAP"
       },
       {
-        "code": "RightFrontStorage-{type}",
+        "code": "frontrightside-{type}",
         "forCategoryCodes": [ "armor" ],
         "attachmentPointCode": "RFrontAP"
       }
@@ -369,6 +369,14 @@
     "op": "addmerge",
     "path": "/behaviorConfigs/rideableaccessories/wearableSlots/4/forCategoryCodes",
     "value": [ "collar" ]
+  },
+  {
+    "dependsOn": [ { "modid": "equus" } ],
+    "side": "Server",
+    "file": "equus:entities/tamedwildhorse",
+    "op": "addmerge",
+    "path": "/behaviorConfigs/rideableaccessories/wearableSlots/2/forCategoryCodes",
+    "value": [ "blanketarmor" ]
   },
 
   

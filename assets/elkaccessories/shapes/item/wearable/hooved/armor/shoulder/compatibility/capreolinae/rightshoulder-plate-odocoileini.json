@@ -70,12 +70,12 @@
 									"rotationX": 6.0,
 									"rotationZ": 17.0,
 									"faces": {
-										"north": { "texture": "#metal", "uv": [ 0.0, 11.5, 1.0, 12.5 ] },
-										"east": { "texture": "#metal", "uv": [ 1.5, 14.5, 2.0, 15.5 ] },
-										"south": { "texture": "#metal", "uv": [ 0.0, 13.5, 1.0, 14.5 ] },
-										"west": { "texture": "#metal", "uv": [ 2.0, 13.5, 2.5, 14.5 ] },
+										"north": { "texture": "#metal", "uv": [ 10.0, 14.0, 11.0, 15.0 ] },
+										"east": { "texture": "#metal", "uv": [ 1.5, 14.0, 2.0, 15.0 ] },
+										"south": { "texture": "#metal", "uv": [ 0.5, 14.0, 1.5, 15.0 ] },
+										"west": { "texture": "#metal", "uv": [ 2.0, 14.0, 2.5, 15.0 ] },
 										"up": { "texture": "#metal", "uv": [ 0.0, 1.0, 1.4, 0.3 ], "autoUv": false, "snapUv": false, "enabled": false },
-										"down": { "texture": "#metal", "uv": [ 0.0, 14.0, 1.0, 14.5 ] }
+										"down": { "texture": "#metal", "uv": [ 1.0, 14.5, 2.0, 15.0 ] }
 									}
 								}
 							]

@@ -1,6 +1,6 @@
 {
 	"editor": {
-		"collapsedPaths": ",Root/Origin/Rear/Midsection/Chest/RightFrontStorage,Root/Origin/Rear/Midsection/Chest/LeftFrontStorage,Root/SaddleFrontN/StrapFront,Root/Origin/Rear/L Haunch/L LegUp/L LegLow,Root/Origin/Rear/Midsection,Root/ORIGIN,Root/Origin/Rear/Midsection/Chest/Neck,Root/SaddleBackN,Root/Origin/Rear/RearStorage,Root/Origin/Rear/R Haunch/R LegUp",
+		"collapsedPaths": ",Root/Origin/Rear/Midsection/Chest/RightFrontStorage,Root/Origin/Rear/Midsection/Chest/LeftFrontStorage,Root/SaddleFrontN/StrapFront,Root/Origin/Rear/Midsection/Chest/R Shoulder/R ArmUp,Root/Origin/Rear/L Haunch/L LegUp/L LegLow,Root/Origin/Rear/Midsection/Chest/L Shoulder/L ArmUp,Root/ORIGIN,Root/Origin/Rear/Midsection/Chest/Neck,Root/SaddleBackN,Root/Origin/Rear/RearStorage,Root/Origin/Rear/R Haunch/R LegUp",
 		"allAngles": true,
 		"entityTextureMode": true
 	},
@@ -304,9 +304,6 @@
 									"to": [ 5.9, 8.8, 0.4 ],
 									"uv": [ 999.0, 999.0 ],
 									"rotationOrigin": [ 0.4, 0.8, -0.6 ],
-									"rotationX": 0.0,
-									"rotationY": 0.0,
-									"rotationZ": 0.0,
 									"faces": {
 										"north": { "texture": "#null", "uv": [ 0.0, 1.0, 7.0, 6.0 ], "enabled": false },
 										"east": { "texture": "#null", "uv": [ 7.0, 1.0, 8.0, 6.0 ], "enabled": false },
@@ -712,6 +709,28 @@
 															]
 														}
 													]
+												},
+												{
+													"name": "LeftShoulderStorage",
+													"from": [ 0.6, 2.0, 2.5 ],
+													"to": [ 5.8, 10.3, 3.5 ],
+													"uv": [ 0.0, 0.0 ],
+													"rotationOrigin": [ 0.6, 2.0, 2.5 ],
+													"faces": {
+														"north": { "texture": "#null", "uv": [ 0.0, 1.0, 5.0, 9.0 ] },
+														"east": { "texture": "#null", "uv": [ 5.0, 1.0, 6.0, 9.0 ] },
+														"south": { "texture": "#null", "uv": [ 6.0, 1.0, 11.0, 9.0 ] },
+														"west": { "texture": "#null", "uv": [ 11.0, 1.0, 12.0, 9.0 ] },
+														"up": { "texture": "#null", "uv": [ 0.0, 0.0, 5.0, 1.0 ] },
+														"down": { "texture": "#null", "uv": [ 5.0, 0.0, 10.0, 1.0 ] }
+													},
+													"attachmentpoints": [
+														{
+															"code": "LeftShoulderAP",
+															"posX": "0.0","posY": "0.0","posZ": "0.0",
+															"rotationX": "0.0","rotationY": "0.0","rotationZ": "0.0"
+														}
+													]
 												}
 											]
 										},
@@ -874,6 +893,28 @@
 																	]
 																}
 															]
+														}
+													]
+												},
+												{
+													"name": "RightShoulderStorage",
+													"from": [ 0.6, 2.0, -0.4 ],
+													"to": [ 5.8, 10.3, 0.6 ],
+													"uv": [ 0.0, 0.0 ],
+													"rotationOrigin": [ 0.6, 2.0, -0.4 ],
+													"faces": {
+														"north": { "texture": "#null", "uv": [ 0.0, 1.0, 5.0, 9.0 ] },
+														"east": { "texture": "#null", "uv": [ 5.0, 1.0, 6.0, 9.0 ] },
+														"south": { "texture": "#null", "uv": [ 6.0, 1.0, 11.0, 9.0 ] },
+														"west": { "texture": "#null", "uv": [ 11.0, 1.0, 12.0, 9.0 ] },
+														"up": { "texture": "#null", "uv": [ 0.0, 0.0, 5.0, 1.0 ] },
+														"down": { "texture": "#null", "uv": [ 5.0, 0.0, 10.0, 1.0 ] }
+													},
+													"attachmentpoints": [
+														{
+															"code": "RightShoulderAP",
+															"posX": "0.0","posY": "0.0","posZ": "0.0",
+															"rotationX": "0.0","rotationY": "0.0","rotationZ": "0.0"
 														}
 													]
 												}

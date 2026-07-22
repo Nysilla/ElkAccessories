@@ -31,22 +31,118 @@
     "op": "replace",
     "path": "/elements/0/children/0/children/5",
     "value": {
-							"name": "RearSideStorage",
-							"from": [ 0.0, 5.0, -1.0 ],
-							"to": [ 4.0, 9.0, 7.5 ],
-							"uv": [ 0.0, 0.0 ],
-							"rotationOrigin": [ 0.0, 5.0, -1.0 ],
-							"faces": {
-							},
-							"attachmentpoints": [
-								{
-									"code": "RearSideAP",
-									"posX": "0.0","posY": "0.0","posZ": "0.0",
-									"rotationX": "0.0","rotationY": "0.0","rotationZ": "0.0"
-								}
-							]
-						}
+      "name": "RearSideStorage",
+      "from": [ 0.0, 5.0, -1.0 ],
+      "to": [ 4.0, 9.0, 7.5 ],
+      "uv": [ 0.0, 0.0 ],
+      "rotationOrigin": [ 0.0, 5.0, -1.0 ],
+      "faces": {
+      },
+      "attachmentpoints": [
+        {
+          "code": "RearSideAP",
+          "posX": "0.0","posY": "0.0","posZ": "0.0",
+          "rotationX": "0.0","rotationY": "0.0","rotationZ": "0.0"
+        }
+      ]
+    }
   },
+  {
+    "dependsOn": [ { "modid": "capreolinae" } ],
+    "file": "capreolinae:shapes/entity/animal/mammal/hooved/odocoileini/rangifertarandus/adult",
+    "op": "replace",
+    "path": "/elements/0/children/0/children/3/children/0/children/4",
+    "value": {
+      "name": "RightFrontStorage",
+      "from": [ 2.0, 2.0, -1.0 ],
+      "to": [ 6.0, 8.0, 0.0 ],
+      "uv": [ 0.0, 0.0 ],
+      "rotationOrigin": [ 2.0, 2.0, -1.0 ],
+      "faces": {
+      },
+      "children": [
+        {
+          "name": "smallbowR",
+          "from": [ 2.0, 3.0, 0.4 ],
+          "to": [ 6.0, 4.0, 1.4 ],
+          "uv": [ 0.0, 0.0 ],
+          "rotationOrigin": [ 2.0, 3.0, 0.4 ],
+          "rotationX": -90.0,
+          "rotationY": 42.0,
+          "rotationZ": -4.0,
+          "faces": {
+          }
+        },
+        {
+          "name": "PotParentR",
+          "from": [ 0.0, -2.5, -2.7 ],
+          "to": [ 5.0, 7.5, 2.3 ],
+          "uv": [ 0.0, 0.0 ],
+          "rotationOrigin": [ 5.0, 7.5, 2.3 ],
+          "rotationX": 13.0,
+          "rotationY": -11.0,
+          "faces": {
+          }
+        }
+      ],
+      "attachmentpoints": [
+        {
+          "code": "RFrontAP",
+          "posX": "0.0","posY": "0.0","posZ": "0.0",
+          "rotationX": "0.0","rotationY": "0.0","rotationZ": "0.0"
+        }
+      ]
+    }
+  },
+  {
+    "dependsOn": [ { "modid": "capreolinae" } ],
+    "file": "capreolinae:shapes/entity/animal/mammal/hooved/odocoileini/rangifertarandus/adult",
+    "op": "replace",
+    "path": "/elements/0/children/0/children/3/children/0/children/5",
+    "value": {
+      "name": "LeftFrontStorage",
+      "from": [ 2.0, 2.0, 6.5 ],
+      "to": [ 6.0, 8.0, 7.5 ],
+      "uv": [ 0.0, 0.0 ],
+      "rotationOrigin": [ 2.0, 2.0, 6.5 ],
+      "faces": {
+      },
+      "children": [
+        {
+          "name": "smallbowL",
+          "from": [ 2.0, 3.0, 1.7 ],
+          "to": [ 6.0, 4.0, 2.7 ],
+          "uv": [ 0.0, 0.0 ],
+          "rotationOrigin": [ 2.0, 3.0, 1.7 ],
+          "rotationX": -90.0,
+          "rotationY": 42.0,
+          "rotationZ": 4.0,
+          "faces": {
+          }
+        },
+        {
+          "name": "PotParentL",
+          "from": [ 0.0, -2.5, -1.2 ],
+          "to": [ 5.0, 7.5, 3.8 ],
+          "uv": [ 0.0, 0.0 ],
+          "rotationOrigin": [ 5.0, 7.5, -1.2 ],
+          "rotationX": -13.0,
+          "rotationY": 11.0,
+          "faces": {
+          }
+        }
+      ],
+      "attachmentpoints": [
+        {
+          "code": "LFrontAP",
+          "posX": "0.0","posY": "0.0","posZ": "0.0",
+          "rotationX": "0.0","rotationY": "0.0","rotationZ": "0.0"
+        }
+      ]
+    }
+  },
+
+
   {
     "dependsOn": [ { "modid": "capreolinae" } ],
     "file": "capreolinae:shapes/entity/animal/mammal/hooved/odocoileini/rangifertarandus/adult",
@@ -74,69 +170,47 @@
   {
     "dependsOn": [ { "modid": "capreolinae" } ],
     "file": "capreolinae:shapes/entity/animal/mammal/hooved/alceini/alcesalces/adult",
-    "op": "replace",
-    "path": "/elements/0/children/0/children/3/children/0/children/3/children/0/children/0/children/6",
-    "value":{
-			"name": "HeadStorage",
-			"from": [ 0.0, 0.0, -0.2 ],
-			"to": [ 4.0, 4.5, 5.8 ],
-			"uv": [ 0.0, 0.0 ],
-			"rotationOrigin": [ 0.0, 0.0, -0.2 ],
-			"faces": {
-			},
-			"attachmentpoints": [
-					{
-              "code": "HeadAP",
+    "op": "addmerge",
+    "path": "/elements/0/children/0/children/3/children/0/children/3/children/0/children/0/children",
+    "value": [
+      {
+      "name": "HatStorage",
+      "from": [ 0.0, 4.9, -0.15 ],
+      "to": [ 4.0, 6.9, 5.75 ],
+      "uv": [ 0.0, 0.0 ],
+      "rotationOrigin": [ 2.0, 4.9, 2.9 ],
+      "faces": {
+      },
+      "attachmentpoints": [
+          {
+              "code": "HatAP",
               "posX": "0.0","posY": "0.0","posZ": "0.0",
               "rotationX": "0.0","rotationY": "0.0","rotationZ": "0.0"
-				  }
-				]
-			}
-    },
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dependsOn": [ { "modid": "capreolinae" } ],
+  "file": "capreolinae:shapes/entity/animal/mammal/hooved/alceini/alcesalces/adult",
+  "op": "addmerge",
+  "path": "/elements/0/children/0/children/3/children",
+  "value": [
     {
-      "dependsOn": [ { "modid": "capreolinae" } ],
-      "file": "capreolinae:shapes/entity/animal/mammal/hooved/alceini/alcesalces/adult",
-      "op": "addmerge",
-      "path": "/elements/0/children/0/children/3/children/0/children/3/children/0/children/0/children",
-      "value": [
-        {
-        "name": "HatStorage",
-        "from": [ 0.0, 4.9, -0.15 ],
-        "to": [ 4.0, 6.9, 5.75 ],
-        "uv": [ 0.0, 0.0 ],
-        "rotationOrigin": [ 2.0, 4.9, 2.9 ],
+      "name": "RightSaddlePinStorage",
+        "from": [ 0.5, 11.0, -1.5 ],
+        "to": [ 2.5, 13.0, 0.5 ],
+        "uv": [ 2.5, 0.0 ],
+        "rotationOrigin": [ -1.0, 8.7, 3.5 ],
         "faces": {
         },
         "attachmentpoints": [
-            {
-                "code": "HatAP",
-                "posX": "0.0","posY": "0.0","posZ": "0.0",
-                "rotationX": "0.0","rotationY": "0.0","rotationZ": "0.0"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "dependsOn": [ { "modid": "capreolinae" } ],
-    "file": "capreolinae:shapes/entity/animal/mammal/hooved/alceini/alcesalces/adult",
-    "op": "addmerge",
-    "path": "/elements/0/children/0/children/3/children",
-    "value": [
-      {
-        "name": "RightSaddlePinStorage",
-									"from": [ 0.5, 11.0, -1.5 ],
-									"to": [ 2.5, 13.0, 0.5 ],
-									"uv": [ 2.5, 0.0 ],
-									"rotationOrigin": [ -1.0, 8.7, 3.5 ],
-									"faces": {
-									},
-									"attachmentpoints": [
-										{
-											"code": "RSaddlePinAP",
-											"posX": "0.0","posY": "0.0","posZ": "0.0",
-											"rotationX": "0.0","rotationY": "0.0","rotationZ": "0.0"
-										}
+          {
+            "code": "RSaddlePinAP",
+            "posX": "0.0","posY": "0.0","posZ": "0.0",
+            "rotationX": "0.0","rotationY": "0.0","rotationZ": "0.0"
+          }
         ]
       }
     ]
@@ -577,6 +651,102 @@
       }
     ]
   },
+  {
+    "dependsOn": [ { "modid": "capreolinae" } ],
+    "file": "capreolinae:shapes/entity/animal/mammal/hooved/odocoileini/rangifertarandus/adult",
+    "op": "addmerge",
+    "path": "/elements/0/children/0/children/3/children/0/children/2/children",
+    "value": [
+      {
+        "name": "RightShoulderStorage",
+        "from": [ 0.1, 1.0, -0.3 ],
+        "to": [ 3.3, 6.3, 0.7 ],
+        "uv": [ 0.0, 0.0 ],
+        "rotationOrigin": [ 0.1, 1.0, -0.3 ],
+        "faces": {
+        },
+        "attachmentpoints": [
+          {
+            "code": "RightShoulderAP",
+            "posX": "0.0","posY": "0.0","posZ": "0.0",
+            "rotationX": "0.0","rotationY": "0.0","rotationZ": "0.0"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dependsOn": [ { "modid": "capreolinae" } ],
+    "file": "capreolinae:shapes/entity/animal/mammal/hooved/odocoileini/rangifertarandus/adult",
+    "op": "addmerge",
+    "path": "/elements/0/children/0/children/3/children/0/children/1/children",
+    "value": [
+      {
+        "name": "LeftShoulderStorage",
+        "from": [ 0.1, 1.0, 0.9 ],
+        "to": [ 3.3, 6.3, 1.9 ],
+        "uv": [ 0.0, 0.0 ],
+        "rotationOrigin": [ 0.1, 1.0, 0.9 ],
+        "faces": {
+        },
+        "attachmentpoints": [
+          {
+            "code": "LeftShoulderAP",
+            "posX": "0.0","posY": "0.0","posZ": "0.0",
+            "rotationX": "0.0","rotationY": "0.0","rotationZ": "0.0"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dependsOn": [ { "modid": "capreolinae" } ],
+    "file": "capreolinae:shapes/entity/animal/mammal/hooved/alceini/alcesalces/adult",
+    "op": "addmerge",
+    "path": "/elements/0/children/0/children/3/children/0/children/1/children",
+    "value": [
+      {
+        "name": "RightShoulderStorage",
+        "from": [ 0.6, 2.0, -0.4 ],
+        "to": [ 5.8, 10.3, 0.6 ],
+        "uv": [ 0.0, 0.0 ],
+        "rotationOrigin": [ 0.6, 2.0, -0.4 ],
+        "faces": {
+        },
+        "attachmentpoints": [
+          {
+            "code": "RightShoulderAP",
+            "posX": "0.0","posY": "0.0","posZ": "0.0",
+            "rotationX": "0.0","rotationY": "0.0","rotationZ": "0.0"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dependsOn": [ { "modid": "capreolinae" } ],
+    "file": "capreolinae:shapes/entity/animal/mammal/hooved/alceini/alcesalces/adult",
+    "op": "addmerge",
+    "path": "/elements/0/children/0/children/3/children/0/children/0/children",
+    "value": [
+      {
+        "name": "LeftShoulderStorage",
+        "from": [ 0.6, 2.0, 2.5 ],
+        "to": [ 5.8, 10.3, 3.5 ],
+        "uv": [ 0.0, 0.0 ],
+        "rotationOrigin": [ 0.6, 2.0, 2.5 ],
+        "faces": {
+        },
+        "attachmentpoints": [
+          {
+            "code": "LeftShoulderAP",
+            "posX": "0.0","posY": "0.0","posZ": "0.0",
+            "rotationX": "0.0","rotationY": "0.0","rotationZ": "0.0"
+          }
+        ]
+      }
+    ]
+  },
 
 
   {
@@ -635,6 +805,16 @@
         "code": "righthaunch-moose",
         "forCategoryCodes": [ "armor" ],
         "attachmentPointCode": "RightHaunchAP"
+      },
+      {
+        "code": "leftshoulder-moose",
+        "forCategoryCodes": [ "armor" ],
+        "attachmentPointCode": "LeftShoulderAP"
+      },
+      {
+        "code": "rightshoulder-moose",
+        "forCategoryCodes": [ "armor" ],
+        "attachmentPointCode": "RightShoulderAP"
       }
     ]
   },
@@ -644,7 +824,7 @@
     "file": "capreolinae:entities/animal/mammal/hooved/alceini-tamed",
     "op": "addmerge",
     "path": "/behaviorConfigs/selectionboxes/selectionBoxes",
-    "value": [ "HatAP", "RSaddlePinAP", "LSaddlePinAP", "RLSockAP", "RRSockAP", "FLSockAP", "FRSockAP", "TailAP", "RightHaunchAP", "LeftHaunchAP" ]
+    "value": [ "HatAP", "RSaddlePinAP", "LSaddlePinAP", "RLSockAP", "RRSockAP", "FLSockAP", "FRSockAP", "TailAP", "RightHaunchAP", "LeftHaunchAP", "LeftShoulderAP", "RightShoulderAP" ]
   },
   {
     "dependsOn": [ { "modid": "capreolinae" } ],
@@ -654,7 +834,14 @@
     "path": "/behaviorConfigs/rideableaccessories/wearableSlots/2/forCategoryCodes",
     "value": [ "collar" ]
   },
-
+  {
+    "dependsOn": [ { "modid": "capreolinae" } ],
+    "side": "Server",
+    "file": "capreolinae:entities/animal/mammal/hooved/alceini-tamed",
+    "op": "addmerge",
+    "path": "/behaviorConfigs/rideableaccessories/wearableSlots/4/forCategoryCodes",
+    "value": [ "blanketarmor" ]
+  },
 
 
   {
@@ -713,6 +900,16 @@
         "code": "righthaunch-reindeer",
         "forCategoryCodes": [ "armor" ],
         "attachmentPointCode": "RightHaunchAP"
+      },
+      {
+        "code": "leftshoulder-reindeer",
+        "forCategoryCodes": [ "armor" ],
+        "attachmentPointCode": "LeftShoulderAP"
+      },
+      {
+        "code": "rightshoulder-reindeer",
+        "forCategoryCodes": [ "armor" ],
+        "attachmentPointCode": "RightShoulderAP"
       }
     ]
   },
@@ -722,7 +919,7 @@
     "file": "capreolinae:entities/animal/mammal/hooved/odocoileini-tamed",
     "op": "addmerge",
     "path": "/behaviorConfigs/selectionboxes/selectionBoxes",
-    "value": [ "HatAP", "RSaddlePinAP", "LSaddlePinAP", "RLSockAP", "RRSockAP", "FLSockAP", "FRSockAP", "TailAP", "RightHaunchAP", "LeftHaunchAP" ]
+    "value": [ "HatAP", "RSaddlePinAP", "LSaddlePinAP", "RLSockAP", "RRSockAP", "FLSockAP", "FRSockAP", "TailAP", "RightHaunchAP", "LeftHaunchAP", "LeftShoulderAP", "RightShoulderAP" ]
   },
   {
     "dependsOn": [ { "modid": "capreolinae" } ],
@@ -731,6 +928,14 @@
     "op": "addmerge",
     "path": "/behaviorConfigs/rideableaccessories/wearableSlots/2/forCategoryCodes",
     "value": [ "collar" ]
+  },
+  {
+    "dependsOn": [ { "modid": "capreolinae" } ],
+    "side": "Server",
+    "file": "capreolinae:entities/animal/mammal/hooved/odocoileini-tamed",
+    "op": "addmerge",
+    "path": "/behaviorConfigs/rideableaccessories/wearableSlots/4/forCategoryCodes",
+    "value": [ "blanketarmor" ]
   },
 
   
@@ -925,14 +1130,14 @@
     "file": "elkaccessories:itemtypes/wearable/armor/hoof",
     "op": "addmerge",
     "path": "/attributes/attachableToEntity/attachedShapeBySlotCodeByType/*",
-    "value": {"rearleftsock-reindeer": {"base": "item/wearable/hooved/armor/hooves/compatibility/capreolinae/hoof-{type}-reindeer-rearl"},
-              "rearrightsock-reindeer": {"base": "item/wearable/hooved/armor/hooves/compatibility/capreolinae/hoof-{type}-reindeer-rearr"},
-              "frontleftsock-reindeer": {"base": "item/wearable/hooved/armor/hooves/compatibility/capreolinae/hoof-{type}-reindeer-frontl"},
-              "frontrightsock-reindeer": {"base": "item/wearable/hooved/armor/hooves/compatibility/capreolinae/hoof-{type}-reindeer-frontr"},
-              "rearleftsock-moose": {"base": "item/wearable/hooved/armor/hooves/compatibility/capreolinae/hoof-{type}-moose-rearl"},
-              "rearrightsock-moose": {"base": "item/wearable/hooved/armor/hooves/compatibility/capreolinae/hoof-{type}-moose-rearr"},
-              "frontleftsock-moose": {"base": "item/wearable/hooved/armor/hooves/compatibility/capreolinae/hoof-{type}-moose-frontl"},
-              "frontrightsock-moose": {"base": "item/wearable/hooved/armor/hooves/compatibility/capreolinae/hoof-{type}-moose-frontr"}}
+    "value": {"rearleftsock-reindeer": {"base": "item/wearable/hooved/armor/hooves/compatibility/capreolinae/reindeer/hoof-{type}-odocoileini-rearl"},
+              "rearrightsock-reindeer": {"base": "item/wearable/hooved/armor/hooves/compatibility/capreolinae/reindeer/hoof-{type}-odocoileini-rearr"},
+              "frontleftsock-reindeer": {"base": "item/wearable/hooved/armor/hooves/compatibility/capreolinae/reindeer/hoof-{type}-odocoileini-frontl"},
+              "frontrightsock-reindeer": {"base": "item/wearable/hooved/armor/hooves/compatibility/capreolinae/reindeer/hoof-{type}-odocoileini-frontr"},
+              "rearleftsock-moose": {"base": "item/wearable/hooved/armor/hooves/compatibility/capreolinae/moose/hoof-{type}-alceini-rearl"},
+              "rearrightsock-moose": {"base": "item/wearable/hooved/armor/hooves/compatibility/capreolinae/moose/hoof-{type}-alceini-rearr"},
+              "frontleftsock-moose": {"base": "item/wearable/hooved/armor/hooves/compatibility/capreolinae/moose/hoof-{type}-alceini-frontl"},
+              "frontrightsock-moose": {"base": "item/wearable/hooved/armor/hooves/compatibility/capreolinae/moose/hoof-{type}-alceini-frontr"}}
   },
   {
     "dependsOn": [ { "modid": "capreolinae" } ],
@@ -940,12 +1145,12 @@
     "file": "elkaccessories:itemtypes/wearable/armor/shoulder",
     "op": "addmerge",
     "path": "/attributes/attachableToEntity/attachedShapeBySlotCodeByType/*",
-    "value": {"frontleftside-reindeer": {"base": "item/wearable/hooved/armor/shoulder/compatibility/capreolinae/leftshoulder-{type}-odocoileini"},
-              "frontrightside-reindeer": {"base": "item/wearable/hooved/armor/shoulder/compatibility/capreolinae/rightshoulder-{type}-odocoileini"},
+    "value": {"leftshoulder-reindeer": {"base": "item/wearable/hooved/armor/shoulder/compatibility/capreolinae/leftshoulder-{type}-odocoileini"},
+              "rightshoulder-reindeer": {"base": "item/wearable/hooved/armor/shoulder/compatibility/capreolinae/rightshoulder-{type}-odocoileini"},
               "lefthaunch-reindeer": {"base": "item/wearable/hooved/armor/haunch/compatibility/capreolinae/lefthaunch-{type}-odocoileini"},
               "righthaunch-reindeer": {"base": "item/wearable/hooved/armor/haunch/compatibility/capreolinae/righthaunch-{type}-odocoileini"},
-              "frontleftside-moose": {"base": "item/wearable/hooved/armor/shoulder/compatibility/capreolinae/leftshoulder-{type}-alceini"},
-              "frontrightside-moose": {"base": "item/wearable/hooved/armor/shoulder/compatibility/capreolinae/rightshoulder-{type}-alceini"},
+              "leftshoulder-moose": {"base": "item/wearable/hooved/armor/shoulder/compatibility/capreolinae/leftshoulder-{type}-alceini"},
+              "rightshoulder-moose": {"base": "item/wearable/hooved/armor/shoulder/compatibility/capreolinae/rightshoulder-{type}-alceini"},
               "lefthaunch-moose": {"base": "item/wearable/hooved/armor/haunch/compatibility/capreolinae/lefthaunch-{type}-alceini"},
               "righthaunch-moose": {"base": "item/wearable/hooved/armor/haunch/compatibility/capreolinae/righthaunch-{type}-alceini"}}
   },

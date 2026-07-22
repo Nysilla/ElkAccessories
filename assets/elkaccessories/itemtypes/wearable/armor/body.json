@@ -55,7 +55,7 @@
     "attributes": {
     "attachableToEntity": {
       "texturePrefixCode": "elkaccessories:*-{type}-{material}",
-      "categoryCode": "blanket",
+      "categoryCode": "blanketarmor",
       "attachedShapeBySlotCodeByType": {
         "*": {"middlebackunder": {"base": "item/wearable/hooved/armor/body/body-{type}"}}
       }

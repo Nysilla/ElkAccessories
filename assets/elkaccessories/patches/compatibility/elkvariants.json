@@ -55,6 +55,16 @@
         "code": "righthaunch",
         "forCategoryCodes": [ "armor" ],
         "attachmentPointCode": "RightHaunchAP"
+      },
+      {
+        "code": "leftshoulder",
+        "forCategoryCodes": [ "armor" ],
+        "attachmentPointCode": "LeftShoulderAP"
+      },
+      {
+        "code": "rightshoulder",
+        "forCategoryCodes": [ "armor" ],
+        "attachmentPointCode": "RightShoulderAP"
       }
     ]
   },
@@ -64,7 +74,7 @@
     "file": "elkvariants:entities/new-elk",
     "op": "addmerge",
     "path": "/behaviorConfigs/selectionboxes/selectionBoxes",
-    "value": [ "HatAP", "RSaddlePinAP", "LSaddlePinAP", "RLSockAP", "RRSockAP", "FLSockAP", "FRSockAP", "TailAP", "RightHaunchAP", "LeftHaunchAP" ]
+    "value": [ "HatAP", "RSaddlePinAP", "LSaddlePinAP", "RLSockAP", "RRSockAP", "FLSockAP", "FRSockAP", "TailAP", "RightHaunchAP", "LeftHaunchAP", "LeftShoulderAP", "RightShoulderAP" ]
   },
   {
     "dependsOn": [ { "modid": "elkvariants" } ],
@@ -83,11 +93,10 @@
     "value": [ "armor" ]
   },
   {
-    "dependsOn": [ { "modid": "elkvariants" } ],
     "side": "Server",
-    "file": "elkvariants:entities/new-elk",
+    "file": "game:entities/animal/mammal/hooved/elk-tamed",
     "op": "addmerge",
-    "path": "/behaviorConfigs/rideableaccessories/wearableSlots/8/forCategoryCodes",
-    "value": [ "armor" ]
+    "path": "/behaviorConfigs/rideableaccessories/wearableSlots/4/forCategoryCodes",
+    "value": [ "blanketarmor" ]
   }
 ]

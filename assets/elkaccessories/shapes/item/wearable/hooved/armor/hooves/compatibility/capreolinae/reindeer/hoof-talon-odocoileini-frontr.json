@@ -76,11 +76,11 @@
 		},
 		{
 			"name": "FRTalon Origin",
-			"stepParentName": "R Front Hoof1",
-			"from": [ 0.0, -0.1, 4.8 ],
-			"to": [ 1.0, 0.9, 5.8 ],
-			"rotationOrigin": [ -0.1, -0.2, 4.8 ],
-			"rotationZ": 47.0,
+			"stepParentName": "R Front Hoof 1",
+			"from": [ -0.2, 0.0, 0.2 ],
+			"to": [ 0.8, 1.0, 1.2 ],
+			"rotationOrigin": [ -0.3, -0.1, 0.2 ],
+			"rotationZ": 35.0,
 			"faces": {
 				"north": { "texture": "#metal", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "enabled": false },
 				"east": { "texture": "#metal", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "enabled": false },

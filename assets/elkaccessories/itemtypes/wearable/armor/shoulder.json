@@ -57,8 +57,8 @@
       "texturePrefixCode": "elkaccessories:*-{type}-{material}",
       "categoryCode": "armor",
       "attachedShapeBySlotCodeByType": {
-        "*": {"frontleftside": {"base": "item/wearable/hooved/armor/shoulder/leftshoulder-{type}"},
-              "frontrightside": {"base": "item/wearable/hooved/armor/shoulder/rightshoulder-{type}"},
+        "*": {"leftshoulder": {"base": "item/wearable/hooved/armor/shoulder/leftshoulder-{type}"},
+              "rightshoulder": {"base": "item/wearable/hooved/armor/shoulder/rightshoulder-{type}"},
               "lefthaunch": {"base": "item/wearable/hooved/armor/haunch/lefthaunch-{type}"},
               "righthaunch": {"base": "item/wearable/hooved/armor/haunch/righthaunch-{type}"}}
       }
