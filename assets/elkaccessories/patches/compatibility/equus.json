@@ -519,6 +519,16 @@
   {
     "dependsOn": [ { "modid": "equus" } ],
     "side": "Server",
+    "file": "elkaccessories:itemtypes/wearable/hat",
+    "op": "addmerge",
+    "path": "/attributes/attachableToEntity/attachedShapeBySlotCodeByType/*-apple-rotten",
+    "value": {"hat-ferus": {"base": "item/wearable/hooved/hat/compatibility/equus/apple-rotten-ferus"}}
+  },
+
+
+  {
+    "dependsOn": [ { "modid": "equus" } ],
+    "side": "Server",
     "file": "elkaccessories:itemtypes/wearable/armor/body",
     "op": "addmerge",
     "path": "/attributes/attachableToEntity/attachedShapeBySlotCodeByType/*",

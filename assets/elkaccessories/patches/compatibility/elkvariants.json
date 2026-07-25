@@ -85,14 +85,6 @@
     "value": [ "collar" ]
   },
   {
-    "dependsOn": [ { "modid": "elkvariants" } ],
-    "side": "Server",
-    "file": "elkvariants:entities/new-elk",
-    "op": "addmerge",
-    "path": "/behaviorConfigs/rideableaccessories/wearableSlots/7/forCategoryCodes",
-    "value": [ "armor" ]
-  },
-  {
     "side": "Server",
     "file": "game:entities/animal/mammal/hooved/elk-tamed",
     "op": "addmerge",

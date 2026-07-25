@@ -35,11 +35,11 @@
         {"code": "face", "forCategoryCodes": ["face"], "attachmentPointCode": "FaceAP"},
         {"code": "neck", "forCategoryCodes": ["lantern",   "collar"], "attachmentPointCode": "NeckAP"},
         {"code": "middleback", "forCategoryCodes": ["saddle"], "attachmentPointCode": "MidAP"},
-        {"code": "middlebackunder", "forCategoryCodes": ["blanket"], "attachmentPointCode": "MidUnderAP"},
+        {"code": "middlebackunder", "forCategoryCodes": ["blanket", "blanketarmor"], "attachmentPointCode": "MidUnderAP"},
         {"code": "lowerback", "forCategoryCodes": ["bedroll", "pillion"], "attachmentPointCode": "RearAP"},
         {"code": "lowerbackside", "forCategoryCodes": ["sidebags"], "attachmentPointCode": "RearSideAP"},
-        {"code": "frontrightside", "forCategoryCodes": ["utilities",   "pot",   "weaponfalx",   "weapon1m",   "bowshort",   "bowlong", "armor"], "attachmentPointCode": "RFrontAP"},
-        {"code": "frontleftside", "forCategoryCodes": ["utilities",   "pot",   "weaponfalx",   "weapon1m",   "bowshort",   "bowlong", "armor"], "attachmentPointCode": "LFrontAP"},
+        {"code": "frontrightside", "forCategoryCodes": ["utilities",   "pot",   "weaponfalx",   "weapon1m",   "bowshort",   "bowlong"], "attachmentPointCode": "RFrontAP"},
+        {"code": "frontleftside", "forCategoryCodes": ["utilities",   "pot",   "weaponfalx",   "weapon1m",   "bowshort",   "bowlong"], "attachmentPointCode": "LFrontAP"},
         {"code": "gearleft", "forCategoryCodes": ["gear"], "attachmentPointCode": "TempGear1AP"},
         {"code": "gearback", "forCategoryCodes": ["gear"], "attachmentPointCode": "TempGear2AP"},
         {"code": "gearright", "forCategoryCodes": ["gear"], "attachmentPointCode": "TempGear3AP"},
@@ -52,7 +52,9 @@
         {"code": "leftsaddlepin", "forCategoryCodes": [ "saddlepin" ], "attachmentPointCode": "LSaddlePinAP"},
         {"code": "tail","forCategoryCodes": [ "tail" ],"attachmentPointCode": "TailAP"},
         {"code": "lefthaunch","forCategoryCodes": [ "armor" ],"attachmentPointCode": "LeftHaunchAP"},
-        {"code": "righthaunch","forCategoryCodes": [ "armor" ],"attachmentPointCode": "RightHaunchAP"}
+        {"code": "righthaunch","forCategoryCodes": [ "armor" ],"attachmentPointCode": "RightHaunchAP"},
+        {"code": "leftshoulder","forCategoryCodes": [ "armor" ],"attachmentPointCode": "LeftShoulderAP"},
+        {"code": "rightshoulder","forCategoryCodes": [ "armor" ],"attachmentPointCode": "RightShoulderAP"}
       ]
     },
     "selectionboxes": {
@@ -78,7 +80,9 @@
         "LSaddlePinAP",
         "TailAP",
         "RightHaunchAP",
-        "LeftHaunchAP"
+        "LeftHaunchAP",
+        "LeftShoulderAP",
+        "RightShoulderAP"
       ]
     }
   },

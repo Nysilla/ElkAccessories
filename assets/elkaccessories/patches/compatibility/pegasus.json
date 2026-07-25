@@ -499,6 +499,16 @@
   {
     "dependsOn": [ { "modid": "pegasus" } ],
     "side": "Server",
+    "file": "elkaccessories:itemtypes/wearable/hat",
+    "op": "addmerge",
+    "path": "/attributes/attachableToEntity/attachedShapeBySlotCodeByType/*-apple-rotten",
+    "value": {"hat-caelestis": {"base": "item/wearable/hooved/hat/compatibility/pegasus/apple-rotten-caelestis"}}
+  },
+
+
+  {
+    "dependsOn": [ { "modid": "pegasus" } ],
+    "side": "Server",
     "file": "elkaccessories:itemtypes/wearable/armor/body",
     "op": "addmerge",
     "path": "/attributes/attachableToEntity/attachedShapeBySlotCodeByType/*",

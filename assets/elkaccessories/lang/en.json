@@ -705,8 +705,10 @@
   "game:creature-tameddeer-*-selectionbox-FLSockAP": "Front left sock slot",
   "game:creature-tameddeer-*-selectionbox-FRSockAP": "Front right sock slot",
   "game:creature-tameddeer-*-selectionbox-TailAP": "Tail slot",
-  "game:creature-tameddeer-*-selectionbox-RightHaunchAP": "Rear right storage",
-  "game:creature-tameddeer-*-selectionbox-LeftHaunchAP": "Rear left storage",
+  "game:creature-tameddeer-*-selectionbox-RightShoulderAP": "Right shoulder storage",
+  "game:creature-tameddeer-*-selectionbox-LeftShoulderAP": "Left shoulder storage",
+  "game:creature-tameddeer-*-selectionbox-RightHaunchAP": "Right haunch storage",
+  "game:creature-tameddeer-*-selectionbox-LeftHaunchAP": "Left haunch storage",
 
   "creature-elkaccessories:armorstand-elk-*-selectionbox-HatAP": "Hat slot",
   "creature-elkaccessories:armorstand-elk-*-selectionbox-HeadAP": "Head mount spot",
@@ -728,8 +730,10 @@
   "creature-elkaccessories:armorstand-elk-*-selectionbox-FLSockAP": "Front left sock slot",
   "creature-elkaccessories:armorstand-elk-*-selectionbox-FRSockAP": "Front right sock slot",
   "creature-elkaccessories:armorstand-elk-*-selectionbox-TailAP": "Tail slot",
-  "creature-elkaccessories:armorstand-elk-*-selectionbox-LeftHaunchAP": "Rear left storage",
-  "creature-elkaccessories:armorstand-elk-*-selectionbox-RightHaunchAP": "Rear right storage",
+  "creature-elkaccessories:armorstand-elk-*-selectionbox-LeftShoulderAP": "Left shoulder storage",
+  "creature-elkaccessories:armorstand-elk-*-selectionbox-RightShoulderAP": "Right shoulder storage",
+  "creature-elkaccessories:armorstand-elk-*-selectionbox-LeftHaunchAP": "Left haunch storage",
+  "creature-elkaccessories:armorstand-elk-*-selectionbox-RightHaunchAP": "Right haunch storage",
 
   "creature-elkvariants:tameddeervariant-*-selectionbox-HatAP": "Hat slot",
   "creature-elkvariants:tameddeervariant-*-selectionbox-RSaddlePinAP": "Left saddle pin",
@@ -739,6 +743,10 @@
   "creature-elkvariants:tameddeervariant-*-selectionbox-FLSockAP": "Front left sock slot",
   "creature-elkvariants:tameddeervariant-*-selectionbox-FRSockAP": "Front right sock slot",
   "creature-elkvariants:tameddeervariant-*-selectionbox-TailAP": "Tail slot",
+  "creature-elkvariants:tameddeervariant-*-selectionbox-RightShoulderAP": "Right shoulder storage",
+  "creature-elkvariants:tameddeervariant-*-selectionbox-LeftShoulderAP": "Left shoulder storage",
+  "creature-elkvariants:tameddeervariant-*-selectionbox-RightHaunchAP": "Right haunch storage",
+  "creature-elkvariants:tameddeervariant-*-selectionbox-LeftHaunchAP": "Left haunch storage",
 
   "creature-monoceros:tamedmonoceros-*-selectionbox-HatAP": "<br><font color='cornflowerblue'>• Hat slot •</font>",
   "creature-monoceros:tamedmonoceros-*-selectionbox-LSaddlePinAP": "<br><font color='cornflowerblue'>• Left saddle pin •</font>",
@@ -748,6 +756,10 @@
   "creature-monoceros:tamedmonoceros-*-selectionbox-FLSockAP": "<br><font color='cornflowerblue'>• Front left sock slot •</font>",
   "creature-monoceros:tamedmonoceros-*-selectionbox-FRSockAP": "<br><font color='cornflowerblue'>• Front right sock slot •</font>",
   "creature-monoceros:tamedmonoceros-*-selectionbox-TailAP": "<br><font color='cornflowerblue'>• Tail slot •</font>",
+  "creature-monoceros:tamedmonoceros-*-selectionbox-RFrontAP": "<br><font color='cornflowerblue'>• Right shoulder storage •</font>",
+  "creature-monoceros:tamedmonoceros-*-selectionbox-LFrontAP": "<br><font color='cornflowerblue'>• Left shoulder storage •</font>",
+  "creature-monoceros:tamedmonoceros-*-selectionbox-RightHaunchAP": "<br><font color='cornflowerblue'>• Right haunch storage •</font>",
+  "creature-monoceros:tamedmonoceros-*-selectionbox-LeftHaunchAP": "<br><font color='cornflowerblue'>• Left haunch storage •</font>",
 
   "creature-equus:tamedwildhorse-*-selectionbox-HatAP": "<br><font color='cornflowerblue'>• Hat slot •</font>",
   "creature-equus:tamedwildhorse-*-selectionbox-LSaddlePinAP": "<br><font color='cornflowerblue'>• Left saddle pin •</font>",
@@ -757,6 +769,10 @@
   "creature-equus:tamedwildhorse-*-selectionbox-FLSockAP": "<br><font color='cornflowerblue'>• Front left sock slot •</font>",
   "creature-equus:tamedwildhorse-*-selectionbox-FRSockAP": "<br><font color='cornflowerblue'>• Front right sock slot •</font>",
   "creature-equus:tamedwildhorse-*-selectionbox-TailAP": "<br><font color='cornflowerblue'>• Tail slot •</font>",
+  "creature-equus:tamedwildhorse-*-selectionbox-RFrontAP": "<br><font color='cornflowerblue'>• Right shoulder storage •</font>",
+  "creature-equus:tamedwildhorse-*-selectionbox-LFrontAP": "<br><font color='cornflowerblue'>• Left shoulder storage •</font>",
+  "creature-equus:tamedwildhorse-*-selectionbox-RightHaunchAP": "<br><font color='cornflowerblue'>• Right haunch storage •</font>",
+  "creature-equus:tamedwildhorse-*-selectionbox-LeftHaunchAP": "<br><font color='cornflowerblue'>• Left haunch storage •</font>",
 
   "creature-pegasus:pegasus-*-selectionbox-HatAP": "<br><font color='cornflowerblue'>• Hat slot •</font>",
   "creature-pegasus:pegasus-*-selectionbox-LSaddlePinAP": "<br><font color='cornflowerblue'>• Left saddle pin •</font>",
@@ -766,6 +782,8 @@
   "creature-pegasus:pegasus-*-selectionbox-FLSockAP": "<br><font color='cornflowerblue'>• Front left sock slot •</font>",
   "creature-pegasus:pegasus-*-selectionbox-FRSockAP": "<br><font color='cornflowerblue'>• Front right sock slot •</font>",
   "creature-pegasus:pegasus-*-selectionbox-TailAP": "<br><font color='cornflowerblue'>• Tail slot •</font>",
+  "creature-pegasus:pegasus-*-selectionbox-RightHaunchAP": "<br><font color='cornflowerblue'>• Right haunch storage •</font>",
+  "creature-pegasus:pegasus-*-selectionbox-LeftHaunchAP": "<br><font color='cornflowerblue'>• Left haunch storage •</font>",
 
   "creature-capreolinae:cervidae-*-selectionbox-HatAP": "Hat slot",
   "creature-capreolinae:cervidae-*-selectionbox-LSaddlePinAP": "Left saddle pin",
@@ -775,6 +793,10 @@
   "creature-capreolinae:cervidae-*-selectionbox-FLSockAP": "Front left sock slot",
   "creature-capreolinae:cervidae-*-selectionbox-FRSockAP": "Front right sock slot",
   "creature-capreolinae:cervidae-*-selectionbox-TailAP": "Tail slot",
+  "creature-capreolinae:cervidae-*-selectionbox-LeftShoulderAP": "Left shoulder storage",
+  "creature-capreolinae:cervidae-*-selectionbox-RightShoulderAP": "Right shoulder storage",
+  "creature-capreolinae:cervidae-*-selectionbox-RightHaunchAP": "Right haunch storage",
+  "creature-capreolinae:cervidae-*-selectionbox-LeftHaunchAP": "Left haunch storage",
 
   
   "creature-bell:bellpet-selectionbox-NeckAP": "Collar slot", 

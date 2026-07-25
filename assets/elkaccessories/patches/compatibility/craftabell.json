@@ -193,6 +193,14 @@
     "side": "Server",
     "file": "elkaccessories:itemtypes/wearable/hat",
     "op": "addmerge",
+    "path": "/attributes/attachableToEntity/attachedShapeBySlotCodeByType/*-apple-rotten",
+    "value": {"bellhat": {"base": "item/wearable/hooved/hat/compatibility/bell/apple-rotten-bellmini"}}
+  },
+  {
+    "dependsOn": [ { "modid": "bell" } ],
+    "side": "Server",
+    "file": "elkaccessories:itemtypes/wearable/hat",
+    "op": "addmerge",
     "path": "/attributes/attachableToEntity/attachedShapeBySlotCodeByType/*",
     "value": {"bellhat": {"base": "item/wearable/hooved/hat/compatibility/bell/{type}-bellmini"}}
   },
@@ -203,5 +211,14 @@
     "op": "addmerge",
     "path": "/attributes/attachableToEntity/attachedShapeBySlotCodeByType/*",
     "value": {"neck-bellmini": {"base": "item/wearable/hooved/neck/compatibility/bell/{type}-bellmini"}}
+  },
+
+  {
+    "dependsOn": [ { "modid": "bell" } ],
+    "side": "Server",
+    "file": "elkaccessories:itemtypes/wearable/armor/head",
+    "op": "addmerge",
+    "path": "/attributes/attachableToEntity/attachedShapeBySlotCodeByType/*",
+    "value": {"bellhat": {"base": "item/wearable/hooved/armor/head/compatibility/bell/head-{type}-bellmini"}}
   }
 ]

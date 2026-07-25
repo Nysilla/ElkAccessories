@@ -1100,6 +1100,17 @@
   {
     "dependsOn": [ { "modid": "capreolinae" } ],
     "side": "Server",
+    "file": "elkaccessories:itemtypes/wearable/hat",
+    "op": "addmerge",
+    "path": "/attributes/attachableToEntity/attachedShapeBySlotCodeByType/*-apple-rotten",
+    "value": {"hat-reindeer": {"base": "item/wearable/hooved/hat/compatibility/capreolinae/reindeer/apple-rotten-odocoileini"},
+              "hat-moose": {"base": "item/wearable/hooved/hat/compatibility/capreolinae/moose/apple-rotten-alceini"}}
+  },
+
+
+  {
+    "dependsOn": [ { "modid": "capreolinae" } ],
+    "side": "Server",
     "file": "elkaccessories:itemtypes/wearable/armor/body",
     "op": "addmerge",
     "path": "/attributes/attachableToEntity/attachedShapeBySlotCodeByType/*",

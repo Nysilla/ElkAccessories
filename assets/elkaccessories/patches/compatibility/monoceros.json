@@ -1098,6 +1098,17 @@
   {
     "dependsOn": [ { "modid": "monoceros" } ],
     "side": "Server",
+    "file": "elkaccessories:itemtypes/wearable/hat",
+    "op": "addmerge",
+    "path": "/attributes/attachableToEntity/attachedShapeBySlotCodeByType/*-apple-rotten",
+    "value": {"hat-indicus": {"base": "item/wearable/hooved/hat/compatibility/monoceros/indicus/apple-rotten-indicus"},
+              "hat-caledonius": {"base": "item/wearable/hooved/hat/compatibility/monoceros/caledonius/apple-rotten-caledonius"}}
+  },
+
+
+  {
+    "dependsOn": [ { "modid": "monoceros" } ],
+    "side": "Server",
     "file": "elkaccessories:itemtypes/wearable/armor/body",
     "op": "addmerge",
     "path": "/attributes/attachableToEntity/attachedShapeBySlotCodeByType/*",

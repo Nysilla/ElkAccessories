@@ -1,0 +1,52 @@
+[
+  {
+    "ingredientPattern": "A",
+    "ingredients": {
+      "A": {
+        "type": "item",
+        "code": "game:fruit-*apple",
+        "name": "color",
+        "allowedVariants": [
+          "pink",
+          "red",
+          "green",
+          "yellow"
+        ]
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-head-apple-{color}"
+    }
+  },
+  {
+    "ingredientPattern": "AW",
+    "ingredients": {
+      "A": {
+        "type": "item",
+        "code": "game:fruit-*apple",
+        "name": "color",
+        "allowedVariants": [
+          "pink",
+          "red",
+          "green",
+          "yellow"
+        ]
+      },
+      "W": {
+        "type": "item",
+        "code": "game:creature-earthworm*"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "hoovedwearables-head-apple-rotten"
+    }
+  }
+]
