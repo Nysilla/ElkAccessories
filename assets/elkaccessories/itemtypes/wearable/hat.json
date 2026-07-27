@@ -19,7 +19,9 @@
         "fedora",
         "tophat",
         "witchhat",
-        "apple"
+        "apple",
+        "horns",
+        "mask"
       ]
     },
     {
@@ -87,7 +89,9 @@
         "pink",
         "red",
         "green",
-        "yellow"
+        "yellow",
+
+        "oni"
       ]
     }
   ],
@@ -185,11 +189,16 @@
     "*-apple-red",
     "*-apple-pink",
     "*-apple-green",
-    "*-apple-yellow"
+    "*-apple-yellow",
+
+    "*-horns-black",
+    
+    "*-mask-oni"
   ],
   "shapeByType": {
     "*-apple-rotten": {"base": "item/wearable/hooved/inventory/apple-rotten-inventory"},
     "*-apple-*": {"base": "item/wearable/hooved/inventory/apple-inventory"},
+    "*-mask-*": {"base": "item/wearable/hooved/inventory/{type}-{color}-inventory"},
     "*-witchhat-*": {"base": "item/wearable/hooved/hat/witchhat-{color}-elk"},
     "*": {"base": "item/wearable/hooved/hat/{type}-elk"}
   },
@@ -200,6 +209,7 @@
       "attachedShapeBySlotCodeByType": {
         "*-apple-rotten": {"hat": {"base": "item/wearable/hooved/hat/apple-rotten-elk"}},
         "*-witchhat-*": {"hat": {"base": "item/wearable/hooved/hat/{type}-{color}-elk"}},
+        "*-mask-*": {"hat": {"base": "item/wearable/hooved/hat/{type}-{color}-elk"}},
         "*": {"hat": {"base": "item/wearable/hooved/hat/{type}-elk"}}
       }
     },
@@ -286,23 +296,21 @@
 			"scale": 2.33
 		},
     "*-apple-*": {
-      "translation": {
-        "x": 0,
-        "y": 0,
-        "z": 0
-      },
-      "rotation": {
-        "x": 162,
-        "y": -175,
-        "z": -15
-      },
-      "origin": {
-        "x": 0.5,
-        "y": 0.19,
-        "z": 0.5
-      },
+      "translation": {"x": 0,"y": 0,"z": 0},
+      "rotation": {"x": 162,"y": -175,"z": -15},
+      "origin": {"x": 0.5,"y": 0.19,"z": 0.5},
       "scale": 3.19
-    }
+    },
+    "*-horns-*": {
+			"rotation": { "x": -134, "y": 104, "z": -52 },
+			"origin": { "x": 0.2, "y": 0.425, "z": 0.15 },
+			"scale": 3.93
+		},
+    "*-mask-oni": {
+			"rotation": { "x": -42, "y": -37, "z": 171 },
+			"origin": { "x": 0.3, "y": 0.3, "z": 0.6 },
+			"scale": 2.27
+		}
   },
   
   "tpHandTransformByType": {
@@ -355,17 +363,19 @@
 			"scale": 0.49
 		},
     "*-apple-*": {
-      "translation": {
-        "x": -1.3899,
-        "y": -0.96,
-        "z": -0.86
-      },
-      "rotation": {
-        "x": -27,
-        "y": 0,
-        "z": -90
-      },
+      "translation": {"x": -1.3899,"y": -0.96,"z": -0.86},
+      "rotation": {"x": -27,"y": 0,"z": -90},
       "scale": 0.56
-    }
+    },
+    "*-mask-oni": {
+			"translation": { "x": -1.1, "y": -0.6, "z": -0.6 },
+			"rotation": { "x": 23, "y": -175, "z": 45 },
+			"scale": 0.68
+		},
+    "*-horns-black": {
+			"translation": { "x": -0.65, "y": -0.1, "z": -0.3 },
+			"rotation": { "x": -5, "y": -166, "z": 70 },
+			"scale": 0.83
+		}
 	}
 }
